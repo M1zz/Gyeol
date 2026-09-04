@@ -1,4 +1,4 @@
-# 결 (Gyeol) — 작업 목록
+# 여울 — 작업 목록
 
 ## 완료
 - [x] 빌드 에러 해결 — `DEVELOPMENT_TEAM = QGAQ3AY3R3`을 Debug/Release 타겟에 추가
@@ -29,6 +29,9 @@
 - [x] 앱 아이콘 — 명조 '결' + 옅은 결무늬 바탕, 라이트/다크/틴트 3종
       (`Tools/MakeAppIcon.swift`로 재생성 가능). 이전에 비어 있어 제출 검증에 걸리던 항목
 
+- [x] 앱 이름 '결' → '여울' (App Store 이름은 2글자 이상이어야 함)
+      표시 이름·앱 내 제목·아이콘 교체. 프로젝트/번들 ID는 Gyeol 그대로
+
 ## 다음 단계 후보
 - [ ] 압축된 구간(점선)을 핀치로 펴보기
 - [ ] iCloud 동기화: `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability
@@ -40,3 +43,4 @@
 - [ ] 태그 이름 바꾸기·병합
 - [ ] 타임라인 단위로 카드 디자인 일괄 변경
 - [ ] 카드 이미지로 내보내 공유하기
+- [ ] 원하면 프로젝트·타깃·번들 ID까지 Yeoul로 개명 (번들 ID 변경은 스토어 레코드에 영향)

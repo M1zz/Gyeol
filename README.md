@@ -1,4 +1,4 @@
-# 결 (Gyeol) — 타임라인 앱
+# 여울 — 타임라인 앱
 
 사건 사이의 거리가 **실제로 흐른 시간**만큼 벌어지는 세로 타임라인 앱.
 3일과 5일은 3:5로 벌어지고, 2년은 점선으로 압축되어 "2년 4개월"이라 적힙니다.
@@ -79,9 +79,11 @@ SwiftUI + SwiftData. iOS 17+, Xcode 16+ (file-system-synchronized groups 사용)
 xcrun swift Tools/MakeAppIcon.swift Gyeol/Assets.xcassets/AppIcon.appiconset
 ```
 
-글자는 AppleMyungjo — 타임라인의 날짜·제목이 쓰는 serif와 같은 결입니다. 바탕의 옅은
-가로줄이 이름 그대로의 '결'이고요. 라이트·다크·틴트 3종을 뽑으며, App Store가 투명도가
+글자는 AppleMyungjo로 세운 '여울' — 타임라인의 날짜·제목이 쓰는 serif와 같은 결입니다.
+바탕의 옅은 가로줄은 물결의 결이고요. 라이트·다크·틴트 3종을 뽑으며, App Store가 투명도가
 있는 아이콘을 거부하므로 알파 채널 없이(`noneSkipLast`) 렌더합니다.
+
+프로젝트·타깃·번들 ID는 `Gyeol` / `com.leeo.gyeol` 그대로입니다. 표시 이름만 바뀌었습니다.
 
 ## 다음 단계 후보
 - iCloud 동기화: `.modelContainer(for:)` → `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability

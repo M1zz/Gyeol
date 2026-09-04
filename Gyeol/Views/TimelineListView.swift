@@ -30,7 +30,7 @@ struct TimelineListView: View {
                     }
                 }
             }
-            .navigationTitle("결")
+            .navigationTitle("여울")
             .navigationDestination(for: Timeline.self) { TimelineDetailView(timeline: $0) }
             .navigationDestination(for: TagRoute.self) { TagTimelineView(tag: $0.tag) }
             .toolbar {
