@@ -1,0 +1,19 @@
+# 결 (Gyeol) — 작업 목록
+
+## 완료
+- [x] 빌드 에러 해결 — `DEVELOPMENT_TEAM = QGAQ3AY3R3`을 Debug/Release 타겟에 추가
+      (원인: 팀 미설정 → 실기기 빌드 시 "Signing for 'Gyeol' requires a development team")
+- [x] 키보드가 안 내려가는 문제 — `@FocusState` + 키보드 툴바 "완료" +
+      드래그로 내리기(`scrollDismissesKeyboard`) + 입력 필드 바깥 탭 시 내림(`Support/KeyboardDismiss`)
+- [x] 타임라인을 세로로 전환 (`TimelineTrackView`) — 아이폰 세로 비율에 맞춤
+- [x] 시간 간격을 절대적으로 표현 — 전체에 하나의 pt/day 배율. 시뮬레이터에서 3일:5일 = 285px:475px로 검증
+- [x] 노드 탭 → 사진·내용이 그 자리에서 펼쳐짐 (`.snappy` 0.32s)
+- [x] 사진이 카드 폭을 밀어내던 레이아웃 버그 수정 (`scaledToFill` → 레이아웃에 관여 않는 오버레이)
+- [x] 빌드 검증 — Debug/Release × 시뮬레이터/실기기 4개 구성 에러·경고 0
+
+## 다음 단계 후보
+- [ ] AppIcon 1024x1024 이미지 추가 (현재 appiconset이 비어 있어 App Store 제출 시 검증 실패)
+- [ ] 압축된 구간(점선)을 핀치로 펴보기
+- [ ] iCloud 동기화: `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability
+- [ ] 사건당 사진 여러 장, 날짜 정밀도(연도만/월만)
+- [ ] 이미지·PDF로 내보내기
