@@ -11,9 +11,15 @@
 - [x] 사진이 카드 폭을 밀어내던 레이아웃 버그 수정 (`scaledToFill` → 레이아웃에 관여 않는 오버레이)
 - [x] 빌드 검증 — Debug/Release × 시뮬레이터/실기기 4개 구성 에러·경고 0
 
+- [x] 마일스톤 카드 날짜로 그 날 찍은 사진 찾기 (`Support/DayPhotoFinder`) → 직접 찾기로 이어짐
+      시뮬레이터 검증: 예측자 matched=3, 썸네일 3장, 원본 551x1200 / 47KB 압축까지 확인
+- [x] 썸네일이 항상 nil이던 버그 수정 — `.fastFormat`은 캐시 없는 사진에 nil을 반환
+
 ## 다음 단계 후보
 - [ ] AppIcon 1024x1024 이미지 추가 (현재 appiconset이 비어 있어 App Store 제출 시 검증 실패)
 - [ ] 압축된 구간(점선)을 핀치로 펴보기
 - [ ] iCloud 동기화: `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability
 - [ ] 사건당 사진 여러 장, 날짜 정밀도(연도만/월만)
 - [ ] 이미지·PDF로 내보내기
+- [ ] 제한 접근(limited) 시 `presentLimitedLibraryPicker`로 사진 더 고르기
+- [ ] 날짜로 찾기를 사진 외 다른 기록(메모 등)으로 확장

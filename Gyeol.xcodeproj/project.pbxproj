@@ -199,6 +199,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "결";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "그 날 찍은 사진을 찾아 사건에 붙이기 위해 사진 접근이 필요해요.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -229,6 +230,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "결";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "그 날 찍은 사진을 찾아 사건에 붙이기 위해 사진 접근이 필요해요.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

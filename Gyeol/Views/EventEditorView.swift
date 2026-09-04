@@ -18,6 +18,7 @@ struct EventEditorView: View {
     @State private var pickerItem: PhotosPickerItem?
     @State private var isLoadingPhoto = false
     @State private var confirmDelete = false
+    @StateObject private var finder = DayPhotoFinder()
     @FocusState private var focused: Field?
 
     private enum Field { case title, note }
@@ -70,14 +71,14 @@ struct EventEditorView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
                             .listRowInsets(EdgeInsets())
                     }
+
+                    dayPhotos
+
                     PhotosPicker(selection: $pickerItem, matching: .images) {
-                        if isLoadingPhoto {
-                            Label("불러오는 중…", systemImage: "photo")
-                        } else {
-                            Label(photoData == nil ? "사진 선택" : "사진 바꾸기", systemImage: "photo")
-                        }
+                        Label(directPickLabel, systemImage: "photo.on.rectangle")
                     }
                     .disabled(isLoadingPhoto)
+
                     if photoData != nil {
                         Button("사진 제거", role: .destructive) {
                             photoData = nil
@@ -108,6 +109,7 @@ struct EventEditorView: View {
                     Button("완료") { focused = nil }
                 }
             }
+            .onChange(of: date) { _, _ in finder.reset() }
             .onChange(of: pickerItem) { _, item in
                 guard let item else { return }
                 Task { await load(item) }
@@ -115,6 +117,93 @@ struct EventEditorView: View {
             .confirmationDialog("이 사건을 삭제할까요?", isPresented: $confirmDelete, titleVisibility: .visible) {
                 Button("삭제", role: .destructive, action: delete)
             }
+        }
+    }
+
+    private var directPickLabel: String {
+        if isLoadingPhoto { return "불러오는 중…" }
+        return photoData == nil ? "직접 찾기" : "사진 바꾸기"
+    }
+
+    /// Offers the photos already sitting in the library for this card's date, then hands
+    /// off to the full picker below.
+    @ViewBuilder
+    private var dayPhotos: some View {
+        switch finder.state {
+        case .idle:
+            Button {
+                Task { await finder.find(on: date) }
+            } label: {
+                Label("관련된 사진 찾기", systemImage: "sparkle.magnifyingglass")
+            }
+            .disabled(isLoadingPhoto)
+
+        case .loading:
+            HStack(spacing: 10) {
+                ProgressView()
+                Text("\(date.nodeDateLabel)에 찍은 사진을 찾는 중…")
+                    .foregroundStyle(.secondary)
+            }
+
+        case .denied:
+            VStack(alignment: .leading, spacing: 8) {
+                Text("사진 접근이 꺼져 있어 이 날 찍은 사진을 찾을 수 없어요.\n아래에서 직접 고를 수는 있어요.")
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                Button("설정에서 허용") {
+                    if let url = URL(string: UIApplication.openSettingsURLString) {
+                        UIApplication.shared.open(url)
+                    }
+                }
+                .font(.footnote)
+            }
+
+        case .loaded(let photos):
+            if photos.isEmpty {
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("\(date.nodeDateLabel)에 찍은 사진이 없어요.")
+                        .font(.footnote)
+                    Text("아래에서 직접 찾아보세요.")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+            } else {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("\(date.nodeDateLabel)에 찍은 사진 \(photos.count)장")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                        .padding(.leading, 4)
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 8) {
+                            ForEach(photos) { photo in
+                                Button {
+                                    Task { await choose(photo) }
+                                } label: {
+                                    Image(uiImage: photo.thumbnail)
+                                        .resizable()
+                                        .scaledToFill()
+                                        .frame(width: 78, height: 78)
+                                        .clipShape(RoundedRectangle(cornerRadius: 9, style: .continuous))
+                                }
+                                .buttonStyle(.plain)
+                                .accessibilityLabel("이 사진 사용")
+                            }
+                        }
+                        .padding(.horizontal, 4)
+                    }
+                }
+                .disabled(isLoadingPhoto)
+                .listRowInsets(EdgeInsets(top: 10, leading: 12, bottom: 10, trailing: 0))
+            }
+        }
+    }
+
+    private func choose(_ photo: DayPhoto) async {
+        isLoadingPhoto = true
+        defer { isLoadingPhoto = false }
+        if let data = await finder.photoData(for: photo) {
+            photoData = data
+            pickerItem = nil
         }
     }
 
