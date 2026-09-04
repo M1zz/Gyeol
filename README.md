@@ -83,7 +83,7 @@ xcrun swift Tools/MakeAppIcon.swift Gyeol/Assets.xcassets/AppIcon.appiconset
 바탕의 옅은 가로줄은 물결의 결이고요. 라이트·다크·틴트 3종을 뽑으며, App Store가 투명도가
 있는 아이콘을 거부하므로 알파 채널 없이(`noneSkipLast`) 렌더합니다.
 
-프로젝트·타깃·번들 ID는 `Gyeol` / `com.leeo.gyeol` 그대로입니다. 표시 이름만 바뀌었습니다.
+번들 ID는 `com.leeo.yeoul`. 프로젝트·타깃 이름은 아직 `Gyeol`인 내부 코드명입니다.
 
 ## 다음 단계 후보
 - iCloud 동기화: `.modelContainer(for:)` → `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability
