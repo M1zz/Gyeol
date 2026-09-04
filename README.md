@@ -72,6 +72,17 @@ SwiftUI + SwiftData. iOS 17+, Xcode 16+ (file-system-synchronized groups 사용)
 않은 초안을 그대로 미리 그릴 수 있습니다. 사진은 `PhotoBox`(투명 프레임 + 오버레이)로
 넣습니다 — `scaledToFill`을 레이아웃에 직접 두면 사진의 고유 크기가 카드 폭을 밀어냅니다.
 
+## 앱 아이콘
+`Tools/MakeAppIcon.swift`가 아이콘을 그립니다. 다시 만들려면:
+
+```
+xcrun swift Tools/MakeAppIcon.swift Gyeol/Assets.xcassets/AppIcon.appiconset
+```
+
+글자는 AppleMyungjo — 타임라인의 날짜·제목이 쓰는 serif와 같은 결입니다. 바탕의 옅은
+가로줄이 이름 그대로의 '결'이고요. 라이트·다크·틴트 3종을 뽑으며, App Store가 투명도가
+있는 아이콘을 거부하므로 알파 채널 없이(`noneSkipLast`) 렌더합니다.
+
 ## 다음 단계 후보
 - iCloud 동기화: `.modelContainer(for:)` → `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability
 - 사건당 사진 여러 장, 날짜 정밀도(연도만/월만)

@@ -26,8 +26,10 @@
 - [x] 카드마다 디자인 선택 + 도식 스와치 + 실시간 미리보기
       시뮬레이터 검증: 4종 렌더, Form 안 미리보기 레이아웃, styleID 마이그레이션 성공
 
+- [x] 앱 아이콘 — 명조 '결' + 옅은 결무늬 바탕, 라이트/다크/틴트 3종
+      (`Tools/MakeAppIcon.swift`로 재생성 가능). 이전에 비어 있어 제출 검증에 걸리던 항목
+
 ## 다음 단계 후보
-- [ ] AppIcon 1024x1024 이미지 추가 (현재 appiconset이 비어 있어 App Store 제출 시 검증 실패)
 - [ ] 압축된 구간(점선)을 핀치로 펴보기
 - [ ] iCloud 동기화: `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability
 - [ ] 사건당 사진 여러 장, 날짜 정밀도(연도만/월만)
