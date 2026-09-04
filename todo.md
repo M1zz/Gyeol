@@ -34,6 +34,13 @@
       주의: 번들 ID가 바뀌어 기기에서는 별개 앱으로 취급됩니다 — 기존 설치본의 기록은
       새 앱으로 넘어오지 않고, 예전 앱이 따로 남아 있습니다.
 
+- [x] macOS 앱 별도 프로젝트(`YeoulMac.xcodeproj`) — NavigationSplitView로 넓은 화면 활용
+- [x] 공통 코드를 `Shared/`로 분리, 두 프로젝트가 동기화 그룹으로 참조
+- [x] iCloud(CloudKit) 공유 설정 — 같은 컨테이너 `iCloud.com.leeo.yeoul`
+      CloudKit 제약에 맞춰 모델 수정(기본값, 관계 옵셔널화)
+- [x] 맥에서 카드가 창 전체로 늘어나던 문제 — 읽기 좋은 컬럼 폭(760pt)으로 제한
+- [x] iOS용 플로팅 '사건 추가' 버튼을 맥에서는 툴바로
+
 ## 다음 단계 후보
 - [ ] 압축된 구간(점선)을 핀치로 펴보기
 - [ ] iCloud 동기화: `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability
@@ -45,4 +52,12 @@
 - [ ] 태그 이름 바꾸기·병합
 - [ ] 타임라인 단위로 카드 디자인 일괄 변경
 - [ ] 카드 이미지로 내보내 공유하기
+- [ ] **실제 iCloud 동기화 확인** — 프로비저닝 프로파일이 있어야 검증 가능 (아래 참고)
+- [ ] 맥 전용: 여러 타임라인 나란히 보기, 창 여러 개
 - [ ] 원하면 프로젝트·타깃·디렉터리·GitHub 레포 이름까지 Yeoul로 개명 (지금은 내부 코드명이 Gyeol)
+
+## 확인 필요
+CloudKit 동기화는 **아직 실제로 확인하지 못했습니다.** App ID에 iCloud 기능을 켜고
+프로비저닝 프로파일을 만들어야 하는데, 이는 Apple 개발자 계정을 변경하는 일이라
+임의로 실행하지 않았습니다. Xcode에서 두 프로젝트를 열고 Run 하면 자동으로 처리되거나,
+`xcodebuild ... -allowProvisioningUpdates`로 진행할 수 있습니다.

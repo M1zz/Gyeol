@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		A1000000000000000000AA01 /* Gyeol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gyeol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000000000000000000BB01 /* 여울.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "여울.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A1000000000000000000AA02 /* Gyeol */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Gyeol;
-			sourceTree = "<group>";
-		};
-		A1000000000000000000AA20 /* Shared */ = {
+		B1000000000000000000BB20 /* Shared */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		B1000000000000000000BB02 /* macOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A1000000000000000000AA03 /* Frameworks */ = {
+		B1000000000000000000BB03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,19 +34,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1000000000000000000AA04 = {
+		B1000000000000000000BB04 = {
 			isa = PBXGroup;
 			children = (
-				A1000000000000000000AA20 /* Shared */,
-				A1000000000000000000AA02 /* Gyeol */,
-				A1000000000000000000AA05 /* Products */,
+				B1000000000000000000BB20 /* Shared */,
+				B1000000000000000000BB02 /* macOS */,
+				B1000000000000000000BB05 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A1000000000000000000AA05 /* Products */ = {
+		B1000000000000000000BB05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1000000000000000000AA01 /* Gyeol.app */,
+				B1000000000000000000BB01 /* 여울.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,45 +54,45 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1000000000000000000AA06 /* Gyeol */ = {
+		B1000000000000000000BB06 /* YeoulMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1000000000000000000AA07 /* Build configuration list for PBXNativeTarget "Gyeol" */;
+			buildConfigurationList = B1000000000000000000BB07 /* Build configuration list for PBXNativeTarget "YeoulMac" */;
 			buildPhases = (
-				A1000000000000000000AA08 /* Sources */,
-				A1000000000000000000AA03 /* Frameworks */,
-				A1000000000000000000AA09 /* Resources */,
+				B1000000000000000000BB08 /* Sources */,
+				B1000000000000000000BB03 /* Frameworks */,
+				B1000000000000000000BB09 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A1000000000000000000AA20 /* Shared */,
-				A1000000000000000000AA02 /* Gyeol */,
+				B1000000000000000000BB20 /* Shared */,
+				B1000000000000000000BB02 /* macOS */,
 			);
-			name = Gyeol;
+			name = YeoulMac;
 			packageProductDependencies = (
 			);
-			productName = Gyeol;
-			productReference = A1000000000000000000AA01 /* Gyeol.app */;
+			productName = YeoulMac;
+			productReference = B1000000000000000000BB01 /* 여울.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1000000000000000000AA10 /* Project object */ = {
+		B1000000000000000000BB10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 1700;
+				LastUpgradeCheck = 1700;
 				TargetAttributes = {
-					A1000000000000000000AA06 = {
-						CreatedOnToolsVersion = 16.0;
+					B1000000000000000000BB06 = {
+						CreatedOnToolsVersion = 17.0;
 					};
 				};
 			};
-			buildConfigurationList = A1000000000000000000AA11 /* Build configuration list for PBXProject "Gyeol" */;
+			buildConfigurationList = B1000000000000000000BB11 /* Build configuration list for PBXProject "YeoulMac" */;
 			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -100,20 +100,20 @@
 				en,
 				Base,
 			);
-			mainGroup = A1000000000000000000AA04;
+			mainGroup = B1000000000000000000BB04;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = A1000000000000000000AA05 /* Products */;
+			productRefGroup = B1000000000000000000BB05 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1000000000000000000AA06 /* Gyeol */,
+				B1000000000000000000BB06 /* YeoulMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1000000000000000000AA09 /* Resources */ = {
+		B1000000000000000000BB09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -123,7 +123,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1000000000000000000AA08 /* Sources */ = {
+		B1000000000000000000BB08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -133,13 +133,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A1000000000000000000AA12 /* Debug */ = {
+		B1000000000000000000BB12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -148,32 +147,27 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A1000000000000000000AA13 /* Release */ = {
+		B1000000000000000000BB13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -182,106 +176,93 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A1000000000000000000AA14 /* Debug */ = {
+		B1000000000000000000BB14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Config/iOS.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Config/iOS-Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "여울";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "그 날 찍은 사진을 찾아 사건에 붙이기 위해 사진 접근이 필요해요.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.yeoul;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "여울";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A1000000000000000000AA15 /* Release */ = {
+		B1000000000000000000BB15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Config/iOS.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Config/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Config/iOS-Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "여울";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "그 날 찍은 사진을 찾아 사건에 붙이기 위해 사진 접근이 필요해요.";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.yeoul;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "여울";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1000000000000000000AA07 /* Build configuration list for PBXNativeTarget "Gyeol" */ = {
+		B1000000000000000000BB07 /* Build configuration list for PBXNativeTarget "YeoulMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1000000000000000000AA14 /* Debug */,
-				A1000000000000000000AA15 /* Release */,
+				B1000000000000000000BB14 /* Debug */,
+				B1000000000000000000BB15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1000000000000000000AA11 /* Build configuration list for PBXProject "Gyeol" */ = {
+		B1000000000000000000BB11 /* Build configuration list for PBXProject "YeoulMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1000000000000000000AA12 /* Debug */,
-				A1000000000000000000AA13 /* Release */,
+				B1000000000000000000BB12 /* Debug */,
+				B1000000000000000000BB13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A1000000000000000000AA10 /* Project object */;
+	rootObject = B1000000000000000000BB10 /* Project object */;
 }

@@ -3,9 +3,10 @@ import SwiftData
 
 @Model
 final class TimelineEvent {
-    var date: Date
-    var title: String
-    var note: String
+    // CloudKit requires a default on every non-optional attribute.
+    var date: Date = Date.now
+    var title: String = ""
+    var note: String = ""
 
     /// Free-form labels. Tapping one anywhere in the app rebuilds a timeline out of every
     /// milestone that shares it.

@@ -38,6 +38,10 @@ struct TimelineTrackView: View {
                 .padding(.horizontal, 16)
                 .padding(.top, 10)
                 .padding(.bottom, 96)
+                // A card stretched across a wide window reads badly; keep a column and
+                // centre it. On a phone the window is narrower than this anyway.
+                .frame(maxWidth: 760)
+                .frame(maxWidth: .infinity)
             }
             .scrollIndicators(.hidden)
         }
@@ -109,7 +113,7 @@ private struct TimeGapView: View {
             .overlay(alignment: .topLeading) {
                 VerticalLine()
                     .stroke(
-                        Color(.separator),
+                        Palette.separator,
                         style: metrics.isCompressed
                             ? StrokeStyle(lineWidth: 2, dash: [3, 6])
                             : StrokeStyle(lineWidth: 2)
@@ -163,8 +167,8 @@ private struct TimelineNodeView: View {
 
     private var dot: some View {
         Circle()
-            .fill(isExpanded ? color : Color(.systemGroupedBackground))
-            .overlay(Circle().strokeBorder(isExpanded ? color : Color(.tertiaryLabel), lineWidth: 2))
+            .fill(isExpanded ? color : Palette.groupedBackground)
+            .overlay(Circle().strokeBorder(isExpanded ? color : Palette.faintLabel, lineWidth: 2))
             .frame(width: 14, height: 14)
             .scaleEffect(isExpanded ? 1.3 : 1)
             .frame(width: TrackMetrics.spineX * 2, height: TrackMetrics.dotCentreY * 2, alignment: .center)
@@ -192,7 +196,7 @@ private struct TimelineNodeView: View {
 
     @ViewBuilder
     private var spine: some View {
-        let line = Color(.separator)
+        let line = Palette.separator
         switch position {
         case .only:
             EmptyView()

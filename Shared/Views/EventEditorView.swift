@@ -91,8 +91,7 @@ struct EventEditorView: View {
                             .keyboardInput(in: Self.space)
                             .submitLabel(.done)
                             .onSubmit(addDraftTag)
-                            .autocorrectionDisabled()
-                            .textInputAutocapitalization(.never)
+                            .plainTextEntry()
                         Button("추가", action: addDraftTag)
                             .disabled(Tag.normalize(tagDraft) == nil)
                     }
@@ -151,15 +150,15 @@ struct EventEditorView: View {
                         .allowsHitTesting(false)
                     }
                     .padding(.vertical, 6)
-                    .listRowBackground(Color(.systemGroupedBackground))
+                    .listRowBackground(Palette.groupedBackground)
                 }
 
                 Section("사진") {
-                    if let photoData, let image = UIImage(data: photoData) {
+                    if let photoData, let image = PlatformImage(data: photoData) {
                         Color.clear
                             .frame(height: 180)
                             .overlay {
-                                Image(uiImage: image)
+                                Image(platform: image)
                                     .resizable()
                                     .scaledToFill()
                             }
@@ -187,10 +186,10 @@ struct EventEditorView: View {
                     }
                 }
             }
-            .scrollDismissesKeyboard(.interactively)
+            .dismissKeyboardOnScroll()
             .dismissesKeyboardOnOutsideTap(space: Self.space, isEditing: focused != nil) { focused = nil }
             .navigationTitle(event == nil ? "사건 추가" : "사건 수정")
-            .navigationBarTitleDisplayMode(.inline)
+            .inlineNavigationTitle()
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button("취소") { dismiss() }
@@ -199,10 +198,12 @@ struct EventEditorView: View {
                     Button("저장", action: save)
                         .disabled(isLoadingPhoto)
                 }
+                #if os(iOS)
                 ToolbarItemGroup(placement: .keyboard) {
                     Spacer()
                     Button("완료") { focused = nil }
                 }
+                #endif
             }
             .onChange(of: date) { _, _ in finder.reset() }
             .onChange(of: pickerItem) { _, item in
@@ -293,11 +294,7 @@ struct EventEditorView: View {
                 Text("사진 접근이 꺼져 있어 이 날 찍은 사진을 찾을 수 없어요.\n아래에서 직접 고를 수는 있어요.")
                     .font(.footnote)
                     .foregroundStyle(.secondary)
-                Button("설정에서 허용") {
-                    if let url = URL(string: UIApplication.openSettingsURLString) {
-                        UIApplication.shared.open(url)
-                    }
-                }
+                Button("설정에서 허용", action: openPhotoPrivacySettings)
                 .font(.footnote)
             }
 
@@ -322,7 +319,7 @@ struct EventEditorView: View {
                                 Button {
                                     Task { await choose(photo) }
                                 } label: {
-                                    Image(uiImage: photo.thumbnail)
+                                    Image(platform: photo.thumbnail)
                                         .resizable()
                                         .scaledToFill()
                                         .frame(width: 78, height: 78)
@@ -389,7 +386,7 @@ struct EventEditorView: View {
                 style: style,
                 photoData: photoData
             )
-            timeline.events.append(saved)
+            timeline.add(saved)
         }
         try? context.save()
         onFinish?(saved)

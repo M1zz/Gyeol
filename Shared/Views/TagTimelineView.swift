@@ -43,9 +43,9 @@ struct TagTimelineView: View {
                 }
             }
         }
-        .background(Color(.systemGroupedBackground))
+        .background(Palette.groupedBackground)
         .navigationTitle("#\(tag)")
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineNavigationTitle()
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
                 if let saved {

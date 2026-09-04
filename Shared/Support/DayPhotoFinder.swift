@@ -5,7 +5,7 @@ import SwiftUI
 struct DayPhoto: Identifiable {
     let id: String
     let asset: PHAsset
-    let thumbnail: UIImage
+    let thumbnail: PlatformImage
 }
 
 /// Finds the pictures taken on a particular day, so a card can offer the photos that
@@ -78,7 +78,7 @@ final class DayPhotoFinder: ObservableObject {
         return ImageCompressor.jpeg(from: raw)
     }
 
-    private static func thumbnail(for asset: PHAsset) async -> UIImage? {
+    private static func thumbnail(for asset: PHAsset) async -> PlatformImage? {
         let options = PHImageRequestOptions()
         // fastFormat hands back nil when the asset has no cached thumbnail yet — which is
         // exactly the case for recently imported photos — so ask for the real thing.

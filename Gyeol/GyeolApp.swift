@@ -7,6 +7,6 @@ struct GyeolApp: App {
         WindowGroup {
             TimelineListView()
         }
-        .modelContainer(for: [Timeline.self, TimelineEvent.self])
+        .modelContainer(Store.makeContainer())
     }
 }

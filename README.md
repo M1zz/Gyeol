@@ -5,10 +5,27 @@
 
 SwiftUI + SwiftData. iOS 17+, Xcode 16+ (file-system-synchronized groups 사용).
 
+## 구성
+| | |
+|---|---|
+| `Gyeol.xcodeproj` | iOS 앱 (타깃 `Gyeol` — 내부 코드명) |
+| `YeoulMac.xcodeproj` | macOS 앱 (타깃 `YeoulMac`) |
+| `Shared/` | 두 앱이 함께 쓰는 모델·카드·타임라인 |
+| `Gyeol/` | iOS 전용 화면 |
+| `macOS/` | macOS 전용 화면 |
+| `Config/` | Info.plist 조각과 entitlements (동기화 그룹 밖에 두어야 리소스로 중복 복사되지 않음) |
+
+두 프로젝트 모두 `Shared/`를 file-system-synchronized group으로 참조합니다. 파일을 추가하면
+프로젝트 파일을 건드리지 않아도 양쪽에 들어갑니다.
+
 ## 열기
-1. `Gyeol.xcodeproj` 더블클릭
-2. Signing & Capabilities에서 **본인 Team 선택** (프로젝트에는 작성자 팀이 들어 있습니다)
+1. iOS는 `Gyeol.xcodeproj`, 맥은 `YeoulMac.xcodeproj`
+2. Signing & Capabilities에서 **본인 Team 선택**
 3. Run
+
+CloudKit을 쓰므로 **제대로 서명된 빌드만 실행됩니다.** 권한 없는 바이너리는 CloudKit이
+자기 내부에서 트랩을 겁니다. 서명 없이 UI만 보려면 `-localOnly`를 인자로 주면
+아이클라우드 없이 로컬 저장소로 뜹니다.
 
 ## 구조
 - `Models/` — `Timeline`(이름·색, cascade delete) / `TimelineEvent`(날짜·제목·내용·사진, external storage)
@@ -84,6 +101,22 @@ xcrun swift Tools/MakeAppIcon.swift Gyeol/Assets.xcassets/AppIcon.appiconset
 있는 아이콘을 거부하므로 알파 채널 없이(`noneSkipLast`) 렌더합니다.
 
 번들 ID는 `com.leeo.yeoul`. 프로젝트·타깃 이름은 아직 `Gyeol`인 내부 코드명입니다.
+
+## iCloud 공유
+두 앱이 같은 private CloudKit 컨테이너 `iCloud.com.leeo.yeoul`을 엽니다(`Shared/Support/Store`).
+번들 ID도 `com.leeo.yeoul`로 같아 유니버설 구매 형태입니다.
+
+SwiftData를 CloudKit에 얹으려면 스키마에 제약이 붙습니다. 어기면 앱이 뜨지 않고
+`Store failed to load`가 납니다:
+
+- 비옵셔널 속성에는 **전부 기본값**이 있어야 합니다
+- **관계는 반드시 옵셔널**이어야 합니다 — `Timeline.events`가 `[TimelineEvent]?`인 이유입니다
+  (`add(_:)`로 감싸 두어 호출부는 그대로입니다)
+- 유니크 제약은 쓸 수 없습니다
+
+iOS는 `UIBackgroundModes: remote-notification`이 있어야 변경이 즉시 밀려옵니다.
+`INFOPLIST_KEY_UIBackgroundModes`는 생성 plist로 넘어가지 않아 `Config/iOS-Info.plist`를
+따로 두고 병합합니다.
 
 ## 다음 단계 후보
 - iCloud 동기화: `.modelContainer(for:)` → `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability

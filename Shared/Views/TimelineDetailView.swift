@@ -26,10 +26,19 @@ struct TimelineDetailView: View {
                 }
             }
         }
-        .background(Color(.systemGroupedBackground))
+        .background(Palette.groupedBackground)
         .navigationTitle(timeline.name)
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineNavigationTitle()
         .toolbar {
+            #if os(macOS)
+            ToolbarItem {
+                if !timeline.isTagTimeline {
+                    Button { showingNewEvent = true } label: {
+                        Label("사건 추가", systemImage: "plus")
+                    }
+                }
+            }
+            #endif
             ToolbarItem(placement: .primaryAction) {
                 Menu {
                     if !timeline.isTagTimeline {
@@ -48,14 +57,16 @@ struct TimelineDetailView: View {
                     .foregroundStyle(.secondary)
                     .padding(.bottom, 8)
             } else {
+                #if os(iOS)
                 Button { showingNewEvent = true } label: {
                     Label("사건 추가", systemImage: "plus")
                         .font(.body.weight(.semibold))
                         .padding(.horizontal, 22).padding(.vertical, 13)
                         .background(Color.primary, in: Capsule())
-                        .foregroundStyle(Color(.systemBackground))
+                        .foregroundStyle(Palette.pageBackground)
                 }
                 .padding(.bottom, 8)
+                #endif
             }
         }
         .sheet(item: $editingEvent) { event in

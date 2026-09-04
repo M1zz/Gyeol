@@ -54,20 +54,22 @@ struct TimelineEditorView: View {
                     .padding(.vertical, 6)
                 }
             }
-            .scrollDismissesKeyboard(.interactively)
+            .dismissKeyboardOnScroll()
             .dismissesKeyboardOnOutsideTap(space: Self.space, isEditing: isNameFocused) { isNameFocused = false }
             .navigationTitle(navigationTitle)
-            .navigationBarTitleDisplayMode(.inline)
+            .inlineNavigationTitle()
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) { Button("취소") { dismiss() } }
                 ToolbarItem(placement: .confirmationAction) {
                     Button(confirmTitle, action: save)
                         .disabled(name.trimmingCharacters(in: .whitespaces).isEmpty)
                 }
+                #if os(iOS)
                 ToolbarItemGroup(placement: .keyboard) {
                     Spacer()
                     Button("완료") { isNameFocused = false }
                 }
+                #endif
             }
             .onAppear {
                 if timeline == nil { colorHex = TimelinePalette.next(after: existing.count) }

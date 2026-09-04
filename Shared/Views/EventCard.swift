@@ -12,7 +12,7 @@ struct CardContent {
 
     var displayTitle: String { title.isEmpty ? "제목 없음" : title }
     var hasTitle: Bool { !title.isEmpty }
-    var image: UIImage? { photoData.flatMap(UIImage.init(data:)) }
+    var image: PlatformImage? { photoData.flatMap(PlatformImage.init(data:)) }
 }
 
 struct EventCard: View {
@@ -52,7 +52,7 @@ private struct CardSurface: ViewModifier {
     func body(content: Content) -> some View {
         let shape = RoundedRectangle(cornerRadius: 16, style: .continuous)
         content
-            .background(filled ? Color(.secondarySystemGroupedBackground) : Color.clear)
+            .background(filled ? Palette.cardSurface : Color.clear)
             .clipShape(shape)
             .overlay(shape.strokeBorder(isExpanded ? color.opacity(0.45) : .clear, lineWidth: 1.5))
             .shadow(color: .black.opacity(isExpanded ? 0.10 : 0.04),
@@ -83,7 +83,7 @@ private struct CardEditButton: View {
 
 /// Photo that fills a fixed box without letting its intrinsic size widen the card.
 private struct PhotoBox: View {
-    let image: UIImage
+    let image: PlatformImage
     var width: CGFloat?
     let height: CGFloat
     var cornerRadius: CGFloat = 12
@@ -93,7 +93,7 @@ private struct PhotoBox: View {
             .frame(width: width, height: height)
             .frame(maxWidth: width == nil ? .infinity : nil)
             .overlay {
-                Image(uiImage: image)
+                Image(platform: image)
                     .resizable()
                     .scaledToFill()
             }
@@ -216,7 +216,7 @@ private struct PosterCard: View {
     private var backdrop: some View {
         ZStack {
             if let image = content.image {
-                Image(uiImage: image)
+                Image(platform: image)
                     .resizable()
                     .scaledToFill()
             } else {
@@ -256,7 +256,7 @@ private struct FilmCard: View {
                 PhotoBox(image: image, height: isExpanded ? 230 : 128, cornerRadius: 3)
             } else {
                 RoundedRectangle(cornerRadius: 3, style: .continuous)
-                    .strokeBorder(Color(.separator), style: StrokeStyle(lineWidth: 1, dash: [4, 4]))
+                    .strokeBorder(Palette.separator, style: StrokeStyle(lineWidth: 1, dash: [4, 4]))
                     .frame(height: isExpanded ? 150 : 84)
                     .frame(maxWidth: .infinity)
                     .overlay {
@@ -377,11 +377,11 @@ struct CardStyleSwatch: View {
         VStack(spacing: 6) {
             schematic
                 .frame(width: 68, height: 84)
-                .background(Color(.secondarySystemGroupedBackground))
+                .background(Palette.cardSurface)
                 .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
                 .overlay {
                     RoundedRectangle(cornerRadius: 10, style: .continuous)
-                        .strokeBorder(isSelected ? color : Color(.separator),
+                        .strokeBorder(isSelected ? color : Palette.separator,
                                       lineWidth: isSelected ? 2 : 1)
                 }
             Text(style.label)
@@ -438,7 +438,7 @@ struct CardStyleSwatch: View {
                     bar(24, 3, 0.3)
                 }
                 RoundedRectangle(cornerRadius: 3)
-                    .fill(Color(.tertiaryLabel).opacity(0.45))
+                    .fill(Palette.faintLabel.opacity(0.45))
                     .frame(width: 13, height: 17)
             }
             .padding(8)
@@ -453,7 +453,7 @@ struct CardStyleSwatch: View {
 
     private func block(height: CGFloat) -> some View {
         RoundedRectangle(cornerRadius: 3)
-            .fill(Color(.tertiaryLabel).opacity(0.45))
+            .fill(Palette.faintLabel.opacity(0.45))
             .frame(height: height)
             .frame(maxWidth: .infinity)
     }

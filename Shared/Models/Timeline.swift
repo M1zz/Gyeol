@@ -4,17 +4,19 @@ import SwiftUI
 
 @Model
 final class Timeline {
-    var name: String
-    var colorHex: String
-    var createdAt: Date
+    // CloudKit requires a default on every non-optional attribute.
+    var name: String = ""
+    var colorHex: String = TimelinePalette.hexes[0]
+    var createdAt: Date = Date.now
 
     /// When set, this timeline is a saved *view* rather than a container: it shows every
     /// event carrying this tag, wherever that event actually lives. Its own `events` stay
     /// empty, so deleting it never takes anyone's milestones with it.
     var tagFilter: String?
 
+    /// Optional because CloudKit refuses to sync a non-optional relationship.
     @Relationship(deleteRule: .cascade, inverse: \TimelineEvent.timeline)
-    var events: [TimelineEvent] = []
+    var events: [TimelineEvent]?
 
     init(name: String, colorHex: String, createdAt: Date = .now, tagFilter: String? = nil) {
         self.name = name
@@ -25,7 +27,12 @@ final class Timeline {
 
     var isTagTimeline: Bool { tagFilter != nil }
 
-    var sortedEvents: [TimelineEvent] { events.chronological }
+    var sortedEvents: [TimelineEvent] { (events ?? []).chronological }
+
+    func add(_ event: TimelineEvent) {
+        if events == nil { events = [] }
+        events?.append(event)
+    }
 
     var color: Color { Color(hex: colorHex) }
 }

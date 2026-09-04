@@ -22,15 +22,22 @@ extension View {
         )
     }
 
+    /// A no-op off iOS — a Mac has no software keyboard to get out of the way.
+    @ViewBuilder
     func dismissesKeyboardOnOutsideTap(
         space: String,
         isEditing: Bool,
         dismiss: @escaping () -> Void
     ) -> some View {
+        #if os(iOS)
         modifier(OutsideTapDismiss(space: space, isEditing: isEditing, dismiss: dismiss))
+        #else
+        self
+        #endif
     }
 }
 
+#if os(iOS)
 private struct OutsideTapDismiss: ViewModifier {
     let space: String
     let isEditing: Bool
@@ -57,3 +64,4 @@ private struct OutsideTapDismiss: ViewModifier {
             )
     }
 }
+#endif
