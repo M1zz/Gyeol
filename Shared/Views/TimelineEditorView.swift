@@ -71,10 +71,12 @@ struct TimelineEditorView: View {
                 }
                 #endif
             }
+            .groupedForm()
             .onAppear {
                 if timeline == nil { colorHex = TimelinePalette.next(after: existing.count) }
             }
         }
+        .editorSheetFrame(idealHeight: 320)
     }
 
     private var navigationTitle: String {

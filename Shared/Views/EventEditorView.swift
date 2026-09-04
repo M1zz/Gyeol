@@ -205,6 +205,7 @@ struct EventEditorView: View {
                 }
                 #endif
             }
+            .groupedForm()
             .onChange(of: date) { _, _ in finder.reset() }
             .onChange(of: pickerItem) { _, item in
                 guard let item else { return }
@@ -214,6 +215,7 @@ struct EventEditorView: View {
                 Button("삭제", role: .destructive, action: delete)
             }
         }
+        .editorSheetFrame(idealHeight: 700)
     }
 
     private var cardColor: Color {

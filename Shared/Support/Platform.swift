@@ -112,3 +112,29 @@ func openPhotoPrivacySettings() {
     }
     #endif
 }
+
+extension View {
+    /// A macOS sheet takes its content's *ideal* size. A Form full of sections wants to be
+    /// taller than the screen, and the overflow is clipped rather than scrolled — the
+    /// bottom sections simply become unreachable. Giving the sheet a real size makes the
+    /// Form scroll inside it. On iOS the sheet already manages its own height.
+    @ViewBuilder
+    func editorSheetFrame(idealHeight: CGFloat = 640) -> some View {
+        #if os(macOS)
+        frame(minWidth: 560, idealWidth: 640, minHeight: 380, idealHeight: idealHeight)
+        #else
+        self
+        #endif
+    }
+
+    /// macOS lays a plain Form out as a label/content grid, which squeezes wide rows like
+    /// the card preview. Grouped matches how these forms were designed.
+    @ViewBuilder
+    func groupedForm() -> some View {
+        #if os(macOS)
+        formStyle(.grouped)
+        #else
+        self
+        #endif
+    }
+}

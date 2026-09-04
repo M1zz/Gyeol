@@ -118,6 +118,15 @@ iOS는 `UIBackgroundModes: remote-notification`이 있어야 변경이 즉시 �
 `INFOPLIST_KEY_UIBackgroundModes`는 생성 plist로 넘어가지 않아 `Config/iOS-Info.plist`를
 따로 두고 병합합니다.
 
+## 맥에서의 차이
+- 카드는 760pt 컬럼으로 묶여 가운데 놓입니다. 창 전체로 늘어나면 읽기 나쁩니다
+- '사건 추가'는 플로팅 버튼 대신 툴바에 있습니다
+- 편집 시트에는 크기를 명시합니다(`editorSheetFrame`). macOS 시트는 내용의 *이상적* 크기를
+  그대로 받는데, 섹션이 많은 Form은 화면보다 길어지고 넘친 부분이 스크롤 없이 잘려나가
+  아래쪽 섹션에 아예 닿을 수 없게 됩니다
+- Form은 `.formStyle(.grouped)`입니다. 기본 스타일은 라벨/내용 2열 격자라 카드 미리보기처럼
+  넓은 행이 눌립니다
+
 ## 다음 단계 후보
 - iCloud 동기화: `.modelContainer(for:)` → `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability
 - 사건당 사진 여러 장, 날짜 정밀도(연도만/월만)

@@ -41,6 +41,11 @@
 - [x] 맥에서 카드가 창 전체로 늘어나던 문제 — 읽기 좋은 컬럼 폭(760pt)으로 제한
 - [x] iOS용 플로팅 '사건 추가' 버튼을 맥에서는 툴바로
 
+- [x] 맥에서 편집 시트가 화면보다 길어져 스크롤도 안 되고 사진 섹션에 닿을 수 없던 문제
+      — 시트에 크기를 주어 Form이 그 안에서 스크롤되게 함 (`editorSheetFrame`)
+- [x] 맥 Form을 grouped 스타일로 (기본 2열 격자에서 넓은 행이 눌리던 문제)
+- [x] macOS App Category 누락 경고 해소
+
 ## 다음 단계 후보
 - [ ] 압축된 구간(점선)을 핀치로 펴보기
 - [ ] iCloud 동기화: `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability
