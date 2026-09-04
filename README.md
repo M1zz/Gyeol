@@ -20,6 +20,8 @@ SwiftUI + SwiftData. iOS 17+, Xcode 16+ (file-system-synchronized groups 사용)
 - `Views/TimelineEditorView` — 이름·색, 태그 타임라인 저장
 - `Views/TagTimelineView` — 태그로 재구성한 타임라인 + 저장
 - `Views/TagChip` — 태그 칩과 `TagRoute`
+- `Views/EventCard` — 카드 디자인 4종과 편집기용 미니 도식(`CardStyleSwatch`)
+- `Support/CardStyle` — 디자인 종류
 - `Support/KeyboardDismiss` — 입력 필드 바깥을 탭하면 키보드 내림
 - `Support/DayPhotoFinder` — PhotoKit으로 그 날 찍은 사진 조회
 - `Support/Tag` — 태그 정규화(앞의 `#`·공백 제거, 비교는 대소문자 무시)
@@ -53,6 +55,23 @@ SwiftUI + SwiftData. iOS 17+, Xcode 16+ (file-system-synchronized groups 사용)
 
 이 때문에 태그 타임라인에는 '사건 추가'가 없습니다 — 어느 타임라인에 속할지 정할 수 없기 때문입니다.
 
+## 카드 디자인
+카드마다 디자인을 고릅니다. 편집 화면의 **카드 디자인** 섹션에서 도식을 눌러 고르면
+아래 미리보기가 바로 바뀝니다.
+
+| | 생김새 |
+|---|---|
+| 기본 | 글이 중심, 사진은 아래 |
+| 포스터 | 사진이 카드를 꽉 채우고 큰 명조 제목이 그 위에. 사진이 없으면 타임라인 색 그러데이션 |
+| 필름 | 인화지처럼 여백을 두른 사진 + 타자기 글씨, `2024.03.05` 날짜 스탬프 |
+| 여백 | 큰 명조 날짜 숫자가 서고 사진은 작게. 글씨가 주인공 |
+
+새 카드는 그 타임라인의 가장 최근 카드와 같은 디자인으로 시작합니다.
+
+`CardContent`가 카드가 그릴 값을 평범한 값 타입으로 들고 있어서, 편집기가 아직 저장하지
+않은 초안을 그대로 미리 그릴 수 있습니다. 사진은 `PhotoBox`(투명 프레임 + 오버레이)로
+넣습니다 — `scaledToFill`을 레이아웃에 직접 두면 사진의 고유 크기가 카드 폭을 밀어냅니다.
+
 ## 다음 단계 후보
 - iCloud 동기화: `.modelContainer(for:)` → `ModelConfiguration(cloudKitDatabase: .automatic)` + CloudKit capability
 - 사건당 사진 여러 장, 날짜 정밀도(연도만/월만)
@@ -61,3 +80,5 @@ SwiftUI + SwiftData. iOS 17+, Xcode 16+ (file-system-synchronized groups 사용)
 - 제한 접근(limited) 시 `presentLimitedLibraryPicker`로 사진 더 고르기
 - 태그 여러 개를 AND/OR로 묶어 재구성하기
 - 태그 이름 바꾸기·병합 (지금은 카드마다 고쳐야 함)
+- 타임라인 단위로 카드 디자인 일괄 변경
+- 카드 이미지로 내보내 공유하기

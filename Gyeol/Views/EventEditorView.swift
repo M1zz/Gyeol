@@ -24,6 +24,7 @@ struct EventEditorView: View {
     @Query private var allEvents: [TimelineEvent]
     @State private var tags: [String]
     @State private var tagDraft = ""
+    @State private var style: CardStyle
     @FocusState private var focused: Field?
 
     private enum Field { case title, note, tag }
@@ -38,6 +39,9 @@ struct EventEditorView: View {
         _note = State(initialValue: event?.note ?? "")
         _photoData = State(initialValue: event?.photoData)
         _tags = State(initialValue: event?.tags ?? [])
+        // A new card starts in whatever style the timeline's most recent card uses, so a
+        // timeline that has settled on one look doesn't need it re-picked every time.
+        _style = State(initialValue: event?.style ?? timeline?.sortedEvents.last?.style ?? .classic)
     }
 
     var body: some View {
@@ -109,6 +113,47 @@ struct EventEditorView: View {
                     }
                 }
 
+                Section("카드 디자인") {
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(alignment: .top, spacing: 12) {
+                            ForEach(CardStyle.allCases) { candidate in
+                                Button {
+                                    withAnimation(.snappy(duration: 0.25)) { style = candidate }
+                                } label: {
+                                    CardStyleSwatch(
+                                        style: candidate,
+                                        color: cardColor,
+                                        isSelected: style == candidate
+                                    )
+                                }
+                                .buttonStyle(.plain)
+                            }
+                        }
+                        .padding(.vertical, 4)
+                    }
+                    .listRowInsets(EdgeInsets(top: 6, leading: 16, bottom: 6, trailing: 0))
+
+                    Text(style.blurb)
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("미리보기")
+                            .font(.caption)
+                            .foregroundStyle(.tertiary)
+                        EventCard(
+                            content: previewContent,
+                            style: style,
+                            color: cardColor,
+                            isExpanded: true,
+                            tagsAreLinks: false
+                        )
+                        .allowsHitTesting(false)
+                    }
+                    .padding(.vertical, 6)
+                    .listRowBackground(Color(.systemGroupedBackground))
+                }
+
                 Section("사진") {
                     if let photoData, let image = UIImage(data: photoData) {
                         Color.clear
@@ -168,6 +213,27 @@ struct EventEditorView: View {
                 Button("삭제", role: .destructive, action: delete)
             }
         }
+    }
+
+    private var cardColor: Color {
+        (timeline ?? event?.timeline)?.color ?? .accentColor
+    }
+
+    /// The draft as it would look on the timeline right now.
+    private var previewContent: CardContent {
+        var draft = tags
+        if let pending = Tag.normalize(tagDraft),
+           !draft.contains(where: { Tag.matches($0, pending) }) {
+            draft.append(pending)
+        }
+        return CardContent(
+            date: date,
+            title: title.trimmingCharacters(in: .whitespacesAndNewlines),
+            note: note.trimmingCharacters(in: .whitespacesAndNewlines),
+            tags: draft,
+            photoData: photoData,
+            showsYear: true
+        )
     }
 
     /// Tags already used elsewhere, so the same label doesn't get retyped three ways.
@@ -310,6 +376,7 @@ struct EventEditorView: View {
             event.title = trimmedTitle
             event.note = trimmedNote
             event.tags = finalTags
+            event.style = style
             event.photoData = photoData
             saved = event
         } else {
@@ -319,6 +386,7 @@ struct EventEditorView: View {
                 title: trimmedTitle,
                 note: trimmedNote,
                 tags: finalTags,
+                style: style,
                 photoData: photoData
             )
             timeline.events.append(saved)

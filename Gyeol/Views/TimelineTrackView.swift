@@ -171,89 +171,23 @@ private struct TimelineNodeView: View {
     }
 
     private var card: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            header
-            if isExpanded { detail }
-        }
-        .padding(14)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color(.secondarySystemGroupedBackground))
-        .clipShape(shape)
-        .overlay(shape.strokeBorder(isExpanded ? color.opacity(0.45) : .clear, lineWidth: 1.5))
-        .shadow(color: .black.opacity(isExpanded ? 0.10 : 0.04),
-                radius: isExpanded ? 14 : 5,
-                y: isExpanded ? 7 : 2)
-        .contentShape(shape)
+        EventCard(
+            content: CardContent(
+                date: event.date,
+                title: event.title,
+                note: event.note,
+                tags: event.tags,
+                photoData: event.photoData,
+                showsYear: showsYear
+            ),
+            style: event.style,
+            color: color,
+            isExpanded: isExpanded,
+            onEdit: onEdit
+        )
+        .contentShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
         .onTapGesture(perform: onTap)
         .padding(.bottom, 2)
-    }
-
-    private var header: some View {
-        VStack(alignment: .leading, spacing: 5) {
-            if showsYear {
-                Text(event.date.yearLabel)
-                    .font(.system(size: 12, weight: .semibold, design: .serif))
-                    .foregroundStyle(color)
-            }
-            HStack(alignment: .firstTextBaseline, spacing: 8) {
-                Text(event.date.nodeDateLabel)
-                    .font(.system(size: 14, design: .serif))
-                    .monospacedDigit()
-                    .foregroundStyle(.secondary)
-                Spacer(minLength: 0)
-                if !isExpanded, event.photoData != nil {
-                    Image(systemName: "photo")
-                        .font(.caption2)
-                        .foregroundStyle(.tertiary)
-                }
-            }
-            Text(event.title.isEmpty ? "제목 없음" : event.title)
-                .font(.body.weight(.semibold))
-                .foregroundStyle(event.title.isEmpty ? .tertiary : .primary)
-                .fixedSize(horizontal: false, vertical: true)
-            if !isExpanded, !event.note.isEmpty {
-                Text(event.note)
-                    .font(.footnote)
-                    .foregroundStyle(.secondary)
-                    .lineLimit(1)
-            }
-            if !event.tags.isEmpty {
-                TagLinkRow(tags: event.tags, tint: color)
-                    .padding(.top, 2)
-            }
-        }
-    }
-
-    private var detail: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            if let data = event.photoData, let image = UIImage(data: data) {
-                Color.clear
-                    .frame(height: 220)
-                    .overlay {
-                        Image(uiImage: image)
-                            .resizable()
-                            .scaledToFill()
-                    }
-                    .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-            }
-            if !event.note.isEmpty {
-                Text(event.note)
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
-                    .lineSpacing(4)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-            }
-            Button(action: onEdit) {
-                Label("수정", systemImage: "pencil")
-            }
-            .font(.footnote.weight(.medium))
-            .buttonStyle(.bordered)
-            .tint(color)
-        }
-        .transition(.asymmetric(
-            insertion: .opacity.combined(with: .move(edge: .top)),
-            removal: .opacity
-        ))
     }
 
     @ViewBuilder

@@ -16,6 +16,18 @@ extension Date {
         let c = Calendar.current.dateComponents([.month, .day], from: self)
         return "\(c.month ?? 0)월 \(c.day ?? 0)일"
     }
+
+    /// "5" — the oversized numeral the editorial card leads with.
+    var dayNumber: String { String(Calendar.current.component(.day, from: self)) }
+
+    /// "3월"
+    var monthLabel: String { "\(Calendar.current.component(.month, from: self))월" }
+
+    /// "2019.03.05" — stamped on the film card like a date-back print.
+    var stampLabel: String {
+        let c = Calendar.current.dateComponents([.year, .month, .day], from: self)
+        return String(format: "%04d.%02d.%02d", c.year ?? 0, c.month ?? 0, c.day ?? 0)
+    }
 }
 
 /// Spells out how much time actually passed between two events, so the gap on the
