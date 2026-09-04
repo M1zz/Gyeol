@@ -7,15 +7,18 @@ struct TimelineEditorView: View {
     @Query private var existing: [Timeline]
 
     let timeline: Timeline?
+    /// Set when saving a tag view, so the new timeline resolves its events by tag.
+    var tagFilter: String?
 
     @State private var name: String
     @State private var colorHex: String
     @FocusState private var isNameFocused: Bool
     private static let space = "timelineEditor"
 
-    init(timeline: Timeline?) {
+    init(timeline: Timeline?, tagFilter: String? = nil, suggestedName: String = "") {
         self.timeline = timeline
-        _name = State(initialValue: timeline?.name ?? "")
+        self.tagFilter = tagFilter
+        _name = State(initialValue: timeline?.name ?? suggestedName)
         _colorHex = State(initialValue: timeline?.colorHex ?? TimelinePalette.hexes[0])
     }
 
@@ -53,12 +56,12 @@ struct TimelineEditorView: View {
             }
             .scrollDismissesKeyboard(.interactively)
             .dismissesKeyboardOnOutsideTap(space: Self.space, isEditing: isNameFocused) { isNameFocused = false }
-            .navigationTitle(timeline == nil ? "새 타임라인" : "타임라인 설정")
+            .navigationTitle(navigationTitle)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) { Button("취소") { dismiss() } }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button(timeline == nil ? "만들기" : "저장", action: save)
+                    Button(confirmTitle, action: save)
                         .disabled(name.trimmingCharacters(in: .whitespaces).isEmpty)
                 }
                 ToolbarItemGroup(placement: .keyboard) {
@@ -72,6 +75,15 @@ struct TimelineEditorView: View {
         }
     }
 
+    private var navigationTitle: String {
+        if timeline != nil { return "타임라인 설정" }
+        return tagFilter == nil ? "새 타임라인" : "태그 타임라인 저장"
+    }
+
+    private var confirmTitle: String {
+        timeline == nil && tagFilter == nil ? "만들기" : "저장"
+    }
+
     private func save() {
         let trimmed = name.trimmingCharacters(in: .whitespaces)
         guard !trimmed.isEmpty else { return }
@@ -79,7 +91,7 @@ struct TimelineEditorView: View {
             timeline.name = trimmed
             timeline.colorHex = colorHex
         } else {
-            context.insert(Timeline(name: trimmed, colorHex: colorHex))
+            context.insert(Timeline(name: trimmed, colorHex: colorHex, tagFilter: tagFilter))
         }
         try? context.save()
         dismiss()

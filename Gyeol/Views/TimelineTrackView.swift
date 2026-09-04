@@ -217,6 +217,10 @@ private struct TimelineNodeView: View {
                     .foregroundStyle(.secondary)
                     .lineLimit(1)
             }
+            if !event.tags.isEmpty {
+                TagLinkRow(tags: event.tags, tint: color)
+                    .padding(.top, 2)
+            }
         }
     }
 

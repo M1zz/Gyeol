@@ -4,6 +4,7 @@ import SwiftData
 struct TimelineListView: View {
     @Environment(\.modelContext) private var context
     @Query(sort: \Timeline.createdAt) private var timelines: [Timeline]
+    @Query private var allEvents: [TimelineEvent]
     @State private var showingNew = false
 
     var body: some View {
@@ -22,7 +23,7 @@ struct TimelineListView: View {
                     List {
                         ForEach(timelines) { timeline in
                             NavigationLink(value: timeline) {
-                                TimelineRow(timeline: timeline)
+                                TimelineRow(timeline: timeline, events: events(of: timeline))
                             }
                         }
                         .onDelete(perform: delete)
@@ -31,6 +32,7 @@ struct TimelineListView: View {
             }
             .navigationTitle("결")
             .navigationDestination(for: Timeline.self) { TimelineDetailView(timeline: $0) }
+            .navigationDestination(for: TagRoute.self) { TagTimelineView(tag: $0.tag) }
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) { EditButton() }
                 ToolbarItem(placement: .primaryAction) {
@@ -44,6 +46,11 @@ struct TimelineListView: View {
         }
     }
 
+    private func events(of timeline: Timeline) -> [TimelineEvent] {
+        guard let tag = timeline.tagFilter else { return timeline.sortedEvents }
+        return allEvents.filter { $0.hasTag(tag) }.chronological
+    }
+
     private func delete(at offsets: IndexSet) {
         for index in offsets { context.delete(timelines[index]) }
     }
@@ -51,10 +58,11 @@ struct TimelineListView: View {
 
 private struct TimelineRow: View {
     let timeline: Timeline
+    let events: [TimelineEvent]
 
     var body: some View {
         HStack(spacing: 14) {
-            Circle().fill(timeline.color).frame(width: 12, height: 12)
+            marker
             VStack(alignment: .leading, spacing: 3) {
                 Text(timeline.name).font(.body.weight(.medium))
                 Text(subtitle).font(.footnote).foregroundStyle(.secondary)
@@ -63,10 +71,22 @@ private struct TimelineRow: View {
         .padding(.vertical, 4)
     }
 
+    @ViewBuilder
+    private var marker: some View {
+        if timeline.isTagTimeline {
+            Image(systemName: "number")
+                .font(.system(size: 12, weight: .bold))
+                .foregroundStyle(timeline.color)
+                .frame(width: 12, height: 12)
+        } else {
+            Circle().fill(timeline.color).frame(width: 12, height: 12)
+        }
+    }
+
     private var subtitle: String {
-        let count = timeline.events.count
-        guard let last = timeline.sortedEvents.last else { return "사건 없음" }
-        return "사건 \(count)개 · 마지막 \(last.date.yearLabel).\(last.date.monthDayLabel)"
+        let kind = timeline.isTagTimeline ? "태그 타임라인 · " : ""
+        guard let last = events.last else { return kind + "사건 없음" }
+        return kind + "사건 \(events.count)개 · 마지막 \(last.date.yearLabel).\(last.date.monthDayLabel)"
     }
 }
 

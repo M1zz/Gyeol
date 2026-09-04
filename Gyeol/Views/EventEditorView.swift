@@ -6,7 +6,9 @@ struct EventEditorView: View {
     @Environment(\.modelContext) private var context
     @Environment(\.dismiss) private var dismiss
 
-    let timeline: Timeline
+    /// Only needed to file a *new* event; editing reaches here from a tag view too, where
+    /// the owning timeline is whatever the event already belongs to.
+    let timeline: Timeline?
     let event: TimelineEvent?
     /// Called after save (with the saved event) or delete (with nil).
     var onFinish: ((TimelineEvent?) -> Void)? = nil
@@ -19,12 +21,15 @@ struct EventEditorView: View {
     @State private var isLoadingPhoto = false
     @State private var confirmDelete = false
     @StateObject private var finder = DayPhotoFinder()
+    @Query private var allEvents: [TimelineEvent]
+    @State private var tags: [String]
+    @State private var tagDraft = ""
     @FocusState private var focused: Field?
 
-    private enum Field { case title, note }
+    private enum Field { case title, note, tag }
     private static let space = "eventEditor"
 
-    init(timeline: Timeline, event: TimelineEvent?, onFinish: ((TimelineEvent?) -> Void)? = nil) {
+    init(timeline: Timeline?, event: TimelineEvent?, onFinish: ((TimelineEvent?) -> Void)? = nil) {
         self.timeline = timeline
         self.event = event
         self.onFinish = onFinish
@@ -32,6 +37,7 @@ struct EventEditorView: View {
         _title = State(initialValue: event?.title ?? "")
         _note = State(initialValue: event?.note ?? "")
         _photoData = State(initialValue: event?.photoData)
+        _tags = State(initialValue: event?.tags ?? [])
     }
 
     var body: some View {
@@ -59,6 +65,50 @@ struct EventEditorView: View {
                             }
                         }
                 }
+                Section("태그") {
+                    if !tags.isEmpty {
+                        FlowLayout(spacing: 6, lineSpacing: 6) {
+                            ForEach(tags, id: \.self) { tag in
+                                Button {
+                                    tags.removeAll { Tag.matches($0, tag) }
+                                } label: {
+                                    TagChip(tag: tag, tint: .accentColor, trailingSystemImage: "xmark")
+                                }
+                                .buttonStyle(.plain)
+                                .accessibilityLabel("#\(tag) 제거")
+                            }
+                        }
+                        .padding(.vertical, 4)
+                    }
+
+                    HStack {
+                        TextField("태그 추가", text: $tagDraft)
+                            .focused($focused, equals: .tag)
+                            .keyboardInput(in: Self.space)
+                            .submitLabel(.done)
+                            .onSubmit(addDraftTag)
+                            .autocorrectionDisabled()
+                            .textInputAutocapitalization(.never)
+                        Button("추가", action: addDraftTag)
+                            .disabled(Tag.normalize(tagDraft) == nil)
+                    }
+
+                    if !suggestions.isEmpty {
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 6) {
+                                ForEach(suggestions, id: \.self) { tag in
+                                    Button { add(tag) } label: {
+                                        TagChip(tag: tag, tint: .secondary, trailingSystemImage: "plus")
+                                    }
+                                    .buttonStyle(.plain)
+                                }
+                            }
+                            .padding(.vertical, 2)
+                        }
+                        .listRowInsets(EdgeInsets(top: 6, leading: 16, bottom: 6, trailing: 0))
+                    }
+                }
+
                 Section("사진") {
                     if let photoData, let image = UIImage(data: photoData) {
                         Color.clear
@@ -118,6 +168,33 @@ struct EventEditorView: View {
                 Button("삭제", role: .destructive, action: delete)
             }
         }
+    }
+
+    /// Tags already used elsewhere, so the same label doesn't get retyped three ways.
+    private var suggestions: [String] {
+        let alreadyOn = Set(tags.map { $0.lowercased() })
+        var seen = Set<String>()
+        var result: [String] = []
+        for event in allEvents {
+            for tag in event.tags {
+                let key = tag.lowercased()
+                guard !alreadyOn.contains(key), !seen.contains(key) else { continue }
+                seen.insert(key)
+                result.append(tag)
+            }
+        }
+        return Array(result.prefix(12))
+    }
+
+    private func addDraftTag() {
+        guard let tag = Tag.normalize(tagDraft) else { return }
+        add(tag)
+        tagDraft = ""
+    }
+
+    private func add(_ tag: String) {
+        guard !tags.contains(where: { Tag.matches($0, tag) }) else { return }
+        tags.append(tag)
     }
 
     private var directPickLabel: String {
@@ -220,15 +297,30 @@ struct EventEditorView: View {
     private func save() {
         let trimmedTitle = title.trimmingCharacters(in: .whitespacesAndNewlines)
         let trimmedNote = note.trimmingCharacters(in: .whitespacesAndNewlines)
+        // A tag left sitting in the field is what the user meant to add.
+        var finalTags = tags
+        if let pending = Tag.normalize(tagDraft),
+           !finalTags.contains(where: { Tag.matches($0, pending) }) {
+            finalTags.append(pending)
+        }
+
         let saved: TimelineEvent
         if let event {
             event.date = date
             event.title = trimmedTitle
             event.note = trimmedNote
+            event.tags = finalTags
             event.photoData = photoData
             saved = event
         } else {
-            saved = TimelineEvent(date: date, title: trimmedTitle, note: trimmedNote, photoData: photoData)
+            guard let timeline else { return }
+            saved = TimelineEvent(
+                date: date,
+                title: trimmedTitle,
+                note: trimmedNote,
+                tags: finalTags,
+                photoData: photoData
+            )
             timeline.events.append(saved)
         }
         try? context.save()
