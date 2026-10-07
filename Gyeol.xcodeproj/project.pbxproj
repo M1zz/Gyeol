@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A1000000000000000000AA30 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1000000000000000000AA32 /* LeeoKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A1000000000000000000AA01 /* Gyeol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gyeol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -28,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1000000000000000000AA30 /* LeeoKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +77,7 @@
 			);
 			name = Gyeol;
 			packageProductDependencies = (
+				A1000000000000000000AA32 /* LeeoKit */,
 			);
 			productName = Gyeol;
 			productReference = A1000000000000000000AA01 /* Gyeol.app */;
@@ -102,6 +108,9 @@
 			);
 			mainGroup = A1000000000000000000AA04;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A1000000000000000000AA31 /* XCRemoteSwiftPackageReference "LeeoKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A1000000000000000000AA05 /* Products */;
 			projectDirPath = "";
@@ -282,6 +291,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1000000000000000000AA31 /* XCRemoteSwiftPackageReference "LeeoKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.16.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1000000000000000000AA32 /* LeeoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1000000000000000000AA31 /* XCRemoteSwiftPackageReference "LeeoKit" */;
+			productName = LeeoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1000000000000000000AA10 /* Project object */;
 }
