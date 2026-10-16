@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import TipKit
 
 /// A timeline rebuilt on the fly from one tag: every milestone carrying it, from every
 /// timeline, in date order. Saving it keeps the view, not a copy of the events.
@@ -44,6 +45,8 @@ struct TagTimelineView: View {
             }
         }
         .background(Palette.groupedBackground)
+        // The tag tip has done its job once someone has arrived here.
+        .onAppear { TagTimelineTip.hasOpenedTagTimeline = true }
         .navigationTitle("#\(tag)")
         .inlineNavigationTitle()
         .toolbar {

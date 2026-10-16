@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import TipKit
 
 struct TimelineDetailView: View {
     @Bindable var timeline: Timeline
@@ -25,6 +26,19 @@ struct TimelineDetailView: View {
                     editingEvent = event
                 }
             }
+        }
+        .safeAreaInset(edge: .top) {
+            if !events.isEmpty {
+                VStack(spacing: 8) {
+                    TipView(ExpandCardTip())
+                    TipView(TagTimelineTip())
+                }
+                .frame(maxWidth: 760)
+                .padding(.horizontal, 16)
+            }
+        }
+        .onAppear {
+            if events.contains(where: { !$0.tags.isEmpty }) { TagTimelineTip.hasTaggedEvent = true }
         }
         .background(Palette.groupedBackground)
         .navigationTitle(timeline.name)

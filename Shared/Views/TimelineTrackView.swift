@@ -1,4 +1,5 @@
 import SwiftUI
+import TipKit
 import SwiftData
 
 /// The timeline itself: a vertical spine running down the screen where the distance
@@ -58,6 +59,7 @@ struct TimelineTrackView: View {
         withAnimation(.snappy(duration: 0.32)) {
             expanded = (expanded == event.id) ? nil : event.id
             if expanded != nil {
+                ExpandCardTip.hasExpandedCard = true
                 proxy.scrollTo(event.id, anchor: UnitPoint(x: 0, y: 0.08))
             }
         }
