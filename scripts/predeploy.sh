@@ -41,7 +41,14 @@ if [ -z "$DEST_ID" ]; then
 fi
 DEST="platform=iOS Simulator,id=$DEST_ID"
 
-# 이 앱에는 테스트 타깃이 없다 — 대신 iOS 앱이 빌드되는지 확인한다.
+# 핵심 로직(시간 간격 배율 · 기간 라벨 · 태그 · 정렬) 단위 테스트 — Shared/ 를 직접 컴파일하는 GyeolTests.
+echo "🧪 단위 테스트 (GyeolTests)"
+xcodebuild test \
+  "$PROJECT_FLAG" "$PROJECT" \
+  -scheme GyeolTests \
+  -destination "$DEST" \
+  -quiet
+
 echo "🔨 빌드 확인 ($SCHEME)"
 xcodebuild build \
   "$PROJECT_FLAG" "$PROJECT" \
