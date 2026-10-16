@@ -34,6 +34,9 @@ enum YeoulSpec: LeeoAppSpec {
         marketingURL: URL(string: "https://m1zz.github.io/Gyeol/")!
     )
 
+    /// App Store ID — 설정의 "리뷰 남기기"가 작성 페이지로 바로 간다.
+    static let appStoreID: String? = "6808471728"
+
     /// 수익모델 (LeeoKit 3.x 부터 필수) — StoreKit 코드가 없는 무료 앱.
     static let monetization = LeeoMonetization.free
 }

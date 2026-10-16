@@ -6,6 +6,9 @@ struct TimelineListView: View {
     @Query(sort: \Timeline.createdAt) private var timelines: [Timeline]
     @Query private var allEvents: [TimelineEvent]
     @State private var showingNew = false
+    @State private var showingSettings = false
+    @State private var showingOnboarding = false
+    @AppStorage(YeoulOnboardingView.seenKey) private var hasSeenOnboarding = false
 
     var body: some View {
         NavigationStack {
@@ -34,7 +37,11 @@ struct TimelineListView: View {
             .navigationDestination(for: Timeline.self) { TimelineDetailView(timeline: $0) }
             .navigationDestination(for: TagRoute.self) { TagTimelineView(tag: $0.tag) }
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) { EditButton() }
+                ToolbarItemGroup(placement: .topBarLeading) {
+                    Button { showingSettings = true } label: { Image(systemName: "gearshape") }
+                        .accessibilityLabel("설정")
+                    EditButton()
+                }
                 ToolbarItem(placement: .primaryAction) {
                     Button { showingNew = true } label: { Image(systemName: "plus") }
                         .accessibilityLabel("새 타임라인")
@@ -43,6 +50,24 @@ struct TimelineListView: View {
             .sheet(isPresented: $showingNew) {
                 TimelineEditorView(timeline: nil)
             }
+            .sheet(isPresented: $showingSettings) {
+                SettingsView()
+            }
+            .sheet(isPresented: $showingOnboarding) {
+                YeoulOnboardingView()
+            }
+            .onAppear(perform: presentOnboardingIfNeeded)
+        }
+    }
+
+    /// 처음 여는 사람에게만 안내를 띄운다. 이미 기록이 있는 사람(이 안내가 생기기 전부터 쓰던 사람)은
+    /// 앱을 알고 있으니 띄우지 않고 본 것으로 둔다 — 안내는 설정에서 언제든 다시 열 수 있다.
+    private func presentOnboardingIfNeeded() {
+        guard !hasSeenOnboarding else { return }
+        if timelines.isEmpty {
+            showingOnboarding = true
+        } else {
+            hasSeenOnboarding = true
         }
     }
 

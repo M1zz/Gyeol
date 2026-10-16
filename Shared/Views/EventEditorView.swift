@@ -1,6 +1,7 @@
 import SwiftUI
 import SwiftData
 import PhotosUI
+import TipKit
 
 struct EventEditorView: View {
     @Environment(\.modelContext) private var context
@@ -391,6 +392,8 @@ struct EventEditorView: View {
             timeline.add(saved)
         }
         try? context.save()
+        if !finalTags.isEmpty { TagTimelineTip.hasTaggedEvent = true }
+        AppActivity.eventSaved(event == nil)
         onFinish?(saved)
         dismiss()
     }
