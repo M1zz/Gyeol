@@ -16,14 +16,16 @@ enum YeoulSpec: LeeoAppSpec {
     static let developerEmail = "leeo@kakao.com"
 
     /// 공용 피드백 허브(FeedbackHub)로 수집 — appIdentifier(번들 ID)로 앱을 구분한다.
-    /// ⚠️ 아직 이 앱의 entitlements(Config/iOS.entitlements)에 iCloud.com.Ysoup.FeedbackHub 컨테이너가 **없다.**
-    ///    (지금은 기록 동기화용 iCloud.com.leeo.yeoul 하나뿐)
-    ///    그래서 부트스트랩에서 크래시 진단(CloudKit 전송)을 꺼 두었다 (→ GyeolApp).
-    ///    피드백 화면·진단을 켜기 전에 이 컨테이너부터 넣고, 개인정보처리방침(docs/privacy.html)도 같이 고칠 것.
+    /// 컨테이너 권한은 Config/iOS.entitlements 에 있다 (기록 동기화용 iCloud.com.leeo.yeoul 과 나란히).
+    /// 맥 타깃(YeoulMac)은 LeeoKit 을 안 쓰므로 아무것도 보내지 않는다.
     static let feedback = LeeoFeedbackConfig(
         containerIdentifier: "iCloud.com.Ysoup.FeedbackHub",
         appIdentifier: "com.leeo.yeoul"
     )
+
+    /// 익명 사용 통계 — 설치 수·실행 일수·버전 분포를 FeedbackHub 로 보낸다.
+    /// 기본값(LeeoNoopAnalytics)이면 부트스트랩이 아무것도 안 보낸다. 무엇을 보내는지는 docs/privacy.html.
+    static let analytics: any LeeoAnalytics = LeeoUsageAnalytics(spec: YeoulSpec.self)
 
     /// 개인정보·지원 페이지 (LeeoKit 3.x 부터 필수) — docs/ 의 GitHub Pages.
     static let legal = LeeoLegalConfig(

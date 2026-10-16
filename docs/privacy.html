@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <title>개인정보 처리방침 — 여울</title>
-<meta name="description" content="여울은 개인정보를 수집하지 않습니다. 기록은 기기와 이용자 본인의 iCloud에만 저장됩니다.">
+<meta name="description" content="여울은 개인정보를 수집하지 않습니다. 기록은 기기와 이용자 본인의 iCloud에만 저장되고, 개발자에게는 익명 사용 통계와 오류 보고만 전달됩니다.">
 <link rel="canonical" href="https://m1zz.github.io/Gyeol/privacy.html">
 <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Gyeol/privacy.html">
 <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Gyeol/privacy.html">
@@ -18,12 +18,13 @@
   <nav class="langs" aria-label="언어"><a href="privacy.html" hreflang="ko" lang="ko" aria-current="true">한국어</a></nav>
 
   <h1>개인정보 처리방침</h1>
-  <p class="updated">여울 · 시행일 2026년 10월 8일</p>
+  <p class="updated">여울 · 시행일 2026년 10월 16일</p>
 
   <p class="summary">
     <strong>여울은 개인정보를 수집하지 않습니다.</strong>
-    회원가입도, 광고도, 분석 도구도 없습니다.
+    회원가입도, 광고도, 추적도 없습니다.
     타임라인과 사진은 이용자의 기기와 <strong>본인의 iCloud</strong>에만 저장되며, 개발자는 볼 수 없습니다.
+    앱을 몇 대의 기기에서 쓰는지 알고 오류를 고치기 위해 익명 사용 통계와 오류 보고만 개발자에게 전달됩니다(4항).
   </p>
 
   <h2>1. 앱에 저장되는 정보</h2>
@@ -32,7 +33,7 @@
     <li>타임라인의 이름과 색</li>
     <li>사건의 날짜, 제목, 메모, 태그, 카드 디자인</li>
     <li>사건에 붙인 사진 (긴 변 1200px로 줄여 저장)</li>
-    <li>앱을 처음 연 날짜와 연 횟수 — 기기 안에서 세기만 하고 어디에도 보내지 않습니다.</li>
+    <li>앱을 처음 연 날짜와 연 횟수 — 아래 4항의 익명 사용 통계에만 쓰입니다.</li>
   </ul>
 
   <h2>2. iCloud 동기화</h2>
@@ -51,31 +52,46 @@
     <li>권한은 언제든 iOS 설정 앱에서 바꾸거나 끌 수 있습니다. 꺼도 나머지 기능은 그대로 쓸 수 있습니다.</li>
   </ul>
 
-  <h2>4. 제3자 제공과 추적</h2>
+  <h2>4. 익명 사용 통계</h2>
   <p>
-    광고 네트워크, 분석 도구, 크래시 리포트 도구 같은 제3자 코드를 넣지 않았습니다.
-    개발자가 직접 만든 공용 라이브러리(LeeoKit)를 쓰지만, 이 앱에서는 사용 통계·오류 보고·의견 보내기 기능을 켜지 않아
-    개발자에게 아무것도 보내지 않습니다. 이용자를 추적하지 않으며, 정보를 판매하거나 다른 회사에 제공하지 않습니다.
+    앱을 몇 명이 쓰는지 알고 오류를 고치기 위해, iPhone 앱은 다음 익명 통계를 Apple iCloud(CloudKit)로 보냅니다.
+    이용자 본인의 iCloud가 아니라 개발자의 공간에 저장되며, 개발자만 읽습니다.
+  </p>
+  <ul>
+    <li>설치할 때 만든 무작위 ID (기기, Apple ID, 다른 앱과 연결되지 않으며, 다시 설치하면 바뀝니다)</li>
+    <li>앱 버전, iOS 버전, 지역·언어 설정</li>
+    <li>앱을 연 횟수와 앱을 연 날, 설치한 날짜와 설치 후 지난 일수</li>
+    <li>앱이 멈추거나 비정상 종료됐을 때의 오류 보고 (앱 버전, iOS 버전, 기기 종류, 오류의 기술적 정보)</li>
+  </ul>
+  <p>
+    이름, 연락처, 위치, 타임라인·사건·사진 같은 기록 내용은 포함하지 않습니다. iCloud에 로그인되어 있을 때만 보냅니다.
   </p>
 
-  <h2>5. 보관과 삭제</h2>
+  <h2>5. 제3자 제공과 추적</h2>
+  <p>
+    광고 네트워크, 분석 도구, 크래시 리포트 도구 같은 제3자 코드를 넣지 않았습니다.
+    위 4항의 통계는 개발자가 직접 만든 공용 라이브러리(LeeoKit)가 Apple iCloud로 보내며, 다른 회사를 거치지 않습니다.
+    이용자를 추적하지 않으며, 정보를 판매하거나 다른 회사에 제공하지 않습니다.
+  </p>
+
+  <h2>6. 보관과 삭제</h2>
   <ul>
     <li>타임라인과 사건은 앱에서 직접 지울 수 있습니다. 지우면 iCloud로 이어진 다른 기기에서도 지워집니다.</li>
     <li>앱을 삭제하면 기기에 저장된 기록이 함께 지워집니다. iCloud에 남은 사본은 iOS 설정 → Apple 계정 → iCloud → 저장 공간 관리에서 지울 수 있습니다.</li>
     <li>개발자는 이용자의 기록을 보관하지 않으므로 열람하거나 복구해 드릴 수 없습니다.</li>
   </ul>
 
-  <h2>6. 아동</h2>
+  <h2>7. 아동</h2>
   <p>
     이 앱은 아동을 대상으로 하지 않으며, 나이와 관계없이 누구의 개인정보도 수집하지 않습니다.
   </p>
 
-  <h2>7. 방침의 변경</h2>
+  <h2>8. 방침의 변경</h2>
   <p>
     이 방침이 바뀌면 이 페이지를 고치고 위의 시행일을 갱신합니다.
   </p>
 
-  <h2>8. 문의</h2>
+  <h2>9. 문의</h2>
   <p>
     개인정보 처리에 대한 문의는 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>으로 보내 주세요.
   </p>
