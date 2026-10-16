@@ -16,8 +16,11 @@ enum Store {
         !ProcessInfo.processInfo.arguments.contains("-localOnly")
     }
 
-    static func makeContainer() -> ModelContainer {
-        if syncsWithCloud, let cloud = try? ModelContainer(
+    /// - Parameter allowsCloudSync: false opens the same on-device store without iCloud
+    ///   mirroring. The iOS app passes its remote kill switch here so sync can be turned
+    ///   off without a review if it ever starts damaging records; nothing local is lost.
+    static func makeContainer(allowsCloudSync: Bool = true) -> ModelContainer {
+        if allowsCloudSync, syncsWithCloud, let cloud = try? ModelContainer(
             for: schema,
             configurations: ModelConfiguration(schema: schema, cloudKitDatabase: .private(cloudContainer))
         ) {
