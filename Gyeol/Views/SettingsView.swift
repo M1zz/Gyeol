@@ -20,6 +20,8 @@ struct SettingsView: View {
                 }
 
                 Section {
+                    // 앞으로 만들 기능 — 원본은 YeoulRoadmap.swift
+                    NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
                     // 앱 안 피드백 · 보낸 의견의 답장 · 리뷰 남기기 · 개인정보 처리방침 · 지원 페이지 · 버전
                     LeeoSupportSection<YeoulSpec>()
                     Link(destination: Self.mailURL) {
