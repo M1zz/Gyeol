@@ -101,3 +101,54 @@ Choose the card that suits each event: Classic with text first, Poster with a fu
 
 On iPhone and iPad
 iCloud keeps the same records on all of your devices.
+
+## en-GB
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-en.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-en.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-en.html
+
+### 이름
+
+Yeoul: Timeline of Real Time
+
+### 부제
+
+Your memories, with photos
+
+### 키워드
+
+journal,diary,baby,milestone,history,anniversary,holiday,family,events,scrapbook,countdown,hashtag
+
+### 프로모션 텍스트
+
+Three days and five days sit 3:5 apart; two years fold into dots. Add each day’s photos and story to a timeline that stretches with real time.
+
+### 설명
+
+Yeoul is a vertical timeline where the space between events grows with the time that really passed.
+Three days and five days sit 3:5 apart, and a long gap such as two years folds into a dotted line labelled "2 years 4 months". The rhythm of your past shows at a glance.
+
+Multiple timelines
+Make a separate timeline for each theme, such as a baby's first year, a romance, a new job or a holiday, and give each its own name and colour.
+
+Photos and stories for every event
+Write a date, a title and some notes, then attach a photo. Pick the date and Yeoul finds the photos you took that day in your library, or you can choose one yourself.
+Tap an event on the timeline and its photo and notes open right there.
+
+Weave events together with hashtags
+Add hashtags to your events and gather the events that share a tag, from all your timelines, into a new timeline. Save it if you like it.
+
+Four card designs
+Choose the card that suits each event: Classic with the text first, Poster with a full-bleed photo, Film, or Margin.
+
+On iPhone and iPad
+iCloud keeps the same records on all of your devices.

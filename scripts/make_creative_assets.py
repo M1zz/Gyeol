@@ -38,12 +38,14 @@ SPEC = {
 SEARCH = {
     "ko": ("타임라인 기록", "3일은 3일만큼,<br>2년은 2년만큼", "사건 사이가 실제로 흐른 시간만큼 벌어져요"),
     "en": ("timeline journal", "3 days stay 3 days,<br>2 years stay 2 years", "Gaps between events match the time that really passed"),
+    "en-GB": ("timeline diary", "3 days stay 3 days,<br>2 years stay 2 years", "Gaps between events match the time that really passed"),
 }
 
 # 헤더는 처음 온 사람에게 한 가지 약속만 한다: 흐른 시간이 그대로 보이는 타임라인.
 HEADER = {
     "ko": ("나만의 타임라인", "흐른 시간만큼<br>벌어지는 타임라인"),
     "en": ("Your own timeline", "A timeline that stretches<br>with the time that passed"),
+    "en-GB": ("Your own timeline", "A timeline that stretches<br>with the time that passed"),
 }
 
 # 바탕은 앱 아이콘의 초록(#347669 → #235146)과 크림색 글씨를 따른다. 아이콘의 가로 괘선도 옅게 깐다.

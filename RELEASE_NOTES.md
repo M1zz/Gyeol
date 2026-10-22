@@ -16,3 +16,9 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 Thank you for using Yeoul.
 We polished it to run more smoothly.
 Report any issues on the Support page.
+
+### 앱스토어 (en-GB)
+
+Thank you for using Yeoul.
+We polished it to run more smoothly.
+Report any issues on the Support page.
