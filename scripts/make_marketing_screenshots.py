@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -79,6 +79,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Une eventos<br>con hashtags", "Los registros sueltos forman una línea nueva"),
         ("05-editor.png", "dark", "Un diseño de tarjeta<br>para cada evento", "Fecha, notas y etiquetas en una pantalla"),
     ],
+    "de": [
+        ("01-trip.png", "hero-bleed", "Eine Zeitleiste, die<br>mit der Zeit wächst", "Drei und fünf Tage im Verhältnis 3:5, lange Lücken als Punkte"),
+        ("02-iceland.png", "left-text", "Halte den Tag<br>mit Fotos fest", "Vier Kartendesigns zur Auswahl"),
+        ("03-expand.png", "text-bottom", "Antippen und es<br>öffnet sich direkt", "Fotos und Geschichten auf einen Blick"),
+        ("04-tag.png", "flat-rotate", "Ereignisse per<br>Hashtag verknüpfen", "Verstreute Einträge werden zu einer neuen Zeitleiste"),
+        ("05-editor.png", "dark", "Ein Kartendesign<br>für jedes Ereignis", "Datum, Notizen und Hashtags auf einem Bildschirm"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -130,6 +137,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Toca y se abre en el mismo sitio", "Fotos e historias de un vistazo"),
         ("ipad-03-tag.png", "Une eventos con hashtags", "Los registros sueltos forman una línea nueva"),
         ("ipad-04-editor.png", "Guarda las fotos y la historia del día", "Fecha, notas, etiquetas y diseño de tarjeta"),
+    ],
+    "de": [
+        ("ipad-01-trip.png", "Eine Zeitleiste, die mit der Zeit wächst", "Drei und fünf Tage im Verhältnis 3:5, lange Lücken als Punkte"),
+        ("ipad-02-expand.png", "Antippen und es öffnet sich direkt", "Fotos und Geschichten auf einen Blick"),
+        ("ipad-03-tag.png", "Ereignisse per Hashtag verknüpfen", "Verstreute Einträge werden zu einer neuen Zeitleiste"),
+        ("ipad-04-editor.png", "Fotos und Geschichte des Tages festhalten", "Datum, Notizen, Hashtags und Kartendesign"),
     ],
 }
 IPAD_CSS = f"""

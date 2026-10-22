@@ -407,3 +407,54 @@ Elige la tarjeta que mejor le va a cada evento: Clásico, con el texto primero; 
 
 En iPhone y iPad
 iCloud mantiene los mismos registros en todos tus dispositivos.
+
+## de
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-de.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-de.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-de.html
+
+### 이름
+
+Yeoul: Zeitleiste in Echtzeit
+
+### 부제
+
+Erinnerungen mit Fotos
+
+### 키워드
+
+Tagebuch,Rückblick,Chronik,Jahrestag,Reise,Familie,Baby,Meilenstein,Hochzeit,Countdown,Album,Paar
+
+### 프로모션 텍스트
+
+Drei und fünf Tage im Verhältnis 3:5, zwei Jahre als gepunktete Linie. Ergänze eine vertikale Zeitleiste mit Fotos und Geschichten, die mit der echten Zeit wächst.
+
+### 설명
+
+Yeoul ist eine vertikale Zeitleiste, in der der Abstand zwischen Ereignissen mit der wirklich vergangenen Zeit wächst.
+Drei und fünf Tage liegen im Verhältnis 3:5 auseinander, und eine lange Lücke wie zwei Jahre wird zu einer gepunkteten Linie mit der Beschriftung „2 Jahre 4 Monate“. Den Rhythmus deiner Vergangenheit siehst du auf einen Blick.
+
+Mehrere Zeitleisten
+Lege für jedes Thema eine eigene Zeitleiste an, etwa für das Aufwachsen deines Kindes, eine Beziehung, einen neuen Job oder eine Reise, und gib ihr einen eigenen Namen und eine eigene Farbe.
+
+Fotos und Geschichten zu jedem Ereignis
+Trage Datum, Titel und Notizen ein und füge ein Foto hinzu. Wähle das Datum, und Yeoul sucht in deiner Fotomediathek die Fotos von diesem Tag. Oder wähle selbst eines aus.
+Tippe in der Zeitleiste auf ein Ereignis, und Foto und Notizen öffnen sich direkt an Ort und Stelle.
+
+Ereignisse per Hashtag verknüpfen
+Versieh deine Ereignisse mit Hashtags und sammle alle Ereignisse mit demselben Hashtag aus allen Zeitleisten in einer neuen Zeitleiste. Gefällt sie dir, sichere sie einfach.
+
+Vier Kartendesigns
+Wähle für jedes Ereignis die passende Karte: Klassisch mit dem Text im Mittelpunkt, Poster mit randlosem Foto, Film oder Rand.
+
+Auf iPhone und iPad
+Mit iCloud sind dieselben Einträge auf allen deinen Geräten verfügbar.
