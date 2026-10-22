@@ -20,6 +20,12 @@
             "state" : "translated",
             "value" : "#%@ 사건이 없어요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有带 #%@ 的事件"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "#%@ 제거"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除 #%@"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state" : "translated",
             "value" : "#%@ 태그가 붙은 사건이 모입니다"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "带有 #%@ 标签的事件会汇集在这里"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 디자인"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 样式"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state" : "translated",
             "value" : "%@에 찍은 사진 %lld장"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 拍摄的 %lld 张照片"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@에 찍은 사진을 찾는 중…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在查找 %@ 拍摄的照片…"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state" : "translated",
             "value" : "%@에 찍은 사진이 없어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 没有拍摄的照片。"
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld개월"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld个月"
           }
         }
       }
@@ -196,6 +244,12 @@
             "state" : "translated",
             "value" : "%lld개월 %lld일"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld个月%2$lld天"
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld년"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld年"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state" : "translated",
             "value" : "%lld년 %lld개월"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld年%2$lld个月"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld월"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld月"
           }
         }
       }
@@ -284,6 +356,12 @@
             "state" : "translated",
             "value" : "%lld월 %lld일"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld月%2$lld日"
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld일"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld天"
           }
         }
       }
@@ -329,6 +413,12 @@
             "state" : "translated",
             "value" : "Face ID 잠금"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID 锁定"
+          }
         }
       }
     },
@@ -351,6 +441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Face ID나 Touch ID로 앱을 잠가 내 타임라인을 지켜요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用 Face ID 或 Touch ID 锁定 App，保护你的时间线隐私。"
           }
         }
       }
@@ -375,6 +471,12 @@
             "state" : "translated",
             "value" : "VoiceOver로 더 편하게"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更好用的旁白"
+          }
         }
       }
     },
@@ -396,6 +498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "‘%@’에 ‘%@’을(를) 남겼어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已将“%@”记入“%@”。"
           }
         }
       }
@@ -419,6 +527,12 @@
             "state" : "translated",
             "value" : "‘사건 추가’를 눌러 첫 순간을 남겨보세요.\n위에서 아래로 시간 순으로 쌓이고, 사이 간격은 실제로 흐른 시간만큼 벌어져요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按“添加事件”，留下第一个瞬间吧。\n事件会按时间从上到下排列，间隔与实际流逝的时间一致。"
+          }
         }
       }
     },
@@ -440,6 +554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "같은 날"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同一天"
           }
         }
       }
@@ -463,6 +583,12 @@
             "state" : "translated",
             "value" : "같은 태그가 붙은 사건을 모든 타임라인에서 모아 하나의 타임라인으로 보여 줘요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把所有时间线中带有相同标签的事件汇集成一条时间线。"
+          }
         }
       }
     },
@@ -484,6 +610,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "건너뛰기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跳过"
           }
         }
       }
@@ -507,6 +639,12 @@
             "state" : "translated",
             "value" : "고른 타임라인에 사건을 남겨요. 날짜를 정하지 않으면 지금 시각으로 기록해요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把事件记到你选择的时间线中。如果没有指定日期，就按当前时间记录。"
+          }
         }
       }
     },
@@ -528,6 +666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "관련된 사진 찾기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查找相关照片"
           }
         }
       }
@@ -551,6 +695,12 @@
             "state" : "translated",
             "value" : "그 날 찍은 사진을 바로 붙여요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "直接添加当天拍的照片"
+          }
         }
       }
     },
@@ -573,6 +723,12 @@
             "state" : "translated",
             "value" : "그 타임라인을 찾지 못했어요. 지워졌거나 아직 이 기기로 넘어오지 않았을 수 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "找不到那条时间线。它可能已被删除，或还没有同步到这台设备。"
+          }
         }
       }
     },
@@ -594,6 +750,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "글이 중심, 사진은 아래"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以文字为主，照片在下方"
           }
         }
       }
@@ -618,6 +780,12 @@
             "state" : "translated",
             "value" : "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放大字体后，界面会重新排布，不会被截断。"
+          }
         }
       }
     },
@@ -641,6 +809,12 @@
             "state" : "translated",
             "value" : "기념일처럼 잊고 싶지 않은 날을 알림으로 알려 줘요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "像纪念日这样不想忘记的日子，可以通过提醒告诉你。"
+          }
         }
       }
     },
@@ -662,6 +836,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "기본"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "经典"
           }
         }
       }
@@ -685,6 +865,12 @@
             "state" : "translated",
             "value" : "기억하고 싶은 것을 적어두세요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写下你想记住的事"
+          }
         }
       }
     },
@@ -707,6 +893,12 @@
             "state" : "translated",
             "value" : "날짜"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日期"
+          }
         }
       }
     },
@@ -728,6 +920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "날짜와 글씨가 주인공"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日期和文字是主角"
           }
         }
       }
@@ -752,6 +950,12 @@
             "state" : "translated",
             "value" : "내 데이터 한 번에 지우기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一键清除我的数据"
+          }
         }
       }
     },
@@ -774,6 +978,12 @@
             "state" : "translated",
             "value" : "내용"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "内容"
+          }
         }
       }
     },
@@ -795,6 +1005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다음"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步"
           }
         }
       }
@@ -819,6 +1035,12 @@
             "state" : "translated",
             "value" : "대비를 높이거나 색을 구별하기 어려워도 태그와 사건을 알아볼 수 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开启“增强对比度”或不易分辨颜色时，也能轻松认出标签和事件。"
+          }
         }
       }
     },
@@ -841,6 +1063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 많은 나라 말로 앱을 쓸 수 있게 해요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "让 App 支持更多语言。"
           }
         }
       }
@@ -865,6 +1093,12 @@
             "state" : "translated",
             "value" : "더 많은 언어"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多语言"
+          }
         }
       }
     },
@@ -886,6 +1120,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "만들기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建"
           }
         }
       }
@@ -909,6 +1149,12 @@
             "state" : "translated",
             "value" : "메일로 문의하기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通过邮件联系我们"
+          }
         }
       }
     },
@@ -931,6 +1177,12 @@
             "state" : "translated",
             "value" : "무슨 일이 있었나요?"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发生了什么？"
+          }
         }
       }
     },
@@ -952,6 +1204,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "미리보기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "预览"
           }
         }
       }
@@ -976,6 +1234,12 @@
             "state" : "translated",
             "value" : "백업과 내보내기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "备份与导出"
+          }
         }
       }
     },
@@ -999,6 +1263,12 @@
             "state" : "translated",
             "value" : "보기 편한 색과 대비"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更易辨认的颜色与对比度"
+          }
         }
       }
     },
@@ -1020,6 +1290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보내 주신 의견은 개발자가 모두 직접 읽어요. 불편했던 점이나 바라는 기능을 알려 주세요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你发来的每条意见，开发者都会亲自阅读。请告诉我们哪里用着不顺手，或者你希望增加什么功能。"
           }
         }
       }
@@ -1043,6 +1319,12 @@
             "state" : "translated",
             "value" : "불러오는 중…"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在加载…"
+          }
         }
       }
     },
@@ -1064,6 +1346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사건 %lld개 · 마지막 %@.%@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 个事件 · 最近一次 %@.%@"
           }
         }
       }
@@ -1087,6 +1375,12 @@
             "state" : "translated",
             "value" : "사건 %lld개 · 저장하면 목록에 남고, 태그가 붙는 대로 계속 채워져요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 个事件 · 保存后会留在列表中，并随着新增标签持续补充"
+          }
         }
       }
     },
@@ -1108,6 +1402,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사건 기록하기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "记录事件"
           }
         }
       }
@@ -1131,6 +1431,12 @@
             "state" : "translated",
             "value" : "사건 사이의 간격이 실제로 흐른 시간에 비례해요. 사흘과 닷새는 3:5로 벌어지고, 긴 공백은 점선으로 접어 “2년 4개월”처럼 적어 둬요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "事件之间的间隔与实际流逝的时间成正比。三天和五天会以 3:5 的比例拉开，较长的空白则折成虚线，并标注“2 年 4 个月”这样的时长。"
+          }
         }
       }
     },
@@ -1152,6 +1458,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사건 삭제"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除事件"
           }
         }
       }
@@ -1175,6 +1487,12 @@
             "state" : "translated",
             "value" : "사건 수정"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑事件"
+          }
         }
       }
     },
@@ -1196,6 +1514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사건 없음"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂无事件"
           }
         }
       }
@@ -1219,6 +1543,12 @@
             "state" : "translated",
             "value" : "사건 추가"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加事件"
+          }
         }
       }
     },
@@ -1240,6 +1570,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사건에 태그를 달고 누르면, 모든 타임라인에서 같은 태그가 붙은 순간을 모아 새 타임라인으로 보여 줘요. 기록은 iCloud로 아이폰·아이패드·맥에 이어져요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "给事件添加标签并点按它，就能把所有时间线里带有同一标签的时刻汇集成一条新的时间线。记录会通过 iCloud 在 iPhone、iPad 和 Mac 之间同步。"
           }
         }
       }
@@ -1264,6 +1600,12 @@
             "state" : "translated",
             "value" : "사건을 넣거나 지울 때 가볍게 떨려서 알려 줘요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加或删除事件时，会有轻柔的震动反馈。"
+          }
         }
       }
     },
@@ -1287,6 +1629,12 @@
             "state" : "translated",
             "value" : "사건을 적다가 앱이 꺼져도 쓰던 내용이 남아 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写事件时即使 App 意外关闭，已写的内容也会保留。"
+          }
         }
       }
     },
@@ -1308,6 +1656,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사건의 날짜를 고르고 ‘관련된 사진 찾기’를 누르면 그 날 찍은 사진을 모아 보여 줘요. 원하는 사진이 없으면 직접 골라도 돼요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选好事件日期，点按“查找相关照片”，就能看到那一天拍的照片。没有合适的，也可以自己挑选。"
           }
         }
       }
@@ -1331,6 +1685,12 @@
             "state" : "translated",
             "value" : "사진"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "照片"
+          }
         }
       }
     },
@@ -1352,6 +1712,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진 바꾸기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更换照片"
           }
         }
       }
@@ -1375,6 +1741,12 @@
             "state" : "translated",
             "value" : "사진 접근이 꺼져 있어 이 날 찍은 사진을 찾을 수 없어요.\n아래에서 직접 고를 수는 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "照片访问权限已关闭，无法查找当天拍摄的照片。\n你仍然可以在下方手动选择。"
+          }
         }
       }
     },
@@ -1396,6 +1768,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진 제거"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除照片"
           }
         }
       }
@@ -1419,6 +1797,12 @@
             "state" : "translated",
             "value" : "사진과 메모가 그 자리에서 열려요. 다시 누르면 접혀요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "照片和备注就地展开，再点一下即可收起。"
+          }
         }
       }
     },
@@ -1440,6 +1824,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진을 꽉 채우고 글을 얹어요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "照片铺满卡片，文字叠在上面"
           }
         }
       }
@@ -1463,6 +1853,12 @@
             "state" : "translated",
             "value" : "삭제"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除"
+          }
         }
       }
     },
@@ -1484,6 +1880,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "새 타임라인"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新建时间线"
           }
         }
       }
@@ -1507,6 +1909,12 @@
             "state" : "translated",
             "value" : "색"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "颜色"
+          }
         }
       }
     },
@@ -1529,6 +1937,12 @@
             "state" : "translated",
             "value" : "설정"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
         }
       }
     },
@@ -1550,6 +1964,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "설정에서 허용"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在设置中允许"
           }
         }
       }
@@ -1574,6 +1994,12 @@
             "state" : "translated",
             "value" : "손끝으로 느끼는 반응"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "触感反馈"
+          }
         }
       }
     },
@@ -1596,6 +2022,12 @@
             "state" : "translated",
             "value" : "수정"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑"
+          }
         }
       }
     },
@@ -1617,6 +2049,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "시작하기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始使用"
           }
         }
       }
@@ -1641,6 +2079,12 @@
             "state" : "translated",
             "value" : "쓰던 사건 이어서 쓰기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接着写之前的事件"
+          }
         }
       }
     },
@@ -1662,6 +2106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아래에서 직접 찾아보세요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请在下方手动查找。"
           }
         }
       }
@@ -1686,6 +2136,12 @@
             "state" : "translated",
             "value" : "아이패드에서 키보드만으로 주요 기능을 쓸 수 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 iPad 上只用键盘就能使用主要功能。"
+          }
         }
       }
     },
@@ -1707,6 +2163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아직 사건이 없어요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "还没有事件"
           }
         }
       }
@@ -1731,6 +2193,12 @@
             "state" : "translated",
             "value" : "알림"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提醒"
+          }
         }
       }
     },
@@ -1753,6 +2221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "앱을 열지 않고 홈 화면에서 타임라인을 바로 확인해요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无需打开 App，直接在主屏幕上查看你的时间线。"
           }
         }
       }
@@ -1777,6 +2251,12 @@
             "state" : "translated",
             "value" : "앱을 영어로도 쓸 수 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App 也可以用英语使用。"
+          }
         }
       }
     },
@@ -1798,6 +2278,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "어떤 일이 있었나요?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发生了什么？"
           }
         }
       }
@@ -1822,6 +2308,12 @@
             "state" : "translated",
             "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新后第一次打开时，告诉你有哪些新内容。"
+          }
         }
       }
     },
@@ -1845,6 +2337,12 @@
             "state" : "translated",
             "value" : "업데이트 소식"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新内容"
+          }
         }
       }
     },
@@ -1866,6 +2364,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "여백"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "留白"
           }
         }
       }
@@ -1889,6 +2393,12 @@
             "state" : "translated",
             "value" : "여울"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
         }
       }
     },
@@ -1910,6 +2420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "여울 사용법"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul 使用说明"
           }
         }
       }
@@ -1934,6 +2450,12 @@
             "state" : "translated",
             "value" : "영어 지원"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完整英语支持"
+          }
         }
       }
     },
@@ -1955,6 +2477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "예: 우리 아이 첫 해, 앱 출시 기록"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例如：宝宝的第一年、App 上线记录"
           }
         }
       }
@@ -1978,6 +2506,12 @@
             "state" : "translated",
             "value" : "완료"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
         }
       }
     },
@@ -1999,6 +2533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "왼쪽에서 타임라인을 고르거나 새로 만들어보세요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在左侧选择一条时间线，或新建一条。"
           }
         }
       }
@@ -2023,6 +2563,12 @@
             "state" : "translated",
             "value" : "움직임 줄이기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "减弱动态效果"
+          }
         }
       }
     },
@@ -2045,6 +2591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开启“减弱动态效果”后，界面动效会更柔和。"
           }
         }
       }
@@ -2069,6 +2621,12 @@
             "state" : "translated",
             "value" : "원하면 앱 안에서 내 타임라인을 모두 지울 수 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要时，可以在 App 内清除你的全部时间线。"
+          }
         }
       }
     },
@@ -2090,6 +2648,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 사건을 삭제할까요?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要删除这个事件吗？"
           }
         }
       }
@@ -2113,6 +2677,12 @@
             "state" : "translated",
             "value" : "이 사진 사용"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用这张照片"
+          }
         }
       }
     },
@@ -2134,6 +2704,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 태그를 단 사건이 아직 없습니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "还没有事件带有这个标签。"
           }
         }
       }
@@ -2157,6 +2733,12 @@
             "state" : "translated",
             "value" : "이 태그를 사건에 달면 여기에 자동으로 모여요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "给事件添加这个标签后，它会自动汇集到这里。"
+          }
         }
       }
     },
@@ -2178,6 +2760,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이름"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名称"
           }
         }
       }
@@ -2201,6 +2789,12 @@
             "state" : "translated",
             "value" : "이름·색 바꾸기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更改名称和颜色"
+          }
         }
       }
     },
@@ -2222,6 +2816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "인스타그램 DM (@lee25_ios)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram 私信 (@lee25_ios)"
           }
         }
       }
@@ -2245,6 +2845,12 @@
             "state" : "translated",
             "value" : "인화지처럼 여백을 두른 사진"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "像相纸一样带边框的照片"
+          }
         }
       }
     },
@@ -2266,6 +2872,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存"
           }
         }
       }
@@ -2289,6 +2901,12 @@
             "state" : "translated",
             "value" : "저장됨"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已保存"
+          }
         }
       }
     },
@@ -2310,6 +2928,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "제목"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标题"
           }
         }
       }
@@ -2333,6 +2957,12 @@
             "state" : "translated",
             "value" : "제목 없음"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无标题"
+          }
         }
       }
     },
@@ -2354,6 +2984,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지원"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持"
           }
         }
       }
@@ -2377,6 +3013,12 @@
             "state" : "translated",
             "value" : "직접 찾기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手动选择"
+          }
         }
       }
     },
@@ -2398,6 +3040,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "처음 열었을 때 보았던 안내를 다시 볼 수 있어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新查看第一次打开时看到的介绍。"
           }
         }
       }
@@ -2421,6 +3069,12 @@
             "state" : "translated",
             "value" : "첫 타임라인을 만들어보세요.\n아이의 첫 해, 앱 출시 기록, 여행 — 무엇이든 좋아요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建你的第一条时间线吧。\n宝宝的第一年、App 上线记录、一次旅行——什么都可以。"
+          }
         }
       }
     },
@@ -2442,6 +3096,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "추가"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加"
           }
         }
       }
@@ -2465,6 +3125,12 @@
             "state" : "translated",
             "value" : "취소"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
         }
       }
     },
@@ -2487,6 +3153,12 @@
             "state" : "translated",
             "value" : "카드 디자인"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "卡片样式"
+          }
         }
       }
     },
@@ -2508,6 +3180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카드를 눌러 펼쳐 보세요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按卡片即可展开"
           }
         }
       }
@@ -2532,6 +3210,12 @@
             "state" : "translated",
             "value" : "큰 글씨에 맞춘 화면"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适配大字体的界面"
+          }
         }
       }
     },
@@ -2555,6 +3239,12 @@
             "state" : "translated",
             "value" : "키보드로 조작하기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "键盘操作"
+          }
         }
       }
     },
@@ -2576,6 +3266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "타임라인"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间线"
           }
         }
       }
@@ -2599,6 +3295,12 @@
             "state" : "translated",
             "value" : "타임라인 설정"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间线设置"
+          }
         }
       }
     },
@@ -2621,6 +3323,12 @@
             "state" : "translated",
             "value" : "타임라인으로 저장"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "存为时间线"
+          }
         }
       }
     },
@@ -2642,6 +3350,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "타임라인을 골라주세요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请选择时间线"
           }
         }
       }
@@ -2666,6 +3380,12 @@
             "state" : "translated",
             "value" : "타임라인을 파일로 저장하고 다시 불러올 수 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把时间线保存为文件，之后可以再导入。"
+          }
         }
       }
     },
@@ -2687,6 +3407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "타임라인이 없어요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "还没有时间线"
           }
         }
       }
@@ -2710,6 +3436,12 @@
             "state" : "translated",
             "value" : "태그"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标签"
+          }
         }
       }
     },
@@ -2731,6 +3463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "태그 추가"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加标签"
           }
         }
       }
@@ -2754,6 +3492,12 @@
             "state" : "translated",
             "value" : "태그 타임라인"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标签时间线"
+          }
         }
       }
     },
@@ -2775,6 +3519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "태그 타임라인 · "
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标签时间线 · "
           }
         }
       }
@@ -2798,6 +3548,12 @@
             "state" : "translated",
             "value" : "태그 타임라인 저장"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存标签时间线"
+          }
         }
       }
     },
@@ -2820,6 +3576,12 @@
             "state" : "translated",
             "value" : "태그로 다시 엮어 보세요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用标签重新串联"
+          }
         }
       }
     },
@@ -2841,6 +3603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "태그를 누르면 한데 모여요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按标签即可汇集"
           }
         }
       }
@@ -2865,6 +3633,12 @@
             "state" : "translated",
             "value" : "펼치는 아이폰 화면"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适配可折叠 iPhone 的布局"
+          }
         }
       }
     },
@@ -2888,6 +3662,12 @@
             "state" : "translated",
             "value" : "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在可折叠 iPhone 上，把宽屏分成左右两栏使用。"
+          }
         }
       }
     },
@@ -2910,6 +3690,12 @@
             "state" : "translated",
             "value" : "포스터"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海报"
+          }
         }
       }
     },
@@ -2931,6 +3717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "필름"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "胶片"
           }
         }
       }
@@ -2955,6 +3747,12 @@
             "state" : "translated",
             "value" : "홈 화면 위젯"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主屏幕小组件"
+          }
         }
       }
     },
@@ -2978,6 +3776,12 @@
             "state" : "translated",
             "value" : "화면 읽기 기능이 단추와 사건을 빠짐없이, 알맞은 순서로 읽어 줘요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旁白会按正确的顺序读出每个按钮和事件，不遗漏。"
+          }
         }
       }
     },
@@ -2999,6 +3803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "흐른 시간만큼 벌어지는 타임라인"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "随时间流逝拉开距离的时间线"
           }
         }
       }

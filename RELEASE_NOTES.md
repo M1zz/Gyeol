@@ -22,3 +22,9 @@ Report any issues on the Support page.
 Thank you for using Yeoul.
 We polished it to run more smoothly.
 Report any issues on the Support page.
+
+### 앱스토어 (zh-Hans)
+
+感谢使用 Yeoul。
+我们让 App 运行得更稳定了。
+遇到问题请到支持页面告诉我们。

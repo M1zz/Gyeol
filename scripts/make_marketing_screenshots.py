@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -44,6 +44,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Weave events<br>together with hashtags", "Scattered records become a new timeline"),
         ("05-editor.png", "dark", "Pick a card design<br>for each event", "Date, notes and tags on one screen"),
     ],
+    "zh-Hans": [
+        ("01-trip.png", "hero-bleed", "按流逝的时间<br>拉开的时间线", "三天和五天以 3:5 拉开，长空白折成虚线"),
+        ("02-iceland.png", "left-text", "连同照片<br>留下那一天", "四种卡片样式任你挑选"),
+        ("03-expand.png", "text-bottom", "轻点即可就地展开", "照片和故事一目了然"),
+        ("04-tag.png", "flat-rotate", "用话题标签<br>重新串联", "分散的记录变成一条新时间线"),
+        ("05-editor.png", "dark", "卡片样式<br>每个事件自己选", "日期、内容、标签都在一个页面"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -65,6 +72,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Tap to open it right there", "Photos and stories at a glance"),
         ("ipad-03-tag.png", "Weave events together with hashtags", "Scattered records become a new timeline"),
         ("ipad-04-editor.png", "Keep the day’s photos and story", "Date, notes, tags and card design"),
+    ],
+    "zh-Hans": [
+        ("ipad-01-trip.png", "按流逝的时间拉开的时间线", "三天和五天以 3:5 拉开，长空白折成虚线"),
+        ("ipad-02-expand.png", "轻点即可就地展开", "照片和故事一目了然"),
+        ("ipad-03-tag.png", "用话题标签重新串联", "分散的记录变成一条新时间线"),
+        ("ipad-04-editor.png", "留下那一天的照片和故事", "日期、内容、标签、卡片样式"),
     ],
 }
 IPAD_CSS = f"""
