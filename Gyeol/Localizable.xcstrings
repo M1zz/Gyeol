@@ -63,6 +63,12 @@
             "value" : "Нет событий с тегом #%@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีเหตุการณ์ที่มี #%@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -137,6 +143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить #%@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบ #%@"
           }
         },
         "zh-Hans" : {
@@ -215,6 +227,12 @@
             "value" : "Здесь собраны события с тегом #%@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เหตุการณ์ที่มีแท็ก #%@ จะรวมอยู่ที่นี่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -289,6 +307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оформление: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดีไซน์ %@"
           }
         },
         "zh-Hans" : {
@@ -367,6 +391,12 @@
             "value" : "Фото за %@: %lld"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รูปที่ถ่ายเมื่อ %@: %lld รูป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -441,6 +471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ищем фото за %@…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังค้นหารูปที่ถ่ายเมื่อ %@…"
           }
         },
         "zh-Hans" : {
@@ -519,6 +555,12 @@
             "value" : "За %@ фото не найдено."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีรูปที่ถ่ายเมื่อ %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -593,6 +635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld мес."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld เดือน"
           }
         },
         "zh-Hans" : {
@@ -671,6 +719,12 @@
             "value" : "%1$lld мес. %2$lld дн."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld เดือน %2$lld วัน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -745,6 +799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld г."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ปี"
           }
         },
         "zh-Hans" : {
@@ -823,6 +883,12 @@
             "value" : "%1$lld г. %2$lld мес."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld ปี %2$lld เดือน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -894,6 +960,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -975,6 +1047,12 @@
             "value" : "%2$lld.%1$lld"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1049,6 +1127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld дн."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld วัน"
           }
         },
         "zh-Hans" : {
@@ -1128,6 +1212,12 @@
             "value" : "Блокировка Face ID"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกด้วย Face ID"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1203,6 +1293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Защитите приложение с помощью Face ID или Touch ID — ваш таймлайн останется личным."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกแอปด้วย Face ID หรือ Touch ID เพื่อให้ไทม์ไลน์ของคุณเป็นส่วนตัว"
           }
         },
         "zh-Hans" : {
@@ -1282,6 +1378,12 @@
             "value" : "Удобнее с VoiceOver"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รองรับ VoiceOver ดียิ่งขึ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1356,6 +1458,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Событие «%2$@» добавлено в «%1$@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่ม “%2$@” ลงใน “%1$@” แล้ว"
           }
         },
         "zh-Hans" : {
@@ -1434,6 +1542,12 @@
             "value" : "Нажмите «Добавить событие», чтобы сохранить первый момент.\nСобытия выстраиваются сверху вниз по времени, а промежутки соответствуют реально прошедшему времени."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะ “เพิ่มเหตุการณ์” เพื่อบันทึกช่วงเวลาแรกของคุณ\nเหตุการณ์จะเรียงจากบนลงล่างตามลำดับเวลา และระยะห่างจะกว้างเท่ากับเวลาที่ผ่านไปจริง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1508,6 +1622,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В тот же день"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันเดียวกัน"
           }
         },
         "zh-Hans" : {
@@ -1586,6 +1706,12 @@
             "value" : "События с одним тегом из всех таймлайнов собираются в один таймлайн."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รวมเหตุการณ์ที่มีแท็กเดียวกันจากทุกไทม์ไลน์ให้เป็นไทม์ไลน์เดียว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1660,6 +1786,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пропустить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้าม"
           }
         },
         "zh-Hans" : {
@@ -1738,6 +1870,12 @@
             "value" : "Добавьте событие в выбранный таймлайн. Если дата не указана, оно запишется на текущее время."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มเหตุการณ์ลงในไทม์ไลน์ที่เลือก ถ้าไม่ระบุวันที่ จะบันทึกด้วยเวลาปัจจุบัน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1812,6 +1950,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Найти фото"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้นหารูปที่เกี่ยวข้อง"
           }
         },
         "zh-Hans" : {
@@ -1890,6 +2034,12 @@
             "value" : "Фото того дня — сразу в событие"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่รูปของวันนั้นได้ทันที"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1966,6 +2116,12 @@
             "value" : "Не удалось найти этот таймлайн. Возможно, он удалён или ещё не появился на этом устройстве."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่พบไทม์ไลน์นั้น อาจถูกลบไปแล้ว หรือยังมาไม่ถึงอุปกรณ์เครื่องนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2040,6 +2196,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Текст главный, фото ниже"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เน้นข้อความ รูปอยู่ด้านล่าง"
           }
         },
         "zh-Hans" : {
@@ -2119,6 +2281,12 @@
             "value" : "При увеличенном шрифте экраны аккуратно перестраиваются, а текст не обрезается."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อขยายขนาดตัวอักษร หน้าจอจะจัดเรียงใหม่อย่างสวยงามโดยไม่ถูกตัด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2194,6 +2362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Напоминания о днях, которые не хочется забыть, например о годовщинах."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับการแจ้งเตือนวันสำคัญที่ไม่อยากลืม เช่น วันครบรอบ"
           }
         },
         "zh-Hans" : {
@@ -2272,6 +2446,12 @@
             "value" : "Классика"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คลาสสิก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2346,6 +2526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Запишите то, что хочется запомнить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดสิ่งที่อยากจำไว้"
           }
         },
         "zh-Hans" : {
@@ -2424,6 +2610,12 @@
             "value" : "Дата"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันที่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2498,6 +2690,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Главные — дата и текст"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันที่และตัวอักษรเป็นพระเอก"
           }
         },
         "zh-Hans" : {
@@ -2577,6 +2775,12 @@
             "value" : "Удалить все мои данные одним действием"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบข้อมูลของฉันทั้งหมดในครั้งเดียว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2653,6 +2857,12 @@
             "value" : "Заметки"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เนื้อหา"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2727,6 +2937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Далее"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถัดไป"
           }
         },
         "zh-Hans" : {
@@ -2806,6 +3022,12 @@
             "value" : "Теги и события легко различать, даже если включена повышенная контрастность или трудно отличать цвета."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แยกแท็กและเหตุการณ์ได้ง่าย แม้เปิดเพิ่มความคมชัดหรือแยกสีได้ยาก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2881,6 +3103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Приложение на большем числе языков."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้แอปได้หลายภาษายิ่งขึ้น"
           }
         },
         "zh-Hans" : {
@@ -2960,6 +3188,12 @@
             "value" : "Больше языков"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาเพิ่มเติม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3034,6 +3268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Создать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้าง"
           }
         },
         "zh-Hans" : {
@@ -3112,6 +3352,12 @@
             "value" : "Написать на почту"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ติดต่อทางอีเมล"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3188,6 +3434,12 @@
             "value" : "Что произошло?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกิดอะไรขึ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3262,6 +3514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Просмотр"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวอย่าง"
           }
         },
         "zh-Hans" : {
@@ -3341,6 +3599,12 @@
             "value" : "Резервная копия и экспорт"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สำรองและส่งออกข้อมูล"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3416,6 +3680,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удобные цвета и контраст"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีและความคมชัดที่ดูสบายตา"
           }
         },
         "zh-Hans" : {
@@ -3494,6 +3764,12 @@
             "value" : "Разработчик лично читает каждое сообщение. Расскажите, что вам неудобно или какой функции не хватает."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักพัฒนาอ่านทุกข้อความด้วยตัวเอง บอกเราได้เลยว่าอะไรที่ใช้แล้วไม่สะดวก หรืออยากให้มีฟีเจอร์อะไร"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3568,6 +3844,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Загрузка…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังโหลด…"
           }
         },
         "zh-Hans" : {
@@ -3646,6 +3928,12 @@
             "value" : "Событий: %lld · последнее %@.%@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เหตุการณ์ %lld รายการ · ล่าสุด %@.%@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3720,6 +4008,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Событий: %lld · после сохранения таймлайн останется в списке и будет пополняться по мере добавления тегов"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เหตุการณ์ %lld รายการ · เมื่อบันทึกแล้ว จะอยู่ในรายการและเพิ่มขึ้นเรื่อย ๆ เมื่อมีการใส่แท็ก"
           }
         },
         "zh-Hans" : {
@@ -3798,6 +4092,12 @@
             "value" : "Записать событие"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกเหตุการณ์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3872,6 +4172,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Расстояние между событиями пропорционально реально прошедшему времени. Три дня и пять дней относятся как 3:5, а долгие паузы сворачиваются в пунктир с подписью вроде «2 года 4 месяца»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระยะห่างระหว่างเหตุการณ์เป็นสัดส่วนกับเวลาที่ผ่านไปจริง สามวันกับห้าวันห่างกัน 3:5 ส่วนช่วงว่างยาว ๆ จะพับเป็นเส้นประพร้อมข้อความอย่าง “2 ปี 4 เดือน”"
           }
         },
         "zh-Hans" : {
@@ -3950,6 +4256,12 @@
             "value" : "Удалить событие"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบเหตุการณ์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4024,6 +4336,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Изменить событие"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้ไขเหตุการณ์"
           }
         },
         "zh-Hans" : {
@@ -4102,6 +4420,12 @@
             "value" : "Нет событий"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีเหตุการณ์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4178,6 +4502,12 @@
             "value" : "Добавить событие"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มเหตุการณ์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4252,6 +4582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавьте событиям теги и нажмите на тег — все моменты с этим тегом из всех таймлайнов соберутся в новый таймлайн. Записи синхронизируются между iPhone, iPad и Mac через iCloud."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่แท็กให้เหตุการณ์ แล้วแตะแท็กเพื่อรวมช่วงเวลาที่มีแท็กเดียวกันจากทุกไทม์ไลน์เป็นไทม์ไลน์ใหม่ ข้อมูลของคุณซิงก์ระหว่าง iPhone, iPad และ Mac ผ่าน iCloud"
           }
         },
         "zh-Hans" : {
@@ -4331,6 +4667,12 @@
             "value" : "Лёгкая вибрация, когда вы добавляете или удаляете событие."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สั่นเบา ๆ เมื่อเพิ่มหรือลบเหตุการณ์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4406,6 +4748,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если приложение закроется, пока вы пишете событие, написанное сохранится."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่กำลังเขียนจะยังอยู่ แม้แอปปิดไปกลางคัน"
           }
         },
         "zh-Hans" : {
@@ -4484,6 +4832,12 @@
             "value" : "Выберите дату события и нажмите «Найти фото», чтобы увидеть снимки, сделанные в тот день. Если подходящих нет, выберите фото сами."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกวันที่ของเหตุการณ์ แล้วแตะ “ค้นหารูปที่เกี่ยวข้อง” เพื่อดูรูปที่ถ่ายในวันนั้น ถ้าไม่มีรูปที่ถูกใจ จะเลือกเองก็ได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4558,6 +4912,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Фото"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รูปภาพ"
           }
         },
         "zh-Hans" : {
@@ -4636,6 +4996,12 @@
             "value" : "Заменить фото"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปลี่ยนรูปภาพ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4710,6 +5076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Доступ к фото отключён, поэтому найти снимки того дня не получится.\nВыбрать фото вручную можно ниже."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การเข้าถึงรูปภาพปิดอยู่ จึงค้นหารูปที่ถ่ายในวันนั้นไม่ได้\nแต่ยังเลือกเองจากด้านล่างได้"
           }
         },
         "zh-Hans" : {
@@ -4788,6 +5160,12 @@
             "value" : "Удалить фото"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบรูปภาพ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4862,6 +5240,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Фото и заметки раскрываются на месте. Нажмите ещё раз, чтобы свернуть."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รูปภาพและบันทึกจะเปิดออกตรงนั้นเลย แตะอีกครั้งเพื่อพับเก็บ"
           }
         },
         "zh-Hans" : {
@@ -4940,6 +5324,12 @@
             "value" : "Фото на всю карточку, текст поверх"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รูปเต็มการ์ด วางข้อความทับ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5014,6 +5404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบ"
           }
         },
         "zh-Hans" : {
@@ -5092,6 +5488,12 @@
             "value" : "Новый таймлайн"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไทม์ไลน์ใหม่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5166,6 +5568,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цвет"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สี"
           }
         },
         "zh-Hans" : {
@@ -5244,6 +5652,12 @@
             "value" : "Настройки"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตั้งค่า"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5318,6 +5732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Разрешить в настройках"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อนุญาตในการตั้งค่า"
           }
         },
         "zh-Hans" : {
@@ -5397,6 +5817,12 @@
             "value" : "Тактильный отклик"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตอบสนองแบบสัมผัส"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5473,6 +5899,12 @@
             "value" : "Изменить"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้ไข"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5547,6 +5979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Начать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มต้นใช้งาน"
           }
         },
         "zh-Hans" : {
@@ -5626,6 +6064,12 @@
             "value" : "Продолжить начатое событие"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนเหตุการณ์ต่อจากที่ค้างไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5700,6 +6144,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Попробуйте выбрать вручную ниже."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลองค้นหาเองจากด้านล่างได้"
           }
         },
         "zh-Hans" : {
@@ -5779,6 +6229,12 @@
             "value" : "На iPad основные функции доступны только с клавиатуры."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ฟีเจอร์หลักบน iPad ได้ด้วยคีย์บอร์ดอย่างเดียว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5853,6 +6309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока нет событий"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีเหตุการณ์"
           }
         },
         "zh-Hans" : {
@@ -5932,6 +6394,12 @@
             "value" : "Напоминания"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การแจ้งเตือน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6007,6 +6475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Смотрите свой таймлайн на экране «Домой», не открывая приложение."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูไทม์ไลน์บนหน้าจอโฮมได้เลย โดยไม่ต้องเปิดแอป"
           }
         },
         "zh-Hans" : {
@@ -6086,6 +6560,12 @@
             "value" : "Приложение и на английском языке."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ทั้งแอปเป็นภาษาอังกฤษได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6160,6 +6640,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что произошло?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกิดอะไรขึ้น"
           }
         },
         "zh-Hans" : {
@@ -6239,6 +6725,12 @@
             "value" : "При первом запуске после обновления вы увидите, что нового."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดแอปครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6314,6 +6806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что нового"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีอะไรใหม่"
           }
         },
         "zh-Hans" : {
@@ -6392,6 +6890,12 @@
             "value" : "Поля"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เว้นขอบ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6463,6 +6967,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeoul"
@@ -6544,6 +7054,12 @@
             "value" : "Как пользоваться Yeoul"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิธีใช้ Yeoul"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6619,6 +7135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Полная поддержка английского"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รองรับภาษาอังกฤษเต็มรูปแบบ"
           }
         },
         "zh-Hans" : {
@@ -6697,6 +7219,12 @@
             "value" : "Например: первый год малыша, запуск приложения"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เช่น ขวบปีแรกของลูก, บันทึกการเปิดตัวแอป"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6773,6 +7301,12 @@
             "value" : "Готово"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จสิ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6847,6 +7381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выберите таймлайн слева или создайте новый."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกไทม์ไลน์ทางซ้าย หรือสร้างใหม่"
           }
         },
         "zh-Hans" : {
@@ -6926,6 +7466,12 @@
             "value" : "Уменьшение движения"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลดการเคลื่อนไหว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7001,6 +7547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если включить «Уменьшение движения», эффекты на экране станут спокойнее."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิดลดการเคลื่อนไหว เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
           }
         },
         "zh-Hans" : {
@@ -7080,6 +7632,12 @@
             "value" : "При желании можно удалить весь свой таймлайн прямо в приложении."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบไทม์ไลน์ทั้งหมดของคุณจากในแอปได้ทุกเมื่อที่ต้องการ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7154,6 +7712,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить это событие?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบเหตุการณ์นี้ไหม"
           }
         },
         "zh-Hans" : {
@@ -7232,6 +7796,12 @@
             "value" : "Использовать это фото"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้รูปนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7306,6 +7876,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Событий с этим тегом пока нет."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีเหตุการณ์ที่มีแท็กนี้"
           }
         },
         "zh-Hans" : {
@@ -7384,6 +7960,12 @@
             "value" : "Добавьте этот тег к событию, и оно автоматически появится здесь."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใส่แท็กนี้ให้เหตุการณ์ แล้วเหตุการณ์นั้นจะมารวมอยู่ที่นี่โดยอัตโนมัติ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7458,6 +8040,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Название"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อ"
           }
         },
         "zh-Hans" : {
@@ -7536,6 +8124,12 @@
             "value" : "Изменить название и цвет"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปลี่ยนชื่อและสี"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7610,6 +8204,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DM ใน Instagram (@lee25_ios)"
           }
         },
         "zh-Hans" : {
@@ -7688,6 +8288,12 @@
             "value" : "Фото в рамке, как отпечаток"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รูปที่มีขอบขาวเหมือนรูปอัดจริง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7762,6 +8368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сохранить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึก"
           }
         },
         "zh-Hans" : {
@@ -7840,6 +8452,12 @@
             "value" : "Сохранено"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7914,6 +8532,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Название"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อเรื่อง"
           }
         },
         "zh-Hans" : {
@@ -7992,6 +8616,12 @@
             "value" : "Без названия"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีชื่อเรื่อง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8066,6 +8696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поддержка"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การสนับสนุน"
           }
         },
         "zh-Hans" : {
@@ -8144,6 +8780,12 @@
             "value" : "Выбрать вручную"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้นหาเอง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8218,6 +8860,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ещё раз посмотрите вступление, которое вы видели при первом запуске."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูคำแนะนำที่เห็นตอนเปิดแอปครั้งแรกอีกครั้ง"
           }
         },
         "zh-Hans" : {
@@ -8296,6 +8944,12 @@
             "value" : "Создайте первый таймлайн.\nПервый год малыша, запуск приложения, путешествие — что угодно."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลองสร้างไทม์ไลน์แรกของคุณ\nขวบปีแรกของลูก การเปิดตัวแอป ทริปท่องเที่ยว — อะไรก็ได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8370,6 +9024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่ม"
           }
         },
         "zh-Hans" : {
@@ -8448,6 +9108,12 @@
             "value" : "Отмена"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8524,6 +9190,12 @@
             "value" : "Оформление карточки"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดีไซน์การ์ด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8598,6 +9270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нажмите на карточку, чтобы развернуть"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะการ์ดเพื่อขยาย"
           }
         },
         "zh-Hans" : {
@@ -8677,6 +9355,12 @@
             "value" : "Экраны для крупного текста"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าจอที่ปรับให้เหมาะกับตัวอักษรขนาดใหญ่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8752,6 +9436,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Управление с клавиатуры"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ควบคุมด้วยคีย์บอร์ด"
           }
         },
         "zh-Hans" : {
@@ -8830,6 +9520,12 @@
             "value" : "Таймлайн"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไทม์ไลน์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8904,6 +9600,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройки таймлайна"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตั้งค่าไทม์ไลน์"
           }
         },
         "zh-Hans" : {
@@ -8982,6 +9684,12 @@
             "value" : "Сохранить как таймлайн"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกเป็นไทม์ไลน์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9056,6 +9764,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выберите таймлайн"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกไทม์ไลน์"
           }
         },
         "zh-Hans" : {
@@ -9135,6 +9849,12 @@
             "value" : "Сохраните таймлайн в файл и при необходимости загрузите снова."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกไทม์ไลน์เป็นไฟล์ แล้วนำกลับมาใช้ได้ภายหลัง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9209,6 +9929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока нет таймлайнов"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีไทม์ไลน์"
           }
         },
         "zh-Hans" : {
@@ -9287,6 +10013,12 @@
             "value" : "Теги"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แท็ก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9361,6 +10093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить тег"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มแท็ก"
           }
         },
         "zh-Hans" : {
@@ -9439,6 +10177,12 @@
             "value" : "Таймлайны по тегам"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไทม์ไลน์แท็ก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9513,6 +10257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Таймлайн по тегу · "
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไทม์ไลน์แท็ก · "
           }
         },
         "zh-Hans" : {
@@ -9591,6 +10341,12 @@
             "value" : "Сохранить таймлайн по тегу"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกไทม์ไลน์แท็ก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9667,6 +10423,12 @@
             "value" : "Собирайте события по тегам"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โยงเหตุการณ์เข้าด้วยกันด้วยแท็ก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9741,6 +10503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нажмите на тег, чтобы собрать события"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะแท็กเพื่อรวมเหตุการณ์"
           }
         },
         "zh-Hans" : {
@@ -9820,6 +10588,12 @@
             "value" : "Экран для раскладного iPhone"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลย์เอาต์สำหรับ iPhone แบบพับได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9895,6 +10669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Широкий экран раскладного iPhone делится на две части рядом."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้หน้าจอกว้างของ iPhone แบบพับได้เป็นสองส่วนเคียงข้างกัน"
           }
         },
         "zh-Hans" : {
@@ -9973,6 +10753,12 @@
             "value" : "Постер"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปสเตอร์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10047,6 +10833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Плёнка"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฟิล์ม"
           }
         },
         "zh-Hans" : {
@@ -10126,6 +10918,12 @@
             "value" : "Виджеты на экране «Домой»"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิดเจ็ตบนหน้าจอโฮม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10203,6 +11001,12 @@
             "value" : "VoiceOver озвучивает каждую кнопку и каждое событие — полностью и в правильном порядке."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver อ่านทุกปุ่มและทุกเหตุการณ์ครบถ้วนตามลำดับที่ถูกต้อง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10277,6 +11081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Таймлайн, где расстояния равны времени"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไทม์ไลน์ที่ห่างตามเวลาจริง"
           }
         },
         "zh-Hans" : {

@@ -76,3 +76,9 @@ Segnalaci i problemi in Supporto.
 Obrigado por usar o Yeoul.
 Deixamos o app mais estável.
 Conte problemas na página de Suporte.
+
+### 앱스토어 (th)
+
+ขอบคุณที่ใช้ Yeoul
+เราปรับให้แอปเสถียรขึ้นแล้ว
+พบปัญหาแจ้งได้ที่หน้าการสนับสนุน

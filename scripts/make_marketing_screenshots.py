@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -107,6 +107,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Conecte eventos<br>com hashtags", "Registros soltos viram uma nova linha do tempo"),
         ("05-editor.png", "dark", "Um design de cartão<br>para cada evento", "Data, notas e tags numa só tela"),
     ],
+    "th": [
+        ("01-trip.png", "hero-bleed", "ไทม์ไลน์ที่ห่าง<br>ตามเวลาจริง", "สามวันกับห้าวันห่างกัน 3:5 ช่วงว่างยาวเป็นเส้นประ"),
+        ("02-iceland.png", "left-text", "เก็บวันนั้นไว้<br>พร้อมรูป", "เลือกการ์ดได้สี่ดีไซน์"),
+        ("03-expand.png", "text-bottom", "แตะแล้วเปิด<br>ออกตรงนั้นเลย", "รูปและเรื่องราวในที่เดียว"),
+        ("04-tag.png", "flat-rotate", "โยงเหตุการณ์<br>ด้วยแฮชแท็ก", "ข้อมูลที่กระจัดกระจายกลายเป็นไทม์ไลน์ใหม่"),
+        ("05-editor.png", "dark", "เลือกดีไซน์การ์ด<br>ให้แต่ละเหตุการณ์", "วันที่ เนื้อหา แท็ก ในหน้าจอเดียว"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -182,6 +189,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Toque e abre ali mesmo", "Fotos e histórias num relance"),
         ("ipad-03-tag.png", "Conecte eventos com hashtags", "Registros soltos viram uma nova linha do tempo"),
         ("ipad-04-editor.png", "Guarde as fotos e a história do dia", "Data, notas, tags e design do cartão"),
+    ],
+    "th": [
+        ("ipad-01-trip.png", "ไทม์ไลน์ที่ห่างตามเวลาจริง", "สามวันกับห้าวันห่างกัน 3:5 ช่วงว่างยาวเป็นเส้นประ"),
+        ("ipad-02-expand.png", "แตะแล้วเปิดออกตรงนั้นเลย", "รูปและเรื่องราวในที่เดียว"),
+        ("ipad-03-tag.png", "โยงเหตุการณ์ด้วยแฮชแท็ก", "ข้อมูลที่กระจัดกระจายกลายเป็นไทม์ไลน์ใหม่"),
+        ("ipad-04-editor.png", "เก็บรูปและเรื่องราวของวันนั้น", "วันที่ เนื้อหา แท็ก และดีไซน์การ์ด"),
     ],
 }
 IPAD_CSS = f"""
