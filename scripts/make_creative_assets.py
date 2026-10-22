@@ -40,6 +40,7 @@ SEARCH = {
     "en": ("timeline journal", "3 days stay 3 days,<br>2 years stay 2 years", "Gaps between events match the time that really passed"),
     "en-GB": ("timeline diary", "3 days stay 3 days,<br>2 years stay 2 years", "Gaps between events match the time that really passed"),
     "zh-Hans": ("时间线日记", "3 天就是 3 天，<br>2 年就是 2 年", "事件之间的间隔与实际流逝的时间一致"),
+    "zh-Hant": ("時間軸日記", "3 天就是 3 天，<br>2 年就是 2 年", "事件之間的間隔與實際流逝的時間一致"),
 }
 
 # 헤더는 처음 온 사람에게 한 가지 약속만 한다: 흐른 시간이 그대로 보이는 타임라인.
@@ -48,6 +49,7 @@ HEADER = {
     "en": ("Your own timeline", "A timeline that stretches<br>with the time that passed"),
     "en-GB": ("Your own timeline", "A timeline that stretches<br>with the time that passed"),
     "zh-Hans": ("属于你的时间线", "按流逝的时间<br>拉开的时间线"),
+    "zh-Hant": ("屬於你的時間軸", "依流逝的時間<br>拉開的時間軸"),
 }
 
 # 바탕은 앱 아이콘의 초록(#347669 → #235146)과 크림색 글씨를 따른다. 아이콘의 가로 괘선도 옅게 깐다.

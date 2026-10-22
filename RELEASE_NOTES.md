@@ -28,3 +28,9 @@ Report any issues on the Support page.
 感谢使用 Yeoul。
 我们让 App 运行得更稳定了。
 遇到问题请到支持页面告诉我们。
+
+### 앱스토어 (zh-Hant)
+
+感謝使用 Yeoul。
+我們讓 App 運作得更穩定了。
+遇到問題請到支援頁面告訴我們。
