@@ -118,3 +118,9 @@ Kerro ongelmista Tuki-sivulla.
 Terima kasih telah memakai Yeoul.
 Aplikasi kini lebih stabil.
 Laporkan masalah lewat halaman Dukungan.
+
+### 앱스토어 (nb)
+
+Takk for at du bruker Yeoul.
+Vi har gjort appen mer stabil.
+Meld fra om feil under Støtte.

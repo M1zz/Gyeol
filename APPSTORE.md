@@ -968,3 +968,54 @@ Pilih kartu yang cocok untuk tiap peristiwa: Klasik dengan teks sebagai utama, P
 
 Di iPhone dan iPad
 Dengan iCloud, datamu sama di semua perangkat.
+
+## nb
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-nb.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-nb.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-nb.html
+
+### 이름
+
+Yeoul: Tidslinje i sanntid
+
+### 부제
+
+Minner med bilder
+
+### 키워드
+
+dagbok,milepæler,historie,jubileum,reise,familie,baby,hendelser,album,par,bryllup,hashtag,liv
+
+### 프로모션 텍스트
+
+Tre og fem dager ligger 3:5 fra hverandre, og to år brettes til en stiplet linje. Legg bilder og historier på en loddrett tidslinje som følger den virkelige tiden.
+
+### 설명
+
+Yeoul er en loddrett tidslinje der avstanden mellom hendelsene vokser med tiden som faktisk har gått.
+Tre dager og fem dager ligger 3:5 fra hverandre, og et langt hull som to år brettes sammen til en stiplet linje med teksten «2 år og 4 måneder». Rytmen i fortiden din ser du med ett blikk.
+
+Flere tidslinjer
+Lag en egen tidslinje for hvert tema, for eksempel barnets vekst, et forhold, en ny jobb eller en reise, og gi den eget navn og egen farge.
+
+Bilder og historier til hver hendelse
+Skriv dato, tittel og notater, og legg til et bilde. Velg datoen, så finner Yeoul bildene du tok den dagen i biblioteket ditt, eller du kan velge selv.
+Trykk på en hendelse på tidslinjen, så åpner bildet og notatene seg på stedet.
+
+Knytt hendelser sammen med hashtags
+Gi hendelsene hashtags og samle hendelser med samme merke fra alle tidslinjene dine i en ny tidslinje. Liker du den, kan du lagre den.
+
+Fire kortdesign
+Velg kortet som passer til hver hendelse: Klassisk med teksten først, Plakat med bildet i full størrelse, Film eller Marg.
+
+På iPhone og iPad
+Med iCloud har du de samme dataene på alle enhetene dine.

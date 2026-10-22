@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -156,6 +156,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Kaitkan peristiwa<br>dengan hashtag", "Catatan yang tercecer jadi linimasa baru"),
         ("05-editor.png", "dark", "Satu desain kartu<br>untuk tiap peristiwa", "Tanggal, catatan, dan tag dalam satu layar"),
     ],
+    "nb": [
+        ("01-trip.png", "hero-bleed", "En tidslinje som<br>strekker seg med tiden", "Tre og fem dager 3:5, lange hull som prikker"),
+        ("02-iceland.png", "left-text", "Ta vare på dagen<br>sammen med bildene", "Fire kortdesign å velge mellom"),
+        ("03-expand.png", "text-bottom", "Trykk, så åpner<br>det seg på stedet", "Bilder og historier med ett blikk"),
+        ("04-tag.png", "flat-rotate", "Knytt hendelser<br>sammen med hashtags", "Spredte data blir til en ny tidslinje"),
+        ("05-editor.png", "dark", "Ett kortdesign<br>for hver hendelse", "Dato, notater og merker på én skjerm"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -273,6 +280,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Ketuk dan langsung terbuka di tempat", "Foto dan cerita sekilas pandang"),
         ("ipad-03-tag.png", "Kaitkan peristiwa dengan hashtag", "Catatan yang tercecer jadi linimasa baru"),
         ("ipad-04-editor.png", "Simpan foto dan cerita hari itu", "Tanggal, catatan, tag, dan desain kartu"),
+    ],
+    "nb": [
+        ("ipad-01-trip.png", "En tidslinje som strekker seg med tiden", "Tre og fem dager 3:5, lange hull som prikker"),
+        ("ipad-02-expand.png", "Trykk, så åpner det seg på stedet", "Bilder og historier med ett blikk"),
+        ("ipad-03-tag.png", "Knytt hendelser sammen med hashtags", "Spredte data blir til en ny tidslinje"),
+        ("ipad-04-editor.png", "Ta vare på dagens bilder og historie", "Dato, notater, merker og kortdesign"),
     ],
 }
 IPAD_CSS = f"""

@@ -81,6 +81,12 @@
             "value" : "#%@ 사건이 없어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen hendelser med #%@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -197,6 +203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "#%@ 제거"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern #%@"
           }
         },
         "pt-BR" : {
@@ -317,6 +329,12 @@
             "value" : "#%@ 태그가 붙은 사건이 모입니다"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hendelser med merket #%@ samles her"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -433,6 +451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ 디자인"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@-design"
           }
         },
         "pt-BR" : {
@@ -553,6 +577,12 @@
             "value" : "%@에 찍은 사진 %lld장"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilder fra %@: %lld"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -669,6 +699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@에 찍은 사진을 찾는 중…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leter etter bilder fra %@ …"
           }
         },
         "pt-BR" : {
@@ -789,6 +825,12 @@
             "value" : "%@에 찍은 사진이 없어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen bilder tatt %@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -905,6 +947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld개월"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld md."
           }
         },
         "pt-BR" : {
@@ -1025,6 +1073,12 @@
             "value" : "%lld개월 %lld일"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld md. %2$lld d."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1141,6 +1195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld년"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld år"
           }
         },
         "pt-BR" : {
@@ -1261,6 +1321,12 @@
             "value" : "%lld년 %lld개월"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld år %2$lld md."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1377,6 +1443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld월"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
           }
         },
         "pt-BR" : {
@@ -1497,6 +1569,12 @@
             "value" : "%lld월 %lld일"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld.%1$lld."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1613,6 +1691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld일"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d."
           }
         },
         "pt-BR" : {
@@ -1734,6 +1818,12 @@
             "value" : "Face ID 잠금"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID-lås"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1851,6 +1941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Face ID나 Touch ID로 앱을 잠가 내 타임라인을 지켜요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås appen med Face ID eller Touch ID, så tidslinjen din forblir privat."
           }
         },
         "pt-BR" : {
@@ -1972,6 +2068,12 @@
             "value" : "VoiceOver로 더 편하게"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedre støtte for VoiceOver"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2088,6 +2190,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "‘%@’에 ‘%@’을(를) 남겼어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%2$@» ble lagt til i «%1$@»."
           }
         },
         "pt-BR" : {
@@ -2208,6 +2316,12 @@
             "value" : "‘사건 추가’를 눌러 첫 순간을 남겨보세요.\n위에서 아래로 시간 순으로 쌓이고, 사이 간격은 실제로 흐른 시간만큼 벌어져요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trykk på «Legg til hendelse» for å ta vare på ditt første øyeblikk.\nHendelsene stables fra topp til bunn i tidsrekkefølge, og avstanden mellom dem tilsvarer tiden som faktisk har gått."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2324,6 +2438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "같은 날"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samme dag"
           }
         },
         "pt-BR" : {
@@ -2444,6 +2564,12 @@
             "value" : "같은 태그가 붙은 사건을 모든 타임라인에서 모아 하나의 타임라인으로 보여 줘요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samler hendelser med samme merke fra alle tidslinjer i én tidslinje."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2560,6 +2686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "건너뛰기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hopp over"
           }
         },
         "pt-BR" : {
@@ -2680,6 +2812,12 @@
             "value" : "고른 타임라인에 사건을 남겨요. 날짜를 정하지 않으면 지금 시각으로 기록해요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legger til en hendelse på tidslinjen du velger. Hvis du ikke angir en dato, registreres den med klokkeslettet nå."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2796,6 +2934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "관련된 사진 찾기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finn relaterte bilder"
           }
         },
         "pt-BR" : {
@@ -2916,6 +3060,12 @@
             "value" : "그 날 찍은 사진을 바로 붙여요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til bilder fra dagen med én gang"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3034,6 +3184,12 @@
             "value" : "그 타임라인을 찾지 못했어요. 지워졌거나 아직 이 기기로 넘어오지 않았을 수 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fant ikke den tidslinjen. Den kan være slettet, eller den har ikke kommet til denne enheten ennå."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3150,6 +3306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "글이 중심, 사진은 아래"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksten først, bildet under"
           }
         },
         "pt-BR" : {
@@ -3271,6 +3433,12 @@
             "value" : "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du forstørrer teksten, ordnes skjermbildene pent i stedet for å bli kuttet."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3388,6 +3556,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "기념일처럼 잊고 싶지 않은 날을 알림으로 알려 줘요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få en påminnelse om dager du ikke vil glemme, for eksempel jubileer."
           }
         },
         "pt-BR" : {
@@ -3508,6 +3682,12 @@
             "value" : "기본"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klassisk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3624,6 +3804,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "기억하고 싶은 것을 적어두세요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ned det du vil huske"
           }
         },
         "pt-BR" : {
@@ -3744,6 +3930,12 @@
             "value" : "날짜"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dato"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3860,6 +4052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "날짜와 글씨가 주인공"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datoen og skriften i hovedrollen"
           }
         },
         "pt-BR" : {
@@ -3981,6 +4179,12 @@
             "value" : "내 데이터 한 번에 지우기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett alle dataene mine på én gang"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4099,6 +4303,12 @@
             "value" : "내용"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notater"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4215,6 +4425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다음"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neste"
           }
         },
         "pt-BR" : {
@@ -4336,6 +4552,12 @@
             "value" : "대비를 높이거나 색을 구별하기 어려워도 태그와 사건을 알아볼 수 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se enkelt forskjell på merker og hendelser, også med Øk kontrast slått på eller hvis det er vanskelig å skille farger."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4453,6 +4675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 많은 나라 말로 앱을 쓸 수 있게 해요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk appen på flere språk."
           }
         },
         "pt-BR" : {
@@ -4574,6 +4802,12 @@
             "value" : "더 많은 언어"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flere språk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4690,6 +4924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "만들기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opprett"
           }
         },
         "pt-BR" : {
@@ -4810,6 +5050,12 @@
             "value" : "메일로 문의하기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta kontakt på e-post"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4928,6 +5174,12 @@
             "value" : "무슨 일이 있었나요?"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva skjedde?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5044,6 +5296,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "미리보기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forhåndsvisning"
           }
         },
         "pt-BR" : {
@@ -5165,6 +5423,12 @@
             "value" : "백업과 내보내기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sikkerhetskopi og eksport"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5282,6 +5546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보기 편한 색과 대비"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behagelige farger og kontrast"
           }
         },
         "pt-BR" : {
@@ -5402,6 +5672,12 @@
             "value" : "보내 주신 의견은 개발자가 모두 직접 읽어요. 불편했던 점이나 바라는 기능을 알려 주세요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utvikleren leser alle meldinger selv. Fortell oss hva som var tungvint, eller hvilken funksjon du savner."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5518,6 +5794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "불러오는 중…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laster …"
           }
         },
         "pt-BR" : {
@@ -5638,6 +5920,12 @@
             "value" : "사건 %lld개 · 마지막 %@.%@"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hendelser: %lld · siste %@.%@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5754,6 +6042,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사건 %lld개 · 저장하면 목록에 남고, 태그가 붙는 대로 계속 채워져요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hendelser: %lld · når den er lagret, blir den værende i listen din og fylles på etter hvert som merker legges til"
           }
         },
         "pt-BR" : {
@@ -5874,6 +6168,12 @@
             "value" : "사건 기록하기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Registrer en hendelse"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5990,6 +6290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사건 사이의 간격이 실제로 흐른 시간에 비례해요. 사흘과 닷새는 3:5로 벌어지고, 긴 공백은 점선으로 접어 “2년 4개월”처럼 적어 둬요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avstanden mellom hendelsene står i forhold til tiden som faktisk har gått. Tre dager og fem dager ligger 3:5 fra hverandre, og lange hull brettes sammen til en stiplet linje med en tekst som «2 år og 4 måneder»."
           }
         },
         "pt-BR" : {
@@ -6110,6 +6416,12 @@
             "value" : "사건 삭제"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett hendelse"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6226,6 +6538,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사건 수정"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rediger hendelse"
           }
         },
         "pt-BR" : {
@@ -6346,6 +6664,12 @@
             "value" : "사건 없음"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen hendelser"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6464,6 +6788,12 @@
             "value" : "사건 추가"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til hendelse"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6580,6 +6910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사건에 태그를 달고 누르면, 모든 타임라인에서 같은 태그가 붙은 순간을 모아 새 타임라인으로 보여 줘요. 기록은 iCloud로 아이폰·아이패드·맥에 이어져요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gi hendelser merker og trykk på et merke for å samle alle øyeblikk med samme merke fra alle tidslinjene dine i en ny tidslinje. Dataene dine synkroniseres mellom iPhone, iPad og Mac via iCloud."
           }
         },
         "pt-BR" : {
@@ -6701,6 +7037,12 @@
             "value" : "사건을 넣거나 지울 때 가볍게 떨려서 알려 줘요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En lett vibrering når du legger til eller sletter en hendelse."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6818,6 +7160,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사건을 적다가 앱이 꺼져도 쓰던 내용이 남아 있어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det du holdt på å skrive, blir stående, selv om appen lukkes midt i det hele."
           }
         },
         "pt-BR" : {
@@ -6938,6 +7286,12 @@
             "value" : "사건의 날짜를 고르고 ‘관련된 사진 찾기’를 누르면 그 날 찍은 사진을 모아 보여 줘요. 원하는 사진이 없으면 직접 골라도 돼요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg datoen for en hendelse og trykk på «Finn relaterte bilder» for å se bildene du tok den dagen. Hvis ingen passer, kan du velge selv."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7054,6 +7408,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilde"
           }
         },
         "pt-BR" : {
@@ -7174,6 +7534,12 @@
             "value" : "사진 바꾸기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bytt bilde"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7290,6 +7656,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진 접근이 꺼져 있어 이 날 찍은 사진을 찾을 수 없어요.\n아래에서 직접 고를 수는 있어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilgang til Bilder er slått av, så bildene fra den dagen kan ikke finnes.\nDu kan likevel velge selv nedenfor."
           }
         },
         "pt-BR" : {
@@ -7410,6 +7782,12 @@
             "value" : "사진 제거"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern bilde"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7526,6 +7904,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사진과 메모가 그 자리에서 열려요. 다시 누르면 접혀요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilder og notater åpner seg på stedet. Trykk igjen for å brette sammen."
           }
         },
         "pt-BR" : {
@@ -7646,6 +8030,12 @@
             "value" : "사진을 꽉 채우고 글을 얹어요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildet fyller kortet med teksten oppå"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7762,6 +8152,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "삭제"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett"
           }
         },
         "pt-BR" : {
@@ -7882,6 +8278,12 @@
             "value" : "새 타임라인"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny tidslinje"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7998,6 +8400,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "색"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farge"
           }
         },
         "pt-BR" : {
@@ -8118,6 +8526,12 @@
             "value" : "설정"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innstillinger"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8234,6 +8648,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "설정에서 허용"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillat i Innstillinger"
           }
         },
         "pt-BR" : {
@@ -8355,6 +8775,12 @@
             "value" : "손끝으로 느끼는 반응"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptisk tilbakemelding"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8473,6 +8899,12 @@
             "value" : "수정"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rediger"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8589,6 +9021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "시작하기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom i gang"
           }
         },
         "pt-BR" : {
@@ -8710,6 +9148,12 @@
             "value" : "쓰던 사건 이어서 쓰기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett der du slapp"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8826,6 +9270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아래에서 직접 찾아보세요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prøv å finne dem selv nedenfor."
           }
         },
         "pt-BR" : {
@@ -8947,6 +9397,12 @@
             "value" : "아이패드에서 키보드만으로 주요 기능을 쓸 수 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk de viktigste funksjonene på iPad med bare et tastatur."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9063,6 +9519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아직 사건이 없어요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen hendelser ennå"
           }
         },
         "pt-BR" : {
@@ -9184,6 +9646,12 @@
             "value" : "알림"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Påminnelser"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9301,6 +9769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "앱을 열지 않고 홈 화면에서 타임라인을 바로 확인해요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se tidslinjen din rett på Hjem-skjermen uten å åpne appen."
           }
         },
         "pt-BR" : {
@@ -9422,6 +9896,12 @@
             "value" : "앱을 영어로도 쓸 수 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk hele appen på engelsk."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9538,6 +10018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "어떤 일이 있었나요?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva skjedde?"
           }
         },
         "pt-BR" : {
@@ -9659,6 +10145,12 @@
             "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åpner appen etter en oppdatering, ser du hva som er nytt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9776,6 +10268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "업데이트 소식"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva er nytt"
           }
         },
         "pt-BR" : {
@@ -9896,6 +10394,12 @@
             "value" : "여백"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marg"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10014,6 +10518,12 @@
             "value" : "여울"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10130,6 +10640,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "여울 사용법"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slik bruker du Yeoul"
           }
         },
         "pt-BR" : {
@@ -10251,6 +10767,12 @@
             "value" : "영어 지원"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full støtte for engelsk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10367,6 +10889,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "예: 우리 아이 첫 해, 앱 출시 기록"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "F.eks. Barnets første år, logg for applanseringen"
           }
         },
         "pt-BR" : {
@@ -10487,6 +11015,12 @@
             "value" : "완료"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10603,6 +11137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "왼쪽에서 타임라인을 고르거나 새로 만들어보세요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg en tidslinje til venstre, eller lag en ny."
           }
         },
         "pt-BR" : {
@@ -10724,6 +11264,12 @@
             "value" : "움직임 줄이기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduser bevegelse"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10841,6 +11387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når Reduser bevegelse er på, blir skjermeffektene roligere."
           }
         },
         "pt-BR" : {
@@ -10962,6 +11514,12 @@
             "value" : "원하면 앱 안에서 내 타임라인을 모두 지울 수 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett hele tidslinjen din fra appen når du vil."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11078,6 +11636,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 사건을 삭제할까요?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du slette denne hendelsen?"
           }
         },
         "pt-BR" : {
@@ -11198,6 +11762,12 @@
             "value" : "이 사진 사용"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk dette bildet"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11314,6 +11884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 태그를 단 사건이 아직 없습니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen hendelser har dette merket ennå."
           }
         },
         "pt-BR" : {
@@ -11434,6 +12010,12 @@
             "value" : "이 태그를 사건에 달면 여기에 자동으로 모여요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gi en hendelse dette merket, så samles den her automatisk."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11550,6 +12132,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이름"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navn"
           }
         },
         "pt-BR" : {
@@ -11670,6 +12258,12 @@
             "value" : "이름·색 바꾸기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Endre navn og farge"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11786,6 +12380,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "인스타그램 DM (@lee25_ios)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-DM (@lee25_ios)"
           }
         },
         "pt-BR" : {
@@ -11906,6 +12506,12 @@
             "value" : "인화지처럼 여백을 두른 사진"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et bilde med ramme som en papirkopi"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12022,6 +12628,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre"
           }
         },
         "pt-BR" : {
@@ -12142,6 +12754,12 @@
             "value" : "저장됨"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagret"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12258,6 +12876,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "제목"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tittel"
           }
         },
         "pt-BR" : {
@@ -12378,6 +13002,12 @@
             "value" : "제목 없음"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uten tittel"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12494,6 +13124,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지원"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Støtte"
           }
         },
         "pt-BR" : {
@@ -12614,6 +13250,12 @@
             "value" : "직접 찾기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finn selv"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12730,6 +13372,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "처음 열었을 때 보았던 안내를 다시 볼 수 있어요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se introduksjonen du fikk første gang du åpnet appen, på nytt."
           }
         },
         "pt-BR" : {
@@ -12850,6 +13498,12 @@
             "value" : "첫 타임라인을 만들어보세요.\n아이의 첫 해, 앱 출시 기록, 여행 — 무엇이든 좋아요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lag din første tidslinje.\nBarnets første år, en applansering, en reise – alt går an."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12966,6 +13620,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "추가"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til"
           }
         },
         "pt-BR" : {
@@ -13086,6 +13746,12 @@
             "value" : "취소"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13204,6 +13870,12 @@
             "value" : "카드 디자인"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortdesign"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13320,6 +13992,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카드를 눌러 펼쳐 보세요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trykk på et kort for å folde det ut"
           }
         },
         "pt-BR" : {
@@ -13441,6 +14119,12 @@
             "value" : "큰 글씨에 맞춘 화면"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjermbilder for større tekst"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13558,6 +14242,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "키보드로 조작하기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Styring med tastatur"
           }
         },
         "pt-BR" : {
@@ -13678,6 +14368,12 @@
             "value" : "타임라인"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidslinje"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13794,6 +14490,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "타임라인 설정"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidslinjeinnstillinger"
           }
         },
         "pt-BR" : {
@@ -13914,6 +14616,12 @@
             "value" : "타임라인으로 저장"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre som tidslinje"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14030,6 +14738,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "타임라인을 골라주세요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg en tidslinje"
           }
         },
         "pt-BR" : {
@@ -14151,6 +14865,12 @@
             "value" : "타임라인을 파일로 저장하고 다시 불러올 수 있어요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre tidslinjen din i en fil og hent den tilbake senere."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14267,6 +14987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "타임라인이 없어요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen tidslinjer ennå"
           }
         },
         "pt-BR" : {
@@ -14387,6 +15113,12 @@
             "value" : "태그"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merker"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14503,6 +15235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "태그 추가"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til merke"
           }
         },
         "pt-BR" : {
@@ -14623,6 +15361,12 @@
             "value" : "태그 타임라인"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merketidslinjer"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14739,6 +15483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "태그 타임라인 · "
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merketidslinje · "
           }
         },
         "pt-BR" : {
@@ -14859,6 +15609,12 @@
             "value" : "태그 타임라인 저장"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre merketidslinje"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14977,6 +15733,12 @@
             "value" : "태그로 다시 엮어 보세요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knytt hendelser sammen med merker"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15093,6 +15855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "태그를 누르면 한데 모여요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trykk på et merke for å samle hendelser"
           }
         },
         "pt-BR" : {
@@ -15214,6 +15982,12 @@
             "value" : "펼치는 아이폰 화면"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppsett for foldbar iPhone"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15331,6 +16105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk den brede skjermen på en foldbar iPhone som to paneler side ved side."
           }
         },
         "pt-BR" : {
@@ -15451,6 +16231,12 @@
             "value" : "포스터"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plakat"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15567,6 +16353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "필름"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Film"
           }
         },
         "pt-BR" : {
@@ -15688,6 +16480,12 @@
             "value" : "홈 화면 위젯"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgeter på Hjem-skjermen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15807,6 +16605,12 @@
             "value" : "화면 읽기 기능이 단추와 사건을 빠짐없이, 알맞은 순서로 읽어 줘요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver leser opp alle knapper og hendelser i riktig rekkefølge."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15923,6 +16727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "흐른 시간만큼 벌어지는 타임라인"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En tidslinje som strekker seg med tiden"
           }
         },
         "pt-BR" : {
