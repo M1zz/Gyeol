@@ -52,6 +52,7 @@ SEARCH = {
     "vi": ("dòng thời gian nhật ký", "3 ngày vẫn là 3 ngày,<br>2 năm vẫn là 2 năm", "Khoảng cách giữa các sự kiện bằng thời gian thực đã trôi qua"),
     "cs": ("časová osa deník", "3 dny zůstanou 3 dny,<br>2 roky zůstanou 2 roky", "Mezery mezi událostmi odpovídají skutečně uplynulému času"),
     "da": ("tidslinje dagbog", "3 dage forbliver 3 dage,<br>2 år forbliver 2 år", "Afstanden mellem begivenheder svarer til den tid, der faktisk er gået"),
+    "el": ("χρονολόγιο ημερολόγιο", "Οι 3 μέρες μένουν 3 μέρες,<br>τα 2 χρόνια μένουν 2 χρόνια", "Η απόσταση ανάμεσα στα γεγονότα είναι ο χρόνος που πέρασε πραγματικά"),
 }
 
 # 헤더는 처음 온 사람에게 한 가지 약속만 한다: 흐른 시간이 그대로 보이는 타임라인.
@@ -72,6 +73,7 @@ HEADER = {
     "vi": ("Dòng thời gian của riêng bạn", "Dòng thời gian giãn<br>theo thời gian thực"),
     "cs": ("Vaše vlastní časová osa", "Časová osa, která se<br>natahuje podle času"),
     "da": ("Din egen tidslinje", "En tidslinje, der<br>strækker sig med tiden"),
+    "el": ("Το δικό σου χρονολόγιο", "Ένα χρονολόγιο που<br>απλώνεται όσο ο χρόνος"),
 }
 
 # 바탕은 앱 아이콘의 초록(#347669 → #235146)과 크림색 글씨를 따른다. 아이콘의 가로 괘선도 옅게 깐다.

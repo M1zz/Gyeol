@@ -100,3 +100,9 @@ Potíže nám nahlaste v Podpoře.
 Tak, fordi du bruger Yeoul.
 Vi har gjort appen mere stabil.
 Meld fejl via siden Support.
+
+### 앱스토어 (el)
+
+Ευχαριστούμε που χρησιμοποιείς το Yeoul.
+Κάναμε την εφαρμογή πιο σταθερή.
+Αναφέρετε προβλήματα στην Υποστήριξη.

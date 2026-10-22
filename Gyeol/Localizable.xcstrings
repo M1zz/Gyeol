@@ -21,6 +21,12 @@
             "value" : "Keine Ereignisse mit #%@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν γεγονότα με #%@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "#%@ entfernen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφαίρεση #%@"
           }
         },
         "en" : {
@@ -221,6 +233,12 @@
             "value" : "Hier werden Ereignisse mit dem Hashtag #%@ gesammelt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εδώ συγκεντρώνονται τα γεγονότα με την ετικέτα #%@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -319,6 +337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Design: %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σχεδίαση: %@"
           }
         },
         "en" : {
@@ -421,6 +445,12 @@
             "value" : "Fotos vom %@: %lld"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογραφίες από %@: %lld"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -519,6 +549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotos vom %@ werden gesucht …"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αναζήτηση φωτογραφιών από %@…"
           }
         },
         "en" : {
@@ -621,6 +657,12 @@
             "value" : "Keine Fotos vom %@."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν φωτογραφίες από %@."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -719,6 +761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld Mon."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld μήν."
           }
         },
         "en" : {
@@ -821,6 +869,12 @@
             "value" : "%1$lld Mon. %2$lld T."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld μήν. %2$lld ημ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -919,6 +973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld J."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld έτ."
           }
         },
         "en" : {
@@ -1021,6 +1081,12 @@
             "value" : "%1$lld J. %2$lld Mon."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld έτ. %2$lld μήν."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1116,6 +1182,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -1221,6 +1293,12 @@
             "value" : "%2$lld.%1$lld."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1319,6 +1397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld T."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ημ."
           }
         },
         "en" : {
@@ -1422,6 +1506,12 @@
             "value" : "Face-ID-Sperre"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείδωμα με Face ID"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1521,6 +1611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sperre die App mit Face ID oder Touch ID, damit deine Zeitleiste privat bleibt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείδωσε την εφαρμογή με Face ID ή Touch ID για να μένει το χρονολόγιό σου ιδιωτικό."
           }
         },
         "en" : {
@@ -1624,6 +1720,12 @@
             "value" : "Bessere VoiceOver-Unterstützung"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καλύτερη υποστήριξη VoiceOver"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1722,6 +1824,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "„%2$@“ wurde zu „%1$@“ hinzugefügt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το «%2$@» προστέθηκε στο «%1$@»."
           }
         },
         "en" : {
@@ -1824,6 +1932,12 @@
             "value" : "Tippe auf „Ereignis hinzufügen“, um deinen ersten Moment festzuhalten.\nDie Ereignisse reihen sich von oben nach unten zeitlich auf, und die Abstände entsprechen der wirklich vergangenen Zeit."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πάτα «Προσθήκη γεγονότος» για να κρατήσεις την πρώτη σου στιγμή.\nΤα γεγονότα στοιβάζονται από πάνω προς τα κάτω με χρονολογική σειρά και οι αποστάσεις είναι όσες και ο χρόνος που πέρασε πραγματικά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1922,6 +2036,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Am selben Tag"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την ίδια μέρα"
           }
         },
         "en" : {
@@ -2024,6 +2144,12 @@
             "value" : "Zeigt alle Ereignisse mit demselben Hashtag aus allen Zeitleisten gesammelt in einer Zeitleiste."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συγκεντρώνει τα γεγονότα με την ίδια ετικέτα από όλα τα χρονολόγια σε ένα χρονολόγιο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2122,6 +2248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Überspringen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παράλειψη"
           }
         },
         "en" : {
@@ -2224,6 +2356,12 @@
             "value" : "Fügt der gewählten Zeitleiste ein Ereignis hinzu. Ohne Datumsangabe wird die aktuelle Uhrzeit verwendet."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθέτει ένα γεγονός στο χρονολόγιο που επιλέγεις. Αν δεν ορίσεις ημερομηνία, καταγράφεται με την τρέχουσα ώρα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2322,6 +2460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passende Fotos suchen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εύρεση σχετικών φωτογραφιών"
           }
         },
         "en" : {
@@ -2424,6 +2568,12 @@
             "value" : "Fotos vom Tag direkt hinzufügen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρόσθεσε αμέσως τις φωτογραφίες εκείνης της μέρας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2524,6 +2674,12 @@
             "value" : "Diese Zeitleiste wurde nicht gefunden. Sie wurde vielleicht gelöscht oder ist noch nicht auf diesem Gerät angekommen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν βρέθηκε αυτό το χρονολόγιο. Ίσως διαγράφηκε ή δεν έχει φτάσει ακόμη σε αυτή τη συσκευή."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2622,6 +2778,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text im Mittelpunkt, Foto darunter"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρώτα το κείμενο, η φωτογραφία από κάτω"
           }
         },
         "en" : {
@@ -2725,6 +2887,12 @@
             "value" : "Bei größerer Schrift werden die Bildschirme sauber neu angeordnet, statt abgeschnitten zu werden."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν μεγεθύνεις το κείμενο, οι οθόνες αναδιατάσσονται σωστά αντί να κόβονται."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2824,6 +2992,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lass dich an Tage erinnern, die du nicht vergessen willst, etwa Jahrestage."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λάβε υπενθύμιση για μέρες που δεν θέλεις να ξεχάσεις, όπως οι επέτειοι."
           }
         },
         "en" : {
@@ -2926,6 +3100,12 @@
             "value" : "Klassisch"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλασική"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3024,6 +3204,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schreib auf, was du nicht vergessen willst"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψε ό,τι θέλεις να θυμάσαι"
           }
         },
         "en" : {
@@ -3126,6 +3312,12 @@
             "value" : "Datum"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ημερομηνία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3224,6 +3416,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Datum und Schrift stehen im Mittelpunkt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η ημερομηνία και τα γράμματα πρωταγωνιστούν"
           }
         },
         "en" : {
@@ -3327,6 +3525,12 @@
             "value" : "Alle meine Daten auf einmal löschen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή όλων των δεδομένων μου με μία κίνηση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3427,6 +3631,12 @@
             "value" : "Notizen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημειώσεις"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3525,6 +3735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Weiter"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επόμενο"
           }
         },
         "en" : {
@@ -3628,6 +3844,12 @@
             "value" : "Erkenne Hashtags und Ereignisse leicht, auch mit erhöhtem Kontrast oder bei Schwierigkeiten, Farben zu unterscheiden."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεχώρισε εύκολα ετικέτες και γεγονότα, ακόμη και με ενεργό το Αύξηση αντίθεσης ή αν δυσκολεύεσαι να ξεχωρίσεις χρώματα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3727,6 +3949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nutze die App in mehr Sprachen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποίησε την εφαρμογή σε περισσότερες γλώσσες."
           }
         },
         "en" : {
@@ -3830,6 +4058,12 @@
             "value" : "Mehr Sprachen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περισσότερες γλώσσες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3928,6 +4162,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anlegen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δημιουργία"
           }
         },
         "en" : {
@@ -4030,6 +4270,12 @@
             "value" : "Per E-Mail kontaktieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επικοινωνία με email"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4130,6 +4376,12 @@
             "value" : "Was ist passiert?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι έγινε;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4228,6 +4480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vorschau"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προεπισκόπηση"
           }
         },
         "en" : {
@@ -4331,6 +4589,12 @@
             "value" : "Backup und Export"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντίγραφο ασφαλείας και εξαγωγή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4430,6 +4694,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Angenehmere Farben und Kontraste"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πιο άνετα χρώματα και αντίθεση"
           }
         },
         "en" : {
@@ -4532,6 +4802,12 @@
             "value" : "Der Entwickler liest jede Nachricht persönlich. Sag uns, was dich stört oder welche Funktion du dir wünschst."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ο προγραμματιστής διαβάζει προσωπικά κάθε μήνυμα. Πες μας τι σε δυσκόλεψε ή ποια λειτουργία θα ήθελες."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4630,6 +4906,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wird geladen …"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φόρτωση…"
           }
         },
         "en" : {
@@ -4732,6 +5014,12 @@
             "value" : "Ereignisse: %lld · zuletzt %@.%@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γεγονότα: %lld · τελευταίο %@.%@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4830,6 +5118,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ereignisse: %lld · Nach dem Sichern bleibt sie in deiner Liste und füllt sich weiter, sobald Hashtags vergeben werden"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γεγονότα: %lld · μόλις αποθηκευτεί, μένει στη λίστα και γεμίζει καθώς προστίθενται ετικέτες"
           }
         },
         "en" : {
@@ -4932,6 +5226,12 @@
             "value" : "Ereignis festhalten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καταγραφή γεγονότος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5030,6 +5330,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Abstand zwischen Ereignissen entspricht der Zeit, die wirklich vergangen ist. Drei und fünf Tage liegen im Verhältnis 3:5 auseinander, und lange Lücken werden zu einer gepunkteten Linie mit Beschriftung wie „2 Jahre 4 Monate“."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η απόσταση ανάμεσα στα γεγονότα είναι ανάλογη με τον χρόνο που πέρασε πραγματικά. Τρεις μέρες και πέντε μέρες απέχουν 3:5, ενώ τα μεγάλα κενά διπλώνουν σε διακεκομμένη γραμμή με σημείωση όπως «2 έτη 4 μήνες»."
           }
         },
         "en" : {
@@ -5132,6 +5438,12 @@
             "value" : "Ereignis löschen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή γεγονότος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5230,6 +5542,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ereignis bearbeiten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επεξεργασία γεγονότος"
           }
         },
         "en" : {
@@ -5332,6 +5650,12 @@
             "value" : "Keine Ereignisse"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κανένα γεγονός"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5432,6 +5756,12 @@
             "value" : "Ereignis hinzufügen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη γεγονότος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5530,6 +5860,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Versieh Ereignisse mit Hashtags und tippe darauf, um alle Momente mit diesem Hashtag aus allen Zeitleisten in einer neuen Zeitleiste zu sammeln. Deine Einträge werden per iCloud zwischen iPhone, iPad und Mac synchronisiert."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρόσθεσε ετικέτες στα γεγονότα και πάτα μία για να μαζέψεις όλες τις στιγμές με την ίδια ετικέτα από όλα τα χρονολόγια σε ένα νέο χρονολόγιο. Τα δεδομένα σου συγχρονίζονται ανάμεσα σε iPhone, iPad και Mac μέσω iCloud."
           }
         },
         "en" : {
@@ -5633,6 +5969,12 @@
             "value" : "Ein sanftes Vibrieren, wenn du ein Ereignis hinzufügst oder löschst."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μια ελαφριά δόνηση όταν προσθέτεις ή διαγράφεις ένα γεγονός."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5732,6 +6074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Was du gerade schreibst, bleibt erhalten, auch wenn die App zwischendurch geschlossen wird."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ό,τι έγραφες μένει στη θέση του, ακόμη κι αν η εφαρμογή κλείσει στη μέση."
           }
         },
         "en" : {
@@ -5834,6 +6182,12 @@
             "value" : "Wähle das Datum eines Ereignisses und tippe auf „Passende Fotos suchen“, um die Fotos von diesem Tag zu sehen. Ist nichts Passendes dabei, kannst du selbst eines auswählen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάλεξε την ημερομηνία ενός γεγονότος και πάτα «Εύρεση σχετικών φωτογραφιών» για να δεις όσες τράβηξες εκείνη τη μέρα. Αν καμία δεν σου κάνει, μπορείς να διαλέξεις μόνος σου."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5932,6 +6286,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογραφία"
           }
         },
         "en" : {
@@ -6034,6 +6394,12 @@
             "value" : "Foto ändern"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αλλαγή φωτογραφίας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6132,6 +6498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Zugriff auf Fotos ist deaktiviert, daher können die Fotos von diesem Tag nicht gefunden werden.\nUnten kannst du trotzdem selbst eines auswählen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η πρόσβαση στις Φωτογραφίες είναι απενεργοποιημένη και δεν βρίσκονται φωτογραφίες εκείνης της μέρας.\nΜπορείς πάντως να διαλέξεις μία παρακάτω."
           }
         },
         "en" : {
@@ -6234,6 +6606,12 @@
             "value" : "Foto entfernen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφαίρεση φωτογραφίας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6332,6 +6710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotos und Notizen öffnen sich an Ort und Stelle. Tippe erneut, um sie zu schließen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι φωτογραφίες και οι σημειώσεις ανοίγουν επιτόπου. Πάτα ξανά για να κλείσουν."
           }
         },
         "en" : {
@@ -6434,6 +6818,12 @@
             "value" : "Das Foto füllt die Karte, der Text liegt darüber"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η φωτογραφία γεμίζει την κάρτα με το κείμενο από πάνω"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6532,6 +6922,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Löschen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή"
           }
         },
         "en" : {
@@ -6634,6 +7030,12 @@
             "value" : "Neue Zeitleiste"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Νέο χρονολόγιο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6732,6 +7134,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Farbe"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρώμα"
           }
         },
         "en" : {
@@ -6834,6 +7242,12 @@
             "value" : "Einstellungen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίσεις"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6932,6 +7346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In den Einstellungen erlauben"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να επιτραπεί στις Ρυθμίσεις"
           }
         },
         "en" : {
@@ -7035,6 +7455,12 @@
             "value" : "Haptisches Feedback"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απτική ανάδραση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7135,6 +7561,12 @@
             "value" : "Bearbeiten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επεξεργασία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7233,6 +7665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Los geht’s"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεκίνα"
           }
         },
         "en" : {
@@ -7336,6 +7774,12 @@
             "value" : "Dort weitermachen, wo du aufgehört hast"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχισε από εκεί που σταμάτησες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7434,6 +7878,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Such unten selbst danach."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δοκίμασε να ψάξεις μόνος σου παρακάτω."
           }
         },
         "en" : {
@@ -7537,6 +7987,12 @@
             "value" : "Nutze die wichtigsten Funktionen auf dem iPad allein mit der Tastatur."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποίησε τις βασικές λειτουργίες στο iPad μόνο με πληκτρολόγιο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7635,6 +8091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noch keine Ereignisse"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν γεγονότα ακόμη"
           }
         },
         "en" : {
@@ -7738,6 +8200,12 @@
             "value" : "Erinnerungen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υπενθυμίσεις"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7837,6 +8305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sieh deine Zeitleiste direkt auf dem Home-Bildschirm, ohne die App zu öffnen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δες το χρονολόγιό σου απευθείας στην Αρχική οθόνη, χωρίς να ανοίξεις την εφαρμογή."
           }
         },
         "en" : {
@@ -7940,6 +8414,12 @@
             "value" : "Nutze die ganze App auch auf Englisch."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποίησε ολόκληρη την εφαρμογή και στα αγγλικά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8038,6 +8518,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Was ist passiert?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι έγινε;"
           }
         },
         "en" : {
@@ -8141,6 +8627,12 @@
             "value" : "Beim ersten Öffnen nach einem Update siehst du, was neu ist."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την πρώτη φορά που ανοίγεις την εφαρμογή μετά από μια ενημέρωση, δες τι νέο υπάρχει."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8240,6 +8732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neuigkeiten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι νέο υπάρχει"
           }
         },
         "en" : {
@@ -8342,6 +8840,12 @@
             "value" : "Rand"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περιθώριο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8437,6 +8941,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeoul"
@@ -8542,6 +9052,12 @@
             "value" : "So funktioniert Yeoul"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πώς να χρησιμοποιήσεις το Yeoul"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8641,6 +9157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vollständige Unterstützung für Englisch"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πλήρης υποστήριξη αγγλικών"
           }
         },
         "en" : {
@@ -8743,6 +9265,12 @@
             "value" : "z. B. Das erste Jahr unseres Kindes, App-Launch-Protokoll"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "π.χ. Το πρώτο έτος του μωρού, ημερολόγιο κυκλοφορίας εφαρμογής"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8843,6 +9371,12 @@
             "value" : "Fertig"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τέλος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8941,6 +9475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wähle links eine Zeitleiste aus oder lege eine neue an."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάλεξε ένα χρονολόγιο αριστερά ή δημιούργησε νέο."
           }
         },
         "en" : {
@@ -9044,6 +9584,12 @@
             "value" : "Bewegung reduzieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μείωση κίνησης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9143,6 +9689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bei aktivierter Option „Bewegung reduzieren“ werden Bildschirmeffekte ruhiger."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με ενεργή τη Μείωση κίνησης, τα εφέ της οθόνης γίνονται πιο ήρεμα."
           }
         },
         "en" : {
@@ -9246,6 +9798,12 @@
             "value" : "Lösche deine gesamte Zeitleiste jederzeit direkt in der App."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάγραψε ολόκληρο το χρονολόγιό σου μέσα από την εφαρμογή όποτε θέλεις."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9344,6 +9902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dieses Ereignis löschen?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να διαγραφεί αυτό το γεγονός;"
           }
         },
         "en" : {
@@ -9446,6 +10010,12 @@
             "value" : "Dieses Foto verwenden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρήση αυτής της φωτογραφίας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9544,6 +10114,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noch keine Ereignisse mit diesem Hashtag."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κανένα γεγονός δεν έχει ακόμη αυτή την ετικέτα."
           }
         },
         "en" : {
@@ -9646,6 +10222,12 @@
             "value" : "Sobald du diesen Hashtag zu einem Ereignis hinzufügst, erscheint es automatisch hier."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρόσθεσε αυτή την ετικέτα σε ένα γεγονός και θα συγκεντρωθεί εδώ αυτόματα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9744,6 +10326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Name"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όνομα"
           }
         },
         "en" : {
@@ -9846,6 +10434,12 @@
             "value" : "Name und Farbe ändern"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αλλαγή ονόματος και χρώματος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9944,6 +10538,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram-DM (@lee25_ios)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μήνυμα στο Instagram (@lee25_ios)"
           }
         },
         "en" : {
@@ -10046,6 +10646,12 @@
             "value" : "Ein Foto mit Rand wie ein Abzug"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μια φωτογραφία με περιθώριο σαν εκτύπωση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10144,6 +10750,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sichern"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευση"
           }
         },
         "en" : {
@@ -10246,6 +10858,12 @@
             "value" : "Gesichert"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθηκεύτηκε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10344,6 +10962,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Titel"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τίτλος"
           }
         },
         "en" : {
@@ -10446,6 +11070,12 @@
             "value" : "Ohne Titel"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χωρίς τίτλο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10544,6 +11174,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υποστήριξη"
           }
         },
         "en" : {
@@ -10646,6 +11282,12 @@
             "value" : "Selbst suchen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αναζήτηση μόνος μου"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10744,6 +11386,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sieh dir die Einführung vom ersten Start noch einmal an."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δες ξανά την εισαγωγή που είδες όταν άνοιξες την εφαρμογή για πρώτη φορά."
           }
         },
         "en" : {
@@ -10846,6 +11494,12 @@
             "value" : "Lege deine erste Zeitleiste an.\nDas erste Jahr deines Kindes, ein App-Launch, eine Reise – alles ist möglich."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δημιούργησε το πρώτο σου χρονολόγιο.\nΤο πρώτο έτος του μωρού, η κυκλοφορία μιας εφαρμογής, ένα ταξίδι — ό,τι θέλεις."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10944,6 +11598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hinzufügen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη"
           }
         },
         "en" : {
@@ -11046,6 +11706,12 @@
             "value" : "Abbrechen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακύρωση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11146,6 +11812,12 @@
             "value" : "Kartendesign"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σχεδίαση κάρτας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11244,6 +11916,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tippe auf eine Karte, um sie aufzuklappen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πάτα μια κάρτα για να ανοίξει"
           }
         },
         "en" : {
@@ -11347,6 +12025,12 @@
             "value" : "Layouts für größere Schrift"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διατάξεις για μεγαλύτερο κείμενο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11446,6 +12130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bedienung per Tastatur"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έλεγχος με πληκτρολόγιο"
           }
         },
         "en" : {
@@ -11548,6 +12238,12 @@
             "value" : "Zeitleiste"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρονολόγιο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11646,6 +12342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeitleisten-Einstellungen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίσεις χρονολογίου"
           }
         },
         "en" : {
@@ -11748,6 +12450,12 @@
             "value" : "Als Zeitleiste sichern"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευση ως χρονολόγιο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11846,6 +12554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeitleiste auswählen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επίλεξε χρονολόγιο"
           }
         },
         "en" : {
@@ -11949,6 +12663,12 @@
             "value" : "Speichere deine Zeitleiste in einer Datei und hole sie später zurück."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευσε το χρονολόγιό σου σε αρχείο και επανάφερέ το αργότερα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12047,6 +12767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noch keine Zeitleisten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν χρονολόγια ακόμη"
           }
         },
         "en" : {
@@ -12149,6 +12875,12 @@
             "value" : "Hashtags"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ετικέτες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12247,6 +12979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hashtag hinzufügen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη ετικέτας"
           }
         },
         "en" : {
@@ -12349,6 +13087,12 @@
             "value" : "Hashtag-Zeitleisten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρονολόγια ετικετών"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12447,6 +13191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hashtag-Zeitleiste · "
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρονολόγιο ετικέτας · "
           }
         },
         "en" : {
@@ -12549,6 +13299,12 @@
             "value" : "Hashtag-Zeitleiste sichern"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευση χρονολογίου ετικέτας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12649,6 +13405,12 @@
             "value" : "Ereignisse per Hashtag verknüpfen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνδέστε τα γεγονότα με ετικέτες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12747,6 +13509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tippe auf einen Hashtag, um Ereignisse zu sammeln"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πάτα μια ετικέτα για να μαζέψεις γεγονότα"
           }
         },
         "en" : {
@@ -12850,6 +13618,12 @@
             "value" : "Layout für faltbares iPhone"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάταξη για αναδιπλούμενο iPhone"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12949,6 +13723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nutze den breiten Bildschirm eines faltbaren iPhone als zwei Bereiche nebeneinander."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποίησε τη μεγάλη οθόνη ενός αναδιπλούμενου iPhone ως δύο παράθυρα δίπλα-δίπλα."
           }
         },
         "en" : {
@@ -13051,6 +13831,12 @@
             "value" : "Poster"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφίσα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13149,6 +13935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Film"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φιλμ"
           }
         },
         "en" : {
@@ -13252,6 +14044,12 @@
             "value" : "Widgets für den Home-Bildschirm"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γραφικά στοιχεία στην Αρχική οθόνη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13353,6 +14151,12 @@
             "value" : "VoiceOver liest jede Taste und jedes Ereignis vor, in der richtigen Reihenfolge."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το VoiceOver διαβάζει κάθε κουμπί και κάθε γεγονός, με τη σωστή σειρά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13451,6 +14255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eine Zeitleiste, die mit der Zeit wächst"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ένα χρονολόγιο που απλώνεται όσο ο χρόνος"
           }
         },
         "en" : {

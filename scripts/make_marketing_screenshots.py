@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -135,6 +135,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Knyt begivenheder<br>sammen med hashtags", "Spredte data bliver til en ny tidslinje"),
         ("05-editor.png", "dark", "Et kortdesign<br>til hver begivenhed", "Dato, noter og tags på én skærm"),
     ],
+    "el": [
+        ("01-trip.png", "hero-bleed", "Ένα χρονολόγιο που<br>απλώνεται όσο ο χρόνος", "Τρεις και πέντε μέρες 3:5, τα μεγάλα κενά με τελείες"),
+        ("02-iceland.png", "left-text", "Κράτα τη μέρα<br>μαζί με τις φωτογραφίες", "Τέσσερις σχεδιάσεις κάρτας να διαλέξεις"),
+        ("03-expand.png", "text-bottom", "Πάτα και ανοίγει<br>επιτόπου", "Φωτογραφίες και ιστορίες με μια ματιά"),
+        ("04-tag.png", "flat-rotate", "Συνδέστε τα γεγονότα<br>με hashtag", "Τα διάσπαρτα δεδομένα γίνονται νέο χρονολόγιο"),
+        ("05-editor.png", "dark", "Μια σχεδίαση κάρτας<br>για κάθε γεγονός", "Ημερομηνία, σημειώσεις και ετικέτες σε μία οθόνη"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -234,6 +241,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Tryk, så åbner det sig på stedet", "Billeder og historier med det samme"),
         ("ipad-03-tag.png", "Knyt begivenheder sammen med hashtags", "Spredte data bliver til en ny tidslinje"),
         ("ipad-04-editor.png", "Gem dagens billeder og historie", "Dato, noter, tags og kortdesign"),
+    ],
+    "el": [
+        ("ipad-01-trip.png", "Ένα χρονολόγιο που απλώνεται όσο ο χρόνος", "Τρεις και πέντε μέρες 3:5, τα μεγάλα κενά με τελείες"),
+        ("ipad-02-expand.png", "Πάτα και ανοίγει επιτόπου", "Φωτογραφίες και ιστορίες με μια ματιά"),
+        ("ipad-03-tag.png", "Συνδέστε τα γεγονότα με hashtag", "Τα διάσπαρτα δεδομένα γίνονται νέο χρονολόγιο"),
+        ("ipad-04-editor.png", "Κράτα τις φωτογραφίες και την ιστορία της μέρας", "Ημερομηνία, σημειώσεις, ετικέτες και σχεδίαση κάρτας"),
     ],
 }
 IPAD_CSS = f"""
