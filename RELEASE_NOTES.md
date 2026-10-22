@@ -94,3 +94,9 @@ Gặp sự cố, hãy báo ở trang Hỗ trợ.
 Děkujeme, že používáte Yeoul.
 Aplikaci jsme udělali stabilnější.
 Potíže nám nahlaste v Podpoře.
+
+### 앱스토어 (da)
+
+Tak, fordi du bruger Yeoul.
+Vi har gjort appen mere stabil.
+Meld fejl via siden Support.

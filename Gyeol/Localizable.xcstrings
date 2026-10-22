@@ -9,6 +9,12 @@
             "value" : "Žádné události se štítkem #%@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen begivenheder med #%@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -101,6 +107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odebrat #%@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern #%@"
           }
         },
         "de" : {
@@ -197,6 +209,12 @@
             "value" : "Zde se shromažďují události se štítkem #%@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begivenheder med tagget #%@ samles her"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -289,6 +307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vzhled: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design: %@"
           }
         },
         "de" : {
@@ -385,6 +409,12 @@
             "value" : "Fotky z %@: %lld"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Billeder fra %@: %lld"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hledám fotky z %@…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leder efter billeder fra %@ …"
           }
         },
         "de" : {
@@ -573,6 +609,12 @@
             "value" : "Z %@ nejsou žádné fotky."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen billeder taget %@."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -665,6 +707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld měs."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mdr."
           }
         },
         "de" : {
@@ -761,6 +809,12 @@
             "value" : "%1$lld měs. %2$lld d."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld mdr. %2$lld d."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -853,6 +907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld r."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld år"
           }
         },
         "de" : {
@@ -949,6 +1009,12 @@
             "value" : "%1$lld r. %2$lld měs."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld år %2$lld mdr."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1038,6 +1104,12 @@
     "%lld월" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -1137,6 +1209,12 @@
             "value" : "%2$lld. %1$lld."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld.%1$lld."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1226,6 +1304,12 @@
     "%lld일" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d."
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld d."
@@ -1326,6 +1410,12 @@
             "value" : "Zámek Face ID"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID-lås"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1419,6 +1509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamkněte aplikaci pomocí Face ID nebo Touch ID, aby vaše časová osa zůstala soukromá."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås appen med Face ID eller Touch ID, så din tidslinje forbliver privat."
           }
         },
         "de" : {
@@ -1516,6 +1612,12 @@
             "value" : "Lepší podpora VoiceOveru"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedre understøttelse af VoiceOver"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1608,6 +1710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Událost „%2$@“ byla přidána do „%1$@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%2$@” er tilføjet til “%1$@”."
           }
         },
         "de" : {
@@ -1704,6 +1812,12 @@
             "value" : "Klepnutím na „Přidat událost“ uložte svůj první okamžik.\nUdálosti se řadí shora dolů podle času a mezery mezi nimi odpovídají skutečně uplynulému času."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på “Tilføj begivenhed” for at gemme dit første øjeblik.\nBegivenhederne stables oppefra og ned i tidsrækkefølge, og afstanden mellem dem svarer til den tid, der faktisk er gået."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1796,6 +1910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ve stejný den"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samme dag"
           }
         },
         "de" : {
@@ -1892,6 +2012,12 @@
             "value" : "Spojí události se stejným štítkem ze všech časových os do jedné časové osy."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samler alle begivenheder med samme tag fra alle tidslinjer i én tidslinje."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1984,6 +2110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přeskočit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spring over"
           }
         },
         "de" : {
@@ -2080,6 +2212,12 @@
             "value" : "Přidá událost na vybranou časovou osu. Pokud nezadáte datum, zaznamená se s aktuálním časem."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføjer en begivenhed til den tidslinje, du vælger. Hvis du ikke angiver en dato, registreres den med det aktuelle tidspunkt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2172,6 +2310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Najít související fotky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find relaterede billeder"
           }
         },
         "de" : {
@@ -2268,6 +2412,12 @@
             "value" : "Fotky z toho dne rovnou k události"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj billeder fra dagen med det samme"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2362,6 +2512,12 @@
             "value" : "Tuto časovou osu se nepodařilo najít. Možná byla smazána nebo se na toto zařízení ještě nedostala."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidslinjen blev ikke fundet. Den er måske slettet eller er endnu ikke nået frem til denne enhed."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2454,6 +2610,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text na prvním místě, fotka pod ním"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst først, billedet under"
           }
         },
         "de" : {
@@ -2551,6 +2713,12 @@
             "value" : "Po zvětšení písma se obrazovky přehledně přeuspořádají, místo aby se oříznuly."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du forstørrer teksten, indrettes skærmene pænt i stedet for at blive skåret af."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2644,6 +2812,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dostávejte upozornění na dny, na které nechcete zapomenout, třeba výročí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få en påmindelse om dage, du ikke vil glemme, som fx jubilæer."
           }
         },
         "de" : {
@@ -2740,6 +2914,12 @@
             "value" : "Klasika"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klassisk"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2832,6 +3012,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Napište, co si chcete zapamatovat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv det, du vil huske"
           }
         },
         "de" : {
@@ -2928,6 +3114,12 @@
             "value" : "Datum"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dato"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3020,6 +3212,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Datum a písmo v hlavní roli"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datoen og skriften er i centrum"
           }
         },
         "de" : {
@@ -3117,6 +3315,12 @@
             "value" : "Smazat všechna moje data najednou"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet alle mine data på én gang"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3211,6 +3415,12 @@
             "value" : "Poznámky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3303,6 +3513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Další"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næste"
           }
         },
         "de" : {
@@ -3400,6 +3616,12 @@
             "value" : "Snadno rozlišíte štítky a události, i když máte zapnuté Zvýšit kontrast nebo se vám špatně rozlišují barvy."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se nemt forskel på tags og begivenheder, også med Øg kontrast slået til, eller hvis farver er svære at skelne."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3493,6 +3715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Používejte aplikaci ve více jazycích."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug appen på flere sprog."
           }
         },
         "de" : {
@@ -3590,6 +3818,12 @@
             "value" : "Více jazyků"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flere sprog"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3682,6 +3916,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytvořit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opret"
           }
         },
         "de" : {
@@ -3778,6 +4018,12 @@
             "value" : "Napsat e-mailem"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv til os på e-mail"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3872,6 +4118,12 @@
             "value" : "Co se stalo?"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad skete der?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3964,6 +4216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Náhled"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forhåndsvisning"
           }
         },
         "de" : {
@@ -4061,6 +4319,12 @@
             "value" : "Záloha a export"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sikkerhedskopi og eksport"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4154,6 +4418,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Příjemnější barvy a kontrast"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mere behagelige farver og kontrast"
           }
         },
         "de" : {
@@ -4250,6 +4520,12 @@
             "value" : "Vývojář čte každou zprávu osobně. Napište, co vám vadilo nebo jakou funkci byste chtěli."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udvikleren læser selv alle beskeder. Fortæl os, hvad der var besværligt, eller hvilken funktion du savner."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4342,6 +4618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Načítání…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indlæser …"
           }
         },
         "de" : {
@@ -4438,6 +4720,12 @@
             "value" : "Událostí: %lld · poslední %@.%@"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begivenheder: %lld · seneste %@.%@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4530,6 +4818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Událostí: %lld · po uložení zůstane v seznamu a bude se dál plnit, jak přibývají štítky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begivenheder: %lld · når den er gemt, bliver den på din liste og fyldes løbende op, efterhånden som tags tilføjes"
           }
         },
         "de" : {
@@ -4626,6 +4920,12 @@
             "value" : "Zaznamenat událost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Registrer en begivenhed"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4718,6 +5018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vzdálenost mezi událostmi odpovídá skutečně uplynulému času. Tři dny a pět dní jsou od sebe v poměru 3:5 a dlouhé mezery se sbalí do tečkované čáry s popiskem například „2 roky 4 měsíce“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afstanden mellem begivenheder står i forhold til den tid, der faktisk er gået. Tre dage og fem dage ligger 3:5 fra hinanden, og lange huller foldes sammen til en stiplet linje med en tekst som “2 år og 4 måneder”."
           }
         },
         "de" : {
@@ -4814,6 +5120,12 @@
             "value" : "Smazat událost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet begivenhed"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4906,6 +5218,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Upravit událost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rediger begivenhed"
           }
         },
         "de" : {
@@ -5002,6 +5320,12 @@
             "value" : "Žádné události"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen begivenheder"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5096,6 +5420,12 @@
             "value" : "Přidat událost"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj begivenhed"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5188,6 +5518,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidejte událostem štítky a klepnutím na štítek spojíte všechny okamžiky se stejným štítkem ze všech časových os do nové časové osy. Vaše záznamy se přes iCloud synchronizují mezi iPhonem, iPadem a Macem."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giv begivenheder tags, og tryk på et tag for at samle alle øjeblikke med det tag fra alle dine tidslinjer i en ny tidslinje. Dine data synkroniseres mellem iPhone, iPad og Mac via iCloud."
           }
         },
         "de" : {
@@ -5285,6 +5621,12 @@
             "value" : "Jemné zavibrování, když událost přidáte nebo smažete."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et let vibrationsfeedback, når du tilføjer eller sletter en begivenhed."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5378,6 +5720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "To, co píšete, zůstane zachováno, i když se aplikace uprostřed zavře."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det, du var i gang med at skrive, bliver stående, selv hvis appen lukker midt i det hele."
           }
         },
         "de" : {
@@ -5474,6 +5822,12 @@
             "value" : "Vyberte datum události a klepněte na „Najít související fotky“. Zobrazí se fotky pořízené v ten den. Pokud žádná nevyhovuje, můžete si vybrat sami."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg datoen for en begivenhed, og tryk på “Find relaterede billeder” for at se de billeder, du tog den dag. Hvis ingen passer, kan du selv vælge et."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5566,6 +5920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Billede"
           }
         },
         "de" : {
@@ -5662,6 +6022,12 @@
             "value" : "Změnit fotku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skift billede"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5754,6 +6120,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přístup k Fotkám je vypnutý, proto nelze najít fotky z toho dne.\nStále si ale můžete vybrat níže."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adgang til Billeder er slået fra, så billederne fra den dag kan ikke findes.\nDu kan stadig vælge selv herunder."
           }
         },
         "de" : {
@@ -5850,6 +6222,12 @@
             "value" : "Odebrat fotku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern billede"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5942,6 +6320,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotky a poznámky se otevřou na místě. Dalším klepnutím je sbalíte."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Billeder og noter åbner sig på stedet. Tryk igen for at folde sammen."
           }
         },
         "de" : {
@@ -6038,6 +6422,12 @@
             "value" : "Fotka vyplní kartu, text je přes ni"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Billedet fylder kortet med tekst ovenpå"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6130,6 +6520,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet"
           }
         },
         "de" : {
@@ -6226,6 +6622,12 @@
             "value" : "Nová časová osa"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny tidslinje"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6318,6 +6720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barva"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farve"
           }
         },
         "de" : {
@@ -6414,6 +6822,12 @@
             "value" : "Nastavení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6506,6 +6920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Povolit v Nastavení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillad i Indstillinger"
           }
         },
         "de" : {
@@ -6603,6 +7023,12 @@
             "value" : "Haptická odezva"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptisk feedback"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6697,6 +7123,12 @@
             "value" : "Upravit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rediger"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6789,6 +7221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Začít"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom i gang"
           }
         },
         "de" : {
@@ -6886,6 +7324,12 @@
             "value" : "Navázat tam, kde jste skončili"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt, hvor du slap"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6978,6 +7422,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zkuste hledat ručně níže."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prøv at finde dem selv herunder."
           }
         },
         "de" : {
@@ -7075,6 +7525,12 @@
             "value" : "Hlavní funkce na iPadu ovládejte jen klávesnicí."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug de vigtigste funktioner på iPad kun med et tastatur."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7167,6 +7623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatím žádné události"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen begivenheder endnu"
           }
         },
         "de" : {
@@ -7264,6 +7726,12 @@
             "value" : "Připomínky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Påmindelser"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7357,6 +7825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podívejte se na časovou osu přímo na ploše, aniž byste otevírali aplikaci."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se din tidslinje direkte på hjemmeskærmen uden at åbne appen."
           }
         },
         "de" : {
@@ -7454,6 +7928,12 @@
             "value" : "Používejte celou aplikaci i v angličtině."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug hele appen på engelsk."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7546,6 +8026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co se stalo?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad skete der?"
           }
         },
         "de" : {
@@ -7643,6 +8129,12 @@
             "value" : "Při prvním otevření po aktualizaci se dozvíte, co je nového."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åbner appen efter en opdatering, kan du se, hvad der er nyt."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7736,6 +8228,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novinky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyt i appen"
           }
         },
         "de" : {
@@ -7832,6 +8330,12 @@
             "value" : "Okraj"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Margen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7921,6 +8425,12 @@
     "여울" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeoul"
@@ -8020,6 +8530,12 @@
             "value" : "Jak používat Yeoul"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sådan bruger du Yeoul"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8113,6 +8629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plná podpora angličtiny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuld understøttelse af engelsk"
           }
         },
         "de" : {
@@ -8209,6 +8731,12 @@
             "value" : "Např. První rok miminka, deník spuštění aplikace"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "F.eks. Barnets første år, logbog for app-lanceringen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8303,6 +8831,12 @@
             "value" : "Hotovo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8395,6 +8929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vlevo vyberte časovou osu nebo vytvořte novou."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg en tidslinje til venstre, eller opret en ny."
           }
         },
         "de" : {
@@ -8492,6 +9032,12 @@
             "value" : "Omezit pohyb"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducer bevægelse"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8585,6 +9131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Když zapnete Omezit pohyb, efekty na obrazovce budou klidnější."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når Reducer bevægelse er slået til, bliver skærmeffekterne mere afdæmpede."
           }
         },
         "de" : {
@@ -8682,6 +9234,12 @@
             "value" : "Kdykoli můžete celou svou časovou osu smazat přímo v aplikaci."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet hele din tidslinje fra appen, når du vil."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8774,6 +9332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat tuto událost?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du slette denne begivenhed?"
           }
         },
         "de" : {
@@ -8870,6 +9434,12 @@
             "value" : "Použít tuto fotku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug dette billede"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8962,6 +9532,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se tímto štítkem zatím nejsou žádné události."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen begivenheder har dette tag endnu."
           }
         },
         "de" : {
@@ -9058,6 +9634,12 @@
             "value" : "Přidejte tento štítek události a automaticky se tu objeví."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giv en begivenhed dette tag, så samles den automatisk her."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9150,6 +9732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Název"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navn"
           }
         },
         "de" : {
@@ -9246,6 +9834,12 @@
             "value" : "Změnit název a barvu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skift navn og farve"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9338,6 +9932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-DM (@lee25_ios)"
           }
         },
         "de" : {
@@ -9434,6 +10034,12 @@
             "value" : "Fotka s okrajem jako zvětšenina"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et billede med kant som et fotoprint"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9526,6 +10132,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uložit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem"
           }
         },
         "de" : {
@@ -9622,6 +10234,12 @@
             "value" : "Uloženo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemt"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9714,6 +10332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Název"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel"
           }
         },
         "de" : {
@@ -9810,6 +10434,12 @@
             "value" : "Bez názvu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uden titel"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9902,6 +10532,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpora"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         },
         "de" : {
@@ -9998,6 +10634,12 @@
             "value" : "Vybrat ručně"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find selv"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10090,6 +10732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Znovu si projděte úvod, který jste viděli při prvním spuštění."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se introduktionen igen, som du så, første gang du åbnede appen."
           }
         },
         "de" : {
@@ -10186,6 +10834,12 @@
             "value" : "Vytvořte svou první časovou osu.\nPrvní rok miminka, spuštění aplikace, cesta — cokoli."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opret din første tidslinje.\nBarnets første år, en app-lancering, en rejse – alt er velkomment."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10278,6 +10932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj"
           }
         },
         "de" : {
@@ -10374,6 +11034,12 @@
             "value" : "Zrušit"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuller"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10468,6 +11134,12 @@
             "value" : "Vzhled karty"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortdesign"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10560,6 +11232,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klepnutím na kartu ji rozbalíte"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på et kort for at folde det ud"
           }
         },
         "de" : {
@@ -10657,6 +11335,12 @@
             "value" : "Obrazovky pro větší písmo"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skærme til større tekst"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10750,6 +11434,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ovládání klávesnicí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Styring med tastatur"
           }
         },
         "de" : {
@@ -10846,6 +11536,12 @@
             "value" : "Časová osa"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidslinje"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10938,6 +11634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nastavení časové osy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger for tidslinje"
           }
         },
         "de" : {
@@ -11034,6 +11736,12 @@
             "value" : "Uložit jako časovou osu"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem som tidslinje"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11126,6 +11834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyberte časovou osu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg en tidslinje"
           }
         },
         "de" : {
@@ -11223,6 +11937,12 @@
             "value" : "Uložte časovou osu do souboru a později ji vraťte zpět."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem din tidslinje i en fil, og hent den tilbage senere."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11315,6 +12035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatím žádné časové osy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen tidslinjer endnu"
           }
         },
         "de" : {
@@ -11411,6 +12137,12 @@
             "value" : "Štítky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tags"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11503,6 +12235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidat štítek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj tag"
           }
         },
         "de" : {
@@ -11599,6 +12337,12 @@
             "value" : "Časové osy štítků"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag-tidslinjer"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11691,6 +12435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Časová osa štítku · "
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag-tidslinje · "
           }
         },
         "de" : {
@@ -11787,6 +12537,12 @@
             "value" : "Uložit časovou osu štítku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem tag-tidslinje"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11881,6 +12637,12 @@
             "value" : "Propojujte události štítky"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knyt begivenheder sammen med tags"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11973,6 +12735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klepnutím na štítek shromáždíte události"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk på et tag for at samle begivenheder"
           }
         },
         "de" : {
@@ -12070,6 +12838,12 @@
             "value" : "Rozložení pro skládací iPhone"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layout til foldbar iPhone"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12163,6 +12937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Široký displej skládacího iPhonu využijte jako dva panely vedle sebe."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug den brede skærm på en foldbar iPhone som to paneler side om side."
           }
         },
         "de" : {
@@ -12259,6 +13039,12 @@
             "value" : "Plakát"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plakat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12348,6 +13134,12 @@
     "필름" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Film"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Film"
@@ -12448,6 +13240,12 @@
             "value" : "Widgety na ploše"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets på hjemmeskærmen"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12543,6 +13341,12 @@
             "value" : "VoiceOver přečte každé tlačítko i událost, ve správném pořadí."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver læser hver knap og begivenhed op i den rigtige rækkefølge."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12635,6 +13439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Časová osa, která se natahuje podle času"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En tidslinje, der strækker sig med tiden"
           }
         },
         "de" : {

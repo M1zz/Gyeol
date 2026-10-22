@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -128,6 +128,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Propojujte události<br>hashtagy", "Roztroušené záznamy se stanou novou osou"),
         ("05-editor.png", "dark", "Vzhled karty<br>pro každou událost", "Datum, poznámky a štítky na jedné obrazovce"),
     ],
+    "da": [
+        ("01-trip.png", "hero-bleed", "En tidslinje, der<br>strækker sig med tiden", "Tre og fem dage 3:5, lange huller som prikker"),
+        ("02-iceland.png", "left-text", "Gem dagen<br>sammen med billederne", "Fire kortdesigns at vælge imellem"),
+        ("03-expand.png", "text-bottom", "Tryk, så åbner<br>det sig på stedet", "Billeder og historier med det samme"),
+        ("04-tag.png", "flat-rotate", "Knyt begivenheder<br>sammen med hashtags", "Spredte data bliver til en ny tidslinje"),
+        ("05-editor.png", "dark", "Et kortdesign<br>til hver begivenhed", "Dato, noter og tags på én skærm"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -221,6 +228,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Klepněte a otevře se to na místě", "Fotky a příběhy na první pohled"),
         ("ipad-03-tag.png", "Propojujte události hashtagy", "Roztroušené záznamy se stanou novou osou"),
         ("ipad-04-editor.png", "Uchovejte fotky a příběh dne", "Datum, poznámky, štítky a vzhled karty"),
+    ],
+    "da": [
+        ("ipad-01-trip.png", "En tidslinje, der strækker sig med tiden", "Tre og fem dage 3:5, lange huller som prikker"),
+        ("ipad-02-expand.png", "Tryk, så åbner det sig på stedet", "Billeder og historier med det samme"),
+        ("ipad-03-tag.png", "Knyt begivenheder sammen med hashtags", "Spredte data bliver til en ny tidslinje"),
+        ("ipad-04-editor.png", "Gem dagens billeder og historie", "Dato, noter, tags og kortdesign"),
     ],
 }
 IPAD_CSS = f"""
