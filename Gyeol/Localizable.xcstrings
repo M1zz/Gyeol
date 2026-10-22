@@ -45,6 +45,12 @@
             "value" : "No hay eventos con #%@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei tapahtumia tunnisteella #%@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quitar #%@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista #%@"
           }
         },
         "fr" : {
@@ -257,6 +269,12 @@
             "value" : "Aquí se reúnen los eventos con la etiqueta #%@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnisteella #%@ merkityt tapahtumat kerätään tähän"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -361,6 +379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Diseño %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ulkoasu: %@"
           }
         },
         "fr" : {
@@ -469,6 +493,12 @@
             "value" : "Fotos del %@: %lld"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvat päivältä %@: %lld"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -573,6 +603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buscando las fotos del %@…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etsitään kuvia päivältä %@…"
           }
         },
         "fr" : {
@@ -681,6 +717,12 @@
             "value" : "No hay fotos del %@."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivältä %@ ei ole kuvia."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -785,6 +827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld m"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kk"
           }
         },
         "fr" : {
@@ -893,6 +941,12 @@
             "value" : "%1$lld m %2$lld d"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld kk %2$lld pv"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -997,6 +1051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld a"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld v"
           }
         },
         "fr" : {
@@ -1105,6 +1165,12 @@
             "value" : "%1$lld a %2$lld m"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld v %2$lld kk"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1206,6 +1272,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -1317,6 +1389,12 @@
             "value" : "%2$lld/%1$lld"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld.%1$lld."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1421,6 +1499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld d"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld pv"
           }
         },
         "fr" : {
@@ -1530,6 +1614,12 @@
             "value" : "Bloqueo con Face ID"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID -lukitus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1635,6 +1725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bloquea la app con Face ID o Touch ID para que tu línea de tiempo siga siendo privada."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukitse sovellus Face ID:llä tai Touch ID:llä, niin aikajanasi pysyy yksityisenä."
           }
         },
         "fr" : {
@@ -1744,6 +1840,12 @@
             "value" : "Mejor compatibilidad con VoiceOver"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parempi VoiceOver-tuki"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1848,6 +1950,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se añadió «%2$@» a «%1$@»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%2$@” lisättiin aikajanalle ”%1$@”."
           }
         },
         "fr" : {
@@ -1956,6 +2064,12 @@
             "value" : "Toca «Añadir evento» para guardar tu primer momento.\nLos eventos se apilan de arriba abajo por orden de tiempo, con una separación igual al tiempo que pasó de verdad."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta ”Lisää tapahtuma” tallentaaksesi ensimmäisen hetkesi.\nTapahtumat pinoutuvat ylhäältä alas aikajärjestyksessä, ja välit ovat yhtä pitkät kuin todellisuudessa kulunut aika."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2060,6 +2174,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El mismo día"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samana päivänä"
           }
         },
         "fr" : {
@@ -2168,6 +2288,12 @@
             "value" : "Reúne en una sola línea de tiempo los eventos con la misma etiqueta de todas tus líneas de tiempo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerää saman tunnisteen tapahtumat kaikilta aikajanoilta yhdelle aikajanalle."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2272,6 +2398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Omitir"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohita"
           }
         },
         "fr" : {
@@ -2380,6 +2512,12 @@
             "value" : "Añade un evento a la línea de tiempo que elijas. Si no indicas una fecha, se registra con la hora actual."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää tapahtuman valitsemallesi aikajanalle. Jos et aseta päivää, se kirjataan nykyiseen aikaan."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2484,6 +2622,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buscar fotos relacionadas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etsi liittyviä kuvia"
           }
         },
         "fr" : {
@@ -2592,6 +2736,12 @@
             "value" : "Añade las fotos de ese día"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää päivän kuvat suoraan"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2698,6 +2848,12 @@
             "value" : "No se encontró esa línea de tiempo. Puede que se haya eliminado o que aún no haya llegado a este dispositivo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aikajanaa ei löytynyt. Se on voitu poistaa, tai se ei ole vielä tullut tälle laitteelle."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2802,6 +2958,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El texto manda y la foto va debajo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teksti ensin, kuva alla"
           }
         },
         "fr" : {
@@ -2911,6 +3073,12 @@
             "value" : "Al aumentar el tamaño del texto, las pantallas se reorganizan bien en lugar de cortarse."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun suurennat tekstiä, näkymät järjestyvät siististi uudelleen sen sijaan, että ne leikkautuisivat."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3016,6 +3184,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recibe un aviso de los días que no quieres olvidar, como los aniversarios."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat muistutuksen päivistä, joita et halua unohtaa, kuten vuosipäivistä."
           }
         },
         "fr" : {
@@ -3124,6 +3298,12 @@
             "value" : "Clásico"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perinteinen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3228,6 +3408,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escribe lo que quieras recordar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita ylös, mitä haluat muistaa"
           }
         },
         "fr" : {
@@ -3336,6 +3522,12 @@
             "value" : "Fecha"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3440,6 +3632,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La fecha y las letras son las protagonistas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivä ja kirjaimet pääosassa"
           }
         },
         "fr" : {
@@ -3549,6 +3747,12 @@
             "value" : "Borrar todos mis datos de una vez"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista kaikki tietoni kerralla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3655,6 +3859,12 @@
             "value" : "Notas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muistiinpanot"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3759,6 +3969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siguiente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuraava"
           }
         },
         "fr" : {
@@ -3868,6 +4084,12 @@
             "value" : "Distingue fácilmente etiquetas y eventos, incluso con Aumentar contraste o si te cuesta diferenciar colores."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erota tunnisteet ja tapahtumat helposti, vaikka Lisää kontrastia olisi päällä tai värien erottaminen olisi vaikeaa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3973,6 +4195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa la app en más idiomas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä sovellusta useammalla kielellä."
           }
         },
         "fr" : {
@@ -4082,6 +4310,12 @@
             "value" : "Más idiomas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää kieliä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4186,6 +4420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crear"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luo"
           }
         },
         "fr" : {
@@ -4294,6 +4534,12 @@
             "value" : "Escribir por correo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota yhteyttä sähköpostilla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4400,6 +4646,12 @@
             "value" : "¿Qué pasó?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä tapahtui?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4504,6 +4756,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vista previa"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esikatselu"
           }
         },
         "fr" : {
@@ -4613,6 +4871,12 @@
             "value" : "Copia de seguridad y exportación"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varmuuskopiointi ja vienti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4718,6 +4982,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Colores y contraste más cómodos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miellyttävämmät värit ja kontrasti"
           }
         },
         "fr" : {
@@ -4826,6 +5096,12 @@
             "value" : "El desarrollador lee personalmente todos los mensajes. Cuéntanos qué te ha molestado o qué función te gustaría ver."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kehittäjä lukee jokaisen viestin itse. Kerro, mikä oli hankalaa tai mitä ominaisuutta kaipaat."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4930,6 +5206,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cargando…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ladataan…"
           }
         },
         "fr" : {
@@ -5038,6 +5320,12 @@
             "value" : "Eventos: %lld · último %@.%@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tapahtumia: %lld · viimeisin %@.%@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5142,6 +5430,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eventos: %lld · al guardarla, se queda en tu lista y sigue llenándose a medida que se añaden etiquetas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tapahtumia: %lld · tallennettuna se pysyy luettelossasi ja täydentyy, kun tunnisteita lisätään"
           }
         },
         "fr" : {
@@ -5250,6 +5544,12 @@
             "value" : "Registrar un evento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjaa tapahtuma"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5354,6 +5654,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La distancia entre eventos es proporcional al tiempo que pasó de verdad. Tres días y cinco días quedan a una distancia de 3:5, y los vacíos largos se pliegan en una línea de puntos con una etiqueta como «2 años 4 meses»."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tapahtumien väli on suhteessa todellisuudessa kuluneeseen aikaan. Kolme päivää ja viisi päivää ovat suhteessa 3:5, ja pitkät tauot taittuvat katkoviivaksi, jossa lukee esimerkiksi ”2 vuotta 4 kuukautta”."
           }
         },
         "fr" : {
@@ -5462,6 +5768,12 @@
             "value" : "Eliminar evento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista tapahtuma"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5566,6 +5878,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Editar evento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muokkaa tapahtumaa"
           }
         },
         "fr" : {
@@ -5674,6 +5992,12 @@
             "value" : "Sin eventos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei tapahtumia"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5780,6 +6104,12 @@
             "value" : "Añadir evento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää tapahtuma"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5884,6 +6214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añade etiquetas a tus eventos y toca una para reunir en una nueva línea de tiempo todos los momentos con esa etiqueta, de todas tus líneas de tiempo. Tus registros se sincronizan entre iPhone, iPad y Mac con iCloud."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää tapahtumille tunnisteita ja napauta tunnistetta kerätäksesi kaikki saman tunnisteen hetket kaikilta aikajanoilta uudelle aikajanalle. Tietosi synkronoituvat iPhonen, iPadin ja Macin välillä iCloudin kautta."
           }
         },
         "fr" : {
@@ -5993,6 +6329,12 @@
             "value" : "Una vibración suave al añadir o eliminar un evento."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kevyt värinä, kun lisäät tai poistat tapahtuman."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6098,6 +6440,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo que estabas escribiendo se conserva aunque la app se cierre a mitad."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keskeneräinen kirjoitus säilyy, vaikka sovellus sulkeutuisi kesken kaiken."
           }
         },
         "fr" : {
@@ -6206,6 +6554,12 @@
             "value" : "Elige la fecha de un evento y toca «Buscar fotos relacionadas» para ver las fotos que hiciste ese día. Si ninguna te convence, puedes elegir una tú mismo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse tapahtuman päivä ja napauta ”Etsi liittyviä kuvia”, niin näet sinä päivänä ottamasi kuvat. Jos mikään ei sovi, voit valita itse."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6310,6 +6664,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuva"
           }
         },
         "fr" : {
@@ -6418,6 +6778,12 @@
             "value" : "Cambiar foto"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda kuva"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6522,6 +6888,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El acceso a Fotos está desactivado, así que no se pueden buscar las fotos de ese día.\nAun así, puedes elegir una abajo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pääsy Kuviin on pois päältä, joten sinä päivänä otettuja kuvia ei löydy.\nVoit silti valita kuvan itse alta."
           }
         },
         "fr" : {
@@ -6630,6 +7002,12 @@
             "value" : "Quitar foto"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista kuva"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6734,6 +7112,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Las fotos y las notas se abren en el sitio. Vuelve a tocar para plegar."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuvat ja muistiinpanot avautuvat paikallaan. Napauta uudelleen sulkeaksesi."
           }
         },
         "fr" : {
@@ -6842,6 +7226,12 @@
             "value" : "La foto llena la tarjeta con el texto encima"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuva täyttää kortin ja teksti on sen päällä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6946,6 +7336,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eliminar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista"
           }
         },
         "fr" : {
@@ -7054,6 +7450,12 @@
             "value" : "Nueva línea de tiempo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusi aikajana"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7158,6 +7560,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Color"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väri"
           }
         },
         "fr" : {
@@ -7266,6 +7674,12 @@
             "value" : "Ajustes"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asetukset"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7370,6 +7784,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Permitir en Ajustes"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salli Asetuksissa"
           }
         },
         "fr" : {
@@ -7479,6 +7899,12 @@
             "value" : "Respuesta háptica"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptinen palaute"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7585,6 +8011,12 @@
             "value" : "Editar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muokkaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7689,6 +8121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Empezar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita"
           }
         },
         "fr" : {
@@ -7798,6 +8236,12 @@
             "value" : "Retoma lo que dejaste a medias"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka siitä, mihin jäit"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7902,6 +8346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prueba a buscarlas tú abajo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kokeile etsiä itse alta."
           }
         },
         "fr" : {
@@ -8011,6 +8461,12 @@
             "value" : "Usa las funciones principales en el iPad solo con un teclado."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä tärkeimpiä ominaisuuksia iPadilla pelkällä näppäimistöllä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8115,6 +8571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aún no hay eventos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä tapahtumia"
           }
         },
         "fr" : {
@@ -8224,6 +8686,12 @@
             "value" : "Recordatorios"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muistutukset"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8329,6 +8797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mira tu línea de tiempo en la pantalla de inicio, sin abrir la app."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katso aikajanasi suoraan Koti-valikosta avaamatta sovellusta."
           }
         },
         "fr" : {
@@ -8438,6 +8912,12 @@
             "value" : "Usa toda la app en inglés."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä koko sovellusta myös englanniksi."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8542,6 +9022,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Qué pasó?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitä tapahtui?"
           }
         },
         "fr" : {
@@ -8651,6 +9137,12 @@
             "value" : "La primera vez que abras la app tras una actualización, verás las novedades."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun avaat sovelluksen päivityksen jälkeen ensimmäisen kerran, näet mitä uutta."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8756,6 +9248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novedades"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uutta"
           }
         },
         "fr" : {
@@ -8864,6 +9362,12 @@
             "value" : "Margen"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marginaali"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8965,6 +9469,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeoul"
@@ -9076,6 +9586,12 @@
             "value" : "Cómo usar Yeoul"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoulin käyttö"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9181,6 +9697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compatibilidad total con inglés"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Täysi englannin tuki"
           }
         },
         "fr" : {
@@ -9289,6 +9811,12 @@
             "value" : "Por ejemplo: el primer año de mi bebé, el lanzamiento de mi app"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esim. Vauvan ensimmäinen vuosi, sovelluksen julkaisupäiväkirja"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9395,6 +9923,12 @@
             "value" : "Listo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9499,6 +10033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elige una línea de tiempo a la izquierda o crea una nueva."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse aikajana vasemmalta tai luo uusi."
           }
         },
         "fr" : {
@@ -9608,6 +10148,12 @@
             "value" : "Reducir movimiento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vähennä liikettä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9713,6 +10259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con Reducir movimiento activado, los efectos de pantalla son más tranquilos."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun Vähennä liikettä on päällä, näytön tehosteet rauhoittuvat."
           }
         },
         "fr" : {
@@ -9822,6 +10374,12 @@
             "value" : "Borra toda tu línea de tiempo desde la propia app cuando quieras."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voit halutessasi poistaa koko aikajanasi sovelluksen sisältä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9926,6 +10484,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Eliminar este evento?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poistetaanko tämä tapahtuma?"
           }
         },
         "fr" : {
@@ -10034,6 +10598,12 @@
             "value" : "Usar esta foto"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä tätä kuvaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10138,6 +10708,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todavía no hay eventos con esta etiqueta."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Millään tapahtumalla ei ole vielä tätä tunnistetta."
           }
         },
         "fr" : {
@@ -10246,6 +10822,12 @@
             "value" : "Si añades esta etiqueta a un evento, aparecerá aquí automáticamente."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää tämä tunniste tapahtumaan, niin se kerääntyy tähän automaattisesti."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10350,6 +10932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nombre"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nimi"
           }
         },
         "fr" : {
@@ -10458,6 +11046,12 @@
             "value" : "Cambiar nombre y color"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda nimi ja väri"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10562,6 +11156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "MD de Instagram (@lee25_ios)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-viesti (@lee25_ios)"
           }
         },
         "fr" : {
@@ -10670,6 +11270,12 @@
             "value" : "Una foto con marco, como una copia en papel"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kehystetty kuva kuin valokuvavedos"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10774,6 +11380,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guardar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna"
           }
         },
         "fr" : {
@@ -10882,6 +11494,12 @@
             "value" : "Guardada"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallennettu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10986,6 +11604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Título"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otsikko"
           }
         },
         "fr" : {
@@ -11094,6 +11718,12 @@
             "value" : "Sin título"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nimetön"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11198,6 +11828,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soporte"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuki"
           }
         },
         "fr" : {
@@ -11306,6 +11942,12 @@
             "value" : "Buscar yo mismo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etsi itse"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11410,6 +12052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vuelve a ver la introducción que viste al abrir la app por primera vez."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katso uudelleen esittely, jonka näit avatessasi sovelluksen ensimmäisen kerran."
           }
         },
         "fr" : {
@@ -11518,6 +12166,12 @@
             "value" : "Crea tu primera línea de tiempo.\nEl primer año de tu bebé, el lanzamiento de una app, un viaje… lo que quieras."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luo ensimmäinen aikajanasi.\nVauvan ensimmäinen vuosi, sovelluksen julkaisu, matka – mikä vain käy."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11622,6 +12276,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää"
           }
         },
         "fr" : {
@@ -11730,6 +12390,12 @@
             "value" : "Cancelar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruuta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11836,6 +12502,12 @@
             "value" : "Diseño de la tarjeta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortin ulkoasu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11940,6 +12612,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca una tarjeta para desplegarla"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta korttia avataksesi sen"
           }
         },
         "fr" : {
@@ -12049,6 +12727,12 @@
             "value" : "Pantallas para texto grande"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näkymät suuremmalle tekstille"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12154,6 +12838,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Control con teclado"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohjaus näppäimistöllä"
           }
         },
         "fr" : {
@@ -12262,6 +12952,12 @@
             "value" : "Línea de tiempo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aikajana"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12366,6 +13062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustes de la línea de tiempo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aikajanan asetukset"
           }
         },
         "fr" : {
@@ -12474,6 +13176,12 @@
             "value" : "Guardar como línea de tiempo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna aikajanana"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12578,6 +13286,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elige una línea de tiempo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse aikajana"
           }
         },
         "fr" : {
@@ -12687,6 +13401,12 @@
             "value" : "Guarda tu línea de tiempo en un archivo y recupérala más tarde."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna aikajanasi tiedostoon ja tuo se takaisin myöhemmin."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12791,6 +13511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aún no hay líneas de tiempo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä aikajanoja"
           }
         },
         "fr" : {
@@ -12899,6 +13625,12 @@
             "value" : "Etiquetas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnisteet"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13003,6 +13735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir etiqueta"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää tunniste"
           }
         },
         "fr" : {
@@ -13111,6 +13849,12 @@
             "value" : "Líneas de tiempo de etiquetas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnisteaikajanat"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13215,6 +13959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Línea de tiempo de etiqueta · "
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnisteaikajana · "
           }
         },
         "fr" : {
@@ -13323,6 +14073,12 @@
             "value" : "Guardar línea de tiempo de etiqueta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna tunnisteaikajana"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13429,6 +14185,12 @@
             "value" : "Une eventos con etiquetas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhdistä tapahtumat tunnisteilla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13533,6 +14295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca una etiqueta para reunir eventos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta tunnistetta kerätäksesi tapahtumat"
           }
         },
         "fr" : {
@@ -13642,6 +14410,12 @@
             "value" : "Diseño para iPhone plegable"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taitettavan iPhonen asettelu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13747,6 +14521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa la pantalla ancha de un iPhone plegable como dos paneles en paralelo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä taitettavan iPhonen leveää näyttöä kahtena rinnakkaisena paneelina."
           }
         },
         "fr" : {
@@ -13855,6 +14635,12 @@
             "value" : "Póster"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juliste"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13959,6 +14745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Película"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filmi"
           }
         },
         "fr" : {
@@ -14068,6 +14860,12 @@
             "value" : "Widgets en la pantalla de inicio"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koti-valikon widgetit"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14175,6 +14973,12 @@
             "value" : "VoiceOver lee todos los botones y eventos, en el orden correcto."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lukee jokaisen painikkeen ja tapahtuman oikeassa järjestyksessä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14279,6 +15083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Una línea de tiempo que se estira con el tiempo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aikajana, joka venyy ajan mukana"
           }
         },
         "fr" : {

@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -142,6 +142,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Συνδέστε τα γεγονότα<br>με hashtag", "Τα διάσπαρτα δεδομένα γίνονται νέο χρονολόγιο"),
         ("05-editor.png", "dark", "Μια σχεδίαση κάρτας<br>για κάθε γεγονός", "Ημερομηνία, σημειώσεις και ετικέτες σε μία οθόνη"),
     ],
+    "fi": [
+        ("01-trip.png", "hero-bleed", "Aikajana, joka venyy<br>ajan mukana", "Kolme ja viisi päivää 3:5, pitkät tauot pisteinä"),
+        ("02-iceland.png", "left-text", "Tallenna päivä<br>kuvineen", "Neljä kortin ulkoasua valittavana"),
+        ("03-expand.png", "text-bottom", "Napauta, niin se<br>avautuu paikallaan", "Kuvat ja tarinat yhdellä silmäyksellä"),
+        ("04-tag.png", "flat-rotate", "Yhdistä tapahtumat<br>hashtageilla", "Hajallaan olevat tiedot muodostavat uuden aikajanan"),
+        ("05-editor.png", "dark", "Kortin ulkoasu<br>jokaiselle tapahtumalle", "Päivä, muistiinpanot ja tunnisteet yhdellä näytöllä"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -247,6 +254,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Πάτα και ανοίγει επιτόπου", "Φωτογραφίες και ιστορίες με μια ματιά"),
         ("ipad-03-tag.png", "Συνδέστε τα γεγονότα με hashtag", "Τα διάσπαρτα δεδομένα γίνονται νέο χρονολόγιο"),
         ("ipad-04-editor.png", "Κράτα τις φωτογραφίες και την ιστορία της μέρας", "Ημερομηνία, σημειώσεις, ετικέτες και σχεδίαση κάρτας"),
+    ],
+    "fi": [
+        ("ipad-01-trip.png", "Aikajana, joka venyy ajan mukana", "Kolme ja viisi päivää 3:5, pitkät tauot pisteinä"),
+        ("ipad-02-expand.png", "Napauta, niin se avautuu paikallaan", "Kuvat ja tarinat yhdellä silmäyksellä"),
+        ("ipad-03-tag.png", "Yhdistä tapahtumat hashtageilla", "Hajallaan olevat tiedot muodostavat uuden aikajanan"),
+        ("ipad-04-editor.png", "Tallenna päivän kuvat ja tarina", "Päivä, muistiinpanot, tunnisteet ja kortin ulkoasu"),
     ],
 }
 IPAD_CSS = f"""

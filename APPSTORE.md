@@ -866,3 +866,54 @@ Yeoul: Το χρονολόγιό σου
 
 Σε iPhone και iPad
 Με το iCloud βλέπεις τα ίδια δεδομένα σε όλες τις συσκευές σου.
+
+## fi
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-fi.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-fi.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-fi.html
+
+### 이름
+
+Yeoul: Todellinen aikajana
+
+### 부제
+
+Muistot ja kuvat
+
+### 키워드
+
+päiväkirja,virstanpylväät,historia,vuosipäivä,matka,perhe,vauva,tapahtumat,albumi,pariskunta,häät
+
+### 프로모션 텍스트
+
+Kolme ja viisi päivää ovat suhteessa 3:5, kaksi vuotta taittuu katkoviivaksi. Lisää päivien kuvat ja tarinat pystyaikajanaan, joka seuraa todellista aikaa.
+
+### 설명
+
+Yeoul on pystysuuntainen aikajana, jossa tapahtumien väli kasvaa todellisuudessa kuluneen ajan mukana.
+Kolme päivää ja viisi päivää ovat suhteessa 3:5, ja pitkä tauko, kuten kaksi vuotta, taittuu katkoviivaksi, jossa lukee ”2 vuotta 4 kuukautta”. Menneen ajan rytmi näkyy yhdellä silmäyksellä.
+
+Useita aikajanoja
+Luo oma aikajana jokaiselle aiheelle, kuten lapsen kasvulle, parisuhteelle, uudelle työlle tai matkalle, ja anna sille oma nimi ja väri.
+
+Kuvat ja tarinat jokaiseen tapahtumaan
+Kirjoita päivä, otsikko ja muistiinpanot ja lisää kuva. Valitse päivä, niin Yeoul etsii kirjastostasi sinä päivänä ottamasi kuvat, tai voit valita kuvan itse.
+Napauta tapahtumaa aikajanalla, niin kuva ja muistiinpanot avautuvat paikallaan.
+
+Yhdistä tapahtumat hashtageilla
+Lisää tapahtumille hashtageja ja kerää saman tunnisteen tapahtumat kaikilta aikajanoilta uudelle aikajanalle. Jos pidät siitä, tallenna se.
+
+Neljä kortin ulkoasua
+Valitse jokaiselle tapahtumalle sopiva kortti: Perinteinen tekstin ollessa pääosassa, Juliste kuvan täyttäessä kortin, Filmi tai Marginaali.
+
+iPhonella ja iPadilla
+iCloudin avulla sama aineisto on kaikilla laitteillasi.

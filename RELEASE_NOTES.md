@@ -106,3 +106,9 @@ Meld fejl via siden Support.
 Ευχαριστούμε που χρησιμοποιείς το Yeoul.
 Κάναμε την εφαρμογή πιο σταθερή.
 Αναφέρετε προβλήματα στην Υποστήριξη.
+
+### 앱스토어 (fi)
+
+Kiitos, kun käytät Yeoulia.
+Teimme sovelluksesta vakaamman.
+Kerro ongelmista Tuki-sivulla.
