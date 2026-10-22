@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -86,6 +86,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Ereignisse per<br>Hashtag verknüpfen", "Verstreute Einträge werden zu einer neuen Zeitleiste"),
         ("05-editor.png", "dark", "Ein Kartendesign<br>für jedes Ereignis", "Datum, Notizen und Hashtags auf einem Bildschirm"),
     ],
+    "fr": [
+        ("01-trip.png", "hero-bleed", "Une frise qui<br>s’étire avec le temps", "Trois et cinq jours à 3:5, les longs vides en pointillés"),
+        ("02-iceland.png", "left-text", "Gardez la journée<br>avec ses photos", "Quatre styles de carte au choix"),
+        ("03-expand.png", "text-bottom", "Touchez, et tout<br>s’ouvre sur place", "Photos et histoires d’un coup d’œil"),
+        ("04-tag.png", "flat-rotate", "Reliez vos événements<br>avec des hashtags", "Des données éparses forment une nouvelle frise"),
+        ("05-editor.png", "dark", "Un style de carte<br>pour chaque événement", "Date, notes et tags sur un seul écran"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -143,6 +150,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Antippen und es öffnet sich direkt", "Fotos und Geschichten auf einen Blick"),
         ("ipad-03-tag.png", "Ereignisse per Hashtag verknüpfen", "Verstreute Einträge werden zu einer neuen Zeitleiste"),
         ("ipad-04-editor.png", "Fotos und Geschichte des Tages festhalten", "Datum, Notizen, Hashtags und Kartendesign"),
+    ],
+    "fr": [
+        ("ipad-01-trip.png", "Une frise qui s’étire avec le temps", "Trois et cinq jours à 3:5, les longs vides en pointillés"),
+        ("ipad-02-expand.png", "Touchez, et tout s’ouvre sur place", "Photos et histoires d’un coup d’œil"),
+        ("ipad-03-tag.png", "Reliez vos événements avec des hashtags", "Des données éparses forment une nouvelle frise"),
+        ("ipad-04-editor.png", "Gardez les photos et l’histoire du jour", "Date, notes, tags et style de carte"),
     ],
 }
 IPAD_CSS = f"""

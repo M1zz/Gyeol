@@ -27,6 +27,12 @@
             "value" : "No hay eventos con #%@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun événement avec #%@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -83,6 +89,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quitar #%@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retirer #%@"
           }
         },
         "ja" : {
@@ -143,6 +155,12 @@
             "value" : "Aquí se reúnen los eventos con la etiqueta #%@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les événements portant le tag #%@ sont réunis ici"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -199,6 +217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Diseño %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Style %@"
           }
         },
         "ja" : {
@@ -259,6 +283,12 @@
             "value" : "Fotos del %@: %lld"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos du %@ : %lld"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -315,6 +345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buscando las fotos del %@…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recherche des photos du %@…"
           }
         },
         "ja" : {
@@ -375,6 +411,12 @@
             "value" : "No hay fotos del %@."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune photo prise le %@."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -428,6 +470,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld m"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld m"
@@ -491,6 +539,12 @@
             "value" : "%1$lld m %2$lld d"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld m %2$lld j"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -544,6 +598,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld a"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld a"
@@ -607,6 +667,12 @@
             "value" : "%1$lld a %2$lld m"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld a %2$lld m"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -660,6 +726,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -723,6 +795,12 @@
             "value" : "%2$lld/%1$lld"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -779,6 +857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld d"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld j"
           }
         },
         "ja" : {
@@ -840,6 +924,12 @@
             "value" : "Bloqueo con Face ID"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verrouillage Face ID"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -897,6 +987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bloquea la app con Face ID o Touch ID para que tu línea de tiempo siga siendo privada."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verrouillez l’app avec Face ID ou Touch ID pour garder votre frise privée."
           }
         },
         "ja" : {
@@ -958,6 +1054,12 @@
             "value" : "Mejor compatibilidad con VoiceOver"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un meilleur support de VoiceOver"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1014,6 +1116,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se añadió «%2$@» a «%1$@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "« %2$@ » a été ajouté à « %1$@ »."
           }
         },
         "ja" : {
@@ -1074,6 +1182,12 @@
             "value" : "Toca «Añadir evento» para guardar tu primer momento.\nLos eventos se apilan de arriba abajo por orden de tiempo, con una separación igual al tiempo que pasó de verdad."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez « Ajouter un événement » pour garder votre premier moment.\nLes événements s’empilent de haut en bas dans l’ordre chronologique, avec des écarts proportionnels au temps réellement écoulé."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1130,6 +1244,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El mismo día"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le même jour"
           }
         },
         "ja" : {
@@ -1190,6 +1310,12 @@
             "value" : "Reúne en una sola línea de tiempo los eventos con la misma etiqueta de todas tus líneas de tiempo."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réunit en une seule frise tous les événements portant le même tag, toutes frises confondues."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1246,6 +1372,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Omitir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passer"
           }
         },
         "ja" : {
@@ -1306,6 +1438,12 @@
             "value" : "Añade un evento a la línea de tiempo que elijas. Si no indicas una fecha, se registra con la hora actual."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoute un événement à la frise choisie. Sans date précisée, il est enregistré à l’heure actuelle."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1362,6 +1500,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buscar fotos relacionadas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trouver des photos associées"
           }
         },
         "ja" : {
@@ -1422,6 +1566,12 @@
             "value" : "Añade las fotos de ese día"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoutez les photos du jour"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1480,6 +1630,12 @@
             "value" : "No se encontró esa línea de tiempo. Puede que se haya eliminado o que aún no haya llegado a este dispositivo."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frise introuvable. Elle a peut-être été supprimée ou n’est pas encore arrivée sur cet appareil."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1536,6 +1692,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El texto manda y la foto va debajo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le texte d’abord, la photo dessous"
           }
         },
         "ja" : {
@@ -1597,6 +1759,12 @@
             "value" : "Al aumentar el tamaño del texto, las pantallas se reorganizan bien en lugar de cortarse."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quand vous agrandissez le texte, les écrans se réorganisent proprement au lieu d’être coupés."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1654,6 +1822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recibe un aviso de los días que no quieres olvidar, como los aniversarios."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recevez un rappel pour les jours à ne pas oublier, comme les anniversaires."
           }
         },
         "ja" : {
@@ -1714,6 +1888,12 @@
             "value" : "Clásico"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Classique"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1770,6 +1950,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escribe lo que quieras recordar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notez ce que vous voulez retenir"
           }
         },
         "ja" : {
@@ -1830,6 +2016,12 @@
             "value" : "Fecha"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1886,6 +2078,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La fecha y las letras son las protagonistas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La date et les lettres au premier plan"
           }
         },
         "ja" : {
@@ -1947,6 +2145,12 @@
             "value" : "Borrar todos mis datos de una vez"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout effacer en une fois"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2005,6 +2209,12 @@
             "value" : "Notas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2061,6 +2271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siguiente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivant"
           }
         },
         "ja" : {
@@ -2122,6 +2338,12 @@
             "value" : "Distingue fácilmente etiquetas y eventos, incluso con Aumentar contraste o si te cuesta diferenciar colores."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distinguez facilement tags et événements, même avec Contraste renforcé ou si les couleurs sont difficiles à distinguer."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2179,6 +2401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa la app en más idiomas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilisez l’app dans davantage de langues."
           }
         },
         "ja" : {
@@ -2240,6 +2468,12 @@
             "value" : "Más idiomas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus de langues"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2296,6 +2530,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crear"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Créer"
           }
         },
         "ja" : {
@@ -2356,6 +2596,12 @@
             "value" : "Escribir por correo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nous écrire par e-mail"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2414,6 +2660,12 @@
             "value" : "¿Qué pasó?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Que s’est-il passé ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2470,6 +2722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vista previa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aperçu"
           }
         },
         "ja" : {
@@ -2531,6 +2789,12 @@
             "value" : "Copia de seguridad y exportación"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sauvegarde et export"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2588,6 +2852,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Colores y contraste más cómodos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couleurs et contraste plus confortables"
           }
         },
         "ja" : {
@@ -2648,6 +2918,12 @@
             "value" : "El desarrollador lee personalmente todos los mensajes. Cuéntanos qué te ha molestado o qué función te gustaría ver."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le développeur lit lui-même chaque message. Dites-nous ce qui vous a gêné ou la fonction que vous aimeriez avoir."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2704,6 +2980,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cargando…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chargement…"
           }
         },
         "ja" : {
@@ -2764,6 +3046,12 @@
             "value" : "Eventos: %lld · último %@.%@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Événements : %lld · dernier %@.%@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2820,6 +3108,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eventos: %lld · al guardarla, se queda en tu lista y sigue llenándose a medida que se añaden etiquetas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Événements : %lld · une fois enregistrée, la frise reste dans votre liste et se complète à mesure que des tags sont ajoutés"
           }
         },
         "ja" : {
@@ -2880,6 +3174,12 @@
             "value" : "Registrar un evento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer un événement"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2936,6 +3236,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La distancia entre eventos es proporcional al tiempo que pasó de verdad. Tres días y cinco días quedan a una distancia de 3:5, y los vacíos largos se pliegan en una línea de puntos con una etiqueta como «2 años 4 meses»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’écart entre les événements est proportionnel au temps réellement écoulé. Trois jours et cinq jours sont espacés de 3:5, et les longs vides se replient en pointillés avec une mention comme « 2 ans 4 mois »."
           }
         },
         "ja" : {
@@ -2996,6 +3302,12 @@
             "value" : "Eliminar evento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer l’événement"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3052,6 +3364,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Editar evento"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier l’événement"
           }
         },
         "ja" : {
@@ -3112,6 +3430,12 @@
             "value" : "Sin eventos"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun événement"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3170,6 +3494,12 @@
             "value" : "Añadir evento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un événement"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3226,6 +3556,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añade etiquetas a tus eventos y toca una para reunir en una nueva línea de tiempo todos los momentos con esa etiqueta, de todas tus líneas de tiempo. Tus registros se sincronizan entre iPhone, iPad y Mac con iCloud."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoutez des tags à vos événements et touchez-en un pour réunir, dans une nouvelle frise, tous les moments portant ce tag, toutes frises confondues. Vos données se synchronisent entre iPhone, iPad et Mac via iCloud."
           }
         },
         "ja" : {
@@ -3287,6 +3623,12 @@
             "value" : "Una vibración suave al añadir o eliminar un evento."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une légère vibration quand vous ajoutez ou supprimez un événement."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3344,6 +3686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lo que estabas escribiendo se conserva aunque la app se cierre a mitad."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce que vous écriviez reste en place, même si l’app se ferme en cours de route."
           }
         },
         "ja" : {
@@ -3404,6 +3752,12 @@
             "value" : "Elige la fecha de un evento y toca «Buscar fotos relacionadas» para ver las fotos que hiciste ese día. Si ninguna te convence, puedes elegir una tú mismo."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisissez la date d’un événement et touchez « Trouver des photos associées » pour voir les photos prises ce jour-là. Si aucune ne convient, choisissez-en une vous-même."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3460,6 +3814,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo"
           }
         },
         "ja" : {
@@ -3520,6 +3880,12 @@
             "value" : "Cambiar foto"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changer de photo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3576,6 +3942,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El acceso a Fotos está desactivado, así que no se pueden buscar las fotos de ese día.\nAun así, puedes elegir una abajo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’accès aux photos est désactivé : impossible de trouver les photos prises ce jour-là.\nVous pouvez tout de même en choisir une ci-dessous."
           }
         },
         "ja" : {
@@ -3636,6 +4008,12 @@
             "value" : "Quitar foto"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retirer la photo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3692,6 +4070,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Las fotos y las notas se abren en el sitio. Vuelve a tocar para plegar."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les photos et notes s’ouvrent sur place. Touchez à nouveau pour replier."
           }
         },
         "ja" : {
@@ -3752,6 +4136,12 @@
             "value" : "La foto llena la tarjeta con el texto encima"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La photo remplit la carte, le texte par-dessus"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3808,6 +4198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eliminar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer"
           }
         },
         "ja" : {
@@ -3868,6 +4264,12 @@
             "value" : "Nueva línea de tiempo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouvelle frise"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3924,6 +4326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Color"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couleur"
           }
         },
         "ja" : {
@@ -3984,6 +4392,12 @@
             "value" : "Ajustes"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réglages"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4040,6 +4454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Permitir en Ajustes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autoriser dans Réglages"
           }
         },
         "ja" : {
@@ -4101,6 +4521,12 @@
             "value" : "Respuesta háptica"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retour haptique"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4159,6 +4585,12 @@
             "value" : "Editar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4215,6 +4647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Empezar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commencer"
           }
         },
         "ja" : {
@@ -4276,6 +4714,12 @@
             "value" : "Retoma lo que dejaste a medias"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reprendre là où vous en étiez"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4332,6 +4776,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prueba a buscarlas tú abajo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Essayez de chercher vous-même ci-dessous."
           }
         },
         "ja" : {
@@ -4393,6 +4843,12 @@
             "value" : "Usa las funciones principales en el iPad solo con un teclado."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilisez les fonctions principales sur iPad avec un simple clavier."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4449,6 +4905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aún no hay eventos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun événement pour le moment"
           }
         },
         "ja" : {
@@ -4510,6 +4972,12 @@
             "value" : "Recordatorios"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rappels"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4567,6 +5035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mira tu línea de tiempo en la pantalla de inicio, sin abrir la app."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consultez votre frise sur l’écran d’accueil, sans ouvrir l’app."
           }
         },
         "ja" : {
@@ -4628,6 +5102,12 @@
             "value" : "Usa toda la app en inglés."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilisez toute l’app en anglais."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4684,6 +5164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Qué pasó?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Que s’est-il passé ?"
           }
         },
         "ja" : {
@@ -4745,6 +5231,12 @@
             "value" : "La primera vez que abras la app tras una actualización, verás las novedades."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À la première ouverture après une mise à jour, découvrez les nouveautés."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4802,6 +5294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novedades"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouveautés"
           }
         },
         "ja" : {
@@ -4862,6 +5360,12 @@
             "value" : "Margen"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marge"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4915,6 +5419,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeoul"
@@ -4978,6 +5488,12 @@
             "value" : "Cómo usar Yeoul"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utiliser Yeoul"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5035,6 +5551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compatibilidad total con inglés"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prise en charge complète de l’anglais"
           }
         },
         "ja" : {
@@ -5095,6 +5617,12 @@
             "value" : "Por ejemplo: el primer año de mi bebé, el lanzamiento de mi app"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ex. : la première année de bébé, journal du lancement de l’app"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5153,6 +5681,12 @@
             "value" : "Listo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5209,6 +5743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elige una línea de tiempo a la izquierda o crea una nueva."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisissez une frise à gauche ou créez-en une nouvelle."
           }
         },
         "ja" : {
@@ -5270,6 +5810,12 @@
             "value" : "Reducir movimiento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réduire les animations"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5327,6 +5873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con Reducir movimiento activado, los efectos de pantalla son más tranquilos."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avec Réduire les animations activé, les effets d’écran se font plus discrets."
           }
         },
         "ja" : {
@@ -5388,6 +5940,12 @@
             "value" : "Borra toda tu línea de tiempo desde la propia app cuando quieras."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacez toute votre frise depuis l’app, quand vous le souhaitez."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5444,6 +6002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Eliminar este evento?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer cet événement ?"
           }
         },
         "ja" : {
@@ -5504,6 +6068,12 @@
             "value" : "Usar esta foto"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utiliser cette photo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5560,6 +6130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todavía no hay eventos con esta etiqueta."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucun événement ne porte encore ce tag."
           }
         },
         "ja" : {
@@ -5620,6 +6196,12 @@
             "value" : "Si añades esta etiqueta a un evento, aparecerá aquí automáticamente."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoutez ce tag à un événement et il apparaîtra ici automatiquement."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5676,6 +6258,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nombre"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nom"
           }
         },
         "ja" : {
@@ -5736,6 +6324,12 @@
             "value" : "Cambiar nombre y color"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changer le nom et la couleur"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5792,6 +6386,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "MD de Instagram (@lee25_ios)"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DM Instagram (@lee25_ios)"
           }
         },
         "ja" : {
@@ -5852,6 +6452,12 @@
             "value" : "Una foto con marco, como una copia en papel"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une photo encadrée comme un tirage"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5908,6 +6514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guardar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer"
           }
         },
         "ja" : {
@@ -5968,6 +6580,12 @@
             "value" : "Guardada"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrée"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6024,6 +6642,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Título"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titre"
           }
         },
         "ja" : {
@@ -6084,6 +6708,12 @@
             "value" : "Sin título"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sans titre"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6140,6 +6770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soporte"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistance"
           }
         },
         "ja" : {
@@ -6200,6 +6836,12 @@
             "value" : "Buscar yo mismo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chercher moi-même"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6256,6 +6898,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vuelve a ver la introducción que viste al abrir la app por primera vez."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revoyez l’introduction affichée à la première ouverture."
           }
         },
         "ja" : {
@@ -6316,6 +6964,12 @@
             "value" : "Crea tu primera línea de tiempo.\nEl primer año de tu bebé, el lanzamiento de una app, un viaje… lo que quieras."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Créez votre première frise.\nLa première année de bébé, un lancement d’app, un voyage… tout est permis."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6372,6 +7026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter"
           }
         },
         "ja" : {
@@ -6432,6 +7092,12 @@
             "value" : "Cancelar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6490,6 +7156,12 @@
             "value" : "Diseño de la tarjeta"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Style de carte"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6546,6 +7218,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca una tarjeta para desplegarla"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez une carte pour la déplier"
           }
         },
         "ja" : {
@@ -6607,6 +7285,12 @@
             "value" : "Pantallas para texto grande"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Écrans adaptés au texte agrandi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6664,6 +7348,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Control con teclado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contrôle au clavier"
           }
         },
         "ja" : {
@@ -6724,6 +7414,12 @@
             "value" : "Línea de tiempo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frise"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6780,6 +7476,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustes de la línea de tiempo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réglages de la frise"
           }
         },
         "ja" : {
@@ -6840,6 +7542,12 @@
             "value" : "Guardar como línea de tiempo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer comme frise"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6896,6 +7604,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elige una línea de tiempo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisissez une frise"
           }
         },
         "ja" : {
@@ -6957,6 +7671,12 @@
             "value" : "Guarda tu línea de tiempo en un archivo y recupérala más tarde."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrez votre frise dans un fichier et récupérez-la plus tard."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7013,6 +7733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aún no hay líneas de tiempo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune frise pour le moment"
           }
         },
         "ja" : {
@@ -7073,6 +7799,12 @@
             "value" : "Etiquetas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tags"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7129,6 +7861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir etiqueta"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter un tag"
           }
         },
         "ja" : {
@@ -7189,6 +7927,12 @@
             "value" : "Líneas de tiempo de etiquetas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frises par tag"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7245,6 +7989,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Línea de tiempo de etiqueta · "
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frise par tag · "
           }
         },
         "ja" : {
@@ -7305,6 +8055,12 @@
             "value" : "Guardar línea de tiempo de etiqueta"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer la frise par tag"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7363,6 +8119,12 @@
             "value" : "Une eventos con etiquetas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reliez vos événements avec des tags"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7419,6 +8181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca una etiqueta para reunir eventos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez un tag pour réunir les événements"
           }
         },
         "ja" : {
@@ -7480,6 +8248,12 @@
             "value" : "Diseño para iPhone plegable"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affichage pour iPhone pliable"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7537,6 +8311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa la pantalla ancha de un iPhone plegable como dos paneles en paralelo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilisez le grand écran d’un iPhone pliable en deux volets côte à côte."
           }
         },
         "ja" : {
@@ -7597,6 +8377,12 @@
             "value" : "Póster"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affiche"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7653,6 +8439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Película"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pellicule"
           }
         },
         "ja" : {
@@ -7714,6 +8506,12 @@
             "value" : "Widgets en la pantalla de inicio"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets de l’écran d’accueil"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7773,6 +8571,12 @@
             "value" : "VoiceOver lee todos los botones y eventos, en el orden correcto."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lit chaque bouton et chaque événement, dans le bon ordre."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7829,6 +8633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Una línea de tiempo que se estira con el tiempo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une frise qui s’étire avec le temps"
           }
         },
         "ja" : {

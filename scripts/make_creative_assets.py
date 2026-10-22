@@ -45,6 +45,7 @@ SEARCH = {
     "ru": ("таймлайн дневник", "3 дня — это 3 дня,<br>2 года — это 2 года", "Расстояния между событиями равны реально прошедшему времени"),
     "es": ("diario línea de tiempo", "3 días son 3 días,<br>2 años son 2 años", "La distancia entre eventos es el tiempo que pasó de verdad"),
     "de": ("Zeitleiste Tagebuch", "3 Tage bleiben 3 Tage,<br>2 Jahre bleiben 2 Jahre", "Der Abstand zwischen Ereignissen entspricht der wirklich vergangenen Zeit"),
+    "fr": ("frise journal", "3 jours restent 3 jours,<br>2 ans restent 2 ans", "L’écart entre les événements suit le temps réellement écoulé"),
 }
 
 # 헤더는 처음 온 사람에게 한 가지 약속만 한다: 흐른 시간이 그대로 보이는 타임라인.
@@ -58,6 +59,7 @@ HEADER = {
     "ru": ("Ваш таймлайн", "Таймлайн, где расстояния<br>равны времени"),
     "es": ("Tu propia línea de tiempo", "Una línea de tiempo que<br>se estira con el tiempo"),
     "de": ("Deine eigene Zeitleiste", "Eine Zeitleiste, die<br>mit der Zeit wächst"),
+    "fr": ("Votre propre frise", "Une frise qui s’étire<br>avec le temps"),
 }
 
 # 바탕은 앱 아이콘의 초록(#347669 → #235146)과 크림색 글씨를 따른다. 아이콘의 가로 괘선도 옅게 깐다.

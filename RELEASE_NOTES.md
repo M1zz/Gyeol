@@ -58,3 +58,9 @@ Cuéntanos tus problemas en Soporte.
 Danke, dass du Yeoul nutzt.
 Wir haben die App stabiler gemacht.
 Probleme melde uns gern im Support.
+
+### 앱스토어 (fr)
+
+Merci d’utiliser Yeoul.
+Nous avons rendu l’app plus stable.
+Un souci ? Écrivez-nous via Assistance.

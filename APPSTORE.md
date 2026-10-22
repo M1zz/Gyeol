@@ -458,3 +458,54 @@ Wähle für jedes Ereignis die passende Karte: Klassisch mit dem Text im Mittelp
 
 Auf iPhone und iPad
 Mit iCloud sind dieselben Einträge auf allen deinen Geräten verfügbar.
+
+## fr
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-fr.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-fr.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-fr.html
+
+### 이름
+
+Yeoul : frise du temps réel
+
+### 부제
+
+Vos souvenirs en photos
+
+### 키워드
+
+journal,carnet,histoire,anniversaire,voyage,famille,bébé,événements,album,couple,mariage,tags
+
+### 프로모션 텍스트
+
+Trois jours et cinq jours sont espacés de 3:5, deux ans se replient en pointillés. Ajoutez photos et histoires à une frise verticale qui suit le temps réel.
+
+### 설명
+
+Yeoul est une frise verticale où l’espace entre les événements s’étire avec le temps réellement écoulé.
+Trois jours et cinq jours sont espacés de 3:5, et un long vide comme deux ans se replie en pointillés avec la mention « 2 ans 4 mois ». Le rythme de votre passé se lit d’un coup d’œil.
+
+Plusieurs frises
+Créez une frise par thème, comme la croissance de bébé, une histoire d’amour, un nouvel emploi ou un voyage, avec son propre nom et sa propre couleur.
+
+Des photos et une histoire pour chaque événement
+Saisissez une date, un titre et des notes, puis ajoutez une photo. Choisissez la date et Yeoul retrouve dans votre photothèque les photos prises ce jour-là, ou choisissez-en une vous-même.
+Touchez un événement dans la frise : sa photo et ses notes s’ouvrent sur place.
+
+Reliez vos événements avec des hashtags
+Ajoutez des hashtags à vos événements et réunissez ceux qui partagent un tag, toutes frises confondues, dans une nouvelle frise. Si elle vous plaît, enregistrez-la.
+
+Quatre styles de carte
+Choisissez la carte qui convient à chaque événement : Classique avec le texte d’abord, Affiche avec une photo plein cadre, Pellicule ou Marge.
+
+Sur iPhone et iPad
+Grâce à iCloud, vous retrouvez les mêmes données sur tous vos appareils.
