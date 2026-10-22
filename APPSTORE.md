@@ -917,3 +917,54 @@ Valitse jokaiselle tapahtumalle sopiva kortti: Perinteinen tekstin ollessa pää
 
 iPhonella ja iPadilla
 iCloudin avulla sama aineisto on kaikilla laitteillasi.
+
+## id
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-id.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-id.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-id.html
+
+### 이름
+
+Yeoul: Linimasa Waktu Nyata
+
+### 부제
+
+Kenangan bersama foto
+
+### 키워드
+
+jurnal,diari,bayi,tonggak,sejarah,hari jadi,wisata,keluarga,acara,album,pasangan,pernikahan,hashtag
+
+### 프로모션 텍스트
+
+Tiga hari dan lima hari berjarak 3:5, dua tahun dilipat jadi garis putus-putus. Tambahkan foto dan cerita ke linimasa vertikal yang mengikuti waktu nyata.
+
+### 설명
+
+Yeoul adalah linimasa vertikal yang jaraknya antarperistiwa melebar sesuai waktu yang benar-benar berlalu.
+Tiga hari dan lima hari berjarak 3:5, dan jeda panjang seperti dua tahun dilipat menjadi garis putus-putus dengan keterangan “2 tahun 4 bulan”. Irama waktu yang sudah kamu lewati terlihat sekilas.
+
+Banyak linimasa
+Buat linimasa terpisah untuk setiap tema, seperti tumbuh kembang si kecil, kisah cinta, pekerjaan baru, atau perjalanan, lengkap dengan nama dan warna sendiri.
+
+Foto dan cerita di setiap peristiwa
+Tulis tanggal, judul, dan catatan, lalu tambahkan foto. Pilih tanggalnya dan Yeoul mencari foto yang kamu ambil hari itu di pustakamu, atau kamu bisa memilih sendiri.
+Ketuk peristiwa di linimasa, dan foto beserta catatannya terbuka di tempat.
+
+Kaitkan peristiwa dengan hashtag
+Beri hashtag pada peristiwamu, lalu kumpulkan peristiwa bertag sama dari semua linimasa menjadi linimasa baru. Kalau suka, simpan saja.
+
+Empat desain kartu
+Pilih kartu yang cocok untuk tiap peristiwa: Klasik dengan teks sebagai utama, Poster dengan foto memenuhi kartu, Film, atau Margin.
+
+Di iPhone dan iPad
+Dengan iCloud, datamu sama di semua perangkat.

@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -149,6 +149,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Yhdistä tapahtumat<br>hashtageilla", "Hajallaan olevat tiedot muodostavat uuden aikajanan"),
         ("05-editor.png", "dark", "Kortin ulkoasu<br>jokaiselle tapahtumalle", "Päivä, muistiinpanot ja tunnisteet yhdellä näytöllä"),
     ],
+    "id": [
+        ("01-trip.png", "hero-bleed", "Linimasa yang merenggang<br>sesuai waktu", "Tiga dan lima hari berjarak 3:5, jeda panjang jadi titik"),
+        ("02-iceland.png", "left-text", "Simpan harimu<br>bersama foto", "Empat desain kartu bisa dipilih"),
+        ("03-expand.png", "text-bottom", "Ketuk dan langsung<br>terbuka di tempat", "Foto dan cerita sekilas pandang"),
+        ("04-tag.png", "flat-rotate", "Kaitkan peristiwa<br>dengan hashtag", "Catatan yang tercecer jadi linimasa baru"),
+        ("05-editor.png", "dark", "Satu desain kartu<br>untuk tiap peristiwa", "Tanggal, catatan, dan tag dalam satu layar"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -260,6 +267,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Napauta, niin se avautuu paikallaan", "Kuvat ja tarinat yhdellä silmäyksellä"),
         ("ipad-03-tag.png", "Yhdistä tapahtumat hashtageilla", "Hajallaan olevat tiedot muodostavat uuden aikajanan"),
         ("ipad-04-editor.png", "Tallenna päivän kuvat ja tarina", "Päivä, muistiinpanot, tunnisteet ja kortin ulkoasu"),
+    ],
+    "id": [
+        ("ipad-01-trip.png", "Linimasa yang merenggang sesuai waktu", "Tiga dan lima hari berjarak 3:5, jeda panjang jadi titik"),
+        ("ipad-02-expand.png", "Ketuk dan langsung terbuka di tempat", "Foto dan cerita sekilas pandang"),
+        ("ipad-03-tag.png", "Kaitkan peristiwa dengan hashtag", "Catatan yang tercecer jadi linimasa baru"),
+        ("ipad-04-editor.png", "Simpan foto dan cerita hari itu", "Tanggal, catatan, tag, dan desain kartu"),
     ],
 }
 IPAD_CSS = f"""

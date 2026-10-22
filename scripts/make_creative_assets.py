@@ -54,6 +54,7 @@ SEARCH = {
     "da": ("tidslinje dagbog", "3 dage forbliver 3 dage,<br>2 år forbliver 2 år", "Afstanden mellem begivenheder svarer til den tid, der faktisk er gået"),
     "el": ("χρονολόγιο ημερολόγιο", "Οι 3 μέρες μένουν 3 μέρες,<br>τα 2 χρόνια μένουν 2 χρόνια", "Η απόσταση ανάμεσα στα γεγονότα είναι ο χρόνος που πέρασε πραγματικά"),
     "fi": ("aikajana päiväkirja", "3 päivää pysyy 3 päivänä,<br>2 vuotta pysyy 2 vuotena", "Tapahtumien väli vastaa todellisuudessa kulunutta aikaa"),
+    "id": ("linimasa jurnal", "3 hari tetap 3 hari,<br>2 tahun tetap 2 tahun", "Jarak antarperistiwa sebesar waktu yang benar-benar berlalu"),
 }
 
 # 헤더는 처음 온 사람에게 한 가지 약속만 한다: 흐른 시간이 그대로 보이는 타임라인.
@@ -76,6 +77,7 @@ HEADER = {
     "da": ("Din egen tidslinje", "En tidslinje, der<br>strækker sig med tiden"),
     "el": ("Το δικό σου χρονολόγιο", "Ένα χρονολόγιο που<br>απλώνεται όσο ο χρόνος"),
     "fi": ("Oma aikajanasi", "Aikajana, joka venyy<br>ajan mukana"),
+    "id": ("Linimasamu sendiri", "Linimasa yang merenggang<br>sesuai waktu"),
 }
 
 # 바탕은 앱 아이콘의 초록(#347669 → #235146)과 크림색 글씨를 따른다. 아이콘의 가로 괘선도 옅게 깐다.

@@ -57,6 +57,12 @@
             "value" : "Aucun événement avec #%@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada peristiwa dengan #%@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -167,6 +173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Retirer #%@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus #%@"
           }
         },
         "it" : {
@@ -281,6 +293,12 @@
             "value" : "Les événements portant le tag #%@ sont réunis ici"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peristiwa bertag #%@ dikumpulkan di sini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -391,6 +409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Style %@"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desain %@"
           }
         },
         "it" : {
@@ -505,6 +529,12 @@
             "value" : "Photos du %@ : %lld"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto pada %@: %lld"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -615,6 +645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recherche des photos du %@…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mencari foto yang diambil pada %@…"
           }
         },
         "it" : {
@@ -729,6 +765,12 @@
             "value" : "Aucune photo prise le %@."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada foto yang diambil pada %@."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -839,6 +881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld m"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld bln"
           }
         },
         "it" : {
@@ -953,6 +1001,12 @@
             "value" : "%1$lld m %2$lld j"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld bln %2$lld hr"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1063,6 +1117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld a"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld th"
           }
         },
         "it" : {
@@ -1177,6 +1237,12 @@
             "value" : "%1$lld a %2$lld m"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld th %2$lld bln"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1284,6 +1350,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -1401,6 +1473,12 @@
             "value" : "%2$lld/%1$lld"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1511,6 +1589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld j"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hr"
           }
         },
         "it" : {
@@ -1626,6 +1710,12 @@
             "value" : "Verrouillage Face ID"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunci Face ID"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1737,6 +1827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verrouillez l’app avec Face ID ou Touch ID pour garder votre frise privée."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunci aplikasi dengan Face ID atau Touch ID agar linimasamu tetap pribadi."
           }
         },
         "it" : {
@@ -1852,6 +1948,12 @@
             "value" : "Un meilleur support de VoiceOver"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dukungan VoiceOver yang lebih baik"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1962,6 +2064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "« %2$@ » a été ajouté à « %1$@ »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%2$@” ditambahkan ke “%1$@”."
           }
         },
         "it" : {
@@ -2076,6 +2184,12 @@
             "value" : "Touchez « Ajouter un événement » pour garder votre premier moment.\nLes événements s’empilent de haut en bas dans l’ordre chronologique, avec des écarts proportionnels au temps réellement écoulé."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk “Tambah Peristiwa” untuk menyimpan momen pertamamu.\nPeristiwa tersusun dari atas ke bawah menurut urutan waktu, dengan jarak sebesar waktu yang benar-benar berlalu."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2186,6 +2300,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le même jour"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di hari yang sama"
           }
         },
         "it" : {
@@ -2300,6 +2420,12 @@
             "value" : "Réunit en une seule frise tous les événements portant le même tag, toutes frises confondues."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kumpulkan peristiwa bertag sama dari semua linimasa menjadi satu linimasa."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2410,6 +2536,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Passer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lewati"
           }
         },
         "it" : {
@@ -2524,6 +2656,12 @@
             "value" : "Ajoute un événement à la frise choisie. Sans date précisée, il est enregistré à l’heure actuelle."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menambahkan peristiwa ke linimasa yang kamu pilih. Jika tanggal tidak ditentukan, peristiwa dicatat dengan waktu saat ini."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2634,6 +2772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trouver des photos associées"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cari foto terkait"
           }
         },
         "it" : {
@@ -2748,6 +2892,12 @@
             "value" : "Ajoutez les photos du jour"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Langsung tambahkan foto hari itu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2860,6 +3010,12 @@
             "value" : "Frise introuvable. Elle a peut-être été supprimée ou n’est pas encore arrivée sur cet appareil."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linimasa itu tidak ditemukan. Mungkin sudah dihapus atau belum sampai ke perangkat ini."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2970,6 +3126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le texte d’abord, la photo dessous"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teks utama, foto di bawah"
           }
         },
         "it" : {
@@ -3085,6 +3247,12 @@
             "value" : "Quand vous agrandissez le texte, les écrans se réorganisent proprement au lieu d’être coupés."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat teks diperbesar, layar tertata ulang dengan rapi dan tidak terpotong."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3196,6 +3364,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recevez un rappel pour les jours à ne pas oublier, comme les anniversaires."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dapatkan pengingat untuk hari yang tidak ingin kamu lupakan, seperti hari jadi."
           }
         },
         "it" : {
@@ -3310,6 +3484,12 @@
             "value" : "Classique"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klasik"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3420,6 +3600,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notez ce que vous voulez retenir"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tulis hal yang ingin kamu ingat"
           }
         },
         "it" : {
@@ -3534,6 +3720,12 @@
             "value" : "Date"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanggal"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3644,6 +3836,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La date et les lettres au premier plan"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanggal dan huruf jadi pemeran utama"
           }
         },
         "it" : {
@@ -3759,6 +3957,12 @@
             "value" : "Tout effacer en une fois"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus semua datamu sekaligus"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3871,6 +4075,12 @@
             "value" : "Notes"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3981,6 +4191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suivant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjut"
           }
         },
         "it" : {
@@ -4096,6 +4312,12 @@
             "value" : "Distinguez facilement tags et événements, même avec Contraste renforcé ou si les couleurs sont difficiles à distinguer."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedakan tag dan peristiwa dengan mudah, bahkan saat Tingkatkan Kontras aktif atau warna sulit dibedakan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4207,6 +4429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisez l’app dans davantage de langues."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakai aplikasi dalam lebih banyak bahasa."
           }
         },
         "it" : {
@@ -4322,6 +4550,12 @@
             "value" : "Plus de langues"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih banyak bahasa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4432,6 +4666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Créer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buat"
           }
         },
         "it" : {
@@ -4546,6 +4786,12 @@
             "value" : "Nous écrire par e-mail"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hubungi lewat email"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4658,6 +4904,12 @@
             "value" : "Que s’est-il passé ?"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apa yang terjadi?"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4768,6 +5020,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aperçu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pratinjau"
           }
         },
         "it" : {
@@ -4883,6 +5141,12 @@
             "value" : "Sauvegarde et export"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cadangan dan ekspor"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4994,6 +5258,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couleurs et contraste plus confortables"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warna dan kontras yang lebih nyaman"
           }
         },
         "it" : {
@@ -5108,6 +5378,12 @@
             "value" : "Le développeur lit lui-même chaque message. Dites-nous ce qui vous a gêné ou la fonction que vous aimeriez avoir."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengembang membaca sendiri setiap pesan. Beri tahu kami apa yang kurang nyaman atau fitur yang kamu inginkan."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5218,6 +5494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chargement…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memuat…"
           }
         },
         "it" : {
@@ -5332,6 +5614,12 @@
             "value" : "Événements : %lld · dernier %@.%@"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peristiwa: %lld · terakhir %@.%@"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5442,6 +5730,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Événements : %lld · une fois enregistrée, la frise reste dans votre liste et se complète à mesure que des tags sont ajoutés"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peristiwa: %lld · setelah disimpan, linimasa tetap ada di daftarmu dan terus terisi seiring tag ditambahkan"
           }
         },
         "it" : {
@@ -5556,6 +5850,12 @@
             "value" : "Enregistrer un événement"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catat Peristiwa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5666,6 +5966,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’écart entre les événements est proportionnel au temps réellement écoulé. Trois jours et cinq jours sont espacés de 3:5, et les longs vides se replient en pointillés avec une mention comme « 2 ans 4 mois »."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jarak antarperistiwa sebanding dengan waktu yang benar-benar berlalu. Tiga hari dan lima hari berjarak 3:5, dan jeda panjang dilipat menjadi garis putus-putus dengan keterangan seperti “2 tahun 4 bulan”."
           }
         },
         "it" : {
@@ -5780,6 +6086,12 @@
             "value" : "Supprimer l’événement"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus Peristiwa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5890,6 +6202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Modifier l’événement"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubah Peristiwa"
           }
         },
         "it" : {
@@ -6004,6 +6322,12 @@
             "value" : "Aucun événement"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada peristiwa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6116,6 +6440,12 @@
             "value" : "Ajouter un événement"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah Peristiwa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6226,6 +6556,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajoutez des tags à vos événements et touchez-en un pour réunir, dans une nouvelle frise, tous les moments portant ce tag, toutes frises confondues. Vos données se synchronisent entre iPhone, iPad et Mac via iCloud."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beri tag pada peristiwa lalu ketuk tag untuk mengumpulkan semua momen bertag sama dari semua linimasa menjadi linimasa baru. Datamu tersinkron antara iPhone, iPad, dan Mac lewat iCloud."
           }
         },
         "it" : {
@@ -6341,6 +6677,12 @@
             "value" : "Une légère vibration quand vous ajoutez ou supprimez un événement."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Getaran lembut saat kamu menambah atau menghapus peristiwa."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6452,6 +6794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ce que vous écriviez reste en place, même si l’app se ferme en cours de route."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tulisanmu tetap tersimpan meski aplikasi tertutup di tengah jalan."
           }
         },
         "it" : {
@@ -6566,6 +6914,12 @@
             "value" : "Choisissez la date d’un événement et touchez « Trouver des photos associées » pour voir les photos prises ce jour-là. Si aucune ne convient, choisissez-en une vous-même."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih tanggal peristiwa lalu ketuk “Cari foto terkait” untuk melihat foto yang kamu ambil hari itu. Jika tidak ada yang cocok, kamu bisa memilih sendiri."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6676,6 +7030,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photo"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto"
           }
         },
         "it" : {
@@ -6790,6 +7150,12 @@
             "value" : "Changer de photo"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ganti Foto"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6900,6 +7266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’accès aux photos est désactivé : impossible de trouver les photos prises ce jour-là.\nVous pouvez tout de même en choisir une ci-dessous."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akses Foto dimatikan, jadi foto yang diambil hari itu tidak bisa ditemukan.\nKamu tetap bisa memilih sendiri di bawah."
           }
         },
         "it" : {
@@ -7014,6 +7386,12 @@
             "value" : "Retirer la photo"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus Foto"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7124,6 +7502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les photos et notes s’ouvrent sur place. Touchez à nouveau pour replier."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto dan catatan terbuka di tempat. Ketuk lagi untuk melipat."
           }
         },
         "it" : {
@@ -7238,6 +7622,12 @@
             "value" : "La photo remplit la carte, le texte par-dessus"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto memenuhi kartu dengan teks di atasnya"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7348,6 +7738,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus"
           }
         },
         "it" : {
@@ -7462,6 +7858,12 @@
             "value" : "Nouvelle frise"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linimasa Baru"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7572,6 +7974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couleur"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warna"
           }
         },
         "it" : {
@@ -7686,6 +8094,12 @@
             "value" : "Réglages"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengaturan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7796,6 +8210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Autoriser dans Réglages"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izinkan di Pengaturan"
           }
         },
         "it" : {
@@ -7911,6 +8331,12 @@
             "value" : "Retour haptique"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umpan balik haptik"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8023,6 +8449,12 @@
             "value" : "Modifier"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubah"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8133,6 +8565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Commencer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai"
           }
         },
         "it" : {
@@ -8248,6 +8686,12 @@
             "value" : "Reprendre là où vous en étiez"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjutkan dari yang tadi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8358,6 +8802,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Essayez de chercher vous-même ci-dessous."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coba cari sendiri di bawah."
           }
         },
         "it" : {
@@ -8473,6 +8923,12 @@
             "value" : "Utilisez les fonctions principales sur iPad avec un simple clavier."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakai fitur utama di iPad hanya dengan keyboard."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8583,6 +9039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun événement pour le moment"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada peristiwa"
           }
         },
         "it" : {
@@ -8698,6 +9160,12 @@
             "value" : "Rappels"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengingat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8809,6 +9277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Consultez votre frise sur l’écran d’accueil, sans ouvrir l’app."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lihat linimasamu langsung di Layar Utama tanpa membuka aplikasi."
           }
         },
         "it" : {
@@ -8924,6 +9398,12 @@
             "value" : "Utilisez toute l’app en anglais."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakai seluruh aplikasi dalam bahasa Inggris."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9034,6 +9514,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Que s’est-il passé ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apa yang terjadi?"
           }
         },
         "it" : {
@@ -9149,6 +9635,12 @@
             "value" : "À la première ouverture après une mise à jour, découvrez les nouveautés."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat pertama kali membuka aplikasi setelah pembaruan, lihat apa yang baru."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9260,6 +9752,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nouveautés"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang Baru"
           }
         },
         "it" : {
@@ -9374,6 +9872,12 @@
             "value" : "Marge"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Margin"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9481,6 +9985,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeoul"
@@ -9598,6 +10108,12 @@
             "value" : "Utiliser Yeoul"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cara memakai Yeoul"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9709,6 +10225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prise en charge complète de l’anglais"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dukungan penuh bahasa Inggris"
           }
         },
         "it" : {
@@ -9823,6 +10345,12 @@
             "value" : "Ex. : la première année de bébé, journal du lancement de l’app"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mis. Tahun pertama si kecil, catatan peluncuran aplikasi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9935,6 +10463,12 @@
             "value" : "OK"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10045,6 +10579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisissez une frise à gauche ou créez-en une nouvelle."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih linimasa di sebelah kiri atau buat yang baru."
           }
         },
         "it" : {
@@ -10160,6 +10700,12 @@
             "value" : "Réduire les animations"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurangi Gerakan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10271,6 +10817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avec Réduire les animations activé, les effets d’écran se font plus discrets."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat Kurangi Gerakan aktif, efek layar jadi lebih tenang."
           }
         },
         "it" : {
@@ -10386,6 +10938,12 @@
             "value" : "Effacez toute votre frise depuis l’app, quand vous le souhaitez."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus seluruh linimasamu dari dalam aplikasi kapan saja."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10496,6 +11054,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer cet événement ?"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus peristiwa ini?"
           }
         },
         "it" : {
@@ -10610,6 +11174,12 @@
             "value" : "Utiliser cette photo"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakai foto ini"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10720,6 +11290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun événement ne porte encore ce tag."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada peristiwa dengan tag ini."
           }
         },
         "it" : {
@@ -10834,6 +11410,12 @@
             "value" : "Ajoutez ce tag à un événement et il apparaîtra ici automatiquement."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beri tag ini pada peristiwa dan peristiwa itu akan terkumpul di sini secara otomatis."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10944,6 +11526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nom"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama"
           }
         },
         "it" : {
@@ -11058,6 +11646,12 @@
             "value" : "Changer le nom et la couleur"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubah Nama & Warna"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11165,6 +11759,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DM Instagram (@lee25_ios)"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "DM Instagram (@lee25_ios)"
@@ -11282,6 +11882,12 @@
             "value" : "Une photo encadrée comme un tirage"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto berbingkai seperti hasil cetak"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11392,6 +11998,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enregistrer"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan"
           }
         },
         "it" : {
@@ -11506,6 +12118,12 @@
             "value" : "Enregistrée"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tersimpan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11616,6 +12234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Titre"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Judul"
           }
         },
         "it" : {
@@ -11730,6 +12354,12 @@
             "value" : "Sans titre"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanpa judul"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11840,6 +12470,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Assistance"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dukungan"
           }
         },
         "it" : {
@@ -11954,6 +12590,12 @@
             "value" : "Chercher moi-même"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cari sendiri"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12064,6 +12706,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Revoyez l’introduction affichée à la première ouverture."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lihat lagi pengenalan yang kamu lihat saat pertama kali membuka aplikasi."
           }
         },
         "it" : {
@@ -12178,6 +12826,12 @@
             "value" : "Créez votre première frise.\nLa première année de bébé, un lancement d’app, un voyage… tout est permis."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buat linimasa pertamamu.\nTahun pertama si kecil, peluncuran aplikasi, perjalanan — apa saja boleh."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12288,6 +12942,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah"
           }
         },
         "it" : {
@@ -12402,6 +13062,12 @@
             "value" : "Annuler"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batal"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12514,6 +13180,12 @@
             "value" : "Style de carte"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desain Kartu"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12624,6 +13296,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez une carte pour la déplier"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk kartu untuk membukanya"
           }
         },
         "it" : {
@@ -12739,6 +13417,12 @@
             "value" : "Écrans adaptés au texte agrandi"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tata letak untuk teks lebih besar"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12850,6 +13534,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contrôle au clavier"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrol dengan keyboard"
           }
         },
         "it" : {
@@ -12964,6 +13654,12 @@
             "value" : "Frise"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linimasa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13074,6 +13770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réglages de la frise"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengaturan Linimasa"
           }
         },
         "it" : {
@@ -13188,6 +13890,12 @@
             "value" : "Enregistrer comme frise"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan sebagai Linimasa"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13298,6 +14006,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisissez une frise"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih linimasa"
           }
         },
         "it" : {
@@ -13413,6 +14127,12 @@
             "value" : "Enregistrez votre frise dans un fichier et récupérez-la plus tard."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan linimasamu ke file dan pulihkan kembali nanti."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13523,6 +14243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune frise pour le moment"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada linimasa"
           }
         },
         "it" : {
@@ -13637,6 +14363,12 @@
             "value" : "Tags"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13747,6 +14479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter un tag"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah tag"
           }
         },
         "it" : {
@@ -13861,6 +14599,12 @@
             "value" : "Frises par tag"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linimasa Tag"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13971,6 +14715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frise par tag · "
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linimasa tag · "
           }
         },
         "it" : {
@@ -14085,6 +14835,12 @@
             "value" : "Enregistrer la frise par tag"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan Linimasa Tag"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14197,6 +14953,12 @@
             "value" : "Reliez vos événements avec des tags"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaitkan peristiwa dengan tag"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14307,6 +15069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez un tag pour réunir les événements"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk tag untuk mengumpulkan peristiwa"
           }
         },
         "it" : {
@@ -14422,6 +15190,12 @@
             "value" : "Affichage pour iPhone pliable"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tata letak iPhone lipat"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14533,6 +15307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisez le grand écran d’un iPhone pliable en deux volets côte à côte."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakai layar lebar iPhone lipat sebagai dua panel berdampingan."
           }
         },
         "it" : {
@@ -14647,6 +15427,12 @@
             "value" : "Affiche"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poster"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14757,6 +15543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pellicule"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Film"
           }
         },
         "it" : {
@@ -14872,6 +15664,12 @@
             "value" : "Widgets de l’écran d’accueil"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget Layar Utama"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14985,6 +15783,12 @@
             "value" : "VoiceOver lit chaque bouton et chaque événement, dans le bon ordre."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver membacakan setiap tombol dan peristiwa dengan urutan yang benar."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15095,6 +15899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une frise qui s’étire avec le temps"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linimasa yang merenggang sesuai waktu"
           }
         },
         "it" : {

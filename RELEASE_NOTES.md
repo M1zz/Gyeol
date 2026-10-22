@@ -112,3 +112,9 @@ Meld fejl via siden Support.
 Kiitos, kun käytät Yeoulia.
 Teimme sovelluksesta vakaamman.
 Kerro ongelmista Tuki-sivulla.
+
+### 앱스토어 (id)
+
+Terima kasih telah memakai Yeoul.
+Aplikasi kini lebih stabil.
+Laporkan masalah lewat halaman Dukungan.
