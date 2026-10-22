@@ -57,6 +57,7 @@ SEARCH = {
     "id": ("linimasa jurnal", "3 hari tetap 3 hari,<br>2 tahun tetap 2 tahun", "Jarak antarperistiwa sebesar waktu yang benar-benar berlalu"),
     "nb": ("tidslinje dagbok", "3 dager forblir 3 dager,<br>2 år forblir 2 år", "Avstanden mellom hendelsene tilsvarer tiden som faktisk har gått"),
     "nl": ("tijdlijn dagboek", "3 dagen blijven 3 dagen,<br>2 jaar blijft 2 jaar", "De afstand tussen gebeurtenissen is de tijd die echt is verstreken"),
+    "pl": ("oś czasu dziennik", "3 dni to 3 dni,<br>2 lata to 2 lata", "Odstępy między wydarzeniami odpowiadają czasowi, który naprawdę minął"),
 }
 
 # 헤더는 처음 온 사람에게 한 가지 약속만 한다: 흐른 시간이 그대로 보이는 타임라인.
@@ -82,6 +83,7 @@ HEADER = {
     "id": ("Linimasamu sendiri", "Linimasa yang merenggang<br>sesuai waktu"),
     "nb": ("Din egen tidslinje", "En tidslinje som<br>strekker seg med tiden"),
     "nl": ("Je eigen tijdlijn", "Een tijdlijn die<br>meerekt met de tijd"),
+    "pl": ("Twoja własna oś czasu", "Oś czasu rozciągająca<br>się wraz z czasem"),
 }
 
 # 바탕은 앱 아이콘의 초록(#347669 → #235146)과 크림색 글씨를 따른다. 아이콘의 가로 괘선도 옅게 깐다.

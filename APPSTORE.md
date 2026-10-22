@@ -1070,3 +1070,54 @@ Kies de kaart die bij elke gebeurtenis past: Klassiek met de tekst voorop, Poste
 
 Op iPhone en iPad
 Dankzij iCloud heb je dezelfde gegevens op al je apparaten.
+
+## pl
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-pl.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-pl.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-pl.html
+
+### 이름
+
+Yeoul: Oś czasu realnego czasu
+
+### 부제
+
+Wspomnienia ze zdjęciami
+
+### 키워드
+
+dziennik,kamienie milowe,historia,rocznica,podróż,rodzina,dziecko,wydarzenia,album,para,ślub,hashtag
+
+### 프로모션 텍스트
+
+Trzy i pięć dni dzieli proporcja 3:5, a dwa lata zwijają się w linię przerywaną. Dodaj zdjęcia i historie do pionowej osi czasu, która rośnie wraz z prawdziwym czasem.
+
+### 설명
+
+Yeoul to pionowa oś czasu, na której odstępy między wydarzeniami rosną wraz z czasem, który naprawdę minął.
+Trzy dni i pięć dni dzieli proporcja 3:5, a długa przerwa, na przykład dwa lata, zwija się w linię przerywaną z opisem „2 lata 4 miesiące”. Rytm twojej przeszłości widać od razu.
+
+Wiele osi czasu
+Utwórz osobną oś czasu dla każdego tematu, na przykład dla rozwoju dziecka, związku, nowej pracy czy podróży, i nadaj jej własną nazwę oraz kolor.
+
+Zdjęcia i historie przy każdym wydarzeniu
+Wpisz datę, tytuł i notatki, a następnie dodaj zdjęcie. Wybierz datę, a Yeoul znajdzie w twojej bibliotece zdjęcia zrobione tego dnia – albo wybierzesz zdjęcie samodzielnie.
+Dotknij wydarzenia na osi czasu, a zdjęcie i notatki otworzą się w tym samym miejscu.
+
+Łącz wydarzenia hashtagami
+Dodawaj wydarzeniom hashtagi i zbieraj wydarzenia z tym samym tagiem ze wszystkich osi czasu w nową oś czasu. Jeśli ci się spodoba, zapisz ją.
+
+Cztery wyglądy kart
+Wybierz kartę pasującą do każdego wydarzenia: Klasyczny z tekstem na pierwszym planie, Plakat ze zdjęciem na całą kartę, Film lub Margines.
+
+Na iPhonie i iPadzie
+Dzięki iCloud masz te same dane na wszystkich swoich urządzeniach.

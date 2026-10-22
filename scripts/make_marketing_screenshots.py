@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -170,6 +170,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Verbind gebeurtenissen<br>met hashtags", "Losse gegevens worden een nieuwe tijdlijn"),
         ("05-editor.png", "dark", "Een kaartontwerp<br>per gebeurtenis", "Datum, notities en tags op één scherm"),
     ],
+    "pl": [
+        ("01-trip.png", "hero-bleed", "Oś czasu rozciągająca<br>się wraz z czasem", "Trzy i pięć dni 3:5, długie przerwy jako kropki"),
+        ("02-iceland.png", "left-text", "Zachowaj dzień<br>razem ze zdjęciami", "Cztery wyglądy kart do wyboru"),
+        ("03-expand.png", "text-bottom", "Dotknij, a otworzy<br>się w tym samym miejscu", "Zdjęcia i historie na jednym ekranie"),
+        ("04-tag.png", "flat-rotate", "Łącz wydarzenia<br>hashtagami", "Rozproszone dane tworzą nową oś czasu"),
+        ("05-editor.png", "dark", "Osobny wygląd karty<br>dla każdego wydarzenia", "Data, notatki i tagi na jednym ekranie"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -299,6 +306,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Tik en het opent ter plekke", "Foto’s en verhalen in één oogopslag"),
         ("ipad-03-tag.png", "Verbind gebeurtenissen met hashtags", "Losse gegevens worden een nieuwe tijdlijn"),
         ("ipad-04-editor.png", "Bewaar de foto’s en het verhaal van de dag", "Datum, notities, tags en kaartontwerp"),
+    ],
+    "pl": [
+        ("ipad-01-trip.png", "Oś czasu rozciągająca się wraz z czasem", "Trzy i pięć dni 3:5, długie przerwy jako kropki"),
+        ("ipad-02-expand.png", "Dotknij, a otworzy się w tym samym miejscu", "Zdjęcia i historie na jednym ekranie"),
+        ("ipad-03-tag.png", "Łącz wydarzenia hashtagami", "Rozproszone dane tworzą nową oś czasu"),
+        ("ipad-04-editor.png", "Zachowaj zdjęcia i historię dnia", "Data, notatki, tagi i wygląd karty"),
     ],
 }
 IPAD_CSS = f"""
