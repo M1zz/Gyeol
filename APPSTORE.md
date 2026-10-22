@@ -509,3 +509,54 @@ Choisissez la carte qui convient à chaque événement : Classique avec le texte
 
 Sur iPhone et iPad
 Grâce à iCloud, vous retrouvez les mêmes données sur tous vos appareils.
+
+## it
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-it.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-it.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-it.html
+
+### 이름
+
+Yeoul: timeline a tempo reale
+
+### 부제
+
+I tuoi ricordi con le foto
+
+### 키워드
+
+diario,cronologia,storia,anniversario,viaggio,famiglia,bebè,traguardi,album,coppia,matrimonio
+
+### 프로모션 텍스트
+
+Tre giorni e cinque giorni stanno a 3:5, due anni diventano una linea tratteggiata. Aggiungi foto e storie a una timeline verticale che segue il tempo reale.
+
+### 설명
+
+Yeoul è una timeline verticale in cui lo spazio tra gli eventi si allunga con il tempo realmente trascorso.
+Tre giorni e cinque giorni stanno a 3:5, e un vuoto lungo come due anni si ripiega in una linea tratteggiata con l’etichetta «2 anni 4 mesi». Il ritmo del tuo passato si legge a colpo d’occhio.
+
+Più timeline
+Crea una timeline per ogni tema, come la crescita del bambino, una storia d’amore, un nuovo lavoro o un viaggio, con il suo nome e il suo colore.
+
+Foto e storie per ogni evento
+Scrivi data, titolo e note, poi aggiungi una foto. Scegli la data e Yeoul cerca nella tua libreria le foto scattate quel giorno, oppure ne scegli una tu.
+Tocca un evento nella timeline e foto e note si aprono sul posto.
+
+Collega gli eventi con gli hashtag
+Aggiungi hashtag ai tuoi eventi e riunisci quelli che condividono un tag, da tutte le timeline, in una nuova timeline. Se ti piace, salvala.
+
+Quattro stili di scheda
+Scegli la scheda adatta a ogni evento: Classico con il testo in primo piano, Poster con la foto a tutta scheda, Pellicola o Margine.
+
+Su iPhone e iPad
+Con iCloud ritrovi gli stessi dati su tutti i tuoi dispositivi.
