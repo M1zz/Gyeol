@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -121,6 +121,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Gắn kết sự kiện<br>bằng hashtag", "Dữ liệu rải rác thành dòng thời gian mới"),
         ("05-editor.png", "dark", "Mỗi sự kiện<br>một kiểu thẻ", "Ngày, nội dung và thẻ trên một màn hình"),
     ],
+    "cs": [
+        ("01-trip.png", "hero-bleed", "Časová osa, která se<br>natahuje podle času", "Tři a pět dní v poměru 3:5, dlouhé mezery jako tečky"),
+        ("02-iceland.png", "left-text", "Uchovejte den<br>i s fotkami", "Čtyři vzhledy karet na výběr"),
+        ("03-expand.png", "text-bottom", "Klepněte a otevře<br>se to na místě", "Fotky a příběhy na první pohled"),
+        ("04-tag.png", "flat-rotate", "Propojujte události<br>hashtagy", "Roztroušené záznamy se stanou novou osou"),
+        ("05-editor.png", "dark", "Vzhled karty<br>pro každou událost", "Datum, poznámky a štítky na jedné obrazovce"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -208,6 +215,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Chạm là mở ngay tại chỗ", "Ảnh và câu chuyện trong một cái nhìn"),
         ("ipad-03-tag.png", "Gắn kết sự kiện bằng hashtag", "Dữ liệu rải rác thành dòng thời gian mới"),
         ("ipad-04-editor.png", "Giữ lại ảnh và câu chuyện của ngày", "Ngày, nội dung, thẻ và kiểu thẻ"),
+    ],
+    "cs": [
+        ("ipad-01-trip.png", "Časová osa, která se natahuje podle času", "Tři a pět dní v poměru 3:5, dlouhé mezery jako tečky"),
+        ("ipad-02-expand.png", "Klepněte a otevře se to na místě", "Fotky a příběhy na první pohled"),
+        ("ipad-03-tag.png", "Propojujte události hashtagy", "Roztroušené záznamy se stanou novou osou"),
+        ("ipad-04-editor.png", "Uchovejte fotky a příběh dne", "Datum, poznámky, štítky a vzhled karty"),
     ],
 }
 IPAD_CSS = f"""

@@ -713,3 +713,54 @@ Chọn kiểu thẻ hợp với từng sự kiện: Cổ điển lấy chữ là
 
 Trên iPhone và iPad
 Nhờ iCloud, bạn thấy cùng một dữ liệu trên mọi thiết bị.
+
+## cs
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-cs.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-cs.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-cs.html
+
+### 이름
+
+Yeoul: osa skutečného času
+
+### 부제
+
+Vzpomínky s fotkami
+
+### 키워드
+
+deník,milníky,historie,výročí,cestování,rodina,miminko,události,album,pár,svatba,hashtag,život
+
+### 프로모션 텍스트
+
+Tři dny a pět dní jsou v poměru 3:5, dva roky se sbalí do tečkované čáry. Přidejte fotky a příběhy dnů na svislou osu, která se natahuje podle skutečného času.
+
+### 설명
+
+Yeoul je svislá časová osa, na které se mezery mezi událostmi natahují podle skutečně uplynulého času.
+Tři dny a pět dní jsou od sebe v poměru 3:5 a dlouhá mezera, třeba dva roky, se sbalí do tečkované čáry s popiskem „2 roky 4 měsíce“. Rytmus vaší minulosti vidíte na první pohled.
+
+Více časových os
+Vytvořte si samostatnou časovou osu pro každé téma, třeba pro růst miminka, vztah, novou práci nebo cestu, a dejte jí vlastní název a barvu.
+
+U každé události fotky a příběh
+Napište datum, název a poznámky a přidejte fotku. Vyberte datum a Yeoul v knihovně najde fotky z toho dne, nebo si můžete vybrat sami.
+Klepněte na událost na časové ose a fotka s poznámkami se otevřou přímo na místě.
+
+Propojujte události hashtagy
+Přidejte událostem hashtagy a události se stejným štítkem ze všech časových os shromážděte do nové časové osy. Pokud se vám zalíbí, uložte ji.
+
+Čtyři vzhledy karet
+Vyberte kartu, která se ke každé události hodí: Klasika s textem na prvním místě, Plakát s fotkou přes celou kartu, Film nebo Okraj.
+
+Na iPhonu i iPadu
+Díky iCloudu máte stejné záznamy na všech svých zařízeních.

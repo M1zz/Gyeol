@@ -88,3 +88,9 @@ Conte problemas na página de Suporte.
 Cảm ơn bạn đã dùng Yeoul.
 Chúng tôi đã làm ứng dụng ổn định hơn.
 Gặp sự cố, hãy báo ở trang Hỗ trợ.
+
+### 앱스토어 (cs)
+
+Děkujeme, že používáte Yeoul.
+Aplikaci jsme udělali stabilnější.
+Potíže nám nahlaste v Podpoře.

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Zásady ochrany soukromí — Yeoul</title>
+<meta name="description" content="Yeoul neshromažďuje osobní údaje. Vaše záznamy zůstávají na vašich zařízeních a ve vašem iCloudu; vývojář dostává jen anonymní statistiky používání a hlášení o pádech.">
+<link rel="canonical" href="https://m1zz.github.io/Gyeol/privacy-cs.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Gyeol/privacy.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Gyeol/privacy-en.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Gyeol/privacy-zh-Hans.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Gyeol/privacy-zh-Hant.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Gyeol/privacy-ja.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Gyeol/privacy-ru.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Gyeol/privacy-es.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Gyeol/privacy-de.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Gyeol/privacy-fr.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Gyeol/privacy-it.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Gyeol/privacy-pt-BR.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Gyeol/privacy-th.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Gyeol/privacy-vi.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Gyeol/privacy-cs.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Gyeol/privacy.html">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+</head>
+<body>
+<div class="wrap">
+  <nav class="langs" aria-label="Jazyk"><a href="privacy.html" hreflang="ko" lang="ko">한국어</a> <a href="privacy-en.html" hreflang="en" lang="en">English</a> <a href="privacy-zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="privacy-zh-Hant.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="privacy-ja.html" hreflang="ja" lang="ja">日本語</a> <a href="privacy-ru.html" hreflang="ru" lang="ru">Русский</a> <a href="privacy-es.html" hreflang="es" lang="es">Español</a> <a href="privacy-de.html" hreflang="de" lang="de">Deutsch</a> <a href="privacy-fr.html" hreflang="fr" lang="fr">Français</a> <a href="privacy-it.html" hreflang="it" lang="it">Italiano</a> <a href="privacy-pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="privacy-th.html" hreflang="th" lang="th">ไทย</a> <a href="privacy-vi.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="privacy-cs.html" hreflang="cs" lang="cs" aria-current="true">Čeština</a></nav>
+
+  <h1>Zásady ochrany soukromí</h1>
+  <p class="updated">Yeoul · Platné od 17. října 2026</p>
+
+  <p class="summary">
+    <strong>Yeoul neshromažďuje osobní údaje.</strong>
+    Žádná registrace, žádné reklamy, žádné sledování.
+    Vaše časové osy a fotky se ukládají jen na vaše zařízení a do <strong>vašeho vlastního iCloudu</strong> a vývojář je nevidí.
+    Aby vývojář věděl, na kolika zařízeních se aplikace používá, a mohl opravovat chyby, dostává jen anonymní statistiky používání a hlášení o pádech (bod 4).
+  </p>
+
+  <h2>1. Co aplikace ukládá</h2>
+  <p>Aplikace ukládá na vašem zařízení (SwiftData) následující údaje, které zadáte sami.</p>
+  <ul>
+    <li>Názvy a barvy časových os</li>
+    <li>Data, názvy, poznámky, štítky a vzhledy karet událostí</li>
+    <li>Fotky přidané k událostem (zmenšené tak, aby delší strana měla 1200 px)</li>
+    <li>Datum prvního otevření aplikace a počet otevření. Používá se jen pro anonymní statistiky používání v bodě 4.</li>
+  </ul>
+
+  <h2>2. Synchronizace přes iCloud</h2>
+  <p>
+    Když je zařízení přihlášené k iCloudu, tyto záznamy se ukládají také do <strong>vaší vlastní soukromé databáze iCloudu</strong> (Apple CloudKit)
+    a synchronizují se s dalšími zařízeními se stejným Apple Account. Tento prostor patří vám a vývojář k němu nemá přístup.
+    Na zpracování se vztahují také <a href="https://www.apple.com/legal/privacy/">zásady ochrany soukromí společnosti Apple</a>.
+    Na zařízení bez přihlášení k iCloudu zůstanou záznamy jen na tomto zařízení.
+  </p>
+
+  <h2>3. Přístup k fotkám</h2>
+  <ul>
+    <li>Když klepnete na <strong>Najít související fotky</strong>, aplikace požádá o přístup k fotoknihovně, aby mohla zobrazit fotky pořízené v den události.
+        Hledání podle data probíhá jen na vašem zařízení a nic z vaší knihovny se nikam neodesílá.</li>
+    <li><strong>Vybrat ručně</strong> používá systémový výběr fotek, takže funguje bez oprávnění a do aplikace se dostanou jen fotky, které vyberete.</li>
+    <li>Oprávnění můžete kdykoli změnit nebo vypnout v aplikaci Nastavení v iOS. Zbytek aplikace funguje i bez něj.</li>
+  </ul>
+
+  <h2>4. Anonymní statistiky používání</h2>
+  <p>
+    Aby vývojář věděl, kolik lidí aplikaci používá, a mohl opravovat chyby, aplikace pro iPhone odesílá do Apple iCloud (CloudKit) následující anonymní údaje.
+    Ukládají se do prostoru vývojáře, ne do vašeho iCloudu, a může je číst jen vývojář.
+  </p>
+  <ul>
+    <li>Náhodné ID vytvořené při instalaci (není spojeno se zařízením, Apple ID ani jinými aplikacemi a po přeinstalaci se změní)</li>
+    <li>Verze aplikace, verze iOS, nastavení oblasti a jazyka</li>
+    <li>Kolikrát a v které dny jste aplikaci otevřeli, datum instalace a počet dní od instalace</li>
+    <li>Hlášení o pádech, když aplikace přestane reagovat nebo se neočekávaně ukončí (verze aplikace, verze iOS, typ zařízení a technické podrobnosti o chybě)</li>
+  </ul>
+  <p>
+    Neobsahují jméno, kontakty, polohu ani obsah, jako jsou časové osy, události či fotky. Odesílají se jen při přihlášení k iCloudu.
+  </p>
+  <p>
+    <strong>Zpětná vazba odeslaná z aplikace.</strong> Pokud pošlete zpětnou vazbu přes <strong>Odeslat zpětnou vazbu</strong> v Nastavení, text, který napíšete,
+    jméno a e-mail, pokud je zadáte, a verze aplikace, verze iOS a typ zařízení se uloží do téhož prostoru vývojáře (Apple iCloud).
+    Používají se jen k odpovědi a ke zlepšování aplikace a odešlou se jen tehdy, když klepnete na Odeslat. Chcete-li je nechat smazat, kontaktujte nás podle bodu 9.
+  </p>
+
+  <h2>5. Třetí strany a sledování</h2>
+  <p>
+    Aplikace neobsahuje kód třetích stran, například reklamní sítě, analytické nástroje nebo nástroje pro hlášení pádů.
+    Statistiky z bodu 4 odesílá do Apple iCloud sdílená knihovna vytvořená vývojářem (LeeoKit), aniž by procházely jinou společností.
+    Nesledujeme vás, neprodáváme vaše údaje ani je neposkytujeme jiným společnostem.
+  </p>
+
+  <h2>6. Uchovávání a mazání</h2>
+  <ul>
+    <li>Časové osy a události můžete smazat v aplikaci. Zmizí i z vašich dalších zařízení propojených přes iCloud.</li>
+    <li>Smazáním aplikace se smažou i záznamy uložené v zařízení. Kopie zbylé v iCloudu můžete odstranit v Nastavení iOS → Apple Account → iCloud → Spravovat úložiště.</li>
+    <li>Vývojář vaše záznamy neuchovává, takže je nemůže zobrazit ani obnovit.</li>
+  </ul>
+
+  <h2>7. Děti</h2>
+  <p>
+    Tato aplikace není určena dětem a bez ohledu na věk neshromažďuje osobní údaje nikoho.
+  </p>
+
+  <h2>8. Změny zásad</h2>
+  <p>
+    Pokud se tyto zásady změní, aktualizujeme tuto stránku a výše uvedené datum účinnosti.
+  </p>
+
+  <h2>9. Kontakt</h2>
+  <p>
+    Dotazy ke zpracování osobních údajů posílejte na <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.
+  </p>
+
+  <footer>
+    © 2026 Yeoul · <a href="index-cs.html">O aplikaci</a> · <a href="support-cs.html">Podpora</a> · <a href="privacy-cs.html">Zásady ochrany soukromí</a>
+  </footer>
+
+</div>
+</body>
+</html>
