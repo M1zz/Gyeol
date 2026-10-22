@@ -124,3 +124,9 @@ Laporkan masalah lewat halaman Dukungan.
 Takk for at du bruker Yeoul.
 Vi har gjort appen mer stabil.
 Meld fra om feil under Støtte.
+
+### 앱스토어 (nl)
+
+Bedankt voor het gebruiken van Yeoul.
+We hebben de app stabieler gemaakt.
+Meld problemen via de Support-pagina.

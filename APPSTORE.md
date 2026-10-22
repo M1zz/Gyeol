@@ -1019,3 +1019,54 @@ Velg kortet som passer til hver hendelse: Klassisk med teksten først, Plakat me
 
 På iPhone og iPad
 Med iCloud har du de samme dataene på alle enhetene dine.
+
+## nl
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-nl.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-nl.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-nl.html
+
+### 이름
+
+Yeoul: Tijdlijn in echte tijd
+
+### 부제
+
+Herinneringen met foto’s
+
+### 키워드
+
+dagboek,mijlpalen,geschiedenis,jubileum,reis,gezin,baby,gebeurtenissen,album,stel,bruiloft,hashtag
+
+### 프로모션 텍스트
+
+Drie en vijf dagen liggen 3:5 uit elkaar, twee jaar vouwt op tot een stippellijn. Voeg foto’s en verhalen toe aan een verticale tijdlijn die meerekt met de echte tijd.
+
+### 설명
+
+Yeoul is een verticale tijdlijn waarin de ruimte tussen gebeurtenissen meegroeit met de tijd die echt is verstreken.
+Drie dagen en vijf dagen liggen 3:5 uit elkaar, en een lang gat zoals twee jaar vouwt op tot een stippellijn met het label ‘2 jaar 4 maanden’. Het ritme van je verleden zie je in één oogopslag.
+
+Meerdere tijdlijnen
+Maak voor elk thema een eigen tijdlijn, zoals de groei van je kindje, een relatie, een nieuwe baan of een reis, met een eigen naam en kleur.
+
+Foto’s en verhalen bij elke gebeurtenis
+Schrijf een datum, een titel en notities op en voeg een foto toe. Kies de datum en Yeoul zoekt in je bibliotheek de foto’s van die dag, of je kiest zelf een foto.
+Tik op een gebeurtenis in de tijdlijn en de foto en notities openen ter plekke.
+
+Verbind gebeurtenissen met hashtags
+Geef je gebeurtenissen hashtags en verzamel gebeurtenissen met dezelfde tag uit al je tijdlijnen in een nieuwe tijdlijn. Bevalt hij, bewaar hem dan.
+
+Vier kaartontwerpen
+Kies de kaart die bij elke gebeurtenis past: Klassiek met de tekst voorop, Poster met een foto over de hele kaart, Film of Marge.
+
+Op iPhone en iPad
+Dankzij iCloud heb je dezelfde gegevens op al je apparaten.

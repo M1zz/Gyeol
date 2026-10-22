@@ -87,6 +87,12 @@
             "value" : "Ingen hendelser med #%@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen gebeurtenissen met #%@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -209,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fjern #%@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder #%@"
           }
         },
         "pt-BR" : {
@@ -335,6 +347,12 @@
             "value" : "Hendelser med merket #%@ samles her"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebeurtenissen met de tag #%@ worden hier verzameld"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -457,6 +475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@-design"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ontwerp: %@"
           }
         },
         "pt-BR" : {
@@ -583,6 +607,12 @@
             "value" : "Bilder fra %@: %lld"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto’s van %@: %lld"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -705,6 +735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leter etter bilder fra %@ …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto’s van %@ zoeken…"
           }
         },
         "pt-BR" : {
@@ -831,6 +867,12 @@
             "value" : "Ingen bilder tatt %@."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen foto’s gemaakt op %@."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -953,6 +995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld md."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mnd"
           }
         },
         "pt-BR" : {
@@ -1079,6 +1127,12 @@
             "value" : "%1$lld md. %2$lld d."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld mnd %2$lld d"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1201,6 +1255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld år"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld jr"
           }
         },
         "pt-BR" : {
@@ -1327,6 +1387,12 @@
             "value" : "%1$lld år %2$lld md."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld jr %2$lld mnd"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1446,6 +1512,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -1575,6 +1647,12 @@
             "value" : "%2$lld.%1$lld."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld-%1$lld"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1697,6 +1775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld d."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
           }
         },
         "pt-BR" : {
@@ -1824,6 +1908,12 @@
             "value" : "Face ID-lås"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID-vergrendeling"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1947,6 +2037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lås appen med Face ID eller Touch ID, så tidslinjen din forblir privat."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vergrendel de app met Face ID of Touch ID zodat je tijdlijn privé blijft."
           }
         },
         "pt-BR" : {
@@ -2074,6 +2170,12 @@
             "value" : "Bedre støtte for VoiceOver"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Betere ondersteuning voor VoiceOver"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2196,6 +2298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%2$@» ble lagt til i «%1$@»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%2$@’ is toegevoegd aan ‘%1$@’."
           }
         },
         "pt-BR" : {
@@ -2322,6 +2430,12 @@
             "value" : "Trykk på «Legg til hendelse» for å ta vare på ditt første øyeblikk.\nHendelsene stables fra topp til bunn i tidsrekkefølge, og avstanden mellom dem tilsvarer tiden som faktisk har gått."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik op ‘Gebeurtenis toevoegen’ om je eerste moment te bewaren.\nGebeurtenissen stapelen zich van boven naar beneden op in tijdsvolgorde, met tussenruimtes zo groot als de tijd die echt is verstreken."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2444,6 +2558,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Samme dag"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dezelfde dag"
           }
         },
         "pt-BR" : {
@@ -2570,6 +2690,12 @@
             "value" : "Samler hendelser med samme merke fra alle tidslinjer i én tidslinje."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toont alle gebeurtenissen met dezelfde tag uit alle tijdlijnen verzameld in één tijdlijn."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2692,6 +2818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hopp over"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sla over"
           }
         },
         "pt-BR" : {
@@ -2818,6 +2950,12 @@
             "value" : "Legger til en hendelse på tidslinjen du velger. Hvis du ikke angir en dato, registreres den med klokkeslettet nå."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voegt een gebeurtenis toe aan de tijdlijn die je kiest. Als je geen datum instelt, wordt de huidige tijd gebruikt."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2940,6 +3078,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finn relaterte bilder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoek bijbehorende foto’s"
           }
         },
         "pt-BR" : {
@@ -3066,6 +3210,12 @@
             "value" : "Legg til bilder fra dagen med én gang"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voeg meteen de foto’s van die dag toe"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3190,6 +3340,12 @@
             "value" : "Fant ikke den tidslinjen. Den kan være slettet, eller den har ikke kommet til denne enheten ennå."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die tijdlijn is niet gevonden. Misschien is hij verwijderd of is hij nog niet op dit apparaat aangekomen."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3312,6 +3468,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teksten først, bildet under"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eerst de tekst, de foto eronder"
           }
         },
         "pt-BR" : {
@@ -3439,6 +3601,12 @@
             "value" : "Når du forstørrer teksten, ordnes skjermbildene pent i stedet for å bli kuttet."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als je de tekst vergroot, worden schermen netjes opnieuw ingedeeld in plaats van afgesneden."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3562,6 +3730,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Få en påminnelse om dager du ikke vil glemme, for eksempel jubileer."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ontvang een herinnering voor dagen die je niet wilt vergeten, zoals jubilea."
           }
         },
         "pt-BR" : {
@@ -3688,6 +3862,12 @@
             "value" : "Klassisk"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klassiek"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3810,6 +3990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv ned det du vil huske"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrijf op wat je wilt onthouden"
           }
         },
         "pt-BR" : {
@@ -3936,6 +4122,12 @@
             "value" : "Dato"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datum"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4058,6 +4250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Datoen og skriften i hovedrollen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datum en letters in de hoofdrol"
           }
         },
         "pt-BR" : {
@@ -4185,6 +4383,12 @@
             "value" : "Slett alle dataene mine på én gang"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al mijn gegevens in één keer verwijderen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4309,6 +4513,12 @@
             "value" : "Notater"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notities"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4431,6 +4641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neste"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volgende"
           }
         },
         "pt-BR" : {
@@ -4558,6 +4774,12 @@
             "value" : "Se enkelt forskjell på merker og hendelser, også med Øk kontrast slått på eller hvis det er vanskelig å skille farger."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onderscheid tags en gebeurtenissen makkelijk, ook met Verhoog contrast aan of als kleuren lastig te onderscheiden zijn."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4681,6 +4903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bruk appen på flere språk."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik de app in meer talen."
           }
         },
         "pt-BR" : {
@@ -4808,6 +5036,12 @@
             "value" : "Flere språk"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meer talen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4930,6 +5164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opprett"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maak aan"
           }
         },
         "pt-BR" : {
@@ -5056,6 +5296,12 @@
             "value" : "Ta kontakt på e-post"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mail ons"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5180,6 +5426,12 @@
             "value" : "Hva skjedde?"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat is er gebeurd?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5302,6 +5554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Forhåndsvisning"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voorvertoning"
           }
         },
         "pt-BR" : {
@@ -5429,6 +5687,12 @@
             "value" : "Sikkerhetskopi og eksport"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back-up en export"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5552,6 +5816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Behagelige farger og kontrast"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prettigere kleuren en contrast"
           }
         },
         "pt-BR" : {
@@ -5678,6 +5948,12 @@
             "value" : "Utvikleren leser alle meldinger selv. Fortell oss hva som var tungvint, eller hvilken funksjon du savner."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De ontwikkelaar leest elk bericht zelf. Laat weten wat er hinderlijk was of welke functie je mist."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5800,6 +6076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laster …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laden…"
           }
         },
         "pt-BR" : {
@@ -5926,6 +6208,12 @@
             "value" : "Hendelser: %lld · siste %@.%@"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebeurtenissen: %lld · laatste %@.%@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6048,6 +6336,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hendelser: %lld · når den er lagret, blir den værende i listen din og fylles på etter hvert som merker legges til"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebeurtenissen: %lld · na het bewaren blijft hij in je lijst staan en loopt hij vol naarmate er tags bij komen"
           }
         },
         "pt-BR" : {
@@ -6174,6 +6468,12 @@
             "value" : "Registrer en hendelse"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebeurtenis vastleggen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6296,6 +6596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avstanden mellom hendelsene står i forhold til tiden som faktisk har gått. Tre dager og fem dager ligger 3:5 fra hverandre, og lange hull brettes sammen til en stiplet linje med en tekst som «2 år og 4 måneder»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De afstand tussen gebeurtenissen is evenredig met de tijd die echt is verstreken. Drie dagen en vijf dagen liggen 3:5 uit elkaar, en lange gaten vouwen zich op tot een stippellijn met een label als ‘2 jaar 4 maanden’."
           }
         },
         "pt-BR" : {
@@ -6422,6 +6728,12 @@
             "value" : "Slett hendelse"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder gebeurtenis"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6544,6 +6856,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rediger hendelse"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebeurtenis wijzigen"
           }
         },
         "pt-BR" : {
@@ -6670,6 +6988,12 @@
             "value" : "Ingen hendelser"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen gebeurtenissen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6794,6 +7118,12 @@
             "value" : "Legg til hendelse"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebeurtenis toevoegen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6916,6 +7246,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gi hendelser merker og trykk på et merke for å samle alle øyeblikk med samme merke fra alle tidslinjene dine i en ny tidslinje. Dataene dine synkroniseres mellom iPhone, iPad og Mac via iCloud."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geef gebeurtenissen tags en tik op een tag om alle momenten met die tag uit al je tijdlijnen te verzamelen in een nieuwe tijdlijn. Je gegevens worden via iCloud gesynchroniseerd tussen iPhone, iPad en Mac."
           }
         },
         "pt-BR" : {
@@ -7043,6 +7379,12 @@
             "value" : "En lett vibrering når du legger til eller sletter en hendelse."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een lichte trilling als je een gebeurtenis toevoegt of verwijdert."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7166,6 +7508,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det du holdt på å skrive, blir stående, selv om appen lukkes midt i det hele."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat je aan het schrijven was, blijft staan, ook als de app halverwege sluit."
           }
         },
         "pt-BR" : {
@@ -7292,6 +7640,12 @@
             "value" : "Velg datoen for en hendelse og trykk på «Finn relaterte bilder» for å se bildene du tok den dagen. Hvis ingen passer, kan du velge selv."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies de datum van een gebeurtenis en tik op ‘Zoek bijbehorende foto’s’ om de foto’s van die dag te zien. Past er geen, dan kies je zelf een foto."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7414,6 +7768,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bilde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto"
           }
         },
         "pt-BR" : {
@@ -7540,6 +7900,12 @@
             "value" : "Bytt bilde"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto wijzigen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7662,6 +8028,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilgang til Bilder er slått av, så bildene fra den dagen kan ikke finnes.\nDu kan likevel velge selv nedenfor."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toegang tot Foto’s staat uit, dus de foto’s van die dag kunnen niet worden gevonden.\nJe kunt hieronder nog wel zelf een foto kiezen."
           }
         },
         "pt-BR" : {
@@ -7788,6 +8160,12 @@
             "value" : "Fjern bilde"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder foto"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7910,6 +8288,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bilder og notater åpner seg på stedet. Trykk igjen for å brette sammen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto’s en notities openen ter plekke. Tik nogmaals om in te klappen."
           }
         },
         "pt-BR" : {
@@ -8036,6 +8420,12 @@
             "value" : "Bildet fyller kortet med teksten oppå"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De foto vult de kaart met de tekst erbovenop"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8158,6 +8548,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slett"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder"
           }
         },
         "pt-BR" : {
@@ -8284,6 +8680,12 @@
             "value" : "Ny tidslinje"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieuwe tijdlijn"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8406,6 +8808,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Farge"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kleur"
           }
         },
         "pt-BR" : {
@@ -8532,6 +8940,12 @@
             "value" : "Innstillinger"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instellingen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8654,6 +9068,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tillat i Innstillinger"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sta toe in Instellingen"
           }
         },
         "pt-BR" : {
@@ -8781,6 +9201,12 @@
             "value" : "Haptisk tilbakemelding"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptische feedback"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8905,6 +9331,12 @@
             "value" : "Rediger"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wijzig"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9027,6 +9459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kom i gang"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aan de slag"
           }
         },
         "pt-BR" : {
@@ -9154,6 +9592,12 @@
             "value" : "Fortsett der du slapp"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga verder waar je gebleven was"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9276,6 +9720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prøv å finne dem selv nedenfor."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probeer hieronder zelf te zoeken."
           }
         },
         "pt-BR" : {
@@ -9403,6 +9853,12 @@
             "value" : "Bruk de viktigste funksjonene på iPad med bare et tastatur."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik de belangrijkste functies op de iPad met alleen een toetsenbord."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9525,6 +9981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen hendelser ennå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nog geen gebeurtenissen"
           }
         },
         "pt-BR" : {
@@ -9652,6 +10114,12 @@
             "value" : "Påminnelser"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herinneringen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9775,6 +10243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se tidslinjen din rett på Hjem-skjermen uten å åpne appen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekijk je tijdlijn direct op het beginscherm, zonder de app te openen."
           }
         },
         "pt-BR" : {
@@ -9902,6 +10376,12 @@
             "value" : "Bruk hele appen på engelsk."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik de hele app ook in het Engels."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10024,6 +10504,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hva skjedde?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat is er gebeurd?"
           }
         },
         "pt-BR" : {
@@ -10151,6 +10637,12 @@
             "value" : "Første gang du åpner appen etter en oppdatering, ser du hva som er nytt."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De eerste keer dat je de app na een update opent, zie je wat er nieuw is."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10274,6 +10766,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hva er nytt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieuw"
           }
         },
         "pt-BR" : {
@@ -10400,6 +10898,12 @@
             "value" : "Marg"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marge"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10519,6 +11023,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeoul"
@@ -10648,6 +11158,12 @@
             "value" : "Slik bruker du Yeoul"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul gebruiken"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10771,6 +11287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Full støtte for engelsk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volledige ondersteuning voor Engels"
           }
         },
         "pt-BR" : {
@@ -10897,6 +11419,12 @@
             "value" : "F.eks. Barnets første år, logg for applanseringen"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bijv. Het eerste jaar van ons kindje, logboek van de app-lancering"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11021,6 +11549,12 @@
             "value" : "Ferdig"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gereed"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11143,6 +11677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg en tidslinje til venstre, eller lag en ny."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies links een tijdlijn of maak een nieuwe."
           }
         },
         "pt-BR" : {
@@ -11270,6 +11810,12 @@
             "value" : "Reduser bevegelse"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beperk beweging"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11393,6 +11939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Når Reduser bevegelse er på, blir skjermeffektene roligere."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Met Beperk beweging aan worden schermeffecten rustiger."
           }
         },
         "pt-BR" : {
@@ -11520,6 +12072,12 @@
             "value" : "Slett hele tidslinjen din fra appen når du vil."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wis je hele tijdlijn wanneer je wilt vanuit de app zelf."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11642,6 +12200,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vil du slette denne hendelsen?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze gebeurtenis verwijderen?"
           }
         },
         "pt-BR" : {
@@ -11768,6 +12332,12 @@
             "value" : "Bruk dette bildet"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik deze foto"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11890,6 +12460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen hendelser har dette merket ennå."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er zijn nog geen gebeurtenissen met deze tag."
           }
         },
         "pt-BR" : {
@@ -12016,6 +12592,12 @@
             "value" : "Gi en hendelse dette merket, så samles den her automatisk."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geef een gebeurtenis deze tag en hij verschijnt hier automatisch."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12138,6 +12720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Navn"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naam"
           }
         },
         "pt-BR" : {
@@ -12264,6 +12852,12 @@
             "value" : "Endre navn og farge"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naam en kleur wijzigen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12383,6 +12977,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-DM (@lee25_ios)"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram-DM (@lee25_ios)"
@@ -12512,6 +13112,12 @@
             "value" : "Et bilde med ramme som en papirkopi"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een foto met rand, als een afdruk"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12634,6 +13240,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lagre"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar"
           }
         },
         "pt-BR" : {
@@ -12760,6 +13372,12 @@
             "value" : "Lagret"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaard"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12882,6 +13500,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tittel"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel"
           }
         },
         "pt-BR" : {
@@ -13008,6 +13632,12 @@
             "value" : "Uten tittel"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zonder titel"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13130,6 +13760,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Støtte"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         },
         "pt-BR" : {
@@ -13256,6 +13892,12 @@
             "value" : "Finn selv"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zelf zoeken"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13378,6 +14020,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se introduksjonen du fikk første gang du åpnet appen, på nytt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekijk de introductie van je eerste keer openen nog eens."
           }
         },
         "pt-BR" : {
@@ -13504,6 +14152,12 @@
             "value" : "Lag din første tidslinje.\nBarnets første år, en applansering, en reise – alt går an."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maak je eerste tijdlijn.\nHet eerste jaar van je kindje, een app-lancering, een reis – het mag alles zijn."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13626,6 +14280,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Legg til"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voeg toe"
           }
         },
         "pt-BR" : {
@@ -13752,6 +14412,12 @@
             "value" : "Avbryt"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuleer"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13876,6 +14542,12 @@
             "value" : "Kortdesign"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaartontwerp"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13998,6 +14670,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trykk på et kort for å folde det ut"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik op een kaart om hem uit te klappen"
           }
         },
         "pt-BR" : {
@@ -14125,6 +14803,12 @@
             "value" : "Skjermbilder for større tekst"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermen voor grotere tekst"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14248,6 +14932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Styring med tastatur"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bediening met toetsenbord"
           }
         },
         "pt-BR" : {
@@ -14374,6 +15064,12 @@
             "value" : "Tidslinje"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tijdlijn"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14496,6 +15192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidslinjeinnstillinger"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tijdlijninstellingen"
           }
         },
         "pt-BR" : {
@@ -14622,6 +15324,12 @@
             "value" : "Lagre som tidslinje"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar als tijdlijn"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14744,6 +15452,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg en tidslinje"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies een tijdlijn"
           }
         },
         "pt-BR" : {
@@ -14871,6 +15585,12 @@
             "value" : "Lagre tidslinjen din i en fil og hent den tilbake senere."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar je tijdlijn in een bestand en haal hem later weer terug."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14993,6 +15713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen tidslinjer ennå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nog geen tijdlijnen"
           }
         },
         "pt-BR" : {
@@ -15119,6 +15845,12 @@
             "value" : "Merker"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tags"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15241,6 +15973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Legg til merke"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag toevoegen"
           }
         },
         "pt-BR" : {
@@ -15367,6 +16105,12 @@
             "value" : "Merketidslinjer"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taglijnen"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15489,6 +16233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Merketidslinje · "
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taglijn · "
           }
         },
         "pt-BR" : {
@@ -15615,6 +16365,12 @@
             "value" : "Lagre merketidslinje"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taglijn bewaren"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15739,6 +16495,12 @@
             "value" : "Knytt hendelser sammen med merker"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbind gebeurtenissen met tags"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15861,6 +16623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trykk på et merke for å samle hendelser"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik op een tag om gebeurtenissen te verzamelen"
           }
         },
         "pt-BR" : {
@@ -15988,6 +16756,12 @@
             "value" : "Oppsett for foldbar iPhone"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indeling voor opvouwbare iPhone"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16111,6 +16885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bruk den brede skjermen på en foldbar iPhone som to paneler side ved side."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik het brede scherm van een opvouwbare iPhone als twee panelen naast elkaar."
           }
         },
         "pt-BR" : {
@@ -16237,6 +17017,12 @@
             "value" : "Plakat"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poster"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16356,6 +17142,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Film"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Film"
@@ -16486,6 +17278,12 @@
             "value" : "Widgeter på Hjem-skjermen"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets op het beginscherm"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16611,6 +17409,12 @@
             "value" : "VoiceOver leser opp alle knapper og hendelser i riktig rekkefølge."
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver leest elke knop en gebeurtenis voor, in de juiste volgorde."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16733,6 +17537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En tidslinje som strekker seg med tiden"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een tijdlijn die meerekt met de tijd"
           }
         },
         "pt-BR" : {
