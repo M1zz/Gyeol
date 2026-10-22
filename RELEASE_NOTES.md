@@ -142,3 +142,9 @@ Problemy zgłoś na stronie Pomocy.
 Tack för att du använder Yeoul.
 Vi har gjort appen stabilare.
 Rapportera problem under Support.
+
+### 앱스토어 (tr)
+
+Yeoul’u kullandığın için teşekkürler.
+Uygulamayı daha kararlı hale getirdik.
+Sorunları Destek sayfasından bildir.

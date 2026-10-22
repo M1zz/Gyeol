@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv", "tr": "tr"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -184,6 +184,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Knyt ihop händelser<br>med hashtags", "Utspridda data blir en ny tidslinje"),
         ("05-editor.png", "dark", "En kortdesign<br>för varje händelse", "Datum, anteckningar och taggar på en skärm"),
     ],
+    "tr": [
+        ("01-trip.png", "hero-bleed", "Zamanla birlikte<br>uzayan zaman çizelgesi", "Üç ve beş gün 3:5, uzun boşluklar nokta nokta"),
+        ("02-iceland.png", "left-text", "Günü fotoğraflarıyla<br>birlikte sakla", "Seçebileceğin dört kart tasarımı"),
+        ("03-expand.png", "text-bottom", "Dokun, olduğu yerde<br>açılsın", "Fotoğraf ve hikâyeler tek bakışta"),
+        ("04-tag.png", "flat-rotate", "Olayları hashtag’lerle<br>birbirine bağla", "Dağınık kayıtlar yeni bir zaman çizelgesine dönüşür"),
+        ("05-editor.png", "dark", "Her olay için<br>ayrı kart tasarımı", "Tarih, not ve etiketler tek ekranda"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -325,6 +332,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Tryck så öppnas det på plats", "Bilder och berättelser med ett ögonkast"),
         ("ipad-03-tag.png", "Knyt ihop händelser med hashtags", "Utspridda data blir en ny tidslinje"),
         ("ipad-04-editor.png", "Spara dagens bilder och berättelse", "Datum, anteckningar, taggar och kortdesign"),
+    ],
+    "tr": [
+        ("ipad-01-trip.png", "Zamanla birlikte uzayan zaman çizelgesi", "Üç ve beş gün 3:5, uzun boşluklar nokta nokta"),
+        ("ipad-02-expand.png", "Dokun, olduğu yerde açılsın", "Fotoğraf ve hikâyeler tek bakışta"),
+        ("ipad-03-tag.png", "Olayları hashtag’lerle birbirine bağla", "Dağınık kayıtlar yeni bir zaman çizelgesine dönüşür"),
+        ("ipad-04-editor.png", "O günün fotoğraflarını ve hikâyesini sakla", "Tarih, not, etiket ve kart tasarımı"),
     ],
 }
 IPAD_CSS = f"""

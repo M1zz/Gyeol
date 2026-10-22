@@ -1172,3 +1172,54 @@ Välj det kort som passar varje händelse: Klassisk med texten först, Affisch m
 
 På iPhone och iPad
 Med iCloud har du samma data på alla dina enheter.
+
+## tr
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-tr.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-tr.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-tr.html
+
+### 이름
+
+Yeoul: Gerçek Zamanlı Çizelge
+
+### 부제
+
+Fotoğraflı anılarınız
+
+### 키워드
+
+günlük,hatıra,tarihçe,yıl dönümü,seyahat,aile,bebek,olaylar,albüm,çift,düğün,hashtag,hayat,mezuniyet
+
+### 프로모션 텍스트
+
+Üç gün ile beş gün 3:5 oranında aralıklanır, iki yıl noktalı çizgiye katlanır. Gerçek zamanla birlikte uzayan dikey çizelgeye her günün fotoğraf ve hikâyesini ekle.
+
+### 설명
+
+Yeoul, olaylar arasındaki boşluğun gerçekten geçen zamanla birlikte uzadığı dikey bir zaman çizelgesidir.
+Üç gün ile beş gün 3:5 oranında aralıklanır; iki yıl gibi uzun bir boşluk ise “2 yıl 4 ay” notuyla noktalı çizgiye katlanır. Geçmişinin ritmini tek bakışta görürsün.
+
+Birden çok zaman çizelgesi
+Bebeğin büyümesi, bir ilişki, yeni bir iş ya da bir yolculuk gibi her konu için ayrı bir zaman çizelgesi oluştur; her birine kendi adını ve rengini ver.
+
+Her olay için fotoğraf ve hikâye
+Tarih, başlık ve not yaz, bir fotoğraf ekle. Tarihi seç, Yeoul o gün çektiğin fotoğrafları kitaplığında bulsun ya da fotoğrafı kendin seç.
+Zaman çizelgesinde bir olaya dokun, fotoğraf ve notlar olduğu yerde açılsın.
+
+Olayları hashtag’lerle birbirine bağla
+Olaylarına hashtag ekle ve aynı etikete sahip olayları tüm zaman çizelgelerinden yeni bir zaman çizelgesinde topla. Beğenirsen kaydet.
+
+Dört kart tasarımı
+Her olaya uyan kartı seç: yazının öne çıktığı Klasik, fotoğrafın kartı kapladığı Poster, Film ya da Boşluk.
+
+iPhone ve iPad’de
+iCloud sayesinde tüm cihazlarında aynı veriler seninle olur.

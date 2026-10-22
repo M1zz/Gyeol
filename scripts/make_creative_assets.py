@@ -59,6 +59,7 @@ SEARCH = {
     "nl": ("tijdlijn dagboek", "3 dagen blijven 3 dagen,<br>2 jaar blijft 2 jaar", "De afstand tussen gebeurtenissen is de tijd die echt is verstreken"),
     "pl": ("oś czasu dziennik", "3 dni to 3 dni,<br>2 lata to 2 lata", "Odstępy między wydarzeniami odpowiadają czasowi, który naprawdę minął"),
     "sv": ("tidslinje dagbok", "3 dagar förblir 3 dagar,<br>2 år förblir 2 år", "Avståndet mellan händelser är tiden som faktiskt har gått"),
+    "tr": ("zaman çizelgesi günlük", "3 gün 3 gün kalır,<br>2 yıl 2 yıl kalır", "Olaylar arasındaki mesafe gerçekten geçen süre kadardır"),
 }
 
 # 헤더는 처음 온 사람에게 한 가지 약속만 한다: 흐른 시간이 그대로 보이는 타임라인.
@@ -86,6 +87,7 @@ HEADER = {
     "nl": ("Je eigen tijdlijn", "Een tijdlijn die<br>meerekt met de tijd"),
     "pl": ("Twoja własna oś czasu", "Oś czasu rozciągająca<br>się wraz z czasem"),
     "sv": ("Din egen tidslinje", "En tidslinje som<br>sträcker sig med tiden"),
+    "tr": ("Kendi zaman çizelgen", "Zamanla birlikte<br>uzayan zaman çizelgesi"),
 }
 
 # 바탕은 앱 아이콘의 초록(#347669 → #235146)과 크림색 글씨를 따른다. 아이콘의 가로 괘선도 옅게 깐다.
