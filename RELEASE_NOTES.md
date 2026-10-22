@@ -136,3 +136,9 @@ Meld problemen via de Support-pagina.
 Dziękujemy za korzystanie z Yeoul.
 Aplikacja działa teraz stabilniej.
 Problemy zgłoś na stronie Pomocy.
+
+### 앱스토어 (sv)
+
+Tack för att du använder Yeoul.
+Vi har gjort appen stabilare.
+Rapportera problem under Support.

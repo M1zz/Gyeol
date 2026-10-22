@@ -1121,3 +1121,54 @@ Wybierz kartę pasującą do każdego wydarzenia: Klasyczny z tekstem na pierwsz
 
 Na iPhonie i iPadzie
 Dzięki iCloud masz te same dane na wszystkich swoich urządzeniach.
+
+## sv
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-sv.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-sv.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-sv.html
+
+### 이름
+
+Yeoul: Tidslinje i realtid
+
+### 부제
+
+Minnen med bilder
+
+### 키워드
+
+dagbok,milstolpar,historia,årsdag,resa,familj,bebis,händelser,album,par,bröllop,hashtag,liv,examen
+
+### 프로모션 텍스트
+
+Tre och fem dagar ligger 3:5 från varandra, och två år viks till en streckad linje. Lägg bilder och berättelser på en lodrät tidslinje som följer den verkliga tiden.
+
+### 설명
+
+Yeoul är en lodrät tidslinje där avståndet mellan händelser växer med tiden som faktiskt har gått.
+Tre dagar och fem dagar ligger 3:5 från varandra, och en lång lucka som två år viks ihop till en streckad linje med texten ”2 år 4 månader”. Rytmen i ditt förflutna syns direkt.
+
+Flera tidslinjer
+Skapa en egen tidslinje för varje tema, till exempel barnets uppväxt, ett förhållande, ett nytt jobb eller en resa, och ge den eget namn och egen färg.
+
+Bilder och berättelser till varje händelse
+Skriv datum, titel och anteckningar och lägg till en bild. Välj datum så hittar Yeoul bilderna du tog den dagen i ditt bibliotek, eller så väljer du själv.
+Tryck på en händelse på tidslinjen så öppnas bilden och anteckningarna på plats.
+
+Knyt ihop händelser med hashtags
+Ge händelserna hashtags och samla händelser med samma tagg från alla dina tidslinjer i en ny tidslinje. Gillar du den kan du spara den.
+
+Fyra kortdesigner
+Välj det kort som passar varje händelse: Klassisk med texten först, Affisch med bilden över hela kortet, Film eller Marginal.
+
+På iPhone och iPad
+Med iCloud har du samma data på alla dina enheter.

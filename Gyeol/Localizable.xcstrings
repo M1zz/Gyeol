@@ -111,6 +111,12 @@
             "value" : "Нет событий с тегом #%@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga händelser med #%@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -245,6 +251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить #%@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort #%@"
           }
         },
         "th" : {
@@ -383,6 +395,12 @@
             "value" : "Здесь собраны события с тегом #%@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Händelser med taggen #%@ samlas här"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -517,6 +535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оформление: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design: %@"
           }
         },
         "th" : {
@@ -655,6 +679,12 @@
             "value" : "Фото за %@: %lld"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilder från %@: %lld"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -789,6 +819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ищем фото за %@…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letar efter bilder från %@ …"
           }
         },
         "th" : {
@@ -927,6 +963,12 @@
             "value" : "За %@ фото не найдено."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga bilder tagna %@."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1061,6 +1103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld мес."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mån"
           }
         },
         "th" : {
@@ -1199,6 +1247,12 @@
             "value" : "%1$lld мес. %2$lld дн."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld mån %2$lld d"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1333,6 +1387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld г."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld år"
           }
         },
         "th" : {
@@ -1471,6 +1531,12 @@
             "value" : "%1$lld г. %2$lld мес."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld år %2$lld mån"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1602,6 +1668,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -1743,6 +1815,12 @@
             "value" : "%2$lld.%1$lld"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1877,6 +1955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld дн."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
           }
         },
         "th" : {
@@ -2016,6 +2100,12 @@
             "value" : "Блокировка Face ID"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID-lås"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2151,6 +2241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Защитите приложение с помощью Face ID или Touch ID — ваш таймлайн останется личным."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås appen med Face ID eller Touch ID så att din tidslinje förblir privat."
           }
         },
         "th" : {
@@ -2290,6 +2386,12 @@
             "value" : "Удобнее с VoiceOver"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bättre stöd för VoiceOver"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2424,6 +2526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Событие «%2$@» добавлено в «%1$@»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%2$@” lades till i ”%1$@”."
           }
         },
         "th" : {
@@ -2562,6 +2670,12 @@
             "value" : "Нажмите «Добавить событие», чтобы сохранить первый момент.\nСобытия выстраиваются сверху вниз по времени, а промежутки соответствуют реально прошедшему времени."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på ”Lägg till händelse” för att spara ditt första ögonblick.\nHändelserna staplas uppifrån och ned i tidsordning, och avstånden är lika stora som tiden som faktiskt har gått."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2696,6 +2810,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В тот же день"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samma dag"
           }
         },
         "th" : {
@@ -2834,6 +2954,12 @@
             "value" : "События с одним тегом из всех таймлайнов собираются в один таймлайн."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samlar händelser med samma tagg från alla tidslinjer i en tidslinje."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2968,6 +3094,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пропустить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoppa över"
           }
         },
         "th" : {
@@ -3106,6 +3238,12 @@
             "value" : "Добавьте событие в выбранный таймлайн. Если дата не указана, оно запишется на текущее время."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägger till en händelse på tidslinjen du väljer. Om du inte anger datum loggas den med klockslaget nu."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3240,6 +3378,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Найти фото"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitta relaterade bilder"
           }
         },
         "th" : {
@@ -3378,6 +3522,12 @@
             "value" : "Фото того дня — сразу в событие"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till dagens bilder direkt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3514,6 +3664,12 @@
             "value" : "Не удалось найти этот таймлайн. Возможно, он удалён или ещё не появился на этом устройстве."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidslinjen hittades inte. Den kan ha raderats eller har ännu inte kommit till den här enheten."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3648,6 +3804,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Текст главный, фото ниже"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texten först, bilden under"
           }
         },
         "th" : {
@@ -3787,6 +3949,12 @@
             "value" : "При увеличенном шрифте экраны аккуратно перестраиваются, а текст не обрезается."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När du förstorar texten ordnas skärmarna om snyggt i stället för att klippas av."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3922,6 +4090,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Напоминания о днях, которые не хочется забыть, например о годовщинах."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få en påminnelse om dagar du inte vill glömma, som årsdagar."
           }
         },
         "th" : {
@@ -4060,6 +4234,12 @@
             "value" : "Классика"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klassisk"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4194,6 +4374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Запишите то, что хочется запомнить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ner det du vill minnas"
           }
         },
         "th" : {
@@ -4332,6 +4518,12 @@
             "value" : "Дата"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datum"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4466,6 +4658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Главные — дата и текст"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datumet och bokstäverna i huvudrollen"
           }
         },
         "th" : {
@@ -4605,6 +4803,12 @@
             "value" : "Удалить все мои данные одним действием"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera alla mina data på en gång"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4741,6 +4945,12 @@
             "value" : "Заметки"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anteckningar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4875,6 +5085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Далее"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nästa"
           }
         },
         "th" : {
@@ -5014,6 +5230,12 @@
             "value" : "Теги и события легко различать, даже если включена повышенная контрастность или трудно отличать цвета."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se lätt skillnad på taggar och händelser, även med Öka kontrast på eller om det är svårt att skilja på färger."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5149,6 +5371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Приложение на большем числе языков."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd appen på fler språk."
           }
         },
         "th" : {
@@ -5288,6 +5516,12 @@
             "value" : "Больше языков"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fler språk"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5422,6 +5656,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Создать"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapa"
           }
         },
         "th" : {
@@ -5560,6 +5800,12 @@
             "value" : "Написать на почту"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakta via e-post"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5696,6 +5942,12 @@
             "value" : "Что произошло?"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad hände?"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5830,6 +6082,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Просмотр"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förhandsvisning"
           }
         },
         "th" : {
@@ -5969,6 +6227,12 @@
             "value" : "Резервная копия и экспорт"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säkerhetskopiering och export"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6104,6 +6368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удобные цвета и контраст"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekvämare färger och kontrast"
           }
         },
         "th" : {
@@ -6242,6 +6512,12 @@
             "value" : "Разработчик лично читает каждое сообщение. Расскажите, что вам неудобно или какой функции не хватает."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utvecklaren läser alla meddelanden själv. Berätta vad som var krångligt eller vilken funktion du saknar."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6376,6 +6652,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Загрузка…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läser in …"
           }
         },
         "th" : {
@@ -6514,6 +6796,12 @@
             "value" : "Событий: %lld · последнее %@.%@"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Händelser: %lld · senaste %@.%@"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6648,6 +6936,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Событий: %lld · после сохранения таймлайн останется в списке и будет пополняться по мере добавления тегов"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Händelser: %lld · när den är sparad finns den kvar i din lista och fylls på efterhand som taggar läggs till"
           }
         },
         "th" : {
@@ -6786,6 +7080,12 @@
             "value" : "Записать событие"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logga en händelse"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6920,6 +7220,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Расстояние между событиями пропорционально реально прошедшему времени. Три дня и пять дней относятся как 3:5, а долгие паузы сворачиваются в пунктир с подписью вроде «2 года 4 месяца»."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avståndet mellan händelser är proportionellt mot tiden som faktiskt har gått. Tre dagar och fem dagar ligger 3:5 från varandra, och långa luckor viks ihop till en streckad linje med en text som ”2 år 4 månader”."
           }
         },
         "th" : {
@@ -7058,6 +7364,12 @@
             "value" : "Удалить событие"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera händelse"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7192,6 +7504,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Изменить событие"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redigera händelse"
           }
         },
         "th" : {
@@ -7330,6 +7648,12 @@
             "value" : "Нет событий"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga händelser"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7466,6 +7790,12 @@
             "value" : "Добавить событие"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till händelse"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7600,6 +7930,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавьте событиям теги и нажмите на тег — все моменты с этим тегом из всех таймлайнов соберутся в новый таймлайн. Записи синхронизируются между iPhone, iPad и Mac через iCloud."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ge händelser taggar och tryck på en tagg för att samla alla ögonblick med samma tagg från alla tidslinjer i en ny tidslinje. Dina data synkas mellan iPhone, iPad och Mac via iCloud."
           }
         },
         "th" : {
@@ -7739,6 +8075,12 @@
             "value" : "Лёгкая вибрация, когда вы добавляете или удаляете событие."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En lätt vibration när du lägger till eller raderar en händelse."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7874,6 +8216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если приложение закроется, пока вы пишете событие, написанное сохранится."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det du höll på att skriva finns kvar, även om appen stängs mitt i."
           }
         },
         "th" : {
@@ -8012,6 +8360,12 @@
             "value" : "Выберите дату события и нажмите «Найти фото», чтобы увидеть снимки, сделанные в тот день. Если подходящих нет, выберите фото сами."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj datum för en händelse och tryck på ”Hitta relaterade bilder” för att se bilderna du tog den dagen. Om ingen passar kan du välja själv."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8146,6 +8500,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Фото"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bild"
           }
         },
         "th" : {
@@ -8284,6 +8644,12 @@
             "value" : "Заменить фото"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt bild"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8418,6 +8784,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Доступ к фото отключён, поэтому найти снимки того дня не получится.\nВыбрать фото вручную можно ниже."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åtkomst till Bilder är avstängd, så bilderna från den dagen kan inte hittas.\nDu kan ändå välja själv nedan."
           }
         },
         "th" : {
@@ -8556,6 +8928,12 @@
             "value" : "Удалить фото"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort bild"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8690,6 +9068,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Фото и заметки раскрываются на месте. Нажмите ещё раз, чтобы свернуть."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilder och anteckningar öppnas på plats. Tryck igen för att vika ihop."
           }
         },
         "th" : {
@@ -8828,6 +9212,12 @@
             "value" : "Фото на всю карточку, текст поверх"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilden fyller kortet med texten ovanpå"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8962,6 +9352,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera"
           }
         },
         "th" : {
@@ -9100,6 +9496,12 @@
             "value" : "Новый таймлайн"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ny tidslinje"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9234,6 +9636,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цвет"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Färg"
           }
         },
         "th" : {
@@ -9372,6 +9780,12 @@
             "value" : "Настройки"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9506,6 +9920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Разрешить в настройках"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillåt i Inställningar"
           }
         },
         "th" : {
@@ -9645,6 +10065,12 @@
             "value" : "Тактильный отклик"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptisk respons"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9781,6 +10207,12 @@
             "value" : "Изменить"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redigera"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9915,6 +10347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Начать"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom igång"
           }
         },
         "th" : {
@@ -10054,6 +10492,12 @@
             "value" : "Продолжить начатое событие"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt där du slutade"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10188,6 +10632,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Попробуйте выбрать вручную ниже."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Försök hitta dem själv nedan."
           }
         },
         "th" : {
@@ -10327,6 +10777,12 @@
             "value" : "На iPad основные функции доступны только с клавиатуры."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd de viktigaste funktionerna på iPad med bara ett tangentbord."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10461,6 +10917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока нет событий"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga händelser ännu"
           }
         },
         "th" : {
@@ -10600,6 +11062,12 @@
             "value" : "Напоминания"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Påminnelser"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10735,6 +11203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Смотрите свой таймлайн на экране «Домой», не открывая приложение."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se din tidslinje direkt på hemskärmen utan att öppna appen."
           }
         },
         "th" : {
@@ -10874,6 +11348,12 @@
             "value" : "Приложение и на английском языке."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd hela appen även på engelska."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11008,6 +11488,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что произошло?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad hände?"
           }
         },
         "th" : {
@@ -11147,6 +11633,12 @@
             "value" : "При первом запуске после обновления вы увидите, что нового."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Första gången du öppnar appen efter en uppdatering ser du vad som är nytt."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11282,6 +11774,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что нового"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nytt i appen"
           }
         },
         "th" : {
@@ -11420,6 +11918,12 @@
             "value" : "Поля"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marginal"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11551,6 +12055,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeoul"
@@ -11692,6 +12202,12 @@
             "value" : "Как пользоваться Yeoul"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så använder du Yeoul"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11827,6 +12343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Полная поддержка английского"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fullt stöd för engelska"
           }
         },
         "th" : {
@@ -11965,6 +12487,12 @@
             "value" : "Например: первый год малыша, запуск приложения"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "T.ex. Barnets första år, logg över applanseringen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12101,6 +12629,12 @@
             "value" : "Готово"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12235,6 +12769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выберите таймлайн слева или создайте новый."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj en tidslinje till vänster eller skapa en ny."
           }
         },
         "th" : {
@@ -12374,6 +12914,12 @@
             "value" : "Уменьшение движения"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minska rörelse"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12509,6 +13055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если включить «Уменьшение движения», эффекты на экране станут спокойнее."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med Minska rörelse på blir skärmeffekterna lugnare."
           }
         },
         "th" : {
@@ -12648,6 +13200,12 @@
             "value" : "При желании можно удалить весь свой таймлайн прямо в приложении."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera hela din tidslinje inifrån appen när du vill."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12782,6 +13340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить это событие?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vill du radera den här händelsen?"
           }
         },
         "th" : {
@@ -12920,6 +13484,12 @@
             "value" : "Использовать это фото"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd den här bilden"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13054,6 +13624,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Событий с этим тегом пока нет."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga händelser har den här taggen ännu."
           }
         },
         "th" : {
@@ -13192,6 +13768,12 @@
             "value" : "Добавьте этот тег к событию, и оно автоматически появится здесь."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ge en händelse den här taggen så samlas den här automatiskt."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13326,6 +13908,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Название"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Namn"
           }
         },
         "th" : {
@@ -13464,6 +14052,12 @@
             "value" : "Изменить название и цвет"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ändra namn och färg"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13598,6 +14192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-DM (@lee25_ios)"
           }
         },
         "th" : {
@@ -13736,6 +14336,12 @@
             "value" : "Фото в рамке, как отпечаток"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En bild med ram som en papperskopia"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13870,6 +14476,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сохранить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara"
           }
         },
         "th" : {
@@ -14008,6 +14620,12 @@
             "value" : "Сохранено"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sparad"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14142,6 +14760,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Название"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel"
           }
         },
         "th" : {
@@ -14280,6 +14904,12 @@
             "value" : "Без названия"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utan titel"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14414,6 +15044,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поддержка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         },
         "th" : {
@@ -14552,6 +15188,12 @@
             "value" : "Выбрать вручную"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitta själv"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14686,6 +15328,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ещё раз посмотрите вступление, которое вы видели при первом запуске."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se introduktionen du fick första gången du öppnade appen igen."
           }
         },
         "th" : {
@@ -14824,6 +15472,12 @@
             "value" : "Создайте первый таймлайн.\nПервый год малыша, запуск приложения, путешествие — что угодно."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapa din första tidslinje.\nBabyns första år, en applansering, en resa – vad som helst går bra."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14958,6 +15612,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till"
           }
         },
         "th" : {
@@ -15096,6 +15756,12 @@
             "value" : "Отмена"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15232,6 +15898,12 @@
             "value" : "Оформление карточки"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortdesign"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15366,6 +16038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нажмите на карточку, чтобы развернуть"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på ett kort för att veckla ut det"
           }
         },
         "th" : {
@@ -15505,6 +16183,12 @@
             "value" : "Экраны для крупного текста"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skärmar för större text"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15640,6 +16324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Управление с клавиатуры"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Styrning med tangentbord"
           }
         },
         "th" : {
@@ -15778,6 +16468,12 @@
             "value" : "Таймлайн"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidslinje"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15912,6 +16608,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройки таймлайна"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidslinjeinställningar"
           }
         },
         "th" : {
@@ -16050,6 +16752,12 @@
             "value" : "Сохранить как таймлайн"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara som tidslinje"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16184,6 +16892,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выберите таймлайн"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj en tidslinje"
           }
         },
         "th" : {
@@ -16323,6 +17037,12 @@
             "value" : "Сохраните таймлайн в файл и при необходимости загрузите снова."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara din tidslinje i en fil och hämta tillbaka den senare."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16457,6 +17177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пока нет таймлайнов"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga tidslinjer ännu"
           }
         },
         "th" : {
@@ -16595,6 +17321,12 @@
             "value" : "Теги"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taggar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16729,6 +17461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить тег"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till tagg"
           }
         },
         "th" : {
@@ -16867,6 +17605,12 @@
             "value" : "Таймлайны по тегам"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taggtidslinjer"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17001,6 +17745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Таймлайн по тегу · "
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taggtidslinje · "
           }
         },
         "th" : {
@@ -17139,6 +17889,12 @@
             "value" : "Сохранить таймлайн по тегу"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara taggtidslinje"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17275,6 +18031,12 @@
             "value" : "Собирайте события по тегам"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knyt ihop händelser med taggar"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17409,6 +18171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нажмите на тег, чтобы собрать события"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck på en tagg för att samla händelser"
           }
         },
         "th" : {
@@ -17548,6 +18316,12 @@
             "value" : "Экран для раскладного iPhone"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layout för vikbar iPhone"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17683,6 +18457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Широкий экран раскладного iPhone делится на две части рядом."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd den breda skärmen på en vikbar iPhone som två paneler sida vid sida."
           }
         },
         "th" : {
@@ -17821,6 +18601,12 @@
             "value" : "Постер"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affisch"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17955,6 +18741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Плёнка"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Film"
           }
         },
         "th" : {
@@ -18094,6 +18886,12 @@
             "value" : "Виджеты на экране «Домой»"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgetar på hemskärmen"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18231,6 +19029,12 @@
             "value" : "VoiceOver озвучивает каждую кнопку и каждое событие — полностью и в правильном порядке."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver läser upp varje knapp och händelse i rätt ordning."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18365,6 +19169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Таймлайн, где расстояния равны времени"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En tidslinje som sträcker sig med tiden"
           }
         },
         "th" : {
