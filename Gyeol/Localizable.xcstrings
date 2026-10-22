@@ -15,6 +15,12 @@
             "value" : "No events tagged #%@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "#%@ のイベントはありません"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47,6 +53,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove #%@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "#%@ を削除"
           }
         },
         "ko" : {
@@ -83,6 +95,12 @@
             "value" : "Events tagged #%@ are gathered here"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "#%@ のタグが付いたイベントが集まります"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -115,6 +133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ design"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@のデザイン"
           }
         },
         "ko" : {
@@ -151,6 +175,12 @@
             "value" : "%lld photos taken on %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@に撮った写真 %lld枚"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -183,6 +213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Looking for photos taken on %@…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@に撮った写真を探しています…"
           }
         },
         "ko" : {
@@ -219,6 +255,12 @@
             "value" : "No photos taken on %@."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@に撮った写真はありません。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -251,6 +293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld mo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldか月"
           }
         },
         "ko" : {
@@ -287,6 +335,12 @@
             "value" : "%lld mo %lld d"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lldか月%2$lld日"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -319,6 +373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld yr"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld年"
           }
         },
         "ko" : {
@@ -355,6 +415,12 @@
             "value" : "%lld yr %lld mo"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld年%2$lldか月"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -387,6 +453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld月"
           }
         },
         "ko" : {
@@ -423,6 +495,12 @@
             "value" : "%2$lld/%1$lld"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld月%2$lld日"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -455,6 +533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld d"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld日"
           }
         },
         "ko" : {
@@ -492,6 +576,12 @@
             "value" : "Face ID lock"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face IDロック"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -525,6 +615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lock the app with Face ID or Touch ID to keep your timeline private."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face IDやTouch IDでアプリをロックして、タイムラインを守ります。"
           }
         },
         "ko" : {
@@ -562,6 +658,12 @@
             "value" : "Better VoiceOver support"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOverをもっと使いやすく"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -594,6 +696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Added ‘%@’ to ‘%@’."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」に「%@」を残しました。"
           }
         },
         "ko" : {
@@ -630,6 +738,12 @@
             "value" : "Tap “Add Event” to save your first moment.\nEvents stack from top to bottom in time order, with gaps as wide as the time that really passed."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「イベントを追加」をタップして、最初の瞬間を残しましょう。\n上から下へ時間順に並び、間隔は実際に流れた時間の分だけあきます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -662,6 +776,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Same day"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同じ日"
           }
         },
         "ko" : {
@@ -698,6 +818,12 @@
             "value" : "See every event with the same tag from all timelines, gathered into one timeline."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同じタグが付いたイベントを、すべてのタイムラインから集めて1つのタイムラインで見せます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -730,6 +856,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skip"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スキップ"
           }
         },
         "ko" : {
@@ -766,6 +898,12 @@
             "value" : "Add an event to the timeline you pick. If you don’t set a date, it’s logged at the current time."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選んだタイムラインにイベントを残します。日付を指定しない場合は、今の時刻で記録します。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -798,6 +936,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Find related photos"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "関連する写真を探す"
           }
         },
         "ko" : {
@@ -834,6 +978,12 @@
             "value" : "Add photos from that day"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "その日に撮った写真をすぐ追加"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -868,6 +1018,12 @@
             "value" : "Couldn’t find that timeline. It may have been deleted or hasn’t reached this device yet."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そのタイムラインが見つかりません。削除されたか、まだこのデバイスに届いていない可能性があります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -900,6 +1056,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Text first, photo below"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文章が中心、写真は下"
           }
         },
         "ko" : {
@@ -937,6 +1099,12 @@
             "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字を大きくしても切れずに、見やすく並べ直されます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -970,6 +1138,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get a reminder for days you don’t want to forget, like anniversaries."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記念日のように忘れたくない日を、通知でお知らせします。"
           }
         },
         "ko" : {
@@ -1006,6 +1180,12 @@
             "value" : "Classic"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "基本"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1038,6 +1218,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Write down what you want to remember"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "覚えておきたいことを書いておきましょう"
           }
         },
         "ko" : {
@@ -1074,6 +1260,12 @@
             "value" : "Date"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日付"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1106,6 +1298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The date and lettering take the lead"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日付と文字が主役"
           }
         },
         "ko" : {
@@ -1143,6 +1341,12 @@
             "value" : "Delete all my data"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分のデータをまとめて消去"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1177,6 +1381,12 @@
             "value" : "Notes"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "内容"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1209,6 +1419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Next"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次へ"
           }
         },
         "ko" : {
@@ -1246,6 +1462,12 @@
             "value" : "Tell tags and events apart easily, even with Increase Contrast on or if colours are hard to distinguish."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コントラストを上げたり、色の区別がつきにくくても、タグとイベントを見分けられます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1279,6 +1501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the app in more languages."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もっと多くの言語でアプリを使えるようにします。"
           }
         },
         "ko" : {
@@ -1316,6 +1544,12 @@
             "value" : "More languages"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "対応言語を追加"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1348,6 +1582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Create"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "作成"
           }
         },
         "ko" : {
@@ -1384,6 +1624,12 @@
             "value" : "Contact by email"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールで問い合わせる"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1418,6 +1664,12 @@
             "value" : "What happened?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どんなことがありましたか？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1450,6 +1702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Preview"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プレビュー"
           }
         },
         "ko" : {
@@ -1487,6 +1745,12 @@
             "value" : "Backup and export"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バックアップと書き出し"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1520,6 +1784,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Easier colours and contrast"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見やすい色とコントラスト"
           }
         },
         "ko" : {
@@ -1556,6 +1826,12 @@
             "value" : "The developer reads every message personally. Tell us what bothered you or what you’d like to see."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いただいたご意見は、開発者がすべて自分で読んでいます。使いづらかった点や、欲しい機能を教えてください。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1588,6 +1864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loading…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み込み中…"
           }
         },
         "ko" : {
@@ -1624,6 +1906,12 @@
             "value" : "%lld events · last %@.%@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベント%lld件 · 最後は%@.%@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1656,6 +1944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld events · once saved, it stays in your list and keeps filling as tags are added"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベント%lld件 · 保存すると一覧に残り、タグが付くたびに増えていきます"
           }
         },
         "ko" : {
@@ -1692,6 +1986,12 @@
             "value" : "Log an Event"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベントを記録"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1724,6 +2024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The space between events is proportional to the time that really passed. Three days and five days sit 3:5 apart, and long gaps fold into a dotted line labelled like “2 years 4 months”."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベントの間隔は、実際に流れた時間に比例します。3日と5日は3:5であき、長い空白は点線に折りたたまれて「2年4か月」のように表示されます。"
           }
         },
         "ko" : {
@@ -1760,6 +2066,12 @@
             "value" : "Delete Event"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベントを削除"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1792,6 +2104,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit Event"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベントを編集"
           }
         },
         "ko" : {
@@ -1828,6 +2146,12 @@
             "value" : "No events"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベントなし"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1862,6 +2186,12 @@
             "value" : "Add Event"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベントを追加"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1894,6 +2224,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add tags to events and tap one to gather every moment with that tag, from all your timelines, into a new timeline. Your records sync across iPhone, iPad and Mac with iCloud."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベントにタグを付けてタップすると、すべてのタイムラインから同じタグのイベントが集まり、新しいタイムラインになります。記録はiCloudでiPhone・iPad・Macにつながります。"
           }
         },
         "ko" : {
@@ -1931,6 +2267,12 @@
             "value" : "A gentle tap when you add or delete an event."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベントを追加・削除するときに、軽い振動でお知らせします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1964,6 +2306,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What you were writing stays put, even if the app closes mid-way."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベントを書いている途中でアプリが閉じても、書いた内容が残ります。"
           }
         },
         "ko" : {
@@ -2000,6 +2348,12 @@
             "value" : "Pick an event’s date and tap “Find related photos” to see the photos you took that day. If none fit, you can choose one yourself."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イベントの日付を選んで「関連する写真を探す」をタップすると、その日に撮った写真が集まります。気に入った写真がなければ、自分で選べます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2032,6 +2386,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真"
           }
         },
         "ko" : {
@@ -2068,6 +2428,12 @@
             "value" : "Change Photo"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真を変更"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2100,6 +2466,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photo access is off, so photos from that day can’t be found.\nYou can still pick one below."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真へのアクセスがオフのため、この日に撮った写真を探せません。\n下から自分で選ぶことはできます。"
           }
         },
         "ko" : {
@@ -2136,6 +2508,12 @@
             "value" : "Remove Photo"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真を削除"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2168,6 +2546,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photos and notes open in place. Tap again to fold."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真とメモがその場で開きます。もう一度タップすると閉じます。"
           }
         },
         "ko" : {
@@ -2204,6 +2588,12 @@
             "value" : "Photo fills the card with text on top"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真いっぱいに文章を重ねます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2236,6 +2626,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
           }
         },
         "ko" : {
@@ -2272,6 +2668,12 @@
             "value" : "New Timeline"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新規タイムライン"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2304,6 +2706,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Colour"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色"
           }
         },
         "ko" : {
@@ -2340,6 +2748,12 @@
             "value" : "Settings"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2372,6 +2786,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Allow in Settings"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定で許可"
           }
         },
         "ko" : {
@@ -2409,6 +2829,12 @@
             "value" : "Haptic feedback"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "触覚フィードバック"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2443,6 +2869,12 @@
             "value" : "Edit"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編集"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2475,6 +2907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get Started"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめる"
           }
         },
         "ko" : {
@@ -2512,6 +2950,12 @@
             "value" : "Pick up where you left off"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書きかけのイベントを続ける"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2544,6 +2988,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Try browsing below."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下から自分で探してみましょう。"
           }
         },
         "ko" : {
@@ -2581,6 +3031,12 @@
             "value" : "Use the main features on iPad with just a keyboard."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPadでは、キーボードだけで主な機能を使えます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2613,6 +3069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No events yet"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだイベントがありません"
           }
         },
         "ko" : {
@@ -2650,6 +3112,12 @@
             "value" : "Reminders"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2683,6 +3151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "See your timeline right on the Home Screen, without opening the app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリを開かずに、ホーム画面でタイムラインを確認できます。"
           }
         },
         "ko" : {
@@ -2720,6 +3194,12 @@
             "value" : "Use the whole app in English."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリを英語でも使えます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2752,6 +3232,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What happened?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どんなことがありましたか？"
           }
         },
         "ko" : {
@@ -2789,6 +3275,12 @@
             "value" : "The first time you open the app after an update, see what’s new."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート後に初めて開いたとき、新しくなった点をお知らせします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2822,6 +3314,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What’s new"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート情報"
           }
         },
         "ko" : {
@@ -2858,6 +3356,12 @@
             "value" : "Margin"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "余白"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2887,6 +3391,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeoul"
@@ -2926,6 +3436,12 @@
             "value" : "How to use Yeoul"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoulの使い方"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2959,6 +3475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Full English support"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語に対応"
           }
         },
         "ko" : {
@@ -2995,6 +3517,12 @@
             "value" : "e.g. My baby’s first year, App launch log"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例：うちの子の1年目、アプリ公開の記録"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3029,6 +3557,12 @@
             "value" : "Done"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3061,6 +3595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose a timeline on the left, or create a new one."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "左からタイムラインを選ぶか、新しく作りましょう。"
           }
         },
         "ko" : {
@@ -3098,6 +3638,12 @@
             "value" : "Reduce Motion"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視差効果を減らす"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3131,6 +3677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "With Reduce Motion on, screen effects calm down."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「視差効果を減らす」をオンにすると、画面の動きが穏やかになります。"
           }
         },
         "ko" : {
@@ -3168,6 +3720,12 @@
             "value" : "Erase your entire timeline from inside the app whenever you want."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "必要なときは、アプリ内で自分のタイムラインをすべて消去できます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3200,6 +3758,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete this event?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このイベントを削除しますか？"
           }
         },
         "ko" : {
@@ -3236,6 +3800,12 @@
             "value" : "Use this photo"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この写真を使う"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3268,6 +3838,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No events have this tag yet."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このタグが付いたイベントはまだありません。"
           }
         },
         "ko" : {
@@ -3304,6 +3880,12 @@
             "value" : "Add this tag to an event and it will gather here automatically."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このタグをイベントに付けると、ここに自動で集まります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3336,6 +3918,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Name"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前"
           }
         },
         "ko" : {
@@ -3372,6 +3960,12 @@
             "value" : "Change Name & Colour"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前と色を変更"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3401,6 +3995,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
@@ -3440,6 +4040,12 @@
             "value" : "A photo framed like a print"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "印画紙のように余白をつけた写真"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3472,6 +4078,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存"
           }
         },
         "ko" : {
@@ -3508,6 +4120,12 @@
             "value" : "Saved"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存済み"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3540,6 +4158,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Title"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイトル"
           }
         },
         "ko" : {
@@ -3576,6 +4200,12 @@
             "value" : "Untitled"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイトルなし"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3608,6 +4238,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サポート"
           }
         },
         "ko" : {
@@ -3644,6 +4280,12 @@
             "value" : "Browse"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分で探す"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3676,6 +4318,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Review the intro you saw when you first opened the app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "初めて開いたときに見た案内をもう一度確認できます。"
           }
         },
         "ko" : {
@@ -3712,6 +4360,12 @@
             "value" : "Start your first timeline.\nA baby’s first year, an app launch, a trip — anything goes."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最初のタイムラインを作ってみましょう。\nお子さまの1年目、アプリ公開までの記録、旅行など、何でもOKです。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3744,6 +4398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加"
           }
         },
         "ko" : {
@@ -3780,6 +4440,12 @@
             "value" : "Cancel"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3814,6 +4480,12 @@
             "value" : "Card Design"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カードのデザイン"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3846,6 +4518,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap a card to expand it"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カードをタップして開く"
           }
         },
         "ko" : {
@@ -3883,6 +4561,12 @@
             "value" : "Layouts for larger text"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きな文字に合わせた画面"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3916,6 +4600,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keyboard control"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーボード操作"
           }
         },
         "ko" : {
@@ -3952,6 +4642,12 @@
             "value" : "Timeline"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイムライン"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3984,6 +4680,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Timeline Settings"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイムラインの設定"
           }
         },
         "ko" : {
@@ -4020,6 +4722,12 @@
             "value" : "Save as Timeline"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイムラインとして保存"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4052,6 +4760,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pick a timeline"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイムラインを選んでください"
           }
         },
         "ko" : {
@@ -4089,6 +4803,12 @@
             "value" : "Save your timeline to a file and bring it back later."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイムラインをファイルに保存して、あとで読み込めます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4121,6 +4841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No timelines yet"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイムラインがありません"
           }
         },
         "ko" : {
@@ -4157,6 +4883,12 @@
             "value" : "Tags"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タグ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4189,6 +4921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add tag"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タグを追加"
           }
         },
         "ko" : {
@@ -4225,6 +4963,12 @@
             "value" : "Tag Timelines"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タグのタイムライン"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4257,6 +5001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tag timeline · "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タグのタイムライン · "
           }
         },
         "ko" : {
@@ -4293,6 +5043,12 @@
             "value" : "Save Tag Timeline"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タグのタイムラインを保存"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4327,6 +5083,12 @@
             "value" : "Weave events together with tags"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タグでもう一度つなぐ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4359,6 +5121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap a tag to gather events"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タグをタップして集める"
           }
         },
         "ko" : {
@@ -4396,6 +5164,12 @@
             "value" : "Foldable iPhone layout"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみiPhone向けのレイアウト"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4429,6 +5203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the wide screen of a foldable iPhone as two side-by-side panes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみiPhoneでは、広い画面を2つに分けて使います。"
           }
         },
         "ko" : {
@@ -4465,6 +5245,12 @@
             "value" : "Poster"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ポスター"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4497,6 +5283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Film"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フィルム"
           }
         },
         "ko" : {
@@ -4534,6 +5326,12 @@
             "value" : "Home Screen widgets"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホーム画面ウィジェット"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4569,6 +5367,12 @@
             "value" : "VoiceOver reads every button and event, in the right order."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOverがボタンとイベントを漏れなく、正しい順番で読み上げます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4601,6 +5405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A timeline that stretches with time"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "流れた時間どおりに間隔があくタイムライン"
           }
         },
         "ko" : {
