@@ -662,3 +662,54 @@ Yeoul คือไทม์ไลน์แนวตั้งที่ระย�
 
 บน iPhone และ iPad
 ด้วย iCloud คุณจะเห็นข้อมูลเดียวกันบนทุกอุปกรณ์
+
+## vi
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-vi.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-vi.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-vi.html
+
+### 이름
+
+Yeoul: Dòng thời gian thực
+
+### 부제
+
+Kỷ niệm kèm hình ảnh
+
+### 키워드
+
+nhật ký,cột mốc,lịch sử,du lịch,gia đình,em bé,sự kiện,album,cặp đôi,hashtag,cuộc sống,tốt nghiệp
+
+### 프로모션 텍스트
+
+Ba ngày và năm ngày cách nhau 3:5, hai năm gập lại thành đường chấm. Thêm ảnh và câu chuyện mỗi ngày vào dòng thời gian dọc giãn ra theo thời gian thực.
+
+### 설명
+
+Yeoul là dòng thời gian dọc, nơi khoảng cách giữa các sự kiện giãn ra theo thời gian thực sự đã trôi qua.
+Ba ngày và năm ngày cách nhau theo tỉ lệ 3:5, còn khoảng trống dài như hai năm được gập lại thành đường chấm kèm chú thích “2 năm 4 tháng”. Nhịp điệu của quãng thời gian đã qua hiện ra ngay trong một cái nhìn.
+
+Nhiều dòng thời gian
+Tạo riêng một dòng thời gian cho mỗi chủ đề, như sự lớn lên của con, một mối tình, công việc mới hay chuyến đi, rồi đặt tên và màu cho từng cái.
+
+Mỗi sự kiện có ảnh và câu chuyện
+Ghi ngày, tiêu đề, nội dung rồi gắn ảnh. Chọn ngày và Yeoul tìm trong thư viện những tấm ảnh bạn chụp hôm đó, hoặc bạn tự chọn một tấm.
+Chạm vào sự kiện trên dòng thời gian, ảnh và nội dung mở ra ngay tại chỗ.
+
+Gắn kết sự kiện bằng hashtag
+Gắn hashtag cho sự kiện rồi gom các sự kiện cùng thẻ từ mọi dòng thời gian thành một dòng thời gian mới. Thích thì cứ lưu lại.
+
+Bốn kiểu thẻ
+Chọn kiểu thẻ hợp với từng sự kiện: Cổ điển lấy chữ làm trọng tâm, Áp phích phủ kín ảnh, Phim hoặc Lề trắng.
+
+Trên iPhone và iPad
+Nhờ iCloud, bạn thấy cùng một dữ liệu trên mọi thiết bị.

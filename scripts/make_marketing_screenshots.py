@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -114,6 +114,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "โยงเหตุการณ์<br>ด้วยแฮชแท็ก", "ข้อมูลที่กระจัดกระจายกลายเป็นไทม์ไลน์ใหม่"),
         ("05-editor.png", "dark", "เลือกดีไซน์การ์ด<br>ให้แต่ละเหตุการณ์", "วันที่ เนื้อหา แท็ก ในหน้าจอเดียว"),
     ],
+    "vi": [
+        ("01-trip.png", "hero-bleed", "Dòng thời gian giãn<br>theo thời gian thực", "Ba và năm ngày cách nhau 3:5, khoảng trống dài thành đường chấm"),
+        ("02-iceland.png", "left-text", "Giữ lại ngày hôm đó<br>cùng ảnh", "Chọn một trong bốn kiểu thẻ"),
+        ("03-expand.png", "text-bottom", "Chạm là mở<br>ngay tại chỗ", "Ảnh và câu chuyện trong một cái nhìn"),
+        ("04-tag.png", "flat-rotate", "Gắn kết sự kiện<br>bằng hashtag", "Dữ liệu rải rác thành dòng thời gian mới"),
+        ("05-editor.png", "dark", "Mỗi sự kiện<br>một kiểu thẻ", "Ngày, nội dung và thẻ trên một màn hình"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -195,6 +202,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "แตะแล้วเปิดออกตรงนั้นเลย", "รูปและเรื่องราวในที่เดียว"),
         ("ipad-03-tag.png", "โยงเหตุการณ์ด้วยแฮชแท็ก", "ข้อมูลที่กระจัดกระจายกลายเป็นไทม์ไลน์ใหม่"),
         ("ipad-04-editor.png", "เก็บรูปและเรื่องราวของวันนั้น", "วันที่ เนื้อหา แท็ก และดีไซน์การ์ด"),
+    ],
+    "vi": [
+        ("ipad-01-trip.png", "Dòng thời gian giãn theo thời gian thực", "Ba và năm ngày cách nhau 3:5, khoảng trống dài thành đường chấm"),
+        ("ipad-02-expand.png", "Chạm là mở ngay tại chỗ", "Ảnh và câu chuyện trong một cái nhìn"),
+        ("ipad-03-tag.png", "Gắn kết sự kiện bằng hashtag", "Dữ liệu rải rác thành dòng thời gian mới"),
+        ("ipad-04-editor.png", "Giữ lại ảnh và câu chuyện của ngày", "Ngày, nội dung, thẻ và kiểu thẻ"),
     ],
 }
 IPAD_CSS = f"""

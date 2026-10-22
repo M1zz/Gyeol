@@ -49,6 +49,7 @@ SEARCH = {
     "it": ("timeline diario", "3 giorni restano 3 giorni,<br>2 anni restano 2 anni", "La distanza tra gli eventi è il tempo realmente trascorso"),
     "pt-BR": ("linha do tempo diário", "3 dias são 3 dias,<br>2 anos são 2 anos", "A distância entre eventos é o tempo que realmente passou"),
     "th": ("ไทม์ไลน์ ไดอารี่", "3 วันก็คือ 3 วัน<br>2 ปีก็คือ 2 ปี", "ระยะห่างระหว่างเหตุการณ์ตรงกับเวลาที่ผ่านไปจริง"),
+    "vi": ("dòng thời gian nhật ký", "3 ngày vẫn là 3 ngày,<br>2 năm vẫn là 2 năm", "Khoảng cách giữa các sự kiện bằng thời gian thực đã trôi qua"),
 }
 
 # 헤더는 처음 온 사람에게 한 가지 약속만 한다: 흐른 시간이 그대로 보이는 타임라인.
@@ -66,6 +67,7 @@ HEADER = {
     "it": ("La tua timeline", "Una timeline che si allunga<br>con il tempo"),
     "pt-BR": ("Sua própria linha do tempo", "Uma linha do tempo que<br>se estica com o tempo"),
     "th": ("ไทม์ไลน์ของคุณเอง", "ไทม์ไลน์ที่ห่าง<br>ตามเวลาจริง"),
+    "vi": ("Dòng thời gian của riêng bạn", "Dòng thời gian giãn<br>theo thời gian thực"),
 }
 
 # 바탕은 앱 아이콘의 초록(#347669 → #235146)과 크림색 글씨를 따른다. 아이콘의 가로 괘선도 옅게 깐다.

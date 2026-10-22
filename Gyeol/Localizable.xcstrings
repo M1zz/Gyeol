@@ -69,6 +69,12 @@
             "value" : "ไม่มีเหตุการณ์ที่มี #%@"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có sự kiện nào gắn #%@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบ #%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa #%@"
           }
         },
         "zh-Hans" : {
@@ -233,6 +245,12 @@
             "value" : "เหตุการณ์ที่มีแท็ก #%@ จะรวมอยู่ที่นี่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Các sự kiện gắn thẻ #%@ được gom ở đây"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -313,6 +331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดีไซน์ %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiểu %@"
           }
         },
         "zh-Hans" : {
@@ -397,6 +421,12 @@
             "value" : "รูปที่ถ่ายเมื่อ %@: %lld รูป"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh chụp ngày %@: %lld"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -477,6 +507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังค้นหารูปที่ถ่ายเมื่อ %@…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang tìm ảnh chụp ngày %@…"
           }
         },
         "zh-Hans" : {
@@ -561,6 +597,12 @@
             "value" : "ไม่มีรูปที่ถ่ายเมื่อ %@"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có ảnh chụp ngày %@."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -641,6 +683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld เดือน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld tháng"
           }
         },
         "zh-Hans" : {
@@ -725,6 +773,12 @@
             "value" : "%1$lld เดือน %2$lld วัน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld tháng %2$lld ngày"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -805,6 +859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld ปี"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld năm"
           }
         },
         "zh-Hans" : {
@@ -889,6 +949,12 @@
             "value" : "%1$lld ปี %2$lld เดือน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld năm %2$lld tháng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -966,6 +1032,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -1053,6 +1125,12 @@
             "value" : "%2$lld/%1$lld"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld/%1$lld"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1133,6 +1211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld วัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ngày"
           }
         },
         "zh-Hans" : {
@@ -1218,6 +1302,12 @@
             "value" : "ล็อกด้วย Face ID"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa bằng Face ID"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1299,6 +1389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล็อกแอปด้วย Face ID หรือ Touch ID เพื่อให้ไทม์ไลน์ของคุณเป็นส่วนตัว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa ứng dụng bằng Face ID hoặc Touch ID để giữ dòng thời gian của bạn riêng tư."
           }
         },
         "zh-Hans" : {
@@ -1384,6 +1480,12 @@
             "value" : "รองรับ VoiceOver ดียิ่งขึ้น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ VoiceOver tốt hơn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1464,6 +1566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่ม “%2$@” ลงใน “%1$@” แล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã thêm “%2$@” vào “%1$@”."
           }
         },
         "zh-Hans" : {
@@ -1548,6 +1656,12 @@
             "value" : "แตะ “เพิ่มเหตุการณ์” เพื่อบันทึกช่วงเวลาแรกของคุณ\nเหตุการณ์จะเรียงจากบนลงล่างตามลำดับเวลา และระยะห่างจะกว้างเท่ากับเวลาที่ผ่านไปจริง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm “Thêm sự kiện” để lưu lại khoảnh khắc đầu tiên.\nCác sự kiện xếp từ trên xuống dưới theo thứ tự thời gian, khoảng cách giữa chúng giãn ra đúng bằng thời gian thực đã trôi qua."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1628,6 +1742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วันเดียวกัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cùng ngày"
           }
         },
         "zh-Hans" : {
@@ -1712,6 +1832,12 @@
             "value" : "รวมเหตุการณ์ที่มีแท็กเดียวกันจากทุกไทม์ไลน์ให้เป็นไทม์ไลน์เดียว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gom các sự kiện có cùng thẻ từ mọi dòng thời gian thành một dòng thời gian."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1792,6 +1918,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้าม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ qua"
           }
         },
         "zh-Hans" : {
@@ -1876,6 +2008,12 @@
             "value" : "เพิ่มเหตุการณ์ลงในไทม์ไลน์ที่เลือก ถ้าไม่ระบุวันที่ จะบันทึกด้วยเวลาปัจจุบัน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm sự kiện vào dòng thời gian bạn chọn. Nếu không đặt ngày, sự kiện được ghi theo thời điểm hiện tại."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1956,6 +2094,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค้นหารูปที่เกี่ยวข้อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm ảnh liên quan"
           }
         },
         "zh-Hans" : {
@@ -2040,6 +2184,12 @@
             "value" : "ใส่รูปของวันนั้นได้ทันที"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm ngay ảnh chụp hôm đó"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2122,6 +2272,12 @@
             "value" : "ไม่พบไทม์ไลน์นั้น อาจถูกลบไปแล้ว หรือยังมาไม่ถึงอุปกรณ์เครื่องนี้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tìm thấy dòng thời gian đó. Có thể nó đã bị xóa hoặc chưa đồng bộ về thiết bị này."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2202,6 +2358,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เน้นข้อความ รูปอยู่ด้านล่าง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chữ là chính, ảnh ở dưới"
           }
         },
         "zh-Hans" : {
@@ -2287,6 +2449,12 @@
             "value" : "เมื่อขยายขนาดตัวอักษร หน้าจอจะจัดเรียงใหม่อย่างสวยงามโดยไม่ถูกตัด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi bạn phóng to chữ, màn hình tự sắp xếp lại gọn gàng thay vì bị cắt mất."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2368,6 +2536,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รับการแจ้งเตือนวันสำคัญที่ไม่อยากลืม เช่น วันครบรอบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhận nhắc nhở về những ngày bạn không muốn quên, như ngày kỷ niệm."
           }
         },
         "zh-Hans" : {
@@ -2452,6 +2626,12 @@
             "value" : "คลาสสิก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cổ điển"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2532,6 +2712,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จดสิ่งที่อยากจำไว้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi lại điều bạn muốn nhớ"
           }
         },
         "zh-Hans" : {
@@ -2616,6 +2802,12 @@
             "value" : "วันที่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngày"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2696,6 +2888,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วันที่และตัวอักษรเป็นพระเอก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngày tháng và chữ là điểm nhấn"
           }
         },
         "zh-Hans" : {
@@ -2781,6 +2979,12 @@
             "value" : "ลบข้อมูลของฉันทั้งหมดในครั้งเดียว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa toàn bộ dữ liệu của tôi cùng lúc"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2863,6 +3067,12 @@
             "value" : "เนื้อหา"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nội dung"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2943,6 +3153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถัดไป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp"
           }
         },
         "zh-Hans" : {
@@ -3028,6 +3244,12 @@
             "value" : "แยกแท็กและเหตุการณ์ได้ง่าย แม้เปิดเพิ่มความคมชัดหรือแยกสีได้ยาก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dễ phân biệt thẻ và sự kiện, kể cả khi bật Tăng độ tương phản hoặc khó phân biệt màu."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3109,6 +3331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้แอปได้หลายภาษายิ่งขึ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng ứng dụng bằng nhiều ngôn ngữ hơn."
           }
         },
         "zh-Hans" : {
@@ -3194,6 +3422,12 @@
             "value" : "ภาษาเพิ่มเติม"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm ngôn ngữ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3274,6 +3508,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สร้าง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo"
           }
         },
         "zh-Hans" : {
@@ -3358,6 +3598,12 @@
             "value" : "ติดต่อทางอีเมล"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liên hệ qua email"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3440,6 +3686,12 @@
             "value" : "เกิดอะไรขึ้น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã xảy ra chuyện gì?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3520,6 +3772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตัวอย่าง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem trước"
           }
         },
         "zh-Hans" : {
@@ -3605,6 +3863,12 @@
             "value" : "สำรองและส่งออกข้อมูล"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao lưu và xuất dữ liệu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3686,6 +3950,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สีและความคมชัดที่ดูสบายตา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu sắc và độ tương phản dễ nhìn hơn"
           }
         },
         "zh-Hans" : {
@@ -3770,6 +4040,12 @@
             "value" : "นักพัฒนาอ่านทุกข้อความด้วยตัวเอง บอกเราได้เลยว่าอะไรที่ใช้แล้วไม่สะดวก หรืออยากให้มีฟีเจอร์อะไร"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhà phát triển tự tay đọc mọi tin nhắn. Hãy cho chúng tôi biết điều gì bất tiện hoặc bạn muốn có tính năng gì."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3850,6 +4126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังโหลด…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang tải…"
           }
         },
         "zh-Hans" : {
@@ -3934,6 +4216,12 @@
             "value" : "เหตุการณ์ %lld รายการ · ล่าสุด %@.%@"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sự kiện: %lld · gần nhất %@.%@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4014,6 +4302,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เหตุการณ์ %lld รายการ · เมื่อบันทึกแล้ว จะอยู่ในรายการและเพิ่มขึ้นเรื่อย ๆ เมื่อมีการใส่แท็ก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sự kiện: %lld · sau khi lưu, dòng thời gian sẽ ở lại trong danh sách và tiếp tục đầy lên khi có thêm thẻ"
           }
         },
         "zh-Hans" : {
@@ -4098,6 +4392,12 @@
             "value" : "บันทึกเหตุการณ์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi lại sự kiện"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4178,6 +4478,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ระยะห่างระหว่างเหตุการณ์เป็นสัดส่วนกับเวลาที่ผ่านไปจริง สามวันกับห้าวันห่างกัน 3:5 ส่วนช่วงว่างยาว ๆ จะพับเป็นเส้นประพร้อมข้อความอย่าง “2 ปี 4 เดือน”"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khoảng cách giữa các sự kiện tỉ lệ với thời gian thực sự đã trôi qua. Ba ngày và năm ngày cách nhau theo tỉ lệ 3:5, còn những khoảng trống dài được gập lại thành đường chấm kèm chú thích như “2 năm 4 tháng”."
           }
         },
         "zh-Hans" : {
@@ -4262,6 +4568,12 @@
             "value" : "ลบเหตุการณ์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa sự kiện"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4342,6 +4654,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แก้ไขเหตุการณ์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sửa sự kiện"
           }
         },
         "zh-Hans" : {
@@ -4426,6 +4744,12 @@
             "value" : "ไม่มีเหตุการณ์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có sự kiện"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4508,6 +4832,12 @@
             "value" : "เพิ่มเหตุการณ์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm sự kiện"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4588,6 +4918,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใส่แท็กให้เหตุการณ์ แล้วแตะแท็กเพื่อรวมช่วงเวลาที่มีแท็กเดียวกันจากทุกไทม์ไลน์เป็นไทม์ไลน์ใหม่ ข้อมูลของคุณซิงก์ระหว่าง iPhone, iPad และ Mac ผ่าน iCloud"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gắn thẻ cho sự kiện rồi chạm vào thẻ để gom mọi khoảnh khắc có cùng thẻ từ tất cả dòng thời gian thành một dòng thời gian mới. Dữ liệu của bạn được đồng bộ giữa iPhone, iPad và Mac qua iCloud."
           }
         },
         "zh-Hans" : {
@@ -4673,6 +5009,12 @@
             "value" : "สั่นเบา ๆ เมื่อเพิ่มหรือลบเหตุการณ์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rung nhẹ khi bạn thêm hoặc xóa một sự kiện."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4754,6 +5096,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สิ่งที่กำลังเขียนจะยังอยู่ แม้แอปปิดไปกลางคัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phần bạn đang viết vẫn được giữ lại, kể cả khi ứng dụng bị đóng giữa chừng."
           }
         },
         "zh-Hans" : {
@@ -4838,6 +5186,12 @@
             "value" : "เลือกวันที่ของเหตุการณ์ แล้วแตะ “ค้นหารูปที่เกี่ยวข้อง” เพื่อดูรูปที่ถ่ายในวันนั้น ถ้าไม่มีรูปที่ถูกใจ จะเลือกเองก็ได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn ngày của sự kiện rồi chạm “Tìm ảnh liên quan” để xem những ảnh chụp trong ngày đó. Nếu không có ảnh ưng ý, bạn có thể tự chọn."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4918,6 +5272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รูปภาพ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh"
           }
         },
         "zh-Hans" : {
@@ -5002,6 +5362,12 @@
             "value" : "เปลี่ยนรูปภาพ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đổi ảnh"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5082,6 +5448,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การเข้าถึงรูปภาพปิดอยู่ จึงค้นหารูปที่ถ่ายในวันนั้นไม่ได้\nแต่ยังเลือกเองจากด้านล่างได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quyền truy cập Ảnh đang tắt nên không tìm được ảnh chụp hôm đó.\nBạn vẫn có thể tự chọn ở bên dưới."
           }
         },
         "zh-Hans" : {
@@ -5166,6 +5538,12 @@
             "value" : "ลบรูปภาพ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa ảnh"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5246,6 +5624,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รูปภาพและบันทึกจะเปิดออกตรงนั้นเลย แตะอีกครั้งเพื่อพับเก็บ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh và ghi chú mở ra ngay tại chỗ. Chạm lần nữa để thu lại."
           }
         },
         "zh-Hans" : {
@@ -5330,6 +5714,12 @@
             "value" : "รูปเต็มการ์ด วางข้อความทับ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh phủ kín thẻ, chữ nằm đè lên"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5410,6 +5800,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa"
           }
         },
         "zh-Hans" : {
@@ -5494,6 +5890,12 @@
             "value" : "ไทม์ไลน์ใหม่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng thời gian mới"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5574,6 +5976,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สี"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu"
           }
         },
         "zh-Hans" : {
@@ -5658,6 +6066,12 @@
             "value" : "การตั้งค่า"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5738,6 +6152,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อนุญาตในการตั้งค่า"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cho phép trong Cài đặt"
           }
         },
         "zh-Hans" : {
@@ -5823,6 +6243,12 @@
             "value" : "การตอบสนองแบบสัมผัส"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phản hồi xúc giác"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5905,6 +6331,12 @@
             "value" : "แก้ไข"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sửa"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5985,6 +6417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เริ่มต้นใช้งาน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu"
           }
         },
         "zh-Hans" : {
@@ -6070,6 +6508,12 @@
             "value" : "เขียนเหตุการณ์ต่อจากที่ค้างไว้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viết tiếp sự kiện đang dở"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6150,6 +6594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลองค้นหาเองจากด้านล่างได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy thử tự tìm ở bên dưới."
           }
         },
         "zh-Hans" : {
@@ -6235,6 +6685,12 @@
             "value" : "ใช้ฟีเจอร์หลักบน iPad ได้ด้วยคีย์บอร์ดอย่างเดียว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng các tính năng chính trên iPad chỉ với bàn phím."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6315,6 +6771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีเหตุการณ์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có sự kiện nào"
           }
         },
         "zh-Hans" : {
@@ -6400,6 +6862,12 @@
             "value" : "การแจ้งเตือน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhắc nhở"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6481,6 +6949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูไทม์ไลน์บนหน้าจอโฮมได้เลย โดยไม่ต้องเปิดแอป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem dòng thời gian ngay trên Màn hình chính mà không cần mở ứng dụng."
           }
         },
         "zh-Hans" : {
@@ -6566,6 +7040,12 @@
             "value" : "ใช้ทั้งแอปเป็นภาษาอังกฤษได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng toàn bộ ứng dụng bằng tiếng Anh."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6646,6 +7126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เกิดอะไรขึ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã xảy ra chuyện gì?"
           }
         },
         "zh-Hans" : {
@@ -6731,6 +7217,12 @@
             "value" : "เปิดแอปครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lần đầu mở ứng dụng sau khi cập nhật, bạn sẽ thấy có gì mới."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6812,6 +7304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มีอะไรใหม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có gì mới"
           }
         },
         "zh-Hans" : {
@@ -6896,6 +7394,12 @@
             "value" : "เว้นขอบ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lề trắng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6973,6 +7477,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeoul"
@@ -7060,6 +7570,12 @@
             "value" : "วิธีใช้ Yeoul"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cách dùng Yeoul"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7141,6 +7657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รองรับภาษาอังกฤษเต็มรูปแบบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ tiếng Anh đầy đủ"
           }
         },
         "zh-Hans" : {
@@ -7225,6 +7747,12 @@
             "value" : "เช่น ขวบปีแรกของลูก, บันทึกการเปิดตัวแอป"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ví dụ: Năm đầu đời của con, nhật ký ra mắt ứng dụng"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7307,6 +7835,12 @@
             "value" : "เสร็จสิ้น"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xong"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7387,6 +7921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกไทม์ไลน์ทางซ้าย หรือสร้างใหม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn một dòng thời gian ở bên trái hoặc tạo mới."
           }
         },
         "zh-Hans" : {
@@ -7472,6 +8012,12 @@
             "value" : "ลดการเคลื่อนไหว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giảm chuyển động"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7553,6 +8099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อเปิดลดการเคลื่อนไหว เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi bật Giảm chuyển động, các hiệu ứng trên màn hình sẽ dịu hơn."
           }
         },
         "zh-Hans" : {
@@ -7638,6 +8190,12 @@
             "value" : "ลบไทม์ไลน์ทั้งหมดของคุณจากในแอปได้ทุกเมื่อที่ต้องการ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa toàn bộ dòng thời gian của bạn ngay trong ứng dụng bất cứ lúc nào."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7718,6 +8276,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบเหตุการณ์นี้ไหม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa sự kiện này?"
           }
         },
         "zh-Hans" : {
@@ -7802,6 +8366,12 @@
             "value" : "ใช้รูปนี้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng ảnh này"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7882,6 +8452,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีเหตุการณ์ที่มีแท็กนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có sự kiện nào gắn thẻ này."
           }
         },
         "zh-Hans" : {
@@ -7966,6 +8542,12 @@
             "value" : "ใส่แท็กนี้ให้เหตุการณ์ แล้วเหตุการณ์นั้นจะมารวมอยู่ที่นี่โดยอัตโนมัติ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gắn thẻ này cho sự kiện và nó sẽ tự động được gom về đây."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8046,6 +8628,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชื่อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên"
           }
         },
         "zh-Hans" : {
@@ -8130,6 +8718,12 @@
             "value" : "เปลี่ยนชื่อและสี"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đổi tên và màu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8210,6 +8804,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "DM ใน Instagram (@lee25_ios)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhắn tin Instagram (@lee25_ios)"
           }
         },
         "zh-Hans" : {
@@ -8294,6 +8894,12 @@
             "value" : "รูปที่มีขอบขาวเหมือนรูปอัดจริง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh có viền như ảnh in"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8374,6 +8980,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu"
           }
         },
         "zh-Hans" : {
@@ -8458,6 +9070,12 @@
             "value" : "บันทึกแล้ว"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã lưu"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8538,6 +9156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชื่อเรื่อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiêu đề"
           }
         },
         "zh-Hans" : {
@@ -8622,6 +9246,12 @@
             "value" : "ไม่มีชื่อเรื่อง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có tiêu đề"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8702,6 +9332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การสนับสนุน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ"
           }
         },
         "zh-Hans" : {
@@ -8786,6 +9422,12 @@
             "value" : "ค้นหาเอง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tự tìm"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8866,6 +9508,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูคำแนะนำที่เห็นตอนเปิดแอปครั้งแรกอีกครั้ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem lại phần giới thiệu bạn đã thấy khi mở ứng dụng lần đầu."
           }
         },
         "zh-Hans" : {
@@ -8950,6 +9598,12 @@
             "value" : "ลองสร้างไทม์ไลน์แรกของคุณ\nขวบปีแรกของลูก การเปิดตัวแอป ทริปท่องเที่ยว — อะไรก็ได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy tạo dòng thời gian đầu tiên của bạn.\nNăm đầu đời của con, ngày ra mắt ứng dụng, một chuyến đi — gì cũng được."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9030,6 +9684,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่ม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm"
           }
         },
         "zh-Hans" : {
@@ -9114,6 +9774,12 @@
             "value" : "ยกเลิก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hủy"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9196,6 +9862,12 @@
             "value" : "ดีไซน์การ์ด"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiểu thẻ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9276,6 +9948,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะการ์ดเพื่อขยาย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm vào thẻ để mở rộng"
           }
         },
         "zh-Hans" : {
@@ -9361,6 +10039,12 @@
             "value" : "หน้าจอที่ปรับให้เหมาะกับตัวอักษรขนาดใหญ่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giao diện cho cỡ chữ lớn"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9442,6 +10126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ควบคุมด้วยคีย์บอร์ด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển bằng bàn phím"
           }
         },
         "zh-Hans" : {
@@ -9526,6 +10216,12 @@
             "value" : "ไทม์ไลน์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng thời gian"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9606,6 +10302,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การตั้งค่าไทม์ไลน์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt dòng thời gian"
           }
         },
         "zh-Hans" : {
@@ -9690,6 +10392,12 @@
             "value" : "บันทึกเป็นไทม์ไลน์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu thành dòng thời gian"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9770,6 +10478,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกไทม์ไลน์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn một dòng thời gian"
           }
         },
         "zh-Hans" : {
@@ -9855,6 +10569,12 @@
             "value" : "บันทึกไทม์ไลน์เป็นไฟล์ แล้วนำกลับมาใช้ได้ภายหลัง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu dòng thời gian vào một tệp và khôi phục lại sau."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9935,6 +10655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีไทม์ไลน์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có dòng thời gian nào"
           }
         },
         "zh-Hans" : {
@@ -10019,6 +10745,12 @@
             "value" : "แท็ก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thẻ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10099,6 +10831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มแท็ก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm thẻ"
           }
         },
         "zh-Hans" : {
@@ -10183,6 +10921,12 @@
             "value" : "ไทม์ไลน์แท็ก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng thời gian thẻ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10263,6 +11007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไทม์ไลน์แท็ก · "
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng thời gian thẻ · "
           }
         },
         "zh-Hans" : {
@@ -10347,6 +11097,12 @@
             "value" : "บันทึกไทม์ไลน์แท็ก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu dòng thời gian thẻ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10429,6 +11185,12 @@
             "value" : "โยงเหตุการณ์เข้าด้วยกันด้วยแท็ก"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gắn kết sự kiện bằng thẻ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10509,6 +11271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะแท็กเพื่อรวมเหตุการณ์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm vào thẻ để gom sự kiện"
           }
         },
         "zh-Hans" : {
@@ -10594,6 +11362,12 @@
             "value" : "เลย์เอาต์สำหรับ iPhone แบบพับได้"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bố cục cho iPhone gập"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10675,6 +11449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้หน้าจอกว้างของ iPhone แบบพับได้เป็นสองส่วนเคียงข้างกัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng màn hình rộng của iPhone gập thành hai khung cạnh nhau."
           }
         },
         "zh-Hans" : {
@@ -10759,6 +11539,12 @@
             "value" : "โปสเตอร์"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Áp phích"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10839,6 +11625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฟิล์ม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phim"
           }
         },
         "zh-Hans" : {
@@ -10924,6 +11716,12 @@
             "value" : "วิดเจ็ตบนหน้าจอโฮม"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiện ích trên Màn hình chính"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11007,6 +11805,12 @@
             "value" : "VoiceOver อ่านทุกปุ่มและทุกเหตุการณ์ครบถ้วนตามลำดับที่ถูกต้อง"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver đọc đủ mọi nút và sự kiện theo đúng thứ tự."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11087,6 +11891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไทม์ไลน์ที่ห่างตามเวลาจริง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dòng thời gian giãn ra theo thời gian thực"
           }
         },
         "zh-Hans" : {
