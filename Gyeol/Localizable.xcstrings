@@ -1,6 +1,230 @@
 {
   "sourceLanguage" : "ko",
   "strings" : {
+    "#%@ 사건이 없어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No events tagged #%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "#%@ 사건이 없어요"
+          }
+        }
+      }
+    },
+    "#%@ 제거" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove #%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "#%@ 제거"
+          }
+        }
+      }
+    },
+    "#%@ 태그가 붙은 사건이 모입니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Events tagged #%@ are gathered here"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "#%@ 태그가 붙은 사건이 모입니다"
+          }
+        }
+      }
+    },
+    "%@ 디자인" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ design"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 디자인"
+          }
+        }
+      }
+    },
+    "%@에 찍은 사진 %lld장" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld photos taken on %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@에 찍은 사진 %lld장"
+          }
+        }
+      }
+    },
+    "%@에 찍은 사진을 찾는 중…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Looking for photos taken on %@…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@에 찍은 사진을 찾는 중…"
+          }
+        }
+      }
+    },
+    "%@에 찍은 사진이 없어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No photos taken on %@."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@에 찍은 사진이 없어요."
+          }
+        }
+      }
+    },
+    "%lld개월" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개월"
+          }
+        }
+      }
+    },
+    "%lld개월 %lld일" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld mo %lld d"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개월 %lld일"
+          }
+        }
+      }
+    },
+    "%lld년" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld yr"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld년"
+          }
+        }
+      }
+    },
+    "%lld년 %lld개월" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld yr %lld mo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld년 %lld개월"
+          }
+        }
+      }
+    },
+    "%lld월" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld월"
+          }
+        }
+      }
+    },
+    "%lld월 %lld일" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld/%2$lld"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld월 %lld일"
+          }
+        }
+      }
+    },
+    "%lld일" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld d"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld일"
+          }
+        }
+      }
+    },
     "Face ID 잠금" : {
       "comment" : "Roadmap item: Face ID lock",
       "localizations" : {
@@ -52,6 +276,166 @@
         }
       }
     },
+    "‘%@’에 ‘%@’을(를) 남겼어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Added ‘%@’ to ‘%@’."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%@’에 ‘%@’을(를) 남겼어요."
+          }
+        }
+      }
+    },
+    "‘사건 추가’를 눌러 첫 순간을 남겨보세요.\n위에서 아래로 시간 순으로 쌓이고, 사이 간격은 실제로 흐른 시간만큼 벌어져요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap “Add Event” to save your first moment.\nEvents stack from top to bottom in time order, with gaps as wide as the time that really passed."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘사건 추가’를 눌러 첫 순간을 남겨보세요.\n위에서 아래로 시간 순으로 쌓이고, 사이 간격은 실제로 흐른 시간만큼 벌어져요."
+          }
+        }
+      }
+    },
+    "같은 날" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Same day"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "같은 날"
+          }
+        }
+      }
+    },
+    "같은 태그가 붙은 사건을 모든 타임라인에서 모아 하나의 타임라인으로 보여 줘요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See every event with the same tag from all timelines, gathered into one timeline."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "같은 태그가 붙은 사건을 모든 타임라인에서 모아 하나의 타임라인으로 보여 줘요."
+          }
+        }
+      }
+    },
+    "건너뛰기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "건너뛰기"
+          }
+        }
+      }
+    },
+    "고른 타임라인에 사건을 남겨요. 날짜를 정하지 않으면 지금 시각으로 기록해요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add an event to the timeline you pick. If you don’t set a date, it’s logged at the current time."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "고른 타임라인에 사건을 남겨요. 날짜를 정하지 않으면 지금 시각으로 기록해요."
+          }
+        }
+      }
+    },
+    "관련된 사진 찾기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find related photos"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "관련된 사진 찾기"
+          }
+        }
+      }
+    },
+    "그 날 찍은 사진을 바로 붙여요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add photos from that day"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "그 날 찍은 사진을 바로 붙여요"
+          }
+        }
+      }
+    },
+    "그 타임라인을 찾지 못했어요. 지워졌거나 아직 이 기기로 넘어오지 않았을 수 있어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t find that timeline. It may have been deleted or hasn’t reached this device yet."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "그 타임라인을 찾지 못했어요. 지워졌거나 아직 이 기기로 넘어오지 않았을 수 있어요."
+          }
+        }
+      }
+    },
+    "글이 중심, 사진은 아래" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text first, photo below"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "글이 중심, 사진은 아래"
+          }
+        }
+      }
+    },
     "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요." : {
       "comment" : "Roadmap item detail: larger text layouts",
       "localizations" : {
@@ -86,6 +470,70 @@
         }
       }
     },
+    "기본" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Classic"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기본"
+          }
+        }
+      }
+    },
+    "기억하고 싶은 것을 적어두세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write down what you want to remember"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기억하고 싶은 것을 적어두세요"
+          }
+        }
+      }
+    },
+    "날짜" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "날짜"
+          }
+        }
+      }
+    },
+    "날짜와 글씨가 주인공" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The date and lettering take the lead"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "날짜와 글씨가 주인공"
+          }
+        }
+      }
+    },
     "내 데이터 한 번에 지우기" : {
       "comment" : "Roadmap item: delete all my data",
       "localizations" : {
@@ -99,6 +547,38 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내 데이터 한 번에 지우기"
+          }
+        }
+      }
+    },
+    "내용" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내용"
+          }
+        }
+      }
+    },
+    "다음" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다음"
           }
         }
       }
@@ -154,6 +634,70 @@
         }
       }
     },
+    "만들기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "만들기"
+          }
+        }
+      }
+    },
+    "메일로 문의하기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact by email"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메일로 문의하기"
+          }
+        }
+      }
+    },
+    "무슨 일이 있었나요?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What happened?"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "무슨 일이 있었나요?"
+          }
+        }
+      }
+    },
+    "미리보기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preview"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "미리보기"
+          }
+        }
+      }
+    },
     "백업과 내보내기" : {
       "comment" : "Roadmap item: backup and export",
       "localizations" : {
@@ -184,6 +728,182 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보기 편한 색과 대비"
+          }
+        }
+      }
+    },
+    "보내 주신 의견은 개발자가 모두 직접 읽어요. 불편했던 점이나 바라는 기능을 알려 주세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The developer reads every message personally. Tell us what bothered you or what you’d like to see."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보내 주신 의견은 개발자가 모두 직접 읽어요. 불편했던 점이나 바라는 기능을 알려 주세요."
+          }
+        }
+      }
+    },
+    "불러오는 중…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "불러오는 중…"
+          }
+        }
+      }
+    },
+    "사건 %lld개 · 마지막 %@.%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld events · last %@.%@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사건 %lld개 · 마지막 %@.%@"
+          }
+        }
+      }
+    },
+    "사건 %lld개 · 저장하면 목록에 남고, 태그가 붙는 대로 계속 채워져요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld events · once saved, it stays in your list and keeps filling as tags are added"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사건 %lld개 · 저장하면 목록에 남고, 태그가 붙는 대로 계속 채워져요"
+          }
+        }
+      }
+    },
+    "사건 기록하기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log an Event"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사건 기록하기"
+          }
+        }
+      }
+    },
+    "사건 사이의 간격이 실제로 흐른 시간에 비례해요. 사흘과 닷새는 3:5로 벌어지고, 긴 공백은 점선으로 접어 “2년 4개월”처럼 적어 둬요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The space between events is proportional to the time that really passed. Three days and five days sit 3:5 apart, and long gaps fold into a dotted line labelled like “2 years 4 months”."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사건 사이의 간격이 실제로 흐른 시간에 비례해요. 사흘과 닷새는 3:5로 벌어지고, 긴 공백은 점선으로 접어 “2년 4개월”처럼 적어 둬요."
+          }
+        }
+      }
+    },
+    "사건 삭제" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Event"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사건 삭제"
+          }
+        }
+      }
+    },
+    "사건 수정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Event"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사건 수정"
+          }
+        }
+      }
+    },
+    "사건 없음" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No events"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사건 없음"
+          }
+        }
+      }
+    },
+    "사건 추가" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Event"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사건 추가"
+          }
+        }
+      }
+    },
+    "사건에 태그를 달고 누르면, 모든 타임라인에서 같은 태그가 붙은 순간을 모아 새 타임라인으로 보여 줘요. 기록은 iCloud로 아이폰·아이패드·맥에 이어져요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add tags to events and tap one to gather every moment with that tag, from all your timelines, into a new timeline. Your records sync across iPhone, iPad and Mac with iCloud."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사건에 태그를 달고 누르면, 모든 타임라인에서 같은 태그가 붙은 순간을 모아 새 타임라인으로 보여 줘요. 기록은 iCloud로 아이폰·아이패드·맥에 이어져요."
           }
         }
       }
@@ -222,6 +942,198 @@
         }
       }
     },
+    "사건의 날짜를 고르고 ‘관련된 사진 찾기’를 누르면 그 날 찍은 사진을 모아 보여 줘요. 원하는 사진이 없으면 직접 골라도 돼요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick an event’s date and tap “Find related photos” to see the photos you took that day. If none fit, you can choose one yourself."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사건의 날짜를 고르고 ‘관련된 사진 찾기’를 누르면 그 날 찍은 사진을 모아 보여 줘요. 원하는 사진이 없으면 직접 골라도 돼요."
+          }
+        }
+      }
+    },
+    "사진" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진"
+          }
+        }
+      }
+    },
+    "사진 바꾸기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change Photo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진 바꾸기"
+          }
+        }
+      }
+    },
+    "사진 접근이 꺼져 있어 이 날 찍은 사진을 찾을 수 없어요.\n아래에서 직접 고를 수는 있어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo access is off, so photos from that day can’t be found.\nYou can still pick one below."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진 접근이 꺼져 있어 이 날 찍은 사진을 찾을 수 없어요.\n아래에서 직접 고를 수는 있어요."
+          }
+        }
+      }
+    },
+    "사진 제거" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove Photo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진 제거"
+          }
+        }
+      }
+    },
+    "사진과 메모가 그 자리에서 열려요. 다시 누르면 접혀요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos and notes open in place. Tap again to fold."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진과 메모가 그 자리에서 열려요. 다시 누르면 접혀요."
+          }
+        }
+      }
+    },
+    "사진을 꽉 채우고 글을 얹어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo fills the card with text on top"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진을 꽉 채우고 글을 얹어요"
+          }
+        }
+      }
+    },
+    "삭제" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "삭제"
+          }
+        }
+      }
+    },
+    "새 타임라인" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Timeline"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 타임라인"
+          }
+        }
+      }
+    },
+    "색" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Color"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "색"
+          }
+        }
+      }
+    },
+    "설정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정"
+          }
+        }
+      }
+    },
+    "설정에서 허용" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow in Settings"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정에서 허용"
+          }
+        }
+      }
+    },
     "손끝으로 느끼는 반응" : {
       "comment" : "Roadmap item: haptics",
       "localizations" : {
@@ -235,6 +1147,38 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "손끝으로 느끼는 반응"
+          }
+        }
+      }
+    },
+    "수정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "수정"
+          }
+        }
+      }
+    },
+    "시작하기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Started"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시작하기"
           }
         }
       }
@@ -256,6 +1200,22 @@
         }
       }
     },
+    "아래에서 직접 찾아보세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try browsing below."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아래에서 직접 찾아보세요."
+          }
+        }
+      }
+    },
     "아이패드에서 키보드만으로 주요 기능을 쓸 수 있어요." : {
       "comment" : "Roadmap item detail: keyboard control",
       "localizations" : {
@@ -269,6 +1229,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아이패드에서 키보드만으로 주요 기능을 쓸 수 있어요."
+          }
+        }
+      }
+    },
+    "아직 사건이 없어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No events yet"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아직 사건이 없어요"
           }
         }
       }
@@ -324,6 +1300,22 @@
         }
       }
     },
+    "어떤 일이 있었나요?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What happened?"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "어떤 일이 있었나요?"
+          }
+        }
+      }
+    },
     "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요." : {
       "comment" : "Roadmap item detail: what's new after an update",
       "localizations" : {
@@ -358,6 +1350,54 @@
         }
       }
     },
+    "여백" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Margin"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "여백"
+          }
+        }
+      }
+    },
+    "여울" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeoul"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "여울"
+          }
+        }
+      }
+    },
+    "여울 사용법" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How to use Yeoul"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "여울 사용법"
+          }
+        }
+      }
+    },
     "영어 지원" : {
       "comment" : "Roadmap item: English",
       "localizations" : {
@@ -371,6 +1411,54 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어 지원"
+          }
+        }
+      }
+    },
+    "예: 우리 아이 첫 해, 앱 출시 기록" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. My baby’s first year, App launch log"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "예: 우리 아이 첫 해, 앱 출시 기록"
+          }
+        }
+      }
+    },
+    "완료" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완료"
+          }
+        }
+      }
+    },
+    "왼쪽에서 타임라인을 고르거나 새로 만들어보세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose a timeline on the left, or create a new one."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "왼쪽에서 타임라인을 고르거나 새로 만들어보세요."
           }
         }
       }
@@ -426,6 +1514,326 @@
         }
       }
     },
+    "이 사건을 삭제할까요?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete this event?"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 사건을 삭제할까요?"
+          }
+        }
+      }
+    },
+    "이 사진 사용" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use this photo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 사진 사용"
+          }
+        }
+      }
+    },
+    "이 태그를 단 사건이 아직 없습니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No events have this tag yet."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 태그를 단 사건이 아직 없습니다."
+          }
+        }
+      }
+    },
+    "이 태그를 사건에 달면 여기에 자동으로 모여요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add this tag to an event and it will gather here automatically."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 태그를 사건에 달면 여기에 자동으로 모여요."
+          }
+        }
+      }
+    },
+    "이름" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이름"
+          }
+        }
+      }
+    },
+    "이름·색 바꾸기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change Name & Color"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이름·색 바꾸기"
+          }
+        }
+      }
+    },
+    "인스타그램 DM (@lee25_ios)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인스타그램 DM (@lee25_ios)"
+          }
+        }
+      }
+    },
+    "인화지처럼 여백을 두른 사진" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A photo framed like a print"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인화지처럼 여백을 두른 사진"
+          }
+        }
+      }
+    },
+    "저장" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장"
+          }
+        }
+      }
+    },
+    "저장됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장됨"
+          }
+        }
+      }
+    },
+    "제목" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제목"
+          }
+        }
+      }
+    },
+    "제목 없음" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Untitled"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제목 없음"
+          }
+        }
+      }
+    },
+    "지원" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지원"
+          }
+        }
+      }
+    },
+    "직접 찾기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Browse"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "직접 찾기"
+          }
+        }
+      }
+    },
+    "처음 열었을 때 보았던 안내를 다시 볼 수 있어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Review the intro you saw when you first opened the app."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "처음 열었을 때 보았던 안내를 다시 볼 수 있어요."
+          }
+        }
+      }
+    },
+    "첫 타임라인을 만들어보세요.\n아이의 첫 해, 앱 출시 기록, 여행 — 무엇이든 좋아요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start your first timeline.\nA baby’s first year, an app launch, a trip — anything goes."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "첫 타임라인을 만들어보세요.\n아이의 첫 해, 앱 출시 기록, 여행 — 무엇이든 좋아요."
+          }
+        }
+      }
+    },
+    "추가" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추가"
+          }
+        }
+      }
+    },
+    "취소" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "취소"
+          }
+        }
+      }
+    },
+    "카드 디자인" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Card Design"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카드 디자인"
+          }
+        }
+      }
+    },
+    "카드를 눌러 펼쳐 보세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap a card to expand it"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카드를 눌러 펼쳐 보세요"
+          }
+        }
+      }
+    },
     "큰 글씨에 맞춘 화면" : {
       "comment" : "Roadmap item: larger text layouts",
       "localizations" : {
@@ -460,6 +1868,70 @@
         }
       }
     },
+    "타임라인" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timeline"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타임라인"
+          }
+        }
+      }
+    },
+    "타임라인 설정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timeline Settings"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타임라인 설정"
+          }
+        }
+      }
+    },
+    "타임라인으로 저장" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save as Timeline"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타임라인으로 저장"
+          }
+        }
+      }
+    },
+    "타임라인을 골라주세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick a timeline"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타임라인을 골라주세요"
+          }
+        }
+      }
+    },
     "타임라인을 파일로 저장하고 다시 불러올 수 있어요." : {
       "comment" : "Roadmap item detail: backup and export",
       "localizations" : {
@@ -473,6 +1945,134 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "타임라인을 파일로 저장하고 다시 불러올 수 있어요."
+          }
+        }
+      }
+    },
+    "타임라인이 없어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No timelines yet"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "타임라인이 없어요"
+          }
+        }
+      }
+    },
+    "태그" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tags"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "태그"
+          }
+        }
+      }
+    },
+    "태그 추가" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add tag"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "태그 추가"
+          }
+        }
+      }
+    },
+    "태그 타임라인" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag Timelines"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "태그 타임라인"
+          }
+        }
+      }
+    },
+    "태그 타임라인 · " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag timeline · "
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "태그 타임라인 · "
+          }
+        }
+      }
+    },
+    "태그 타임라인 저장" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Tag Timeline"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "태그 타임라인 저장"
+          }
+        }
+      }
+    },
+    "태그로 다시 엮어 보세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weave events together with tags"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "태그로 다시 엮어 보세요"
+          }
+        }
+      }
+    },
+    "태그를 누르면 한데 모여요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap a tag to gather events"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "태그를 누르면 한데 모여요"
           }
         }
       }
@@ -511,6 +2111,38 @@
         }
       }
     },
+    "포스터" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poster"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "포스터"
+          }
+        }
+      }
+    },
+    "필름" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Film"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "필름"
+          }
+        }
+      }
+    },
     "홈 화면 위젯" : {
       "comment" : "Roadmap item: home screen widgets",
       "localizations" : {
@@ -541,6 +2173,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "화면 읽기 기능이 단추와 사건을 빠짐없이, 알맞은 순서로 읽어 줘요."
+          }
+        }
+      }
+    },
+    "흐른 시간만큼 벌어지는 타임라인" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A timeline that stretches with time"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "흐른 시간만큼 벌어지는 타임라인"
           }
         }
       }

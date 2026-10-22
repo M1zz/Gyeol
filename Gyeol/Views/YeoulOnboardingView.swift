@@ -60,7 +60,7 @@ struct YeoulOnboardingView: View {
                     finish()
                 }
             } label: {
-                Text(page < pages.count - 1 ? "다음" : "시작하기")
+                Text(page < pages.count - 1 ? LocalizedStringKey("다음") : LocalizedStringKey("시작하기"))
                     .font(.body.weight(.semibold))
                     .frame(maxWidth: 420)
                     .padding(.vertical, 6)

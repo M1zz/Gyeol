@@ -10,7 +10,7 @@ struct CardContent {
     var photoData: Data?
     var showsYear: Bool = false
 
-    var displayTitle: String { title.isEmpty ? "제목 없음" : title }
+    var displayTitle: String { title.isEmpty ? String(localized: "제목 없음") : title }
     var hasTitle: Bool { !title.isEmpty }
     var image: PlatformImage? { photoData.flatMap(PlatformImage.init(data:)) }
 }

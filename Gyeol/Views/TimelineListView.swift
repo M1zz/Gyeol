@@ -109,9 +109,9 @@ private struct TimelineRow: View {
     }
 
     private var subtitle: String {
-        let kind = timeline.isTagTimeline ? "태그 타임라인 · " : ""
-        guard let last = events.last else { return kind + "사건 없음" }
-        return kind + "사건 \(events.count)개 · 마지막 \(last.date.yearLabel).\(last.date.monthDayLabel)"
+        let kind = timeline.isTagTimeline ? String(localized: "태그 타임라인 · ") : ""
+        guard let last = events.last else { return kind + String(localized: "사건 없음") }
+        return kind + String(localized: "사건 \(events.count)개 · 마지막 \(last.date.yearLabel).\(last.date.monthDayLabel)")
     }
 }
 

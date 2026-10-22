@@ -14,14 +14,14 @@ extension Date {
     /// "3월 5일" — the date printed on each node of the vertical timeline.
     var nodeDateLabel: String {
         let c = Calendar.current.dateComponents([.month, .day], from: self)
-        return "\(c.month ?? 0)월 \(c.day ?? 0)일"
+        return String(localized: "\(c.month ?? 0)월 \(c.day ?? 0)일")
     }
 
     /// "5" — the oversized numeral the editorial card leads with.
     var dayNumber: String { String(Calendar.current.component(.day, from: self)) }
 
     /// "3월"
-    var monthLabel: String { "\(Calendar.current.component(.month, from: self))월" }
+    var monthLabel: String { String(localized: "\(Calendar.current.component(.month, from: self))월") }
 
     /// "2019.03.05" — stamped on the film card like a date-back print.
     var stampLabel: String {
@@ -39,9 +39,9 @@ enum DurationLabel {
         let months = c.month ?? 0
         let days = c.day ?? 0
 
-        if years > 0 { return months > 0 ? "\(years)년 \(months)개월" : "\(years)년" }
-        if months > 0 { return days > 0 ? "\(months)개월 \(days)일" : "\(months)개월" }
-        if days > 0 { return "\(days)일" }
-        return "같은 날"
+        if years > 0 { return months > 0 ? String(localized: "\(years)년 \(months)개월") : String(localized: "\(years)년") }
+        if months > 0 { return days > 0 ? String(localized: "\(months)개월 \(days)일") : String(localized: "\(months)개월") }
+        if days > 0 { return String(localized: "\(days)일") }
+        return String(localized: "같은 날")
     }
 }

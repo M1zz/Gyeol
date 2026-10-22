@@ -10,3 +10,9 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 여울을 써 주셔서 고맙습니다.
 앱이 더 안정적으로 동작하도록 다듬었어요.
 불편한 점은 지원 페이지로 알려 주세요.
+
+### 앱스토어 (en)
+
+Thank you for using Yeoul.
+We polished it to run more smoothly.
+Report any issues on the Support page.

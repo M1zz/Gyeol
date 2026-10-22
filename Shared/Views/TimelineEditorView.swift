@@ -80,12 +80,12 @@ struct TimelineEditorView: View {
     }
 
     private var navigationTitle: String {
-        if timeline != nil { return "타임라인 설정" }
-        return tagFilter == nil ? "새 타임라인" : "태그 타임라인 저장"
+        if timeline != nil { return String(localized: "타임라인 설정") }
+        return tagFilter == nil ? String(localized: "새 타임라인") : String(localized: "태그 타임라인 저장")
     }
 
     private var confirmTitle: String {
-        timeline == nil && tagFilter == nil ? "만들기" : "저장"
+        timeline == nil && tagFilter == nil ? String(localized: "만들기") : String(localized: "저장")
     }
 
     private func save() {

@@ -189,7 +189,7 @@ struct EventEditorView: View {
             }
             .dismissKeyboardOnScroll()
             .dismissesKeyboardOnOutsideTap(space: Self.space, isEditing: focused != nil) { focused = nil }
-            .navigationTitle(event == nil ? "사건 추가" : "사건 수정")
+            .navigationTitle(event == nil ? String(localized: "사건 추가") : String(localized: "사건 수정"))
             .inlineNavigationTitle()
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
@@ -268,8 +268,8 @@ struct EventEditorView: View {
     }
 
     private var directPickLabel: String {
-        if isLoadingPhoto { return "불러오는 중…" }
-        return photoData == nil ? "직접 찾기" : "사진 바꾸기"
+        if isLoadingPhoto { return String(localized: "불러오는 중…") }
+        return photoData == nil ? String(localized: "직접 찾기") : String(localized: "사진 바꾸기")
     }
 
     /// Offers the photos already sitting in the library for this card's date, then hands
