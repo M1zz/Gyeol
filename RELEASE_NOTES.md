@@ -70,3 +70,9 @@ Un souci ? Écrivez-nous via Assistance.
 Grazie di usare Yeoul.
 Abbiamo reso l’app più stabile.
 Segnalaci i problemi in Supporto.
+
+### 앱스토어 (pt-BR)
+
+Obrigado por usar o Yeoul.
+Deixamos o app mais estável.
+Conte problemas na página de Suporte.

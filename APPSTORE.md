@@ -560,3 +560,54 @@ Scegli la scheda adatta a ogni evento: Classico con il testo in primo piano, Pos
 
 Su iPhone e iPad
 Con iCloud ritrovi gli stessi dati su tutti i tuoi dispositivi.
+
+## pt-BR
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-pt-BR.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-pt-BR.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-pt-BR.html
+
+### 이름
+
+Yeoul: linha do tempo real
+
+### 부제
+
+Memórias com fotos
+
+### 키워드
+
+diário,marcos,história,aniversário,viagem,família,bebê,eventos,álbum,casal,casamento,hashtag,vida
+
+### 프로모션 텍스트
+
+Três dias e cinco dias ficam em 3:5, e dois anos viram uma linha pontilhada. Junte fotos e histórias numa linha vertical que acompanha o tempo real.
+
+### 설명
+
+O Yeoul é uma linha do tempo vertical em que o espaço entre os eventos cresce com o tempo que realmente passou.
+Três dias e cinco dias ficam na proporção de 3:5, e um intervalo longo, como dois anos, se dobra numa linha pontilhada com a legenda “2 anos e 4 meses”. O ritmo do seu passado aparece num relance.
+
+Várias linhas do tempo
+Crie uma linha do tempo para cada tema, como o crescimento do bebê, um namoro, um novo emprego ou uma viagem, cada uma com seu nome e sua cor.
+
+Fotos e histórias em cada evento
+Escreva a data, o título e as notas e adicione uma foto. Escolha a data e o Yeoul busca na sua fototeca as fotos tiradas naquele dia, ou você mesmo escolhe uma.
+Toque num evento na linha do tempo e a foto e as notas se abrem ali mesmo.
+
+Conecte eventos com hashtags
+Adicione hashtags aos seus eventos e reúna os que compartilham uma tag, de todas as linhas do tempo, numa linha do tempo nova. Se gostar, salve.
+
+Quatro designs de cartão
+Escolha o cartão que combina com cada evento: Clássico, com o texto em destaque, Pôster, com a foto em tela cheia, Filme ou Margem.
+
+No iPhone e no iPad
+Com o iCloud, os mesmos registros ficam em todos os seus dispositivos.

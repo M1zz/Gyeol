@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -100,6 +100,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Collega gli eventi<br>con gli hashtag", "I dati sparsi diventano una nuova timeline"),
         ("05-editor.png", "dark", "Uno stile di scheda<br>per ogni evento", "Data, note e tag in una sola schermata"),
     ],
+    "pt-BR": [
+        ("01-trip.png", "hero-bleed", "Uma linha do tempo que<br>se estica com o tempo", "Três e cinco dias em 3:5, intervalos longos em pontos"),
+        ("02-iceland.png", "left-text", "Guarde o dia<br>junto com as fotos", "Quatro designs de cartão à escolha"),
+        ("03-expand.png", "text-bottom", "Toque e abre<br>ali mesmo", "Fotos e histórias num relance"),
+        ("04-tag.png", "flat-rotate", "Conecte eventos<br>com hashtags", "Registros soltos viram uma nova linha do tempo"),
+        ("05-editor.png", "dark", "Um design de cartão<br>para cada evento", "Data, notas e tags numa só tela"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -169,6 +176,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Tocca e si apre sul posto", "Foto e storie a colpo d’occhio"),
         ("ipad-03-tag.png", "Collega gli eventi con gli hashtag", "I dati sparsi diventano una nuova timeline"),
         ("ipad-04-editor.png", "Conserva foto e storia del giorno", "Data, note, tag e stile di scheda"),
+    ],
+    "pt-BR": [
+        ("ipad-01-trip.png", "Uma linha do tempo que se estica com o tempo", "Três e cinco dias em 3:5, intervalos longos em pontos"),
+        ("ipad-02-expand.png", "Toque e abre ali mesmo", "Fotos e histórias num relance"),
+        ("ipad-03-tag.png", "Conecte eventos com hashtags", "Registros soltos viram uma nova linha do tempo"),
+        ("ipad-04-editor.png", "Guarde as fotos e a história do dia", "Data, notas, tags e design do cartão"),
     ],
 }
 IPAD_CSS = f"""
