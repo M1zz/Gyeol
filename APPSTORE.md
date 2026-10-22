@@ -356,3 +356,54 @@ Yeoul — вертикальный таймлайн, где расстояние
 
 На iPhone и iPad
 С iCloud одни и те же записи доступны на всех ваших устройствах.
+
+## es
+
+### 지원 URL
+
+https://m1zz.github.io/Gyeol/support-es.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/Gyeol/privacy-es.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/Gyeol/index-es.html
+
+### 이름
+
+Yeoul: línea de tiempo real
+
+### 부제
+
+Tus recuerdos con fotos
+
+### 키워드
+
+diario,hitos,historia,aniversario,viaje,familia,bebé,eventos,álbum,pareja,boda,etiquetas,vida
+
+### 프로모션 텍스트
+
+Tres días y cinco días quedan a 3:5, y dos años se pliegan en una línea de puntos. Suma fotos e historias a una línea vertical que se estira con el tiempo real.
+
+### 설명
+
+Yeoul es una línea de tiempo vertical en la que el espacio entre eventos crece con el tiempo que pasó de verdad.
+Tres días y cinco días quedan a una distancia de 3:5, y un vacío largo, como dos años, se pliega en una línea de puntos con la etiqueta «2 años 4 meses». El ritmo de tu pasado se ve de un vistazo.
+
+Varias líneas de tiempo
+Crea una línea de tiempo para cada tema, como el crecimiento de tu bebé, una relación, un nuevo trabajo o un viaje, y ponle su propio nombre y color.
+
+Fotos e historias en cada evento
+Escribe una fecha, un título y unas notas, y añade una foto. Elige la fecha y Yeoul busca en tu fototeca las fotos que hiciste ese día, o puedes elegir una tú mismo.
+Toca un evento en la línea de tiempo y su foto y sus notas se abren en el mismo sitio.
+
+Une eventos con hashtags
+Añade hashtags a tus eventos y reúne los que comparten etiqueta, de todas tus líneas de tiempo, en una línea nueva. Si te gusta, guárdala.
+
+Cuatro diseños de tarjeta
+Elige la tarjeta que mejor le va a cada evento: Clásico, con el texto primero; Póster, con la foto a sangre; Película; o Margen.
+
+En iPhone y iPad
+iCloud mantiene los mismos registros en todos tus dispositivos.

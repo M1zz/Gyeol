@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -72,6 +72,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Собирайте события<br>по хештегам", "Разрозненные записи становятся новым таймлайном"),
         ("05-editor.png", "dark", "Оформление<br>для каждого события", "Дата, заметка и теги на одном экране"),
     ],
+    "es": [
+        ("01-trip.png", "hero-bleed", "Una línea de tiempo<br>que se estira con el tiempo", "Tres y cinco días a 3:5; los vacíos largos, en puntos"),
+        ("02-iceland.png", "left-text", "Guarda el día<br>con sus fotos", "Cuatro diseños de tarjeta a elegir"),
+        ("03-expand.png", "text-bottom", "Toca y se abre<br>en el mismo sitio", "Fotos e historias de un vistazo"),
+        ("04-tag.png", "flat-rotate", "Une eventos<br>con hashtags", "Los registros sueltos forman una línea nueva"),
+        ("05-editor.png", "dark", "Un diseño de tarjeta<br>para cada evento", "Fecha, notas y etiquetas en una pantalla"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -117,6 +124,12 @@ SHOTS_IPAD = {
         ("ipad-02-expand.png", "Нажмите — и всё раскроется на месте", "Фото и истории с первого взгляда"),
         ("ipad-03-tag.png", "Собирайте события по хештегам", "Разрозненные записи становятся новым таймлайном"),
         ("ipad-04-editor.png", "Фото и история того дня", "Дата, заметка, теги и оформление карточки"),
+    ],
+    "es": [
+        ("ipad-01-trip.png", "Una línea de tiempo que se estira con el tiempo", "Tres y cinco días a 3:5; los vacíos largos, en puntos"),
+        ("ipad-02-expand.png", "Toca y se abre en el mismo sitio", "Fotos e historias de un vistazo"),
+        ("ipad-03-tag.png", "Une eventos con hashtags", "Los registros sueltos forman una línea nueva"),
+        ("ipad-04-editor.png", "Guarda las fotos y la historia del día", "Fecha, notas, etiquetas y diseño de tarjeta"),
     ],
 }
 IPAD_CSS = f"""

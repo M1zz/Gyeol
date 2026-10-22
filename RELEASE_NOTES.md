@@ -46,3 +46,9 @@ Yeoulをご利用いただきありがとうございます。
 Спасибо, что пользуетесь Yeoul.
 Мы сделали приложение стабильнее.
 О проблемах пишите в поддержку.
+
+### 앱스토어 (es)
+
+Gracias por usar Yeoul.
+Hemos pulido la app para que vaya mejor.
+Cuéntanos tus problemas en Soporte.
