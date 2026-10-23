@@ -445,6 +445,154 @@
         }
       }
     },
+    "${timeline}에 ${eventTitle} 기록하기" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapsat ${eventTitle} do ${timeline}"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem ${eventTitle} i ${timeline}"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${eventTitle} in ${timeline} festhalten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καταγραφή ${eventTitle} στο ${timeline}"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log ${eventTitle} in ${timeline}"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log ${eventTitle} in ${timeline}"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anotar ${eventTitle} en ${timeline}"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna ${eventTitle} aikajanalle ${timeline}"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter ${eventTitle} dans ${timeline}"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catat ${eventTitle} di ${timeline}"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annota ${eventTitle} in ${timeline}"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${timeline}に${eventTitle}を記録"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${timeline}에 ${eventTitle} 기록하기"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre ${eventTitle} i ${timeline}"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leg ${eventTitle} vast in ${timeline}"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz ${eventTitle} w ${timeline}"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Registrar ${eventTitle} em ${timeline}"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Записать ${eventTitle} в ${timeline}"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara ${eventTitle} i ${timeline}"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึก ${eventTitle} ลงใน ${timeline}"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "${eventTitle} olayını ${timeline} içine kaydet"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi ${eventTitle} vào ${timeline}"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 ${timeline} 中记录 ${eventTitle}"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 ${timeline} 中記錄 ${eventTitle}"
+          }
+        }
+      }
+    },
     "%@ 디자인" : {
       "localizations" : {
         "cs" : {
@@ -622,13 +770,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%lld photos taken on %@"
+            "value" : "Photos taken on %@: %lld"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%lld photos taken on %@"
+            "value" : "Photos taken on %@: %lld"
           }
         },
         "es" : {
@@ -1629,154 +1777,6 @@
         }
       }
     },
-    "%lld월" : {
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "da" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "en-GB" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "fi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "id" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld月"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld월"
-          }
-        },
-        "nb" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld月"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld月"
-          }
-        }
-      }
-    },
     "%lld월 %lld일" : {
       "localizations" : {
         "cs" : {
@@ -2549,13 +2549,13 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Added ‘%@’ to ‘%@’."
+            "value" : "Added ‘%2$@’ to ‘%1$@’."
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Added ‘%@’ to ‘%@’."
+            "value" : "Added ‘%2$@’ to ‘%1$@’."
           }
         },
         "es" : {
@@ -2657,13 +2657,13 @@
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "已将“%@”记入“%@”。"
+            "value" : "已将“%2$@”记入“%1$@”。"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "已將「%@」記入「%@」。"
+            "value" : "已將「%2$@」記入「%1$@」。"
           }
         }
       }
@@ -6968,150 +6968,150 @@
         }
       }
     },
-    "사건 %lld개 · 마지막 %@.%@" : {
+    "사건 %lld개 · 마지막 %@" : {
       "localizations" : {
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Událostí: %lld · poslední %@.%@"
+            "value" : "Událostí: %lld · poslední %@"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Begivenheder: %lld · seneste %@.%@"
+            "value" : "Begivenheder: %lld · seneste %@"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ereignisse: %lld · zuletzt %@.%@"
+            "value" : "Ereignisse: %lld · zuletzt %@"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Γεγονότα: %lld · τελευταίο %@.%@"
+            "value" : "Γεγονότα: %lld · τελευταίο %@"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%lld events · last %@.%@"
+            "value" : "Events: %lld · last %@"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%lld events · last %@.%@"
+            "value" : "Events: %lld · last %@"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eventos: %lld · último %@.%@"
+            "value" : "Eventos: %lld · último %@"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tapahtumia: %lld · viimeisin %@.%@"
+            "value" : "Tapahtumia: %lld · viimeisin %@"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Événements : %lld · dernier %@.%@"
+            "value" : "Événements : %lld · dernier %@"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Peristiwa: %lld · terakhir %@.%@"
+            "value" : "Peristiwa: %lld · terakhir %@"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eventi: %lld · ultimo %@.%@"
+            "value" : "Eventi: %lld · ultimo %@"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "イベント%lld件 · 最後は%@.%@"
+            "value" : "イベント%lld件 · 最後は%@"
           }
         },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "사건 %lld개 · 마지막 %@.%@"
+            "value" : "사건 %lld개 · 마지막 %@"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hendelser: %lld · siste %@.%@"
+            "value" : "Hendelser: %lld · siste %@"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gebeurtenissen: %lld · laatste %@.%@"
+            "value" : "Gebeurtenissen: %lld · laatste %@"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wydarzenia: %lld · ostatnie %@.%@"
+            "value" : "Wydarzenia: %lld · ostatnie %@"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Eventos: %lld · último %@.%@"
+            "value" : "Eventos: %lld · último %@"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Событий: %lld · последнее %@.%@"
+            "value" : "Событий: %lld · последнее %@"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Händelser: %lld · senaste %@.%@"
+            "value" : "Händelser: %lld · senaste %@"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เหตุการณ์ %lld รายการ · ล่าสุด %@.%@"
+            "value" : "เหตุการณ์ %lld รายการ · ล่าสุด %@"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Olay: %lld · son %@.%@"
+            "value" : "Olay: %lld · son %@"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sự kiện: %lld · gần nhất %@.%@"
+            "value" : "Sự kiện: %lld · gần nhất %@"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%lld 个事件 · 最近一次 %@.%@"
+            "value" : "%lld 个事件 · 最近一次 %@"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%lld 個事件 · 最近一次 %@.%@"
+            "value" : "%lld 個事件 · 最近一次 %@"
           }
         }
       }
@@ -7731,7 +7731,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Επεξεργασία γεγονότος"
+            "value" : "Επεξεργασία"
           }
         },
         "en" : {
@@ -7761,7 +7761,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Modifier l’événement"
+            "value" : "Modifier"
           }
         },
         "id" : {

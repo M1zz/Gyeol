@@ -45,6 +45,20 @@ struct TimelineTrackView: View {
                 .frame(maxWidth: .infinity)
             }
             .scrollIndicators(.hidden)
+            #if DEBUG
+            .onAppear {
+                // 스토어 스크린샷: 정한 사건이 화면 위쪽에 오게 둔다.
+                let target = ScreenshotDemo.index("-demoScroll") ?? ScreenshotDemo.index("-demoExpand")
+                guard ScreenshotDemo.isActive, let i = target, events.indices.contains(i) else { return }
+                let anchorY = ScreenshotDemo.value("-demoAnchor").flatMap(Double.init) ?? 0
+                // 화면이 밀려 들어오는 동안에는 스크롤이 덜 간다 — 다 들어온 뒤에 한 번 더.
+                for delay in [0.4, 1.2, 2.0] {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
+                        proxy.scrollTo(events[i].id, anchor: UnitPoint(x: 0, y: anchorY))
+                    }
+                }
+            }
+            #endif
         }
     }
 

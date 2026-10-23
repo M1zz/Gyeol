@@ -1,12 +1,6 @@
 import Foundation
 
 extension Date {
-    /// "9.3" style label used in list subtitles.
-    var monthDayLabel: String {
-        let c = Calendar.current.dateComponents([.month, .day], from: self)
-        return "\(c.month ?? 0).\(c.day ?? 0)"
-    }
-
     var yearLabel: String {
         String(Calendar.current.component(.year, from: self))
     }
@@ -20,8 +14,8 @@ extension Date {
     /// "5" — the oversized numeral the editorial card leads with.
     var dayNumber: String { String(Calendar.current.component(.day, from: self)) }
 
-    /// "3월"
-    var monthLabel: String { String(localized: "\(Calendar.current.component(.month, from: self))월") }
+    /// "3월" · "Mar" · "3月" — the month beside the oversized numeral, in the reader's language.
+    var monthLabel: String { formatted(.dateTime.month(.abbreviated)) }
 
     /// "2019.03.05" — stamped on the film card like a date-back print.
     var stampLabel: String {

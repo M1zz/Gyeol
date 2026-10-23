@@ -41,6 +41,16 @@ struct TimelineDetailView: View {
             if events.contains(where: { !$0.tags.isEmpty }) { TagTimelineTip.hasTaggedEvent = true }
         }
         .background(Palette.groupedBackground)
+        #if DEBUG
+        .onAppear {
+            guard ScreenshotDemo.isActive else { return }
+            if let i = ScreenshotDemo.index("-demoExpand"), events.indices.contains(i) { expanded = events[i].id }
+            if let i = ScreenshotDemo.index("-demoEdit"), events.indices.contains(i) {
+                let event = events[i]
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) { editingEvent = event }
+            }
+        }
+        #endif
         .navigationTitle(timeline.name)
         .inlineNavigationTitle()
         .toolbar {

@@ -18,6 +18,14 @@ struct GyeolApp: App {
             if isNew { _ = LeeoEngagement.shared.registerSignificantEvent() }
         }
 
+        #if DEBUG
+        // 스토어 스크린샷: 언어별 예시 기록을 넣고, 팁은 감춘다 (Shared/Support/ScreenshotDemo.swift)
+        if ScreenshotDemo.isActive {
+            ScreenshotDemo.seedIfRequested(into: AppContainer.shared)
+            Tips.hideAllTipsForTesting()
+        }
+        #endif
+
         // 타임라인 화면의 사용 팁 (Shared/Support/FeatureTips.swift)
         try? Tips.configure()
     }

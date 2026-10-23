@@ -8,10 +8,11 @@ struct TimelineListView: View {
     @State private var showingNew = false
     @State private var showingSettings = false
     @State private var showingOnboarding = false
+    @State private var path = NavigationPath()
     @AppStorage(YeoulOnboardingView.seenKey) private var hasSeenOnboarding = false
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             Group {
                 if timelines.isEmpty {
                     ContentUnavailableView {
@@ -57,6 +58,9 @@ struct TimelineListView: View {
                 YeoulOnboardingView()
             }
             .onAppear(perform: presentOnboardingIfNeeded)
+            #if DEBUG
+            .onAppear(perform: openDemoScreen)
+            #endif
         }
     }
 
@@ -70,6 +74,21 @@ struct TimelineListView: View {
             hasSeenOnboarding = true
         }
     }
+
+    #if DEBUG
+    /// 스토어 스크린샷이 찍을 화면으로 곧장 간다.
+    private func openDemoScreen() {
+        guard ScreenshotDemo.isActive, path.isEmpty else { return }
+        switch ScreenshotDemo.screen {
+        case "trip":
+            if let i = ScreenshotDemo.index("-demoTimeline"), timelines.indices.contains(i) { path.append(timelines[i]) }
+        case "tag":
+            if let tag = ScreenshotDemo.value("-demoTag") { path.append(TagRoute(tag: tag)) }
+        default:
+            break
+        }
+    }
+    #endif
 
     private func events(of timeline: Timeline) -> [TimelineEvent] {
         guard let tag = timeline.tagFilter else { return timeline.sortedEvents }
@@ -111,7 +130,7 @@ private struct TimelineRow: View {
     private var subtitle: String {
         let kind = timeline.isTagTimeline ? String(localized: "태그 타임라인 · ") : ""
         guard let last = events.last else { return kind + String(localized: "사건 없음") }
-        return kind + String(localized: "사건 \(events.count)개 · 마지막 \(last.date.yearLabel).\(last.date.monthDayLabel)")
+        return kind + String(localized: "사건 \(events.count)개 · 마지막 \(last.date.formatted(date: .numeric, time: .omitted))")
     }
 }
 
