@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "Isla’s first year",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "The day Isla was born",
+     "note": "4 a.m., 3.2 kg. Louder than we expected.",
+     "tags": [
+      "firsts"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "Coming home",
+     "note": "Twenty minutes just to fit the car seat.",
+     "tags": [
+      "family"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "First bath",
+     "note": "",
+     "tags": [
+      "firsts"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "First smile",
+     "note": "She beamed when she heard Dad’s voice.",
+     "tags": [
+      "firsts"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "Started weaning",
+     "note": "Three spoonfuls of baby rice.",
+     "tags": [
+      "family"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "First birthday",
+     "note": "She liked the candle more than the cake.",
+     "tags": [
+      "family"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "A month in Jeju",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "Landed in Jeju",
+     "note": "",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "Sunrise run along the coast",
+     "note": "",
+     "tags": [
+      "jeju",
+      "running"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "Back home",
+     "note": "",
+     "tags": [
+      "home"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Our holidays",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "Spring flowers in Jeju",
+     "note": "",
+     "tags": [
+      "jeju",
+      "spring"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "Sand dunes by the sea",
+     "note": "A tiny flower in the sand.",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "Autumn woodland walk",
+     "note": "",
+     "tags": [
+      "autumn"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "First day in Iceland",
+     "note": "",
+     "tags": [
+      "iceland",
+      "summer"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "Waterfall on the cliffs",
+     "note": "",
+     "tags": [
+      "iceland"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "The last waterfall",
+     "note": "We promised to come back in winter.",
+     "tags": [
+      "iceland"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "Back home",
+     "note": "",
+     "tags": [
+      "home"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Work life",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "First day at work",
+     "note": "Hated my ID badge photo.",
+     "tags": [
+      "work"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "New job",
+     "note": "",
+     "tags": [
+      "work"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "Became team leader",
+     "note": "",
+     "tags": [
+      "work",
+      "running"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "firsts",
+   "color": "8A5A9E",
+   "tagFilter": "firsts"
+  }
+ ]
+}

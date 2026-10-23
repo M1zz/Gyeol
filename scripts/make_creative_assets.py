@@ -34,6 +34,9 @@ SPEC = {
     "search": (3840, 2560, (836, 765, 3004, 1795)),
 }
 
+# 검색 결과 글 칸을 넓게 쓰는 언어 (헤드라인이 두 줄에 안 들어간다)
+WIDE_SEARCH = {"de", "fr", "it", "vi", "cs", "da", "el", "fi", "id", "nb", "nl", "sv"}
+
 # 검색 결과: 눈썹글(그 나라 검색어) · 헤드라인 · 보조 한 줄. 기기 화면(타임라인)과 같은 이야기다.
 SEARCH = {
     "ko": ("타임라인 기록", "3일은 3일만큼,<br>2년은 2년만큼", "사건 사이가 실제로 흐른 시간만큼 벌어져요"),
@@ -44,19 +47,19 @@ SEARCH = {
     "ja": ("タイムライン 記録", "3日は3日分、<br>2年は2年分", "イベントの間隔が実際に流れた時間どおりにあきます"),
     "ru": ("таймлайн дневник", "3 дня — это 3 дня,<br>2 года — это 2 года", "Расстояния между событиями равны реально прошедшему времени"),
     "es": ("diario línea de tiempo", "3 días son 3 días,<br>2 años son 2 años", "La distancia entre eventos es el tiempo que pasó de verdad"),
-    "de": ("Zeitleiste Tagebuch", "3 Tage bleiben 3 Tage,<br>2 Jahre bleiben 2 Jahre", "Der Abstand zwischen Ereignissen entspricht der wirklich vergangenen Zeit"),
+    "de": ("Zeitleiste Tagebuch", "3 Tage sind 3 Tage,<br>2 Jahre sind 2 Jahre", "Die Abstände zeigen die wirklich vergangene Zeit"),
     "fr": ("frise journal", "3 jours restent 3 jours,<br>2 ans restent 2 ans", "L’écart entre les événements suit le temps réellement écoulé"),
-    "it": ("timeline diario", "3 giorni restano 3 giorni,<br>2 anni restano 2 anni", "La distanza tra gli eventi è il tempo realmente trascorso"),
+    "it": ("timeline diario", "3 giorni sono 3 giorni,<br>2 anni sono 2 anni", "Le distanze seguono il tempo trascorso davvero"),
     "pt-BR": ("linha do tempo diário", "3 dias são 3 dias,<br>2 anos são 2 anos", "A distância entre eventos é o tempo que realmente passou"),
     "th": ("ไทม์ไลน์ ไดอารี่", "3 วันก็คือ 3 วัน<br>2 ปีก็คือ 2 ปี", "ระยะห่างระหว่างเหตุการณ์ตรงกับเวลาที่ผ่านไปจริง"),
     "vi": ("dòng thời gian nhật ký", "3 ngày vẫn là 3 ngày,<br>2 năm vẫn là 2 năm", "Khoảng cách giữa các sự kiện bằng thời gian thực đã trôi qua"),
     "cs": ("časová osa deník", "3 dny zůstanou 3 dny,<br>2 roky zůstanou 2 roky", "Mezery mezi událostmi odpovídají skutečně uplynulému času"),
     "da": ("tidslinje dagbog", "3 dage forbliver 3 dage,<br>2 år forbliver 2 år", "Afstanden mellem begivenheder svarer til den tid, der faktisk er gået"),
-    "el": ("χρονολόγιο ημερολόγιο", "Οι 3 μέρες μένουν 3 μέρες,<br>τα 2 χρόνια μένουν 2 χρόνια", "Η απόσταση ανάμεσα στα γεγονότα είναι ο χρόνος που πέρασε πραγματικά"),
-    "fi": ("aikajana päiväkirja", "3 päivää pysyy 3 päivänä,<br>2 vuotta pysyy 2 vuotena", "Tapahtumien väli vastaa todellisuudessa kulunutta aikaa"),
+    "el": ("χρονολόγιο ημερολόγιο", "Ο χρόνος<br>όπως πέρασε", "3 μέρες ή 2 χρόνια, στη σωστή απόσταση"),
+    "fi": ("aikajana päiväkirja", "3 päivää on 3 päivää,<br>2 vuotta on 2 vuotta", "Välit vastaavat todella kulunutta aikaa"),
     "id": ("linimasa jurnal", "3 hari tetap 3 hari,<br>2 tahun tetap 2 tahun", "Jarak antarperistiwa sebesar waktu yang benar-benar berlalu"),
     "nb": ("tidslinje dagbok", "3 dager forblir 3 dager,<br>2 år forblir 2 år", "Avstanden mellom hendelsene tilsvarer tiden som faktisk har gått"),
-    "nl": ("tijdlijn dagboek", "3 dagen blijven 3 dagen,<br>2 jaar blijft 2 jaar", "De afstand tussen gebeurtenissen is de tijd die echt is verstreken"),
+    "nl": ("tijdlijn dagboek", "3 dagen zijn 3 dagen,<br>2 jaar is 2 jaar", "De afstand is de tijd die echt verstreek"),
     "pl": ("oś czasu dziennik", "3 dni to 3 dni,<br>2 lata to 2 lata", "Odstępy między wydarzeniami odpowiadają czasowi, który naprawdę minął"),
     "sv": ("tidslinje dagbok", "3 dagar förblir 3 dagar,<br>2 år förblir 2 år", "Avståndet mellan händelser är tiden som faktiskt har gått"),
     "tr": ("zaman çizelgesi günlük", "3 gün 3 gün kalır,<br>2 yıl 2 yıl kalır", "Olaylar arasındaki mesafe gerçekten geçen süre kadardır"),
@@ -158,7 +161,8 @@ def search_html(lang):
     W, H, (l, t, r, b) = SPEC["search"]
     eyebrow, headline, sub = SEARCH[lang]
     sw, sh = r - l, b - t
-    col = int(sw * 0.56)
+    # 낱말이 긴 언어는 글 칸을 넓힌다(기기 그림이 오른쪽으로 더 넘친다 — 그림은 잘려도 된다).
+    col = int(sw * (0.66 if lang in WIDE_SEARCH else 0.56))
     # 기기는 안전 영역 오른쪽 몫에 서서, 위아래로 넘쳐 화면 밖까지 이어진다(기기 그림은 잘려도 된다).
     ph_w = 1040
     ph_left = l + col + int(sw * 0.04)

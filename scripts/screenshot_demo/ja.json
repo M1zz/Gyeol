@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "ひなたの1年目",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "ひなたが生まれた日",
+     "note": "朝4時、3.2kg。思ったより大きな産声だった。",
+     "tags": [
+      "はじめて"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "おうちに帰った日",
+     "note": "チャイルドシートに乗せるだけで20分。",
+     "tags": [
+      "家族"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "はじめての沐浴",
+     "note": "",
+     "tags": [
+      "はじめて"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "はじめて笑った日",
+     "note": "パパの声に口元がほころんだ。",
+     "tags": [
+      "はじめて"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "離乳食スタート",
+     "note": "10倍がゆをスプーン3杯。",
+     "tags": [
+      "家族"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "1歳の誕生日",
+     "note": "ケーキよりろうそくに夢中だった。",
+     "tags": [
+      "家族"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "済州島で1か月暮らす",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "済州島に到着",
+     "note": "",
+     "tags": [
+      "済州島"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "朝の海辺ラン",
+     "note": "",
+     "tags": [
+      "済州島",
+      "ランニング"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "わが家へ",
+     "note": "",
+     "tags": [
+      "家"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "わたしたちの旅",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "済州の春の花道",
+     "note": "",
+     "tags": [
+      "済州島",
+      "春"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "海辺の砂丘",
+     "note": "砂の間に咲いた小さな花。",
+     "tags": [
+      "済州島"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "秋の森をお散歩",
+     "note": "",
+     "tags": [
+      "秋"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "アイスランド初日",
+     "note": "",
+     "tags": [
+      "アイスランド",
+      "夏"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "海辺の崖の滝",
+     "note": "",
+     "tags": [
+      "アイスランド"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "最後の滝",
+     "note": "今度は冬に来ようと約束した。",
+     "tags": [
+      "アイスランド"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "わが家へ",
+     "note": "",
+     "tags": [
+      "家"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "仕事の記録",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "初出勤",
+     "note": "社員証の写真が気に入らない。",
+     "tags": [
+      "仕事"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "転職",
+     "note": "",
+     "tags": [
+      "仕事"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "はじめてのリーダー",
+     "note": "",
+     "tags": [
+      "仕事",
+      "ランニング"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "はじめて",
+   "color": "8A5A9E",
+   "tagFilter": "はじめて"
+  }
+ ]
+}

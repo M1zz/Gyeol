@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "Almas första år",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "Alma föddes",
+     "note": "Klockan fyra på natten, 3,2 kg. Hon skrek högre än vi trodde.",
+     "tags": [
+      "förstagången"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "Hem från BB",
+     "note": "Tjugo minuter bara för att få fast babyskyddet.",
+     "tags": [
+      "familj"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "Första badet",
+     "note": "",
+     "tags": [
+      "förstagången"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "Första leendet",
+     "note": "Hon log när hon hörde pappas röst.",
+     "tags": [
+      "förstagången"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "Första smakportionen",
+     "note": "Tre skedar risvälling.",
+     "tags": [
+      "familj"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "Första födelsedagen",
+     "note": "Ljuset var roligare än tårtan.",
+     "tags": [
+      "familj"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "En månad på Jeju",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "Landade på Jeju",
+     "note": "",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "Morgonlöpning vid havet",
+     "note": "",
+     "tags": [
+      "jeju",
+      "löpning"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "Hemma igen",
+     "note": "",
+     "tags": [
+      "hemma"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Våra resor",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "Vårblommor på Jeju",
+     "note": "",
+     "tags": [
+      "jeju",
+      "vår"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "Sanddyner vid havet",
+     "note": "En pytteliten blomma i sanden.",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "Höstpromenad i skogen",
+     "note": "",
+     "tags": [
+      "höst"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "Första dagen på Island",
+     "note": "",
+     "tags": [
+      "island",
+      "sommar"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "Vattenfall på klipporna",
+     "note": "",
+     "tags": [
+      "island"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "Det sista vattenfallet",
+     "note": "Vi lovade att komma tillbaka på vintern.",
+     "tags": [
+      "island"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "Hemma igen",
+     "note": "",
+     "tags": [
+      "hemma"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Jobbet",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "Första arbetsdagen",
+     "note": "Fotot på passerkortet blev hemskt.",
+     "tags": [
+      "jobb"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "Nytt jobb",
+     "note": "",
+     "tags": [
+      "jobb"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "Blev teamledare",
+     "note": "",
+     "tags": [
+      "jobb",
+      "löpning"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "förstagången",
+   "color": "8A5A9E",
+   "tagFilter": "förstagången"
+  }
+ ]
+}

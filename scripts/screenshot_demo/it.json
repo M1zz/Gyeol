@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "Il primo anno di Sofia",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "È nata Sofia",
+     "note": "Le quattro del mattino, 3,2 kg. Ha pianto più forte del previsto.",
+     "tags": [
+      "primavolta"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "Finalmente a casa",
+     "note": "Venti minuti solo per sistemare l’ovetto.",
+     "tags": [
+      "famiglia"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "Primo bagnetto",
+     "note": "",
+     "tags": [
+      "primavolta"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "Primo sorriso",
+     "note": "Ha sorriso sentendo la voce di papà.",
+     "tags": [
+      "primavolta"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "Inizio dello svezzamento",
+     "note": "Tre cucchiai di crema di riso.",
+     "tags": [
+      "famiglia"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "Primo compleanno",
+     "note": "Le è piaciuta più la candelina della torta.",
+     "tags": [
+      "famiglia"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Un mese a Jeju",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "Arrivo a Jeju",
+     "note": "",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "Corsa all’alba sul mare",
+     "note": "",
+     "tags": [
+      "jeju",
+      "corsa"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "Di nuovo a casa",
+     "note": "",
+     "tags": [
+      "casa"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "I nostri viaggi",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "Fiori di primavera a Jeju",
+     "note": "",
+     "tags": [
+      "jeju",
+      "primavera"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "Dune sul mare",
+     "note": "Un fiorellino nella sabbia.",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "Passeggiata nel bosco d’autunno",
+     "note": "",
+     "tags": [
+      "autunno"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "Primo giorno in Islanda",
+     "note": "",
+     "tags": [
+      "islanda",
+      "estate"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "Cascata sulla scogliera",
+     "note": "",
+     "tags": [
+      "islanda"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "L’ultima cascata",
+     "note": "Ci siamo promessi di tornare d’inverno.",
+     "tags": [
+      "islanda"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "Di nuovo a casa",
+     "note": "",
+     "tags": [
+      "casa"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Vita da ufficio",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "Primo giorno di lavoro",
+     "note": "La foto del badge è venuta malissimo.",
+     "tags": [
+      "lavoro"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "Nuovo lavoro",
+     "note": "",
+     "tags": [
+      "lavoro"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "Capo squadra",
+     "note": "",
+     "tags": [
+      "lavoro",
+      "corsa"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "primavolta",
+   "color": "8A5A9E",
+   "tagFilter": "primavolta"
+  }
+ ]
+}

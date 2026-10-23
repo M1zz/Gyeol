@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "Aniččin první rok",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "Narodila se Anička",
+     "note": "Čtyři ráno, 3,2 kg. Křičela víc, než jsme čekali.",
+     "tags": [
+      "poprvé"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "Cesta domů",
+     "note": "Dvacet minut jen na připoutání autosedačky.",
+     "tags": [
+      "rodina"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "První koupání",
+     "note": "",
+     "tags": [
+      "poprvé"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "První úsměv",
+     "note": "Usmála se, když uslyšela tátu.",
+     "tags": [
+      "poprvé"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "První příkrm",
+     "note": "Tři lžičky rýžové kaše.",
+     "tags": [
+      "rodina"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "První narozeniny",
+     "note": "Svíčka ji bavila víc než dort.",
+     "tags": [
+      "rodina"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Měsíc na Jeju",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "Přílet na Jeju",
+     "note": "",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "Ranní běh u moře",
+     "note": "",
+     "tags": [
+      "jeju",
+      "běh"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "Zpátky doma",
+     "note": "",
+     "tags": [
+      "domov"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Naše cesty",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "Jarní květy na Jeju",
+     "note": "",
+     "tags": [
+      "jeju",
+      "jaro"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "Duny u moře",
+     "note": "Drobná kytička v písku.",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "Podzimní procházka lesem",
+     "note": "",
+     "tags": [
+      "podzim"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "První den na Islandu",
+     "note": "",
+     "tags": [
+      "island",
+      "léto"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "Vodopád na útesu",
+     "note": "",
+     "tags": [
+      "island"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "Poslední vodopád",
+     "note": "Slíbili jsme si, že přijedeme v zimě.",
+     "tags": [
+      "island"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "Zpátky doma",
+     "note": "",
+     "tags": [
+      "domov"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Pracovní deník",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "První den v práci",
+     "note": "Fotka na kartě se nepovedla.",
+     "tags": [
+      "práce"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "Nová práce",
+     "note": "",
+     "tags": [
+      "práce"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "Poprvé vedoucí týmu",
+     "note": "",
+     "tags": [
+      "práce",
+      "běh"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "poprvé",
+   "color": "8A5A9E",
+   "tagFilter": "poprvé"
+  }
+ ]
+}

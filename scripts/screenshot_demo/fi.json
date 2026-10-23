@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "Ainon ensimmäinen vuosi",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "Aino syntyi",
+     "note": "Kello neljä aamulla, 3,2 kg. Huusi kovemmin kuin odotimme.",
+     "tags": [
+      "ensimmäinen"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "Kotiin",
+     "note": "Turvakaukalon kiinnittämiseen meni kaksikymmentä minuuttia.",
+     "tags": [
+      "perhe"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "Ensimmäinen kylpy",
+     "note": "",
+     "tags": [
+      "ensimmäinen"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "Ensimmäinen hymy",
+     "note": "Hymyili kuullessaan isin äänen.",
+     "tags": [
+      "ensimmäinen"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "Kiinteät ruoat alkoivat",
+     "note": "Kolme lusikallista riisivelliä.",
+     "tags": [
+      "perhe"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "Ensimmäiset synttärit",
+     "note": "Kynttilä kiinnosti enemmän kuin kakku.",
+     "tags": [
+      "perhe"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Kuukausi Jejulla",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "Saavuimme Jejulle",
+     "note": "",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "Aamulenkki meren rannalla",
+     "note": "",
+     "tags": [
+      "jeju",
+      "juoksu"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "Takaisin kotiin",
+     "note": "",
+     "tags": [
+      "koti"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Meidän matkat",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "Kevään kukat Jejulla",
+     "note": "",
+     "tags": [
+      "jeju",
+      "kevät"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "Hiekkadyynit meren rannalla",
+     "note": "Pieni kukka hiekassa.",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "Syysmetsäkävely",
+     "note": "",
+     "tags": [
+      "syksy"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "Ensimmäinen päivä Islannissa",
+     "note": "",
+     "tags": [
+      "islanti",
+      "kesä"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "Vesiputous kallioilla",
+     "note": "",
+     "tags": [
+      "islanti"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "Viimeinen vesiputous",
+     "note": "Lupasimme tulla takaisin talvella.",
+     "tags": [
+      "islanti"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "Takaisin kotiin",
+     "note": "",
+     "tags": [
+      "koti"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Työelämä",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "Ensimmäinen työpäivä",
+     "note": "Kulkukortin kuva on kamala.",
+     "tags": [
+      "työ"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "Uusi työpaikka",
+     "note": "",
+     "tags": [
+      "työ"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "Tiiminvetäjäksi",
+     "note": "",
+     "tags": [
+      "työ",
+      "juoksu"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "ensimmäinen",
+   "color": "8A5A9E",
+   "tagFilter": "ensimmäinen"
+  }
+ ]
+}

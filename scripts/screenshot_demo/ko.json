@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "우리 하린이의 첫 해",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "하린이가 태어난 날",
+     "note": "새벽 네 시, 3.2kg. 울음소리가 생각보다 컸다.",
+     "tags": [
+      "첫순간"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "집으로 온 날",
+     "note": "카시트에 앉히는 데만 이십 분.",
+     "tags": [
+      "가족"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "첫 목욕",
+     "note": "",
+     "tags": [
+      "첫순간"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "처음 웃은 날",
+     "note": "아빠 목소리에 입꼬리가 올라갔다.",
+     "tags": [
+      "첫순간"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "이유식 시작",
+     "note": "쌀미음 세 숟가락.",
+     "tags": [
+      "가족"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "첫 생일",
+     "note": "케이크보다 초를 더 좋아했다.",
+     "tags": [
+      "가족"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "제주 한 달 살기",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "제주 도착",
+     "note": "",
+     "tags": [
+      "제주"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "새벽 바닷길 달리기",
+     "note": "",
+     "tags": [
+      "제주",
+      "달리기"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "다시 집으로",
+     "note": "",
+     "tags": [
+      "집"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "우리의 여행",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "제주 봄 꽃길",
+     "note": "",
+     "tags": [
+      "제주",
+      "봄"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "바닷가 모래 언덕",
+     "note": "모래 사이에 핀 작은 꽃.",
+     "tags": [
+      "제주"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "가을 숲 산책",
+     "note": "",
+     "tags": [
+      "가을"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "아이슬란드 첫날",
+     "note": "",
+     "tags": [
+      "아이슬란드",
+      "여름"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "해안 절벽 폭포",
+     "note": "",
+     "tags": [
+      "아이슬란드"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "마지막 폭포",
+     "note": "다음엔 겨울에 오자고 약속했다.",
+     "tags": [
+      "아이슬란드"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "다시 집으로",
+     "note": "",
+     "tags": [
+      "집"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "회사 생활 기록",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "첫 출근",
+     "note": "사원증 사진이 마음에 안 들었다.",
+     "tags": [
+      "일"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "이직",
+     "note": "",
+     "tags": [
+      "일"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "첫 팀장",
+     "note": "",
+     "tags": [
+      "일",
+      "달리기"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "첫순간",
+   "color": "8A5A9E",
+   "tagFilter": "첫순간"
+  }
+ ]
+}

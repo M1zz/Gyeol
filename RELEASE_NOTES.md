@@ -7,144 +7,168 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 
 ### 앱스토어 (한국어)
 
-여울을 써 주셔서 고맙습니다.
-앱이 더 안정적으로 동작하도록 다듬었어요.
-불편한 점은 지원 페이지로 알려 주세요.
+이제 영어, 일본어 등 24개 언어로 쓸 수 있어요.
+처음 열면 쓰는 법을 차근차근 알려 드려요.
+단축어 앱에서 사건을 바로 기록할 수 있어요.
+설정에서 의견을 보내고 다음 기능을 미리 봐요.
 
-### 앱스토어 (en)
+### App Store (English)
 
-Thank you for using Yeoul.
-We polished it to run more smoothly.
-Report any issues on the Support page.
+Yeoul now speaks 24 languages.
+A short guide shows you around at first.
+Log an event right from Shortcuts.
+Send feedback and see what’s next.
 
-### 앱스토어 (en-GB)
+### App Store (en-GB)
 
-Thank you for using Yeoul.
-We polished it to run more smoothly.
-Report any issues on the Support page.
+Yeoul is now available in 24 languages.
+A short guide shows you around at first.
+Log an event straight from Shortcuts.
+Send feedback and see what’s next.
 
-### 앱스토어 (zh-Hans)
+### 앱스토어 (중국어 간체)
 
-感谢使用 Yeoul。
-我们让 App 运行得更稳定了。
-遇到问题请到支持页面告诉我们。
+Yeoul 现已支持 24 种语言。
+首次打开时会有简短的使用引导。
+可在快捷指令中直接记录事件。
+在设置中发送反馈，抢先看新功能计划。
 
-### 앱스토어 (zh-Hant)
+### 앱스토어 (중국어 번체)
 
-感謝使用 Yeoul。
-我們讓 App 運作得更穩定了。
-遇到問題請到支援頁面告訴我們。
+Yeoul 現已支援 24 種語言。
+第一次打開時會有簡短的使用導覽。
+可在捷徑中直接記錄事件。
+在設定中傳送意見，搶先看新功能計畫。
 
-### 앱스토어 (ja)
+### 앱스토어 (일본어)
 
-Yeoulをご利用いただきありがとうございます。
-アプリがより安定して動くように整えました。
-お困りのことはサポートページまでお知らせください。
+Yeoulが24の言語に対応しました。
+初回起動時に使い方をご案内します。
+ショートカットからすぐに記録できます。
+設定からご意見の送信と今後の予定の確認ができます。
 
-### 앱스토어 (ru)
+### 앱스토어 (러시아어)
 
-Спасибо, что пользуетесь Yeoul.
-Мы сделали приложение стабильнее.
-О проблемах пишите в поддержку.
+Yeoul теперь доступен на 24 языках.
+При первом запуске покажем, что к чему.
+Добавляйте события прямо из Команд.
+В настройках: отзыв и планы на будущее.
 
-### 앱스토어 (es)
+### 앱스토어 (스페인어)
 
-Gracias por usar Yeoul.
-Hemos pulido la app para que vaya mejor.
-Cuéntanos tus problemas en Soporte.
+Yeoul ya está disponible en 24 idiomas.
+Una breve guía te acompaña al empezar.
+Anota eventos directamente desde Atajos.
+Envía ideas y descubre lo que viene.
 
-### 앱스토어 (de)
+### 앱스토어 (독일어)
 
-Danke, dass du Yeoul nutzt.
-Wir haben die App stabiler gemacht.
-Probleme melde uns gern im Support.
+Yeoul gibt es jetzt in 24 Sprachen.
+Eine kurze Einführung hilft beim Start.
+Ereignisse per Kurzbefehl festhalten.
+Feedback senden und sehen, was kommt.
 
-### 앱스토어 (fr)
+### 앱스토어 (프랑스어)
 
-Merci d’utiliser Yeoul.
-Nous avons rendu l’app plus stable.
-Un souci ? Écrivez-nous via Assistance.
+Yeoul parle désormais 24 langues.
+Un court guide vous accueille au départ.
+Notez un événement depuis Raccourcis.
+Donnez votre avis et voyez la suite.
 
-### 앱스토어 (it)
+### 앱스토어 (이탈리아어)
 
-Grazie di usare Yeoul.
-Abbiamo reso l’app più stabile.
-Segnalaci i problemi in Supporto.
+Yeoul ora parla 24 lingue.
+Una breve guida ti aiuta all’inizio.
+Annota un evento subito da Comandi.
+Invia un parere e scopri le novità.
 
-### 앱스토어 (pt-BR)
+### 앱스토어 (포르투갈어 브라질)
 
-Obrigado por usar o Yeoul.
-Deixamos o app mais estável.
-Conte problemas na página de Suporte.
+O Yeoul agora fala 24 idiomas.
+Um guia rápido te orienta no começo.
+Registre eventos direto pelo Atalhos.
+Mande sua opinião e veja o que vem aí.
 
-### 앱스토어 (th)
+### 앱스토어 (태국어)
 
-ขอบคุณที่ใช้ Yeoul
-เราปรับให้แอปเสถียรขึ้นแล้ว
-พบปัญหาแจ้งได้ที่หน้าการสนับสนุน
+Yeoul รองรับ 24 ภาษาแล้ว
+เปิดครั้งแรกมีคำแนะนำการใช้งานสั้นๆ
+บันทึกเหตุการณ์จากแอปคำสั่งลัดได้เลย
+ส่งความเห็นและดูฟีเจอร์ใหม่ที่กำลังจะมา
 
-### 앱스토어 (vi)
+### 앱스토어 (베트남어)
 
-Cảm ơn bạn đã dùng Yeoul.
-Chúng tôi đã làm ứng dụng ổn định hơn.
-Gặp sự cố, hãy báo ở trang Hỗ trợ.
+Yeoul nay đã có 24 ngôn ngữ.
+Lần đầu mở app sẽ có hướng dẫn ngắn.
+Ghi lại sự kiện ngay từ app Phím tắt.
+Gửi góp ý và xem tính năng sắp ra mắt.
 
-### 앱스토어 (cs)
+### 앱스토어 (체코어)
 
-Děkujeme, že používáte Yeoul.
-Aplikaci jsme udělali stabilnější.
-Potíže nám nahlaste v Podpoře.
+Yeoul je teď ve 24 jazycích.
+Na začátku vás provede krátký průvodce.
+Událost zapíšete rovnou ze Zkratek.
+Pošlete názor a mrkněte, co chystáme.
 
-### 앱스토어 (da)
+### 앱스토어 (덴마크어)
 
-Tak, fordi du bruger Yeoul.
-Vi har gjort appen mere stabil.
-Meld fejl via siden Support.
+Yeoul findes nu på 24 sprog.
+En kort guide viser dig rundt fra start.
+Gem en begivenhed direkte fra Genveje.
+Send feedback, og se hvad der er på vej.
 
-### 앱스토어 (el)
+### 앱스토어 (그리스어)
 
-Ευχαριστούμε που χρησιμοποιείς το Yeoul.
-Κάναμε την εφαρμογή πιο σταθερή.
-Αναφέρετε προβλήματα στην Υποστήριξη.
+Το Yeoul μιλά πλέον 24 γλώσσες.
+Ένας σύντομος οδηγός σε βοηθά στην αρχή.
+Κατάγραψε γεγονότα από τις Συντομεύσεις.
+Στείλε σχόλια και δες τι έρχεται.
 
-### 앱스토어 (fi)
+### 앱스토어 (핀란드어)
 
-Kiitos, kun käytät Yeoulia.
-Teimme sovelluksesta vakaamman.
-Kerro ongelmista Tuki-sivulla.
+Yeoul on nyt saatavilla 24 kielellä.
+Lyhyt opastus auttaa alkuun.
+Tallenna tapahtuma Pikakomennoista.
+Anna palautetta ja katso, mitä tulee.
 
-### 앱스토어 (id)
+### 앱스토어 (인도네시아어)
 
-Terima kasih telah memakai Yeoul.
-Aplikasi kini lebih stabil.
-Laporkan masalah lewat halaman Dukungan.
+Yeoul kini tersedia dalam 24 bahasa.
+Panduan singkat menemani di awal.
+Catat peristiwa langsung dari Pintasan.
+Kirim masukan dan lihat fitur mendatang.
 
-### 앱스토어 (nb)
+### 앱스토어 (노르웨이어 보크말, nb)
 
-Takk for at du bruker Yeoul.
-Vi har gjort appen mer stabil.
-Meld fra om feil under Støtte.
+Yeoul finnes nå på 24 språk.
+En kort guide viser deg rundt i starten.
+Lagre en hendelse rett fra Snarveier.
+Gi tilbakemelding og se hva som kommer.
 
-### 앱스토어 (nl)
+### 앱스토어 (네덜란드어)
 
-Bedankt voor het gebruiken van Yeoul.
-We hebben de app stabieler gemaakt.
-Meld problemen via de Support-pagina.
+Yeoul is er nu in 24 talen.
+Een korte uitleg helpt je op weg.
+Leg een gebeurtenis vast via Opdrachten.
+Stuur feedback en zie wat er komt.
 
-### 앱스토어 (pl)
+### 앱스토어 (폴란드어)
 
-Dziękujemy za korzystanie z Yeoul.
-Aplikacja działa teraz stabilniej.
-Problemy zgłoś na stronie Pomocy.
+Yeoul mówi teraz w 24 językach.
+Krótki przewodnik pomoże na start.
+Zapisuj wydarzenia prosto ze Skrótów.
+Wyślij opinię i zobacz, co planujemy.
 
-### 앱스토어 (sv)
+### 앱스토어 (스웨덴어)
 
-Tack för att du använder Yeoul.
-Vi har gjort appen stabilare.
-Rapportera problem under Support.
+Yeoul finns nu på 24 språk.
+En kort guide visar dig runt från start.
+Spara en händelse direkt från Genvägar.
+Skicka feedback och se vad som kommer.
 
-### 앱스토어 (tr)
+### 앱스토어 (튀르키예어)
 
-Yeoul’u kullandığın için teşekkürler.
-Uygulamayı daha kararlı hale getirdik.
-Sorunları Destek sayfasından bildir.
+Yeoul artık 24 dilde kullanılabiliyor.
+İlk açılışta kısa bir rehber eşlik eder.
+Olayları Kestirmeler’den hemen kaydet.
+Görüş gönder, yakında gelecekleri gör.

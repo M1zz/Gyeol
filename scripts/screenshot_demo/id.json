@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "Tahun pertama Alya",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "Alya lahir",
+     "note": "Jam empat pagi, 3,2 kg. Tangisannya lebih keras dari dugaan.",
+     "tags": [
+      "pertamakali"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "Pulang ke rumah",
+     "note": "Dua puluh menit cuma buat pasang car seat.",
+     "tags": [
+      "keluarga"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "Mandi pertama",
+     "note": "",
+     "tags": [
+      "pertamakali"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "Senyum pertama",
+     "note": "Langsung tersenyum dengar suara ayah.",
+     "tags": [
+      "pertamakali"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "Mulai MPASI",
+     "note": "Tiga sendok bubur nasi.",
+     "tags": [
+      "keluarga"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "Ulang tahun pertama",
+     "note": "Lebih suka lilinnya daripada kuenya.",
+     "tags": [
+      "keluarga"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Sebulan di Jeju",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "Tiba di Jeju",
+     "note": "",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "Lari pagi di tepi laut",
+     "note": "",
+     "tags": [
+      "jeju",
+      "lari"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "Pulang lagi",
+     "note": "",
+     "tags": [
+      "rumah"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Perjalanan kami",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "Jalan bunga musim semi di Jeju",
+     "note": "",
+     "tags": [
+      "jeju",
+      "musimsemi"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "Bukit pasir tepi laut",
+     "note": "Bunga mungil di antara pasir.",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "Jalan-jalan di hutan musim gugur",
+     "note": "",
+     "tags": [
+      "musimgugur"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "Hari pertama di Islandia",
+     "note": "",
+     "tags": [
+      "islandia",
+      "musimpanas"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "Air terjun di tebing pantai",
+     "note": "",
+     "tags": [
+      "islandia"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "Air terjun terakhir",
+     "note": "Kami janji kembali saat musim dingin.",
+     "tags": [
+      "islandia"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "Pulang lagi",
+     "note": "",
+     "tags": [
+      "rumah"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Catatan kerja",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "Hari pertama kerja",
+     "note": "Foto di ID card-nya jelek.",
+     "tags": [
+      "kerja"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "Pindah kerja",
+     "note": "",
+     "tags": [
+      "kerja"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "Jadi ketua tim",
+     "note": "",
+     "tags": [
+      "kerja",
+      "lari"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "pertamakali",
+   "color": "8A5A9E",
+   "tagFilter": "pertamakali"
+  }
+ ]
+}

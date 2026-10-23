@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "小雨的第一年",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "小雨出生",
+     "note": "凌晨四点，3.2 公斤。哭声比想象中响亮。",
+     "tags": [
+      "第一次"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "回家的那天",
+     "note": "光是装好安全座椅就花了二十分钟。",
+     "tags": [
+      "家人"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "第一次洗澡",
+     "note": "",
+     "tags": [
+      "第一次"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "第一次笑",
+     "note": "听到爸爸的声音，嘴角就翘起来了。",
+     "tags": [
+      "第一次"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "开始吃辅食",
+     "note": "吃了三勺米糊。",
+     "tags": [
+      "家人"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "一岁生日",
+     "note": "比起蛋糕，她更喜欢蜡烛。",
+     "tags": [
+      "家人"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "济州旅居一个月",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "抵达济州",
+     "note": "",
+     "tags": [
+      "济州"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "清晨海边跑步",
+     "note": "",
+     "tags": [
+      "济州",
+      "跑步"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "回家",
+     "note": "",
+     "tags": [
+      "家"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "我们的旅行",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "济州春日花路",
+     "note": "",
+     "tags": [
+      "济州",
+      "春天"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "海边沙丘",
+     "note": "沙子里开着一朵小花。",
+     "tags": [
+      "济州"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "秋日森林漫步",
+     "note": "",
+     "tags": [
+      "秋天"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "冰岛第一天",
+     "note": "",
+     "tags": [
+      "冰岛",
+      "夏天"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "海岸悬崖瀑布",
+     "note": "",
+     "tags": [
+      "冰岛"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "最后一座瀑布",
+     "note": "约好下次冬天再来。",
+     "tags": [
+      "冰岛"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "回家",
+     "note": "",
+     "tags": [
+      "家"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "职场记录",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "第一天上班",
+     "note": "工牌照片拍得不太满意。",
+     "tags": [
+      "工作"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "跳槽",
+     "note": "",
+     "tags": [
+      "工作"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "第一次当组长",
+     "note": "",
+     "tags": [
+      "工作",
+      "跑步"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "第一次",
+   "color": "8A5A9E",
+   "tagFilter": "第一次"
+  }
+ ]
+}

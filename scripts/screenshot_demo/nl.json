@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "Het eerste jaar van Tess",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "Tess is geboren",
+     "note": "Vier uur ’s nachts, 3,2 kg. Ze huilde harder dan verwacht.",
+     "tags": [
+      "eerstekeer"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "Naar huis",
+     "note": "Twintig minuten alleen al voor de autostoel.",
+     "tags": [
+      "familie"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "Eerste badje",
+     "note": "",
+     "tags": [
+      "eerstekeer"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "Eerste lach",
+     "note": "Ze lachte toen ze papa’s stem hoorde.",
+     "tags": [
+      "eerstekeer"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "Eerste hapjes",
+     "note": "Drie lepeltjes rijstpap.",
+     "tags": [
+      "familie"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "Eerste verjaardag",
+     "note": "Het kaarsje vond ze leuker dan de taart.",
+     "tags": [
+      "familie"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Een maand op Jeju",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "Aangekomen op Jeju",
+     "note": "",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "Ochtendrondje langs zee",
+     "note": "",
+     "tags": [
+      "jeju",
+      "hardlopen"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "Weer thuis",
+     "note": "",
+     "tags": [
+      "thuis"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Onze reizen",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "Lentebloemen op Jeju",
+     "note": "",
+     "tags": [
+      "jeju",
+      "lente"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "Duinen aan zee",
+     "note": "Een piepklein bloemetje in het zand.",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "Herfstwandeling in het bos",
+     "note": "",
+     "tags": [
+      "herfst"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "Eerste dag in IJsland",
+     "note": "",
+     "tags": [
+      "ijsland",
+      "zomer"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "Waterval op de kliffen",
+     "note": "",
+     "tags": [
+      "ijsland"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "De laatste waterval",
+     "note": "We beloofden in de winter terug te komen.",
+     "tags": [
+      "ijsland"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "Weer thuis",
+     "note": "",
+     "tags": [
+      "thuis"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Werkleven",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "Eerste werkdag",
+     "note": "De foto op mijn pasje is vreselijk.",
+     "tags": [
+      "werk"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "Nieuwe baan",
+     "note": "",
+     "tags": [
+      "werk"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "Teamleider geworden",
+     "note": "",
+     "tags": [
+      "werk",
+      "hardlopen"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "eerstekeer",
+   "color": "8A5A9E",
+   "tagFilter": "eerstekeer"
+  }
+ ]
+}

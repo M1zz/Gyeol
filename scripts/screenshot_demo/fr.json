@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "La première année de Léa",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "Léa est née",
+     "note": "Quatre heures du matin, 3,2 kg. Elle a crié plus fort que prévu.",
+     "tags": [
+      "premièresfois"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "Retour à la maison",
+     "note": "Vingt minutes rien que pour installer le siège auto.",
+     "tags": [
+      "famille"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "Premier bain",
+     "note": "",
+     "tags": [
+      "premièresfois"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "Premier sourire",
+     "note": "Elle a souri en entendant la voix de papa.",
+     "tags": [
+      "premièresfois"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "Début de la diversification",
+     "note": "Trois cuillères de crème de riz.",
+     "tags": [
+      "famille"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "Premier anniversaire",
+     "note": "Elle a préféré la bougie au gâteau.",
+     "tags": [
+      "famille"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Un mois à Jeju",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "Arrivée à Jeju",
+     "note": "",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "Footing au lever du soleil",
+     "note": "",
+     "tags": [
+      "jeju",
+      "course"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "Retour à la maison",
+     "note": "",
+     "tags": [
+      "maison"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Nos voyages",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "Fleurs de printemps à Jeju",
+     "note": "",
+     "tags": [
+      "jeju",
+      "printemps"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "Dunes au bord de la mer",
+     "note": "Une petite fleur dans le sable.",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "Balade en forêt d’automne",
+     "note": "",
+     "tags": [
+      "automne"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "Premier jour en Islande",
+     "note": "",
+     "tags": [
+      "islande",
+      "été"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "Cascade sur les falaises",
+     "note": "",
+     "tags": [
+      "islande"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "La dernière cascade",
+     "note": "On a promis de revenir en hiver.",
+     "tags": [
+      "islande"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "Retour à la maison",
+     "note": "",
+     "tags": [
+      "maison"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Vie pro",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "Premier jour au bureau",
+     "note": "La photo du badge est ratée.",
+     "tags": [
+      "boulot"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "Nouveau poste",
+     "note": "",
+     "tags": [
+      "boulot"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "Cheffe d’équipe",
+     "note": "",
+     "tags": [
+      "boulot",
+      "course"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "premièresfois",
+   "color": "8A5A9E",
+   "tagFilter": "premièresfois"
+  }
+ ]
+}

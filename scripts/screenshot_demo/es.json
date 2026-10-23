@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "El primer año de Lucía",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "Nace Lucía",
+     "note": "Las cuatro de la mañana, 3,2 kg. Lloró más fuerte de lo que esperábamos.",
+     "tags": [
+      "primeravez"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "Llegada a casa",
+     "note": "Veinte minutos solo para ajustar la sillita del coche.",
+     "tags": [
+      "familia"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "Primer baño",
+     "note": "",
+     "tags": [
+      "primeravez"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "Primera sonrisa",
+     "note": "Sonrió al oír la voz de papá.",
+     "tags": [
+      "primeravez"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "Primeras papillas",
+     "note": "Tres cucharadas de papilla de arroz.",
+     "tags": [
+      "familia"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "Primer cumpleaños",
+     "note": "Le gustó más la vela que la tarta.",
+     "tags": [
+      "familia"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Un mes en Jeju",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "Llegada a Jeju",
+     "note": "",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "Carrera al amanecer junto al mar",
+     "note": "",
+     "tags": [
+      "jeju",
+      "correr"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "De vuelta a casa",
+     "note": "",
+     "tags": [
+      "casa"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Nuestros viajes",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "Flores de primavera en Jeju",
+     "note": "",
+     "tags": [
+      "jeju",
+      "primavera"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "Dunas junto al mar",
+     "note": "Una florecita entre la arena.",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "Paseo por el bosque en otoño",
+     "note": "",
+     "tags": [
+      "otoño"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "Primer día en Islandia",
+     "note": "",
+     "tags": [
+      "islandia",
+      "verano"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "Cascada en los acantilados",
+     "note": "",
+     "tags": [
+      "islandia"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "La última cascada",
+     "note": "Prometimos volver en invierno.",
+     "tags": [
+      "islandia"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "De vuelta a casa",
+     "note": "",
+     "tags": [
+      "casa"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Vida laboral",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "Primer día de trabajo",
+     "note": "Odio la foto de mi tarjeta.",
+     "tags": [
+      "trabajo"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "Cambio de trabajo",
+     "note": "",
+     "tags": [
+      "trabajo"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "Jefa de equipo",
+     "note": "",
+     "tags": [
+      "trabajo",
+      "correr"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "primeravez",
+   "color": "8A5A9E",
+   "tagFilter": "primeravez"
+  }
+ ]
+}

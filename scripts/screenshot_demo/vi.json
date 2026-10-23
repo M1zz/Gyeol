@@ -1,0 +1,214 @@
+{
+ "timelines": [
+  {
+   "name": "Năm đầu tiên của bé Na",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2024-03-14",
+     "title": "Ngày bé Na chào đời",
+     "note": "Bốn giờ sáng, 3,2 kg. Khóc to hơn cả mong đợi.",
+     "tags": [
+      "lầnđầu"
+     ],
+     "style": "editorial"
+    },
+    {
+     "date": "2024-03-17",
+     "title": "Ngày về nhà",
+     "note": "Mất hai mươi phút chỉ để cài ghế ô tô.",
+     "tags": [
+      "giađình"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-03-23",
+     "title": "Lần tắm đầu tiên",
+     "note": "",
+     "tags": [
+      "lầnđầu"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-04-09",
+     "title": "Nụ cười đầu tiên",
+     "note": "Nghe giọng bố là bé cười tít mắt.",
+     "tags": [
+      "lầnđầu"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-09-20",
+     "title": "Bắt đầu ăn dặm",
+     "note": "Ba thìa bột gạo.",
+     "tags": [
+      "giađình"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2025-03-14",
+     "title": "Sinh nhật đầu tiên",
+     "note": "Bé thích cây nến hơn cả bánh kem.",
+     "tags": [
+      "giađình"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Một tháng ở Jeju",
+   "color": "3A5BA0",
+   "events": [
+    {
+     "date": "2024-11-02",
+     "title": "Đến Jeju",
+     "note": "",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-16",
+     "title": "Chạy bộ ven biển lúc bình minh",
+     "note": "",
+     "tags": [
+      "jeju",
+      "chạybộ"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-11-30",
+     "title": "Về nhà",
+     "note": "",
+     "tags": [
+      "nhà"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Những chuyến đi của chúng mình",
+   "color": "2E6B5E",
+   "events": [
+    {
+     "date": "2023-04-08",
+     "title": "Đường hoa xuân Jeju",
+     "note": "",
+     "tags": [
+      "jeju",
+      "mùaxuân"
+     ],
+     "style": "poster",
+     "photo": "IMG_0006.HEIC"
+    },
+    {
+     "date": "2023-04-11",
+     "title": "Đồi cát ven biển",
+     "note": "Một bông hoa nhỏ nở giữa cát.",
+     "tags": [
+      "jeju"
+     ],
+     "style": "classic",
+     "photo": "IMG_0001.JPG"
+    },
+    {
+     "date": "2023-10-02",
+     "title": "Dạo rừng mùa thu",
+     "note": "",
+     "tags": [
+      "mùathu"
+     ],
+     "style": "film",
+     "photo": "IMG_0002.JPG"
+    },
+    {
+     "date": "2025-07-19",
+     "title": "Ngày đầu ở Iceland",
+     "note": "",
+     "tags": [
+      "iceland",
+      "mùahè"
+     ],
+     "style": "poster",
+     "photo": "IMG_0005.JPG"
+    },
+    {
+     "date": "2025-07-21",
+     "title": "Thác nước trên vách đá",
+     "note": "",
+     "tags": [
+      "iceland"
+     ],
+     "style": "editorial",
+     "photo": "IMG_0003.JPG"
+    },
+    {
+     "date": "2025-07-24",
+     "title": "Thác nước cuối cùng",
+     "note": "Hẹn nhau mùa đông quay lại.",
+     "tags": [
+      "iceland"
+     ],
+     "style": "classic",
+     "photo": "IMG_0004.JPG"
+    },
+    {
+     "date": "2026-05-02",
+     "title": "Về nhà",
+     "note": "",
+     "tags": [
+      "nhà"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "Nhật ký công việc",
+   "color": "B3472B",
+   "events": [
+    {
+     "date": "2022-03-02",
+     "title": "Ngày đầu đi làm",
+     "note": "Ảnh thẻ nhân viên chụp xấu quá.",
+     "tags": [
+      "côngviệc"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2024-06-03",
+     "title": "Chuyển việc",
+     "note": "",
+     "tags": [
+      "côngviệc"
+     ],
+     "style": "classic"
+    },
+    {
+     "date": "2026-04-15",
+     "title": "Lần đầu làm trưởng nhóm",
+     "note": "",
+     "tags": [
+      "côngviệc",
+      "chạybộ"
+     ],
+     "style": "classic"
+    }
+   ]
+  },
+  {
+   "name": "lầnđầu",
+   "color": "8A5A9E",
+   "tagFilter": "lầnđầu"
+  }
+ ]
+}
