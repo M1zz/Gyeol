@@ -37,6 +37,11 @@ enum YeoulSpec: LeeoAppSpec {
     /// App Store ID — 설정의 "리뷰 남기기"가 작성 페이지로 바로 간다.
     static let appStoreID: String? = "6808471728"
 
-    /// 수익모델 (LeeoKit 3.x 부터 필수) — StoreKit 코드가 없는 무료 앱.
+    /// 수익모델 (LeeoKit 3.x 부터 필수) — 기능을 여는 결제가 없는 무료 앱.
     static let monetization = LeeoMonetization.free
+
+    /// 개발자 응원(팁). 소모성 세 가지, 작은 것부터. 기능을 열지 않는다 — 무료 앱이라 혼자 돈다(`startStandalone`).
+    @MainActor static let tipJar = LeeoTipJar(config: LeeoTipJarConfig(productIDs: [
+        "com.leeo.yeoul.tip.small", "com.leeo.yeoul.tip.medium", "com.leeo.yeoul.tip.large",
+    ]))
 }

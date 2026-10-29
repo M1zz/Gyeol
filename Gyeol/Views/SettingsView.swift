@@ -25,6 +25,7 @@ struct SettingsView: View {
                     // 앱 안 피드백 · 보낸 의견의 답장 · 리뷰 남기기 · 개인정보 처리방침 · 지원 페이지 · 버전
                     LeeoSupportSection<YeoulSpec>()
                     LeeoShareAppLink<YeoulSpec>()
+                    LeeoTipJarLink<YeoulSpec>(tipJar: YeoulSpec.tipJar)
                     Link(destination: Self.mailURL) {
                         Label("메일로 문의하기", systemImage: "envelope")
                     }

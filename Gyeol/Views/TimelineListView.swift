@@ -1,5 +1,19 @@
 import SwiftUI
 import SwiftData
+import LeeoKit
+
+/// 남긴 사건이 이만큼 쌓였을 때 응원을 부탁한다. 큰 것부터.
+enum YeoulTipMoments {
+    static let events = [300, 100, 30]
+
+    static func reached(events total: Int) -> [LeeoTipMoment] {
+        events.filter { total >= $0 }.map { threshold in
+            LeeoTipMoment(id: "events.\(threshold)",
+                          message: String(localized: "지금까지 사건 \(total)개를 기록했어요",
+                                          comment: "Tip ask card: total number of events recorded across all timelines"))
+        }
+    }
+}
 
 struct TimelineListView: View {
     @Environment(\.modelContext) private var context
@@ -25,6 +39,11 @@ struct TimelineListView: View {
                     }
                 } else {
                     List {
+                        // 사건을 남기고 돌아온 자리. 쌓인 기록이 숫자로 보일 때만, 드물게 응원을 부탁한다.
+                        LeeoTipAskSlot<YeoulSpec>(tipJar: YeoulSpec.tipJar,
+                                                  reached: YeoulTipMoments.reached(events: allEvents.count))
+                            .listRowInsets(EdgeInsets())
+                            .listRowBackground(Color.clear)
                         ForEach(timelines) { timeline in
                             NavigationLink(value: timeline) {
                                 TimelineRow(timeline: timeline, events: events(of: timeline))

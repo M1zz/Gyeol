@@ -34,6 +34,8 @@ struct GyeolApp: App {
         WindowGroup {
             TimelineListView()
                 .leeoSatisfactionCheck(YeoulSpec.self)
+                // 팁 상품을 불러오고 끝나지 않은 팁을 마저 센다.
+                .task { await YeoulSpec.tipJar.startStandalone() }
         }
         .modelContainer(AppContainer.shared)
     }
