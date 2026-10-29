@@ -1,39 +1,171 @@
 {
-  "name": {"ko": "여울", "en": "Yeoul"},
+  "name": {
+    "ko": "여울",
+    "en": "Yeoul"
+  },
   "url": "https://m1zz.github.io/Gyeol/",
   "appStoreId": "6808471728",
   "email": "leeo@kakao.com",
   "copyright": "Yeoul",
   "year": 2026,
-  "color": {"light": "#2E6B5E", "dark": "#6CC3AE", "darkBg": "#0a0d0f"},
-  "shots": ["01-trip", "02-iceland", "03-expand", "04-tag", "05-editor"],
+  "color": {
+    "light": "#2E6B5E",
+    "dark": "#6CC3AE",
+    "darkBg": "#0a0d0f"
+  },
+  "shots": [
+    "01-trip",
+    "02-iceland",
+    "03-expand",
+    "04-tag",
+    "05-editor"
+  ],
   "shotsFrom": "raw",
   "shotsFallback": "en",
   "frame": "phone",
   "locales": [
-    {"code": "ko", "path": "", "name": "한국어"},
-    {"code": "en", "path": "en/", "name": "English"},
-    {"code": "en-GB", "path": "en-GB/", "name": "English (UK)"},
-    {"code": "zh-Hans", "path": "zh-Hans/", "name": "简体中文"},
-    {"code": "zh-Hant", "path": "zh-Hant/", "name": "繁體中文"},
-    {"code": "ja", "path": "ja/", "name": "日本語"},
-    {"code": "ru", "path": "ru/", "name": "Русский"},
-    {"code": "es", "path": "es/", "name": "Español"},
-    {"code": "de", "path": "de/", "name": "Deutsch"},
-    {"code": "fr", "path": "fr/", "name": "Français"},
-    {"code": "it", "path": "it/", "name": "Italiano"},
-    {"code": "pt-BR", "path": "pt-BR/", "name": "Português (Brasil)"},
-    {"code": "th", "path": "th/", "name": "ไทย"},
-    {"code": "vi", "path": "vi/", "name": "Tiếng Việt"},
-    {"code": "cs", "path": "cs/", "name": "Čeština"},
-    {"code": "da", "path": "da/", "name": "Dansk"},
-    {"code": "el", "path": "el/", "name": "Ελληνικά"},
-    {"code": "fi", "path": "fi/", "name": "Suomi"},
-    {"code": "id", "path": "id/", "name": "Bahasa Indonesia"},
-    {"code": "nb", "path": "nb/", "name": "Norsk bokmål"},
-    {"code": "nl", "path": "nl/", "name": "Nederlands"},
-    {"code": "pl", "path": "pl/", "name": "Polski"},
-    {"code": "sv", "path": "sv/", "name": "Svenska"},
-    {"code": "tr", "path": "tr/", "name": "Türkçe"}
+    {
+      "code": "ko",
+      "path": "",
+      "name": "한국어"
+    },
+    {
+      "code": "en",
+      "path": "en/",
+      "name": "English",
+      "privacy": "../privacy-en.html"
+    },
+    {
+      "code": "en-GB",
+      "path": "en-GB/",
+      "name": "English (UK)",
+      "privacy": "../privacy-en.html"
+    },
+    {
+      "code": "zh-Hans",
+      "path": "zh-Hans/",
+      "name": "简体中文",
+      "privacy": "../privacy-zh-Hans.html"
+    },
+    {
+      "code": "zh-Hant",
+      "path": "zh-Hant/",
+      "name": "繁體中文",
+      "privacy": "../privacy-zh-Hant.html"
+    },
+    {
+      "code": "ja",
+      "path": "ja/",
+      "name": "日本語",
+      "privacy": "../privacy-ja.html"
+    },
+    {
+      "code": "ru",
+      "path": "ru/",
+      "name": "Русский",
+      "privacy": "../privacy-ru.html"
+    },
+    {
+      "code": "es",
+      "path": "es/",
+      "name": "Español",
+      "privacy": "../privacy-es.html"
+    },
+    {
+      "code": "de",
+      "path": "de/",
+      "name": "Deutsch",
+      "privacy": "../privacy-de.html"
+    },
+    {
+      "code": "fr",
+      "path": "fr/",
+      "name": "Français",
+      "privacy": "../privacy-fr.html"
+    },
+    {
+      "code": "it",
+      "path": "it/",
+      "name": "Italiano",
+      "privacy": "../privacy-it.html"
+    },
+    {
+      "code": "pt-BR",
+      "path": "pt-BR/",
+      "name": "Português (Brasil)",
+      "privacy": "../privacy-pt-BR.html"
+    },
+    {
+      "code": "th",
+      "path": "th/",
+      "name": "ไทย",
+      "privacy": "../privacy-th.html"
+    },
+    {
+      "code": "vi",
+      "path": "vi/",
+      "name": "Tiếng Việt",
+      "privacy": "../privacy-vi.html"
+    },
+    {
+      "code": "cs",
+      "path": "cs/",
+      "name": "Čeština",
+      "privacy": "../privacy-cs.html"
+    },
+    {
+      "code": "da",
+      "path": "da/",
+      "name": "Dansk",
+      "privacy": "../privacy-da.html"
+    },
+    {
+      "code": "el",
+      "path": "el/",
+      "name": "Ελληνικά",
+      "privacy": "../privacy-el.html"
+    },
+    {
+      "code": "fi",
+      "path": "fi/",
+      "name": "Suomi",
+      "privacy": "../privacy-fi.html"
+    },
+    {
+      "code": "id",
+      "path": "id/",
+      "name": "Bahasa Indonesia",
+      "privacy": "../privacy-id.html"
+    },
+    {
+      "code": "nb",
+      "path": "nb/",
+      "name": "Norsk bokmål",
+      "privacy": "../privacy-nb.html"
+    },
+    {
+      "code": "nl",
+      "path": "nl/",
+      "name": "Nederlands",
+      "privacy": "../privacy-nl.html"
+    },
+    {
+      "code": "pl",
+      "path": "pl/",
+      "name": "Polski",
+      "privacy": "../privacy-pl.html"
+    },
+    {
+      "code": "sv",
+      "path": "sv/",
+      "name": "Svenska",
+      "privacy": "../privacy-sv.html"
+    },
+    {
+      "code": "tr",
+      "path": "tr/",
+      "name": "Türkçe",
+      "privacy": "../privacy-tr.html"
+    }
   ]
 }
