@@ -27,7 +27,7 @@ struct TagTimelineView: View {
     }
 
     private var tint: Color {
-        saved?.color ?? Color(hex: TimelinePalette.forTag(tag))
+        saved?.color ?? .adaptive(hex: TimelinePalette.forTag(tag))
     }
 
     var body: some View {

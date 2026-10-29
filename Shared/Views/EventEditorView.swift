@@ -27,6 +27,7 @@ struct EventEditorView: View {
     @State private var tagDraft = ""
     @State private var style: CardStyle
     @FocusState private var focused: Field?
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private enum Field { case title, note, tag }
     private static let space = "eventEditor"
@@ -58,6 +59,7 @@ struct EventEditorView: View {
                 }
                 Section("내용") {
                     TextEditor(text: $note)
+                        .accessibilityLabel(Text("내용"))
                         .focused($focused, equals: .note)
                         .keyboardInput(in: Self.space)
                         .frame(minHeight: 120)
@@ -105,6 +107,8 @@ struct EventEditorView: View {
                                         TagChip(tag: tag, tint: .secondary, trailingSystemImage: "plus")
                                     }
                                     .buttonStyle(.plain)
+                                    .accessibilityLabel(Text("#\(tag) 추가"))
+                                    .accessibilityInputLabels([Text(verbatim: tag)])
                                 }
                             }
                             .padding(.vertical, 2)
@@ -118,7 +122,7 @@ struct EventEditorView: View {
                         HStack(alignment: .top, spacing: 12) {
                             ForEach(CardStyle.allCases) { candidate in
                                 Button {
-                                    withAnimation(.snappy(duration: 0.25)) { style = candidate }
+                                    withAnimation(reduceMotion ? nil : .snappy(duration: 0.25)) { style = candidate }
                                 } label: {
                                     CardStyleSwatch(
                                         style: candidate,
@@ -140,7 +144,7 @@ struct EventEditorView: View {
                     VStack(alignment: .leading, spacing: 8) {
                         Text("미리보기")
                             .font(.caption)
-                            .foregroundStyle(.tertiary)
+                            .foregroundStyle(.secondary)
                         EventCard(
                             content: previewContent,
                             style: style,
@@ -151,6 +155,7 @@ struct EventEditorView: View {
                         .allowsHitTesting(false)
                     }
                     .padding(.vertical, 6)
+                    .accessibilityElement(children: .combine)
                     .listRowBackground(Palette.groupedBackground)
                 }
 
@@ -164,6 +169,9 @@ struct EventEditorView: View {
                                     .scaledToFill()
                             }
                             .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                            .accessibilityElement()
+                            .accessibilityLabel(Text("사진"))
+                            .accessibilityAddTraits(.isImage)
                             .listRowInsets(EdgeInsets())
                     }
 

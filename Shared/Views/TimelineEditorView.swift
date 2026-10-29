@@ -47,7 +47,7 @@ struct TimelineEditorView: View {
                                     }
                             }
                             .buttonStyle(.plain)
-                            .accessibilityLabel(hex)
+                            .accessibilityLabel(TimelinePalette.name(for: hex))
                             .accessibilityAddTraits(colorHex == hex ? .isSelected : [])
                         }
                     }

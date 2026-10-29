@@ -12,6 +12,7 @@ struct TimelineTrackView: View {
     let color: Color
     @Binding var expanded: PersistentIdentifier?
     var onEdit: (TimelineEvent) -> Void
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         let scale = TrackScale(dates: events.map(\.date))
@@ -70,7 +71,7 @@ struct TimelineTrackView: View {
     }
 
     private func toggle(_ event: TimelineEvent, proxy: ScrollViewProxy) {
-        withAnimation(.snappy(duration: 0.32)) {
+        withAnimation(reduceMotion ? nil : .snappy(duration: 0.32)) {
             expanded = (expanded == event.id) ? nil : event.id
             if expanded != nil {
                 ExpandCardTip.hasExpandedCard = true
@@ -141,7 +142,7 @@ private struct TimeGapView: View {
                 if metrics.height >= 18 {
                     Text(DurationLabel.between(from, to))
                         .font(.caption2)
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(.secondary)
                         .padding(.leading, TrackMetrics.spineX + 14)
                 }
             }
@@ -171,6 +172,7 @@ private struct TimelineNodeView: View {
     var onEdit: () -> Void
 
     private var shape: RoundedRectangle { RoundedRectangle(cornerRadius: 16, style: .continuous) }
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         HStack(alignment: .top, spacing: 0) {
@@ -178,7 +180,7 @@ private struct TimelineNodeView: View {
             card
         }
         .background(alignment: .topLeading) { spine }
-        .animation(.snappy(duration: 0.32), value: isExpanded)
+        .animation(reduceMotion ? nil : .snappy(duration: 0.32), value: isExpanded)
     }
 
     private var dot: some View {
@@ -188,6 +190,7 @@ private struct TimelineNodeView: View {
             .frame(width: 14, height: 14)
             .scaleEffect(isExpanded ? 1.3 : 1)
             .frame(width: TrackMetrics.spineX * 2, height: TrackMetrics.dotCentreY * 2, alignment: .center)
+            .accessibilityHidden(true)
     }
 
     private var card: some View {
@@ -207,6 +210,17 @@ private struct TimelineNodeView: View {
         )
         .contentShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
         .onTapGesture(perform: onTap)
+        // 탭으로 펼치는 카드 — VoiceOver·음성 명령에는 한 덩어리 단추로 보이고,
+        // 펼친 뒤의 '수정'은 동작으로 남긴다 (태그는 읽어 주고, 태그 타임라인은 목록에서 열 수 있다)
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isButton)
+        .accessibilityValue(isExpanded ? Text("펼침") : Text("접힘"))
+        .accessibilityAction { onTap() }
+        .accessibilityActions {
+            if isExpanded {
+                Button("수정", action: onEdit)
+            }
+        }
         .padding(.bottom, 2)
     }
 

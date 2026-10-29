@@ -72,6 +72,7 @@ struct TimelineDetailView: View {
                 } label: {
                     Image(systemName: "ellipsis.circle")
                 }
+                .accessibilityLabel(Text("더 보기"))
             }
         }
         .safeAreaInset(edge: .bottom) {

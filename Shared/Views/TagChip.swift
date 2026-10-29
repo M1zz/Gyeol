@@ -23,7 +23,8 @@ struct TagChip: View {
                 .font(.caption.weight(.medium))
             if let trailingSystemImage {
                 Image(systemName: trailingSystemImage)
-                    .font(.system(size: 9, weight: .bold))
+                    .scaledFont(9, weight: .bold, relativeTo: .caption2)
+                    .accessibilityHidden(true)
             }
         }
         .padding(.horizontal, 9)

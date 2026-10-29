@@ -34,7 +34,7 @@ final class Timeline {
         events?.append(event)
     }
 
-    var color: Color { Color(hex: colorHex) }
+    var color: Color { .adaptive(hex: colorHex) }
 }
 
 extension Array where Element == TimelineEvent {
@@ -48,6 +48,18 @@ enum TimelinePalette {
     static let hexes = ["2E6B5E", "B3472B", "3A5BA0", "8A5A9E", "C08A1E", "4A4A4A"]
 
     static func next(after count: Int) -> String { hexes[abs(count) % hexes.count] }
+
+    /// 색 고르기에서 VoiceOver·음성 명령이 부를 이름
+    static func name(for hex: String) -> String {
+        switch hex {
+        case "2E6B5E": String(localized: "초록")
+        case "B3472B": String(localized: "빨강")
+        case "3A5BA0": String(localized: "파랑")
+        case "8A5A9E": String(localized: "보라")
+        case "C08A1E": String(localized: "노랑")
+        default: String(localized: "회색")
+        }
+    }
 
     /// A stable colour for an unsaved tag view. `hashValue` is seeded per process, so it
     /// would hand the same tag a different colour on every launch.

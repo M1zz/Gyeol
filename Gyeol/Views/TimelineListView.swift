@@ -132,6 +132,7 @@ private struct TimelineRow: View {
             }
         }
         .padding(.vertical, 4)
+        .accessibilityElement(children: .combine)
     }
 
     @ViewBuilder
@@ -141,8 +142,10 @@ private struct TimelineRow: View {
                 .font(.system(size: 12, weight: .bold))
                 .foregroundStyle(timeline.color)
                 .frame(width: 12, height: 12)
+                .accessibilityHidden(true)
         } else {
             Circle().fill(timeline.color).frame(width: 12, height: 12)
+                .accessibilityHidden(true)
         }
     }
 

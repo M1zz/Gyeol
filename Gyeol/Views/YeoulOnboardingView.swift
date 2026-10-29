@@ -5,6 +5,7 @@ import SwiftUI
 struct YeoulOnboardingView: View {
     @Environment(\.dismiss) private var dismiss
     @State private var page = 0
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private struct Page: Identifiable {
         let id: Int
@@ -38,6 +39,7 @@ struct YeoulOnboardingView: View {
                         Text(item.title)
                             .font(.title2.weight(.bold))
                             .multilineTextAlignment(.center)
+                            .accessibilityAddTraits(.isHeader)
                         Text(item.body)
                             .font(.body)
                             .foregroundStyle(.secondary)
@@ -47,6 +49,7 @@ struct YeoulOnboardingView: View {
                     }
                     .padding(.horizontal, 32)
                     .frame(maxWidth: 520)
+                    .scrollIfNeeded()
                     .tag(item.id)
                 }
             }
@@ -55,7 +58,7 @@ struct YeoulOnboardingView: View {
 
             Button {
                 if page < pages.count - 1 {
-                    withAnimation { page += 1 }
+                    withAnimation(reduceMotion ? nil : .default) { page += 1 }
                 } else {
                     finish()
                 }

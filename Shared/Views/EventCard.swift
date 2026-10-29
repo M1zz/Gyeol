@@ -115,12 +115,12 @@ private struct ClassicCard: View {
             VStack(alignment: .leading, spacing: 5) {
                 if content.showsYear {
                     Text(content.date.yearLabel)
-                        .font(.system(size: 12, weight: .semibold, design: .serif))
+                        .scaledFont(12, weight: .semibold, design: .serif, relativeTo: .caption)
                         .foregroundStyle(color)
                 }
                 HStack(alignment: .firstTextBaseline, spacing: 8) {
                     Text(content.date.nodeDateLabel)
-                        .font(.system(size: 14, design: .serif))
+                        .scaledFont(14, design: .serif, relativeTo: .subheadline)
                         .monospacedDigit()
                         .foregroundStyle(.secondary)
                     Spacer(minLength: 0)
@@ -128,6 +128,7 @@ private struct ClassicCard: View {
                         Image(systemName: "photo")
                             .font(.caption2)
                             .foregroundStyle(.tertiary)
+                            .accessibilityLabel(Text("사진"))
                     }
                 }
                 Text(content.displayTitle)
@@ -181,11 +182,11 @@ private struct PosterCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 9) {
             Text(dateLine)
-                .font(.system(size: 11, weight: .semibold, design: .rounded))
+                .scaledFont(11, weight: .semibold, design: .rounded, relativeTo: .caption2)
                 .tracking(1.6)
                 .foregroundStyle(.white.opacity(0.85))
             Text(content.displayTitle)
-                .font(.system(size: isExpanded ? 30 : 22, weight: .bold, design: .serif))
+                .scaledFont(isExpanded ? 30 : 22, weight: .bold, design: .serif, relativeTo: .title)
                 .foregroundStyle(.white)
                 .fixedSize(horizontal: false, vertical: true)
             if isExpanded, !content.note.isEmpty {
@@ -263,20 +264,21 @@ private struct FilmCard: View {
                         Image(systemName: "camera")
                             .font(.title3)
                             .foregroundStyle(.tertiary)
+                            .accessibilityHidden(true)
                     }
             }
 
             VStack(alignment: .leading, spacing: 7) {
                 Text(content.date.stampLabel)
-                    .font(.system(size: 11, design: .monospaced))
+                    .scaledFont(11, design: .monospaced, relativeTo: .caption2)
                     .foregroundStyle(color)
                 Text(content.displayTitle)
-                    .font(.system(size: 16, weight: .semibold, design: .monospaced))
+                    .scaledFont(16, weight: .semibold, design: .monospaced, relativeTo: .headline)
                     .foregroundStyle(content.hasTitle ? .primary : .tertiary)
                     .fixedSize(horizontal: false, vertical: true)
                 if !content.note.isEmpty {
                     Text(content.note)
-                        .font(.system(size: 12.5, design: .monospaced))
+                        .scaledFont(12.5, design: .monospaced, relativeTo: .footnote)
                         .foregroundStyle(.secondary)
                         .lineSpacing(3)
                         .lineLimit(isExpanded ? nil : 1)
@@ -313,14 +315,14 @@ private struct EditorialCard: View {
             VStack(alignment: .leading, spacing: 10) {
                 HStack(alignment: .firstTextBaseline, spacing: 8) {
                     Text(content.date.dayNumber)
-                        .font(.system(size: isExpanded ? 52 : 38, weight: .regular, design: .serif))
+                        .scaledFont(isExpanded ? 52 : 38, design: .serif, relativeTo: .largeTitle)
                         .monospacedDigit()
                         .foregroundStyle(color)
                     VStack(alignment: .leading, spacing: 1) {
                         Text(content.date.monthLabel)
-                            .font(.system(size: 13, design: .serif))
+                            .scaledFont(13, design: .serif, relativeTo: .footnote)
                         Text(content.date.yearLabel)
-                            .font(.system(size: 11, design: .serif))
+                            .scaledFont(11, design: .serif, relativeTo: .caption2)
                             .foregroundStyle(.secondary)
                     }
                 }
@@ -328,15 +330,16 @@ private struct EditorialCard: View {
                 Rectangle()
                     .fill(color.opacity(0.25))
                     .frame(height: 1)
+                    .accessibilityHidden(true)
 
                 Text(content.displayTitle)
-                    .font(.system(size: isExpanded ? 22 : 17, weight: .semibold, design: .serif))
+                    .scaledFont(isExpanded ? 22 : 17, weight: .semibold, design: .serif, relativeTo: .title3)
                     .foregroundStyle(content.hasTitle ? .primary : .tertiary)
                     .fixedSize(horizontal: false, vertical: true)
 
                 if !content.note.isEmpty {
                     Text(content.note)
-                        .font(.system(size: 14, design: .serif))
+                        .scaledFont(14, design: .serif, relativeTo: .subheadline)
                         .foregroundStyle(.secondary)
                         .lineSpacing(6)
                         .lineLimit(isExpanded ? nil : 1)
