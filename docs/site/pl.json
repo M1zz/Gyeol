@@ -1,0 +1,169 @@
+{
+  "title": "Yeoul: oś czasu, w której odstępy to prawdziwy czas",
+  "description": "Trzy dni i pięć dni w proporcji 3:5, dwa lata jako linia przerywana. Oś czasu na chwile i zdjęcia według prawdziwego czasu. Za darmo.",
+  "hero": {
+    "headline": "Oś czasu, która\nrozciąga się z czasem",
+    "lead": "Trzy dni i pięć dni stoją w proporcji 3:5. Długa przerwa, na przykład dwa lata i cztery miesiące, składa się w linię przerywaną. Już po odstępach widać, jak wtedy płynął czas.",
+    "cta": "Pobierz za darmo z App Store",
+    "note": "Wszystkie funkcje są darmowe. Na iPhone'a i iPada."
+  },
+  "demo": {
+    "title": "Rozciągnij odstępy sam",
+    "lead": "Każdy przycisk dodaje nowe wydarzenie po ostatnim. Odstępy liczone są według tej samej zasady co w aplikacji.",
+    "steps": {
+      "3d": "3 dni później",
+      "5d": "5 dni później",
+      "1m": "Miesiąc później",
+      "2y4m": "2 lata i 4 miesiące później"
+    },
+    "gaps": {
+      "3d": "3 d.",
+      "5d": "5 d.",
+      "1m": "1 mies.",
+      "2y4m": "2 r. 4 mies."
+    },
+    "reset": "Od nowa",
+    "full": "Więcej się nie zmieści. Zacznij od nowa.",
+    "note": "Narysowane mniejsze niż w aplikacji. Tam w miejscu każdej kropki stoi karta z Twoim zdjęciem i tekstem."
+  },
+  "problem": {
+    "title": "W bibliotece zdjęć nie widać czasu",
+    "text": "Biblioteka zdjęć układa wszystko według daty, ale trzy dni i dwa lata zajmują w niej jeden taki sam krok. Yeoul rozstawia wydarzenia tak daleko, ile czasu minęło między nimi, więc od razu widać, kiedy działo się dużo, a kiedy było cicho."
+  },
+  "features": [
+    {
+      "title": "Odstęp to czas",
+      "text": "Cała oś ma jedną skalę: ten sam okres ma tę samą długość w każdym miejscu ekranu. Przy każdym odstępie widnieje prawdziwy czas, na przykład `3 d.` albo `5 mies. 21 d.`\nBardzo bliskie wydarzenia i tak dostają trochę miejsca, a bardzo długie przerwy składają się w linię przerywaną.",
+      "shot": "02-iceland"
+    },
+    {
+      "title": "Znajdzie zdjęcia z tamtego dnia",
+      "text": "Ustaw datę wydarzenia i stuknij `Znajdź powiązane zdjęcia`, a zobaczysz zdjęcia zrobione tego dnia. Nic nie pasuje? `Wybierz samodzielnie` i gotowe.\nStuknij wydarzenie na osi, a zdjęcie i tekst rozwiną się w tym samym miejscu.",
+      "shot": "03-expand"
+    },
+    {
+      "title": "Jeden tag zbiera rozrzucone chwile",
+      "text": "Dodaj wydarzeniom tag, na przykład `#Islandia`, stuknij go, a wszystkie wydarzenia z tym tagiem, ze wszystkich osi, zbiorą się w nowej.\nZapisz ją, a zostanie na liście i sama przyjmie kolejne wydarzenia z tym tagiem.",
+      "shot": "04-tag"
+    },
+    {
+      "title": "Do każdej chwili pasująca karta",
+      "text": "Klasyczny stawia na tekst, Plakat wypełnia kartę zdjęciem, Film obramowuje je jak odbitkę, a Margines oddaje scenę dużej dacie. Podgląd zmienia się od razu.",
+      "shot": "05-editor"
+    }
+  ],
+  "steps": {
+    "title": "Zaczynasz w trzech krokach",
+    "items": [
+      {
+        "title": "Utwórz oś czasu",
+        "text": "Pierwszy rok dziecka, związek, podróż: każda z nazwą i kolorem."
+      },
+      {
+        "title": "Dodaj wydarzenia",
+        "text": "Wpisz datę i tytuł, dołącz zdjęcie z tamtego dnia."
+      },
+      {
+        "title": "Dodaj tagi",
+        "text": "Wydarzenia z tym samym tagiem spotkają się, nawet z różnych osi."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Cztery wyglądy kart",
+    "rows": [
+      [
+        "Klasyczny",
+        "Najważniejszy jest tekst, zdjęcie jest pod nim."
+      ],
+      [
+        "Plakat",
+        "Zdjęcie wypełnia całą kartę, a na nim duży tytuł. Bez zdjęcia karta przyjmuje kolor osi."
+      ],
+      [
+        "Film",
+        "Zdjęcie z ramką jak odbitka, czcionka maszyny do pisania i stempel z datą."
+      ],
+      [
+        "Margines",
+        "Duża cyfra daty i małe zdjęcie. Tu główną rolę grają słowa."
+      ]
+    ],
+    "note": "Nowe wydarzenie zaczyna z tym samym wyglądem co najnowsza karta na danej osi."
+  },
+  "pricing": {
+    "title": "Wszystkie funkcje są darmowe",
+    "free": {
+      "name": "Za darmo",
+      "items": [
+        "Dowolnie wiele osi czasu z nazwą i kolorem",
+        "Zdjęcia, opisy i tagi przy każdym wydarzeniu",
+        "Szukanie zdjęć z dnia wydarzenia",
+        "Zapisane osie czasu tagów",
+        "Cztery wyglądy kart",
+        "Synchronizacja iPhone'a i iPada przez iCloud",
+        "Zapisywanie przez Skróty i Siri"
+      ]
+    },
+    "pro": {
+      "name": "Wesprzyj twórcę",
+      "items": [
+        "Wybierz mały, średni lub duży napiwek",
+        "Niczego nie odblokowuje. To po prostu podziękowanie"
+      ],
+      "note": "Znajdziesz go w ustawieniach aplikacji, kiedy zechcesz."
+    },
+    "note": "Bez reklam i bez subskrypcji."
+  },
+  "faq": {
+    "title": "Częste pytania",
+    "items": [
+      {
+        "q": "Dlaczego odstępy między wydarzeniami są tak różne?",
+        "a": "Yeoul rozstawia wydarzenia według czasu, który naprawdę minął. Wszystkie odstępy mają tę samą skalę, więc trzy dni i pięć dni stoją w proporcji 3:5. Bardzo bliskie wydarzenia mają minimalny odstęp, żeby się nie nakładały, a bardzo długie przerwy składają się w linię przerywaną z prawdziwym czasem, na przykład 2 r. 4 mies."
+      },
+      {
+        "q": "Nie widzę zdjęć z tamtego dnia.",
+        "a": "Szukanie zdjęć po dacie wymaga dostępu do zdjęć. Zezwól na niego w Ustawienia > Yeoul > Zdjęcia. Yeoul szuka zdjęć zrobionych od północy do północy tego dnia, w strefie czasowej urządzenia. Jeśli nie chcesz dawać dostępu, stuknij `Wybierz samodzielnie` tuż poniżej."
+      },
+      {
+        "q": "Czym jest oś czasu tagu?",
+        "a": "Stuknij tag przy wydarzeniu, a Yeoul zbierze w jedną oś wszystkie wydarzenia z tym tagiem ze wszystkich Twoich osi. Te, które często oglądasz, możesz zapisać na liście. Nic nie jest kopiowane: zmienisz oryginalne wydarzenie, a zmiana pojawi się i tu, a usunięcie osi tagu nie usuwa wydarzeń."
+      },
+      {
+        "q": "Dlaczego nie mogę dodać wydarzenia na osi tagu?",
+        "a": "Oś tagu to widok zebrany według tagu, a nie miejsce przechowywania wydarzeń, więc nie da się ustalić, do której osi należałoby nowe wydarzenie. Dodaj je na jego własnej osi z tagiem, a pojawi się tu samo."
+      },
+      {
+        "q": "Czy mogę coś zapisać bez otwierania aplikacji?",
+        "a": "Tak. Użyj `Zapisz wydarzenie` w aplikacji Skróty albo z Siri i wybierz tylko oś i tytuł. Bez daty zapisze się bieżący czas."
+      },
+      {
+        "q": "Czy zobaczę osie na innych urządzeniach?",
+        "a": "Tak, na każdym iPhonie i iPadzie zalogowanym do iCloud tym samym kontem Apple. Sprawdź w Ustawienia > Twoje imię > iCloud, czy iCloud jest włączony. Zależnie od połączenia zmiany mogą pojawić się z lekkim opóźnieniem."
+      },
+      {
+        "q": "Jak usunąć swoje zapisy?",
+        "a": "Przesuń oś w lewo na liście albo stuknij Edycja. Razem z osią usuwane są jej wydarzenia. To, co zostało w iCloud, usuniesz w zarządzaniu pamięcią w ustawieniach iCloud."
+      },
+      {
+        "q": "Czy twórca widzi moje zapisy?",
+        "a": "Nie. Zapisy i zdjęcia są przechowywane tylko na Twoich urządzeniach i w Twoim własnym iCloud, twórca ich nie widzi. Szczegóły znajdziesz w polityce prywatności poniżej."
+      },
+      {
+        "q": "Jak zgłosić błąd lub zaproponować funkcję?",
+        "a": "Prosto z ustawień aplikacji, mailem albo na Instagramie @lee25_ios. Model urządzenia, wersja iOS i opis sytuacji pomogą nam szybciej pomóc."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Zachowaj przeżyty czas\nw jego prawdziwej długości",
+    "cta": "Pobierz za darmo z App Store"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "languages": "Język",
+    "privacy": "Polityka prywatności",
+    "contact": "Pytania albo pomysły? Napisz na {email}."
+  }
+}

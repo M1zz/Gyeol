@@ -1,0 +1,169 @@
+{
+  "title": "Yeoul: aikajana, jossa välit ovat kulunutta aikaa",
+  "description": "Kolme ja viisi päivää suhteessa 3:5, kaksi vuotta katkoviivana. Aikajana hetkille ja kuville todellisen ajan mukaan. Ilmainen.",
+  "hero": {
+    "headline": "Aikajana, joka\nvenyy ajan mukana",
+    "lead": "Kolme päivää ja viisi päivää ovat suhteessa 3:5. Pitkä tauko, kuten kaksi vuotta ja neljä kuukautta, taittuu katkoviivaksi. Jo väleistä näkee, miten aika silloin kului.",
+    "cta": "Lataa ilmaiseksi App Storesta",
+    "note": "Kaikki ominaisuudet ovat ilmaisia. iPhonelle ja iPadille."
+  },
+  "demo": {
+    "title": "Venytä välejä itse",
+    "lead": "Jokainen painike lisää uuden tapahtuman viimeisen perään. Välit lasketaan samalla säännöllä kuin sovelluksessa.",
+    "steps": {
+      "3d": "3 päivää myöhemmin",
+      "5d": "5 päivää myöhemmin",
+      "1m": "Kuukautta myöhemmin",
+      "2y4m": "2 v 4 kk myöhemmin"
+    },
+    "gaps": {
+      "3d": "3 pv",
+      "5d": "5 pv",
+      "1m": "1 kk",
+      "2y4m": "2 v 4 kk"
+    },
+    "reset": "Alusta",
+    "full": "Enempää ei mahdu. Aloita alusta.",
+    "note": "Piirretty pienemmäksi kuin sovelluksessa. Siellä jokaisen pisteen kohdalla on kortti, jossa on kuvasi ja tekstisi."
+  },
+  "problem": {
+    "title": "Kuvakirjastosta ei näe aikaa",
+    "text": "Kuvakirjasto järjestää kaiken päivämäärän mukaan, mutta kolme päivää ja kaksi vuotta vievät siinä saman yhden askeleen. Yeoul asettaa tapahtumat yhtä kauas toisistaan kuin niiden välillä kului aikaa, joten näet heti, milloin tapahtui paljon ja milloin oli hiljaista."
+  },
+  "features": [
+    {
+      "title": "Väli on aikaa",
+      "text": "Koko aikajanalla on yksi mittakaava: sama ajanjakso on yhtä pitkä missä tahansa näytöllä. Jokaisen välin vieressä lukee todellinen kesto, esimerkiksi `3 pv` tai `5 kk 21 pv`.\nHyvin lähekkäiset tapahtumat saavat silti vähän tilaa, ja hyvin pitkät tauot taittuvat katkoviivaksi.",
+      "shot": "02-iceland"
+    },
+    {
+      "title": "Se löytää sen päivän kuvat",
+      "text": "Valitse päivämäärä ja napauta `Etsi liittyviä kuvia`, niin näet sinä päivänä otetut kuvat. Eikö mikään sovi? `Etsi itse` ja valitse.\nNapauta tapahtumaa aikajanalla, niin kuva ja teksti avautuvat juuri siihen kohtaan.",
+      "shot": "03-expand"
+    },
+    {
+      "title": "Yksi tunniste kokoaa hajallaan olevat hetket",
+      "text": "Lisää tapahtumiin tunniste, kuten `#Islanti`, napauta sitä, ja kaikki sen tunnisteen tapahtumat kaikilta aikajanoiltasi kokoontuvat uudelle.\nTallenna se, niin se jää listaasi ja ottaa itse mukaan uudet samalla tunnisteella merkityt tapahtumat.",
+      "shot": "04-tag"
+    },
+    {
+      "title": "Jokaiselle hetkelle sopiva kortti",
+      "text": "Perinteinen nostaa tekstin etusijalle, Juliste täyttää kortin kuvalla, Filmi kehystää sen kuin paperikuvan ja Marginaali antaa ison päivämäärän olla pääosassa. Esikatselu vaihtuu heti.",
+      "shot": "05-editor"
+    }
+  ],
+  "steps": {
+    "title": "Alkuun kolmessa vaiheessa",
+    "items": [
+      {
+        "title": "Luo aikajana",
+        "text": "Lapsen ensimmäinen vuosi, parisuhde, matka: jokaiselle oma nimi ja väri."
+      },
+      {
+        "title": "Lisää tapahtumia",
+        "text": "Kirjoita päivämäärä ja otsikko ja liitä kuva siltä päivältä."
+      },
+      {
+        "title": "Lisää tunnisteet",
+        "text": "Saman tunnisteen tapahtumat kokoontuvat yhteen aikajanasta riippumatta."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Neljä korttityyliä",
+    "rows": [
+      [
+        "Perinteinen",
+        "Teksti edellä, kuva alla."
+      ],
+      [
+        "Juliste",
+        "Kuva täyttää koko kortin ja päällä on iso otsikko. Ilman kuvaa kortti saa aikajanan värin."
+      ],
+      [
+        "Filmi",
+        "Kuva reunuksineen kuin paperikuva, kirjoituskoneteksti ja päivämääräleima."
+      ],
+      [
+        "Marginaali",
+        "Iso päivämäärän numero ja pieni kuva. Tässä pääosassa ovat sanat."
+      ]
+    ],
+    "note": "Uusi tapahtuma alkaa samalla tyylillä kuin aikajanan uusin kortti."
+  },
+  "pricing": {
+    "title": "Kaikki ominaisuudet ovat ilmaisia",
+    "free": {
+      "name": "Ilmainen",
+      "items": [
+        "Niin monta aikajanaa kuin haluat, nimellä ja värillä",
+        "Kuvat, tarinat ja tunnisteet jokaiseen tapahtumaan",
+        "Tapahtumapäivän kuvien haku",
+        "Tallennetut tunnisteaikajanat",
+        "Neljä korttityyliä",
+        "iCloud-synkronointi iPhonen ja iPadin välillä",
+        "Kirjaaminen Pikakomennoilla ja Sirillä"
+      ]
+    },
+    "pro": {
+      "name": "Tue kehittäjää",
+      "items": [
+        "Valitse pieni, keskikokoinen tai iso tippi",
+        "Se ei avaa mitään. Se on vain tapa sanoa kiitos"
+      ],
+      "note": "Löydät sen sovelluksen asetuksista, kun siltä tuntuu."
+    },
+    "note": "Ei mainoksia, ei tilausta."
+  },
+  "faq": {
+    "title": "Usein kysyttyä",
+    "items": [
+      {
+        "q": "Miksi tapahtumien välit ovat niin erilaisia?",
+        "a": "Yeoul asettaa tapahtumat yhtä kauas toisistaan kuin aikaa todella kului. Kaikilla väleillä on sama mittakaava, joten kolme päivää ja viisi päivää ovat suhteessa 3:5. Hyvin lähekkäiset tapahtumat saavat vähimmäisvälin, jotta ne eivät mene päällekkäin, ja hyvin pitkät tauot taittuvat katkoviivaksi, jonka vieressä lukee todellinen kesto, kuten 2 v 4 kk."
+      },
+      {
+        "q": "En näe sen päivän kuvia.",
+        "a": "Päivämäärän mukainen haku tarvitsee pääsyn kuviisi. Salli se kohdassa Asetukset > Yeoul > Kuvat. Yeoul etsii kuvia, jotka on otettu sinä päivänä keskiyöstä keskiyöhön laitteen aikavyöhykkeellä. Jos et halua antaa pääsyä, napauta heti alla olevaa `Etsi itse`."
+      },
+      {
+        "q": "Mikä on tunnisteaikajana?",
+        "a": "Napauta tapahtuman tunnistetta, niin Yeoul kokoaa kaikki sen tunnisteen tapahtumat kaikilta aikajanoiltasi yhdelle. Usein katsomasi voit tallentaa listaan. Mitään ei kopioida: kun muokkaat alkuperäistä tapahtumaa, muutos näkyy myös täällä, ja tunnisteaikajanan poistaminen ei poista tapahtumia."
+      },
+      {
+        "q": "Miksi tunnisteaikajanalle ei voi lisätä tapahtumia?",
+        "a": "Tunnisteaikajana on tunnisteen mukaan koottu näkymä, ei paikka tapahtumien säilyttämiseen, joten ei voi tietää, mille aikajanalle uusi tapahtuma kuuluisi. Lisää se omalle aikajanalleen tunnisteen kanssa, niin se ilmestyy tänne itsestään."
+      },
+      {
+        "q": "Voinko kirjata jotain avaamatta sovellusta?",
+        "a": "Voit. Käytä `Kirjaa tapahtuma` -toimintoa Pikakomennot-apissa tai Sirillä ja valitse vain aikajana ja otsikko. Ilman päivämäärää käytetään nykyistä aikaa."
+      },
+      {
+        "q": "Näenkö aikajanani muilla laitteilla?",
+        "a": "Kyllä, jokaisella iPhonella ja iPadilla, joka on kirjautunut iCloudiin samalla Apple-tilillä. Tarkista kohdasta Asetukset > nimesi > iCloud, että iCloud on päällä. Yhteydestä riippuen muutokset voivat näkyä pienellä viiveellä."
+      },
+      {
+        "q": "Miten poistan tietoni?",
+        "a": "Pyyhkäise aikajanaa listassa vasemmalle tai napauta Muokkaa. Aikajanan mukana poistuvat myös sen tapahtumat. iCloudiin jääneet tiedot poistat iCloud-asetusten tallennustilan hallinnasta."
+      },
+      {
+        "q": "Näkeekö kehittäjä tietoni?",
+        "a": "Ei. Tapahtumasi ja kuvasi ovat vain laitteillasi ja omassa iCloudissasi, eikä kehittäjä näe niitä. Lisätietoja on alla olevassa tietosuojakäytännössä."
+      },
+      {
+        "q": "Miten ilmoitan virheestä tai ehdotan jotain?",
+        "a": "Suoraan sovelluksen asetuksista, sähköpostilla tai Instagramissa @lee25_ios. Kerro laitteen malli, iOS-versio ja mitä tapahtui, niin pystymme auttamaan nopeammin."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Säilytä eletty aika\nsen oikeassa pituudessa",
+    "cta": "Lataa ilmaiseksi App Storesta"
+  },
+  "ui": {
+    "skip": "Siirry sisältöön",
+    "languages": "Kieli",
+    "privacy": "Tietosuoja",
+    "contact": "Kysyttävää tai ideoita? Kirjoita osoitteeseen {email}."
+  }
+}

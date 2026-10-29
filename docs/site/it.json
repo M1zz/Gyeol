@@ -1,0 +1,169 @@
+{
+  "title": "Yeoul: la timeline dove le distanze seguono il tempo reale",
+  "description": "Tre giorni e cinque giorni a 3:5, due anni in una linea tratteggiata. Una timeline per momenti e foto, al ritmo del tempo reale. Gratis.",
+  "hero": {
+    "headline": "Una timeline\nche si allunga col tempo",
+    "lead": "Tre giorni e cinque giorni stanno a 3:5. Una lunga pausa, come due anni e quattro mesi, si ripiega in una linea tratteggiata. Basta guardare le distanze per capire com'è passato il tempo.",
+    "cta": "Scaricala gratis dall'App Store",
+    "note": "Tutte le funzioni sono gratuite. Per iPhone e iPad."
+  },
+  "demo": {
+    "title": "Allarga le distanze tu stesso",
+    "lead": "Ogni pulsante aggiunge un evento dopo l'ultimo. Le distanze seguono la stessa regola dell'app.",
+    "steps": {
+      "3d": "3 giorni dopo",
+      "5d": "5 giorni dopo",
+      "1m": "Un mese dopo",
+      "2y4m": "2 anni e 4 mesi dopo"
+    },
+    "gaps": {
+      "3d": "3 g",
+      "5d": "5 g",
+      "1m": "1 m",
+      "2y4m": "2 a 4 m"
+    },
+    "reset": "Ricomincia",
+    "full": "Siamo al completo. Ricomincia per riprovare.",
+    "note": "Disegnata più in piccolo che nell'app. Nell'app, ogni punto è una scheda con la tua foto e il tuo testo."
+  },
+  "problem": {
+    "title": "La libreria foto non ti mostra il tempo",
+    "text": "La libreria mette tutto in fila per data, ma tre giorni e due anni occupano lo stesso singolo passo. Yeoul distanzia gli eventi in base al tempo trascorso tra loro, così vedi a colpo d'occhio i periodi pieni e quelli vuoti."
+  },
+  "features": [
+    {
+      "title": "La distanza è il tempo",
+      "text": "Una sola scala per tutta la timeline: lo stesso periodo ha la stessa lunghezza in ogni punto dello schermo. Ogni distanza riporta la durata reale, come `3 g` o `5 m 21 g`.\nGli eventi vicinissimi hanno comunque un po' di spazio, e le pause lunghissime si ripiegano in una linea tratteggiata.",
+      "shot": "02-iceland"
+    },
+    {
+      "title": "Trova le foto di quel giorno",
+      "text": "Scegli la data dell'evento e tocca `Trova foto correlate` per vedere gli scatti di quel giorno. Nessuna ti convince? Con `Cerca da solo` scegli tu.\nTocca un evento nella timeline e foto e testo si aprono proprio lì.",
+      "shot": "03-expand"
+    },
+    {
+      "title": "Un tag riunisce i momenti sparsi",
+      "text": "Aggiungi un tag come `#Islanda`, toccalo, e tutti gli eventi che lo portano, da tutte le timeline, si riuniscono in una nuova.\nSalvala: resta nella tua lista e accoglie da sola i nuovi eventi con quel tag.",
+      "shot": "04-tag"
+    },
+    {
+      "title": "Per ogni momento, la scheda giusta",
+      "text": "Classico mette il testo al centro, Poster riempie la scheda con la foto, Pellicola la incornicia come una stampa, Margine lascia la scena a una grande data. L'anteprima cambia appena scegli.",
+      "shot": "05-editor"
+    }
+  ],
+  "steps": {
+    "title": "Si parte in tre passi",
+    "items": [
+      {
+        "title": "Crea una timeline",
+        "text": "Il primo anno di tuo figlio, una storia d'amore, un viaggio: per ognuna un nome e un colore."
+      },
+      {
+        "title": "Aggiungi eventi",
+        "text": "Scrivi data e titolo, poi allega una foto di quel giorno."
+      },
+      {
+        "title": "Aggiungi i tag",
+        "text": "Gli eventi con lo stesso tag si ritrovano insieme, anche da timeline diverse."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Quattro design di scheda",
+    "rows": [
+      [
+        "Classico",
+        "Il testo in primo piano, la foto sotto."
+      ],
+      [
+        "Poster",
+        "La foto riempie la scheda e sopra c'è un grande titolo. Senza foto, si colora con il colore della timeline."
+      ],
+      [
+        "Pellicola",
+        "Una foto con bordo come una stampa, scrittura da macchina da scrivere e timbro della data."
+      ],
+      [
+        "Margine",
+        "Un grande numero della data e una foto piccola. Qui le parole sono protagoniste."
+      ]
+    ],
+    "note": "Un nuovo evento parte con il design della scheda più recente della sua timeline."
+  },
+  "pricing": {
+    "title": "Tutte le funzioni sono gratuite",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Tutte le timeline che vuoi, con nome e colore",
+        "Foto, testi e tag per ogni evento",
+        "Trovare le foto del giorno dell'evento",
+        "Timeline per tag salvate",
+        "Quattro design di scheda",
+        "Sincronizzazione iCloud tra iPhone e iPad",
+        "Registrare con Comandi rapidi e Siri"
+      ]
+    },
+    "pro": {
+      "name": "Sostieni lo sviluppatore",
+      "items": [
+        "Scegli una mancia piccola, media o grande",
+        "Non sblocca nulla. È solo un modo per dire grazie"
+      ],
+      "note": "La trovi nelle impostazioni dell'app, quando ti va."
+    },
+    "note": "Niente pubblicità, niente abbonamenti."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Perché le distanze tra gli eventi sono tutte diverse?",
+        "a": "Yeoul distanzia gli eventi in base al tempo davvero trascorso. Tutte le distanze usano la stessa scala, quindi tre giorni e cinque giorni stanno a 3:5. Gli eventi vicinissimi mantengono una distanza minima per non sovrapporsi, e le pause lunghissime si ripiegano in una linea tratteggiata con la durata reale, come 2 a 4 m."
+      },
+      {
+        "q": "Non vedo le foto di quel giorno.",
+        "a": "Per cercare le foto per data serve l'accesso alle foto. Consentilo in Impostazioni > Yeoul > Foto. Yeoul cerca gli scatti fatti da mezzanotte a mezzanotte di quel giorno, nel fuso orario del dispositivo. Se preferisci non dare l'accesso, tocca `Cerca da solo` subito sotto."
+      },
+      {
+        "q": "Cos'è una timeline per tag?",
+        "a": "Tocca il tag di un evento e Yeoul riunisce in una sola timeline tutti gli eventi che lo portano, da tutte le tue timeline. Quelle che guardi spesso puoi salvarle nella lista. Non viene copiato nulla: se modifichi l'evento originale lo vedi anche qui, e se elimini la timeline per tag gli eventi restano."
+      },
+      {
+        "q": "Perché non posso aggiungere eventi in una timeline per tag?",
+        "a": "Una timeline per tag è una vista raccolta per tag, non un contenitore: non si potrebbe sapere a quale timeline appartiene il nuovo evento. Aggiungilo nella sua timeline con il tag e comparirà qui da solo."
+      },
+      {
+        "q": "Posso registrare qualcosa senza aprire l'app?",
+        "a": "Sì. Usa `Registra un evento` nell'app Comandi rapidi o con Siri e scegli solo timeline e titolo. Senza data, viene usata l'ora attuale."
+      },
+      {
+        "q": "Vedo le mie timeline anche su altri dispositivi?",
+        "a": "Sì, su ogni iPhone o iPad collegato a iCloud con lo stesso account Apple. Controlla in Impostazioni > il tuo nome > iCloud che iCloud sia attivo. A seconda della connessione, può volerci qualche istante."
+      },
+      {
+        "q": "Come elimino i miei dati?",
+        "a": "Scorri una timeline verso sinistra nella lista oppure tocca Modifica. Eliminando una timeline si eliminano anche i suoi eventi. Ciò che resta su iCloud puoi cancellarlo dalla gestione dello spazio nelle impostazioni di iCloud."
+      },
+      {
+        "q": "Lo sviluppatore vede i miei dati?",
+        "a": "No. Eventi e foto restano solo sui tuoi dispositivi e nel tuo iCloud, e lo sviluppatore non può vederli. Tutti i dettagli sono nell'informativa sulla privacy qui sotto."
+      },
+      {
+        "q": "Come segnalo un bug o propongo un'idea?",
+        "a": "Direttamente dalle impostazioni dell'app, via email o su Instagram a @lee25_ios. Modello del dispositivo, versione di iOS e cosa è successo ci aiutano a risponderti prima."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Conserva il tempo vissuto\nnella sua vera lunghezza",
+    "cta": "Scaricala gratis dall'App Store"
+  },
+  "ui": {
+    "skip": "Vai al contenuto",
+    "languages": "Lingua",
+    "privacy": "Privacy",
+    "contact": "Domande o suggerimenti? Scrivi a {email}."
+  }
+}

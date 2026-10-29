@@ -1,0 +1,169 @@
+{
+  "title": "Yeoul: linimasa yang jaraknya mengikuti waktu sungguhan",
+  "description": "Tiga hari dan lima hari berjarak 3:5, dua tahun jadi garis putus-putus. Linimasa untuk momen dan foto sesuai waktu nyata. Gratis.",
+  "hero": {
+    "headline": "Linimasa yang merenggang\nseiring waktu",
+    "lead": "Tiga hari dan lima hari berjarak 3 banding 5. Jeda panjang seperti 2 tahun 4 bulan terlipat jadi garis putus-putus. Cukup lihat jaraknya, kamu tahu bagaimana waktu berlalu saat itu.",
+    "cta": "Unduh gratis di App Store",
+    "note": "Semua fitur gratis. Untuk iPhone dan iPad."
+  },
+  "demo": {
+    "title": "Coba renggangkan jaraknya sendiri",
+    "lead": "Setiap tombol menambah peristiwa baru setelah yang terakhir. Jaraknya mengikuti aturan yang sama dengan aplikasi.",
+    "steps": {
+      "3d": "3 hari kemudian",
+      "5d": "5 hari kemudian",
+      "1m": "Sebulan kemudian",
+      "2y4m": "2 tahun 4 bulan kemudian"
+    },
+    "gaps": {
+      "3d": "3 hr",
+      "5d": "5 hr",
+      "1m": "1 bln",
+      "2y4m": "2 th 4 bln"
+    },
+    "reset": "Ulang dari awal",
+    "full": "Sudah penuh. Ulang dari awal untuk mencoba lagi.",
+    "note": "Digambar lebih kecil daripada di aplikasi. Di aplikasi, setiap titik adalah kartu berisi foto dan ceritamu."
+  },
+  "problem": {
+    "title": "Menggulir galeri foto tidak memperlihatkan waktu",
+    "text": "Perpustakaan foto hanya mengurutkan semuanya menurut tanggal, padahal selang tiga hari dan dua tahun sama-sama cuma satu langkah. Yeoul memberi jarak antarperistiwa sesuai waktu yang berlalu, jadi langsung terlihat masa mana yang padat dan mana yang lengang."
+  },
+  "features": [
+    {
+      "title": "Jarak adalah waktu",
+      "text": "Seluruh linimasa memakai satu skala, jadi rentang waktu yang sama punya panjang yang sama di mana pun di layar. Setiap jarak diberi label durasi sebenarnya, seperti `3 hr` atau `5 bln 21 hr`.\nPeristiwa yang sangat dekat tetap diberi sedikit ruang, dan jeda yang sangat panjang dilipat jadi garis putus-putus.",
+      "shot": "02-iceland"
+    },
+    {
+      "title": "Menemukan foto dari hari itu",
+      "text": "Tentukan tanggal peristiwa lalu ketuk `Cari foto terkait` untuk melihat foto yang kamu ambil hari itu. Tidak ada yang cocok? Ketuk `Cari sendiri` dan pilih sendiri.\nKetuk peristiwa di linimasa, foto dan ceritanya terbuka di tempat.",
+      "shot": "03-expand"
+    },
+    {
+      "title": "Satu tag mengumpulkan momen yang tercecer",
+      "text": "Beri peristiwa tag seperti `#Islandia`, ketuk tagnya, dan semua peristiwa dengan tag itu dari semua linimasa berkumpul jadi linimasa baru.\nSimpan, maka ia tetap ada di daftarmu dan otomatis menampung peristiwa baru bertag sama.",
+      "shot": "04-tag"
+    },
+    {
+      "title": "Kartu yang pas untuk tiap momen",
+      "text": "Klasik mengutamakan tulisan, Poster memenuhi kartu dengan foto, Film membingkainya seperti foto cetak, dan Margin membiarkan tanggal besar jadi bintangnya. Pratinjau langsung berubah begitu kamu memilih.",
+      "shot": "05-editor"
+    }
+  ],
+  "steps": {
+    "title": "Mulai dalam tiga langkah",
+    "items": [
+      {
+        "title": "Buat linimasa",
+        "text": "Tahun pertama si kecil, kisah cinta, perjalanan: masing-masing dengan nama dan warna."
+      },
+      {
+        "title": "Tambah peristiwa",
+        "text": "Tulis tanggal dan judul, lalu sertakan foto dari hari itu."
+      },
+      {
+        "title": "Beri tag",
+        "text": "Peristiwa dengan tag yang sama berkumpul, walau beda linimasa."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Empat desain kartu",
+    "rows": [
+      [
+        "Klasik",
+        "Tulisan jadi pusat, foto di bawahnya."
+      ],
+      [
+        "Poster",
+        "Foto memenuhi kartu dengan judul besar di atasnya. Tanpa foto, kartu diisi warna linimasa."
+      ],
+      [
+        "Film",
+        "Foto berbingkai seperti cetakan, dengan huruf mesin tik dan cap tanggal."
+      ],
+      [
+        "Margin",
+        "Angka tanggal besar, foto kecil. Di sini tulisanlah bintangnya."
+      ]
+    ],
+    "note": "Peristiwa baru memakai desain yang sama dengan kartu terbaru di linimasa itu."
+  },
+  "pricing": {
+    "title": "Semua fitur gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Linimasa sebanyak yang kamu mau, dengan nama dan warna",
+        "Foto, cerita, dan tag untuk setiap peristiwa",
+        "Cari foto dari hari peristiwa",
+        "Simpan linimasa tag",
+        "Empat desain kartu",
+        "Sinkron iPhone dan iPad lewat iCloud",
+        "Catat lewat Pintasan dan Siri"
+      ]
+    },
+    "pro": {
+      "name": "Dukung pengembang",
+      "items": [
+        "Pilih tip kecil, sedang, atau besar",
+        "Tidak membuka fitur apa pun. Hanya cara untuk berterima kasih"
+      ],
+      "note": "Ada di pengaturan aplikasi, kapan pun kamu mau."
+    },
+    "note": "Tanpa iklan, tanpa langganan."
+  },
+  "faq": {
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "q": "Kenapa jarak antarperistiwa berbeda-beda?",
+        "a": "Yeoul memberi jarak sesuai waktu yang benar-benar berlalu. Semua jarak memakai skala yang sama, jadi tiga hari dan lima hari berjarak 3 banding 5. Peristiwa yang sangat dekat tetap diberi jarak minimum agar tidak bertumpuk, dan jeda yang sangat panjang dilipat jadi garis putus-putus dengan durasi aslinya, seperti 2 th 4 bln."
+      },
+      {
+        "q": "Foto dari hari itu tidak muncul.",
+        "a": "Untuk mencari foto berdasarkan tanggal, aplikasi perlu akses ke foto. Izinkan di Pengaturan > Yeoul > Foto. Yeoul mencari foto yang diambil dari tengah malam ke tengah malam hari itu, sesuai zona waktu perangkat. Kalau tidak ingin memberi akses, ketuk `Cari sendiri` tepat di bawahnya."
+      },
+      {
+        "q": "Apa itu linimasa tag?",
+        "a": "Ketuk tag pada peristiwa, dan Yeoul mengumpulkan semua peristiwa bertag itu dari semua linimasamu ke dalam satu linimasa. Yang sering kamu lihat bisa disimpan di daftar. Tidak ada yang disalin: ubah peristiwa aslinya maka perubahan ikut tampil di sini, dan menghapus linimasa tag tidak menghapus peristiwanya."
+      },
+      {
+        "q": "Kenapa tidak bisa menambah peristiwa di linimasa tag?",
+        "a": "Linimasa tag adalah tampilan yang dikumpulkan menurut tag, bukan wadah peristiwa, jadi tidak bisa ditentukan linimasa mana yang memiliki peristiwa baru. Tambahkan peristiwa di linimasanya sendiri lalu beri tag, dan ia akan muncul di sini dengan sendirinya."
+      },
+      {
+        "q": "Bisakah mencatat tanpa membuka aplikasi?",
+        "a": "Bisa. Gunakan `Catat Peristiwa` di app Pintasan atau lewat Siri, cukup pilih linimasa dan judul. Kalau tanggal tidak diisi, waktu saat ini yang dipakai."
+      },
+      {
+        "q": "Bisakah dilihat di perangkat lain?",
+        "a": "Bisa, di iPhone dan iPad mana pun yang masuk ke iCloud dengan Akun Apple yang sama. Periksa di Pengaturan > namamu > iCloud bahwa iCloud aktif. Tergantung koneksi, perubahan bisa butuh sebentar untuk muncul."
+      },
+      {
+        "q": "Bagaimana menghapus catatan?",
+        "a": "Geser linimasa ke kiri di daftar, atau ketuk Edit. Menghapus linimasa ikut menghapus peristiwa di dalamnya. Data yang tersisa di iCloud bisa dihapus lewat pengelolaan penyimpanan di pengaturan iCloud."
+      },
+      {
+        "q": "Apakah pengembang bisa melihat catatanku?",
+        "a": "Tidak. Catatan dan foto hanya tersimpan di perangkatmu dan iCloud milikmu sendiri, pengembang tidak bisa melihatnya. Detailnya ada di kebijakan privasi di bawah."
+      },
+      {
+        "q": "Bagaimana melaporkan bug atau mengusulkan fitur?",
+        "a": "Langsung dari pengaturan di aplikasi, lewat email, atau Instagram @lee25_ios. Sertakan model perangkat, versi iOS, dan apa yang terjadi supaya bisa dibantu lebih cepat."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Simpan waktu yang sudah lewat\ndengan panjang aslinya",
+    "cta": "Unduh gratis di App Store"
+  },
+  "ui": {
+    "skip": "Langsung ke konten",
+    "languages": "Bahasa",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Ada pertanyaan atau masukan? Kirim ke {email}."
+  }
+}

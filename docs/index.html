@@ -1,73 +1,200 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<title>여울 — 시간이 흐른 만큼 벌어지는 타임라인</title>
-<meta name="description" content="여울은 사건 사이의 거리가 실제로 흐른 시간만큼 벌어지는 세로 타임라인 앱입니다.">
-<link rel="canonical" href="https://m1zz.github.io/Gyeol/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Gyeol/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/Gyeol/index-en.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Gyeol/index-zh-Hans.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Gyeol/index-zh-Hant.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Gyeol/index-ja.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Gyeol/index-ru.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/Gyeol/index-es.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/Gyeol/index-de.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Gyeol/index-fr.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/Gyeol/index-it.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Gyeol/index-pt-BR.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/Gyeol/index-th.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Gyeol/index-vi.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Gyeol/index-cs.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/Gyeol/index-da.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/Gyeol/index-el.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Gyeol/index-fi.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/Gyeol/index-id.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Gyeol/index-nb.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Gyeol/index-nl.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Gyeol/index-pl.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Gyeol/index-sv.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Gyeol/index-tr.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Gyeol/index.html">
-<link rel="stylesheet" href="style.css">
-<link rel="icon" href="icon.png">
-<link rel="apple-touch-icon" href="icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>여울: 흐른 시간만큼 간격이 벌어지는 타임라인</title>
+  <meta name="description" content="사흘과 닷새는 3대 5로, 2년 4개월은 점선으로 접어서. 사건 사이 간격이 실제로 흐른 시간만큼 벌어지는 세로 타임라인에 그날의 사진과 이야기를 남겨요. 모든 기능이 무료예요.">
+  <meta name="theme-color" content="#2E6B5E" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6808471728">
+  <link rel="canonical" href="https://m1zz.github.io/Gyeol/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/Gyeol/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/Gyeol/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/Gyeol/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/Gyeol/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/Gyeol/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/Gyeol/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/Gyeol/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/Gyeol/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/Gyeol/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/Gyeol/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/Gyeol/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/Gyeol/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/Gyeol/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/Gyeol/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/Gyeol/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/Gyeol/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/Gyeol/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/Gyeol/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/Gyeol/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/Gyeol/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/Gyeol/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/Gyeol/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/Gyeol/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/Gyeol/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/Gyeol/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="여울: 흐른 시간만큼 간격이 벌어지는 타임라인">
+  <meta property="og:description" content="사흘과 닷새는 3대 5로, 2년 4개월은 점선으로 접어서. 사건 사이 간격이 실제로 흐른 시간만큼 벌어지는 세로 타임라인에 그날의 사진과 이야기를 남겨요. 모든 기능이 무료예요.">
+  <meta property="og:url" content="https://m1zz.github.io/Gyeol/">
+  <meta property="og:image" content="https://m1zz.github.io/Gyeol/img/ko/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="demo.css">
+  <style>:root{--accent:#2E6B5E}@media (prefers-color-scheme:dark){:root{--accent:#6CC3AE}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <nav class="langs" aria-label="언어"><a href="index.html" hreflang="ko" lang="ko" aria-current="true">한국어</a> <a href="index-en.html" hreflang="en" lang="en">English</a> <a href="index-zh-Hans.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a> <a href="index-zh-Hant.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a> <a href="index-ja.html" hreflang="ja" lang="ja">日本語</a> <a href="index-ru.html" hreflang="ru" lang="ru">Русский</a> <a href="index-es.html" hreflang="es" lang="es">Español</a> <a href="index-de.html" hreflang="de" lang="de">Deutsch</a> <a href="index-fr.html" hreflang="fr" lang="fr">Français</a> <a href="index-it.html" hreflang="it" lang="it">Italiano</a> <a href="index-pt-BR.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a> <a href="index-th.html" hreflang="th" lang="th">ไทย</a> <a href="index-vi.html" hreflang="vi" lang="vi">Tiếng Việt</a> <a href="index-cs.html" hreflang="cs" lang="cs">Čeština</a> <a href="index-da.html" hreflang="da" lang="da">Dansk</a> <a href="index-el.html" hreflang="el" lang="el">Ελληνικά</a> <a href="index-fi.html" hreflang="fi" lang="fi">Suomi</a> <a href="index-id.html" hreflang="id" lang="id">Bahasa Indonesia</a> <a href="index-nb.html" hreflang="nb" lang="nb">Norsk bokmål</a> <a href="index-nl.html" hreflang="nl" lang="nl">Nederlands</a> <a href="index-pl.html" hreflang="pl" lang="pl">Polski</a> <a href="index-sv.html" hreflang="sv" lang="sv">Svenska</a> <a href="index-tr.html" hreflang="tr" lang="tr">Türkçe</a></nav>
-
-  <header class="hero">
-    <img src="icon.png" alt="여울 앱 아이콘">
-    <h1>여울</h1>
-    <p>나의 이벤트를 타임라인으로 만드세요</p>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="bar">
+    <a class="brand" href=""><img src="icon.png" alt="" width="32" height="32">여울</a>
+    <a class="lang-link" href="#languages">언어</a>
   </header>
 
-  <p>
-    여울은 사건과 사건 사이의 거리가 <strong>실제로 흐른 시간</strong>만큼 벌어지는 세로 타임라인입니다.
-    사흘과 닷새는 3:5로 벌어지고, 2년처럼 긴 공백은 점선으로 접혀 "2년 4개월"이라고 적힙니다.
-    아이의 첫 해, 여행, 프로젝트 기록 — 무엇이든 시간의 흐름 그대로 펼쳐 보세요.
-  </p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>흐른 시간만큼<br>벌어지는 타임라인</h1>
+        <p class="lead">사흘과 닷새는 3대 5로 벌어지고, 2년 4개월 같은 긴 공백은 점선으로 접혀요. 사건 사이 간격만 봐도 그때의 시간이 보여요.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6808471728">App Store에서 무료로 받기</a><a class="try" href="#try">간격을 직접 벌려 보세요 ↓</a></div>
+        <p class="muted small">모든 기능이 무료예요. iPhone과 iPad에서 써요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/01-trip.jpg" alt="흐른 시간만큼 벌어지는 타임라인" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <div class="cards">
-    <div class="card"><b>📏 시간이 곧 거리</b><span>모든 간격이 같은 배율로 그려져, 어디가 빽빽했고 어디가 비었는지 한눈에 보입니다.</span></div>
-    <div class="card"><b>📷 그 날 찍은 사진 찾기</b><span>날짜를 고르면 그 날 찍은 사진을 보관함에서 찾아 보여 줍니다. 원하는 사진이 없으면 직접 골라도 돼요.</span></div>
-    <div class="card"><b>🏷️ 태그로 다시 엮기</b><span>태그를 누르면 여러 타임라인에 흩어진 사건을 모아 새 타임라인으로 보여 주고, 저장할 수도 있습니다.</span></div>
-    <div class="card"><b>🎨 카드 디자인 4가지</b><span>기본 · 포스터 · 필름 · 여백 중 사건마다 어울리는 모양을 고르세요.</span></div>
-    <div class="card"><b>☁️ iCloud 동기화</b><span>같은 Apple 계정으로 로그인한 기기끼리 기록이 이어집니다. 기록은 본인의 iCloud에만 저장됩니다.</span></div>
-  </div>
 
-  <div class="links">
-    <a href="support.html">지원 · 문의</a>
-    <a href="privacy.html">개인정보 처리방침</a>
-  </div>
+    <section class="reveal" id="try">
+      <h2>간격을 직접 벌려 보세요</h2>
+      <p class="muted">버튼을 누르면 마지막 사건 뒤에 새 사건이 생겨요. 간격은 앱과 같은 규칙으로 그려요.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;간격을 직접 벌려 보세요&quot;, &quot;lead&quot;: &quot;버튼을 누르면 마지막 사건 뒤에 새 사건이 생겨요. 간격은 앱과 같은 규칙으로 그려요.&quot;, &quot;steps&quot;: {&quot;3d&quot;: &quot;사흘 뒤&quot;, &quot;5d&quot;: &quot;닷새 뒤&quot;, &quot;1m&quot;: &quot;한 달 뒤&quot;, &quot;2y4m&quot;: &quot;2년 4개월 뒤&quot;}, &quot;gaps&quot;: {&quot;3d&quot;: &quot;3일&quot;, &quot;5d&quot;: &quot;5일&quot;, &quot;1m&quot;: &quot;1개월&quot;, &quot;2y4m&quot;: &quot;2년 4개월&quot;}, &quot;reset&quot;: &quot;처음부터&quot;, &quot;full&quot;: &quot;여기까지예요. 처음부터 다시 해 보세요.&quot;, &quot;note&quot;: &quot;앱보다 작게 줄여 그렸어요. 앱에서는 점 자리에 사진과 글이 담긴 카드가 놓여요.&quot;}"></div>
+    </section>
+
+    <section class="problem reveal">
+      <h2>사진첩을 넘겨 봐도 시간은 보이지 않아요</h2>
+      <p>사진 보관함은 날짜순으로 줄을 세울 뿐, 사흘 사이도 2년 사이도 똑같은 한 칸으로 보여 줘요. 여울은 사건 사이에 흐른 시간만큼 간격을 벌려서, 어디가 빽빽했고 어디가 비었는지 한눈에 보여 줘요.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>간격이 곧 흐른 시간이에요</h2>
+        <p>타임라인 전체에 하나의 배율을 써서, 같은 기간은 화면 어디서나 같은 길이로 그려요. 모든 간격에는 <code>3일</code>, <code>5개월 21일</code>처럼 실제 기간이 적혀요.<br>너무 가까운 사건은 겹치지 않게 최소 간격을 두고, 너무 긴 공백은 점선으로 접어요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/02-iceland.jpg" alt="간격이 곧 흐른 시간이에요" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>그날 찍은 사진을 찾아 줘요</h2>
+        <p>사건 날짜를 정하고 <code>관련된 사진 찾기</code>를 누르면 그날 찍은 사진을 보관함에서 모아 보여 줘요. 원하는 사진이 없으면 <code>직접 찾기</code>로 골라도 돼요.<br>타임라인에서 사건을 누르면 사진과 이야기가 그 자리에서 펼쳐져요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/03-expand.jpg" alt="그날 찍은 사진을 찾아 줘요" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>태그 하나로 흩어진 순간을 모아요</h2>
+        <p>사건에 <code>#아이슬란드</code> 같은 태그를 달고 누르면, 여러 타임라인에 흩어진 같은 태그의 사건이 새 타임라인 하나로 모여요.<br>저장해 두면 목록에 남고, 나중에 같은 태그를 단 사건도 저절로 들어와요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/04-tag.jpg" alt="태그 하나로 흩어진 순간을 모아요" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>사건마다 어울리는 카드를 골라요</h2>
+        <p>글이 중심인 기본, 사진을 꽉 채우는 포스터, 인화지 같은 필름, 큰 날짜가 서는 여백. 고르는 즉시 미리보기가 바뀌어요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/05-editor.jpg" alt="사건마다 어울리는 카드를 골라요" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>시작은 세 단계면 돼요</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>타임라인을 만들어요</h3><p>아이의 첫해, 연애, 여행처럼 주제마다 이름과 색을 정해요.</p></li>
+<li class="card"><span class="n">2</span><h3>사건을 추가해요</h3><p>날짜와 제목을 적고, 그날 찍은 사진을 붙여요.</p></li>
+<li class="card"><span class="n">3</span><h3>태그를 달아요</h3><p>같은 태그를 단 사건은 타임라인을 넘어 한데 모여요.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>카드 디자인 네 가지</h2>
+      <div class="card table">
+        <dl><div><dt>기본</dt><dd>글이 중심이고 사진은 아래에 놓여요.</dd></div><div><dt>포스터</dt><dd>사진이 카드를 꽉 채우고 큰 제목이 그 위에 얹혀요. 사진이 없으면 타임라인 색으로 채워요.</dd></div><div><dt>필름</dt><dd>인화지처럼 여백을 두른 사진에 타자기 글씨와 날짜 도장이 찍혀요.</dd></div><div><dt>여백</dt><dd>큰 날짜 숫자가 서고 사진은 작게. 글씨가 주인공이에요.</dd></div></dl>
+      </div>
+      <p class="muted">새 사건은 그 타임라인에서 가장 최근 카드와 같은 디자인으로 시작해요.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>모든 기능이 무료예요</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>무료</h3>
+          <ul><li>타임라인 여러 개, 이름과 색 고르기</li><li>사건마다 사진, 이야기, 태그</li><li>그날 찍은 사진 찾기</li><li>태그 타임라인 저장</li><li>카드 디자인 네 가지</li><li>iCloud로 iPhone과 iPad 동기화</li><li>단축어와 Siri로 기록하기</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>개발자 응원하기</h3>
+          <ul><li>작은 팁, 보통 팁, 큰 팁 중에서 골라요</li><li>기능을 여는 결제가 아니에요. 고마운 마음을 전하는 곳이에요</li></ul>
+          <p class="muted">설정 화면에서 원할 때만 보낼 수 있어요.</p>
+        </div>
+      </div>
+      <p class="muted">광고도 구독도 없어요.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>자주 묻는 질문</h2>
+      <div class="faq"><details><summary>사건 사이 간격이 왜 다 다른가요?</summary><p>여울은 실제로 흐른 시간만큼 간격을 벌려요. 모든 간격에 같은 배율을 쓰기 때문에 사흘과 닷새는 3대 5로 보여요. 너무 가까운 사건은 겹치지 않게 최소 간격을 두고, 너무 긴 공백은 점선으로 접은 뒤 2년 4개월처럼 실제 기간을 적어 둬요.</p></details>
+<details><summary>그날 찍은 사진이 안 보여요.</summary><p>날짜로 사진을 찾으려면 사진 접근 권한이 필요해요. 설정 앱 &gt; 여울 &gt; 사진에서 접근을 허용해 주세요. 기기 시간대 기준으로 그날 자정부터 자정까지 찍은 사진을 찾아요. 권한을 주고 싶지 않다면 바로 아래 <code>직접 찾기</code>로 보관함에서 골라도 돼요.</p></details>
+<details><summary>태그 타임라인은 무엇인가요?</summary><p>사건에 붙인 태그를 누르면 모든 타임라인에서 같은 태그를 가진 사건을 모아 하나의 타임라인으로 보여 줘요. 자주 보는 태그는 저장해 목록에 둘 수 있어요. 사건을 복사하지 않고 모아 보여 주는 것이라, 원래 사건을 고치면 그대로 반영되고 태그 타임라인을 지워도 사건은 남아요.</p></details>
+<details><summary>태그 타임라인에는 왜 사건 추가 버튼이 없나요?</summary><p>태그 타임라인은 사건을 담는 곳이 아니라 태그로 모아 보는 화면이라서, 새 사건이 어느 타임라인에 들어갈지 정할 수 없어요. 원래 타임라인에서 사건을 추가하고 태그를 달면 여기에 저절로 모여요.</p></details>
+<details><summary>앱을 열지 않고 기록할 수 있나요?</summary><p>네. 단축어 앱이나 Siri에서 <code>사건 기록하기</code>를 쓰면 타임라인과 제목만 고르면 돼요. 날짜를 정하지 않으면 지금 시각으로 남아요.</p></details>
+<details><summary>다른 기기에서도 기록을 볼 수 있나요?</summary><p>같은 Apple 계정으로 iCloud에 로그인한 iPhone과 iPad끼리 자동으로 이어져요. 설정 앱 &gt; Apple 계정 &gt; iCloud에서 iCloud가 켜져 있는지 확인해 주세요. 네트워크 상태에 따라 조금 늦게 반영될 수 있어요.</p></details>
+<details><summary>기록을 지우고 싶어요.</summary><p>목록에서 타임라인을 왼쪽으로 밀거나 편집 버튼을 눌러 지울 수 있어요. 타임라인을 지우면 그 안의 사건도 함께 지워져요. iCloud에 남은 데이터는 설정 앱 &gt; Apple 계정 &gt; iCloud &gt; 저장 공간 관리에서 지울 수 있어요.</p></details>
+<details><summary>내 기록이 개발자에게 전송되나요?</summary><p>아니요. 기록과 사진은 기기와 본인의 iCloud에만 저장되고, 개발자는 볼 수 없어요. 자세한 내용은 아래 개인정보처리방침에 있어요.</p></details>
+<details><summary>버그를 알리거나 기능을 제안하고 싶어요.</summary><p>앱의 설정 화면에서 바로 보낼 수 있어요. 이메일이나 인스타그램 @lee25_ios로 보내 주셔도 돼요. 기기 모델과 iOS 버전, 어떤 상황이었는지 함께 적어 주시면 더 빨리 도와드릴 수 있어요.</p></details></div>
+      <p class="contact">궁금한 점이나 의견은 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>로 보내 주세요.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>지나온 시간을<br>제 길이로 남겨 보세요</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6808471728">App Store에서 무료로 받기</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 여울 · <a href="index.html">소개</a> · <a href="support.html">지원</a> · <a href="privacy.html">개인정보 처리방침</a>
+    <nav id="languages" class="langs" aria-label="언어"><a href="" hreflang="ko" lang="ko" aria-current="page">한국어</a>
+<a href="en/" hreflang="en" lang="en">English</a>
+<a href="en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="es/" hreflang="es" lang="es">Español</a>
+<a href="de/" hreflang="de" lang="de">Deutsch</a>
+<a href="fr/" hreflang="fr" lang="fr">Français</a>
+<a href="it/" hreflang="it" lang="it">Italiano</a>
+<a href="pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="th/" hreflang="th" lang="th">ไทย</a>
+<a href="vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="da/" hreflang="da" lang="da">Dansk</a>
+<a href="el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">개인정보처리방침</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Yeoul</p>
   </footer>
 
-</div>
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="demo.js"></script>
 </body>
 </html>

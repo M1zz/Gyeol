@@ -1,0 +1,169 @@
+{
+  "title": "Yeoul: tidslinjen der avstanden er tiden som gikk",
+  "description": "Tre dager og fem dager i forholdet 3:5, to år som en stiplet linje. En tidslinje for øyeblikk og bilder i ekte tid. Gratis.",
+  "hero": {
+    "headline": "En tidslinje\nsom strekker seg med tiden",
+    "lead": "Tre dager og fem dager står i forholdet 3:5. En lang pause som to år og fire måneder brettes sammen til en stiplet linje. Bare ved å se på avstandene skjønner du hvordan tiden gikk.",
+    "cta": "Last ned gratis i App Store",
+    "note": "Alle funksjoner er gratis. For iPhone og iPad."
+  },
+  "demo": {
+    "title": "Strekk ut avstandene selv",
+    "lead": "Hver knapp legger til en ny hendelse etter den siste. Avstandene følger samme regel som i appen.",
+    "steps": {
+      "3d": "3 dager senere",
+      "5d": "5 dager senere",
+      "1m": "En måned senere",
+      "2y4m": "2 år og 4 måneder senere"
+    },
+    "gaps": {
+      "3d": "3 d.",
+      "5d": "5 d.",
+      "1m": "1 md.",
+      "2y4m": "2 år 4 md."
+    },
+    "reset": "Start på nytt",
+    "full": "Det får ikke plass til mer. Start på nytt.",
+    "note": "Tegnet mindre enn i appen. Der står det et kort med bildet og teksten din der prikkene er."
+  },
+  "problem": {
+    "title": "Bildebiblioteket viser ikke tiden",
+    "text": "Bildebiblioteket stiller opp alt etter dato, men tre dager og to år tar like mye plass: ett steg. Yeoul setter hendelser like langt fra hverandre som tiden mellom dem, så du ser med en gang når det skjedde mye og når det var stille."
+  },
+  "features": [
+    {
+      "title": "Avstanden er tiden",
+      "text": "Hele tidslinjen har én skala: Samme periode er like lang overalt på skjermen. Ved hver avstand står den ekte varigheten, for eksempel `3 d.` eller `5 md. 21 d.`\nHendelser som ligger svært tett får likevel litt luft, og svært lange pauser brettes sammen til en stiplet linje.",
+      "shot": "02-iceland"
+    },
+    {
+      "title": "Den finner bildene fra den dagen",
+      "text": "Velg datoen og trykk på `Finn relaterte bilder` for å se hva du tok den dagen. Ingenting som passer? Med `Finn selv` velger du selv.\nTrykk på en hendelse i tidslinjen, så folder bilde og tekst seg ut akkurat der.",
+      "shot": "03-expand"
+    },
+    {
+      "title": "Ett merke samler spredte øyeblikk",
+      "text": "Gi hendelser et merke som `#Island`, trykk på det, og alle hendelser med det merket fra alle tidslinjene dine samles i en ny.\nLagre den, så blir den stående i listen og tar selv med nye hendelser med samme merke.",
+      "shot": "04-tag"
+    },
+    {
+      "title": "Riktig kort til hvert øyeblikk",
+      "text": "Klassisk setter teksten først, Plakat fyller kortet med bildet, Film rammer det inn som en papirkopi, og Marg lar en stor dato ta plassen. Forhåndsvisningen endres med en gang.",
+      "shot": "05-editor"
+    }
+  ],
+  "steps": {
+    "title": "I gang på tre steg",
+    "items": [
+      {
+        "title": "Lag en tidslinje",
+        "text": "Barnets første år, et forhold, en reise: hver med eget navn og egen farge."
+      },
+      {
+        "title": "Legg til hendelser",
+        "text": "Skriv dato og tittel, og legg ved et bilde fra den dagen."
+      },
+      {
+        "title": "Gi dem merker",
+        "text": "Hendelser med samme merke samles på tvers av tidslinjer."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Fire kortdesign",
+    "rows": [
+      [
+        "Klassisk",
+        "Teksten først, bildet under."
+      ],
+      [
+        "Plakat",
+        "Bildet fyller hele kortet med en stor tittel over. Uten bilde brukes tidslinjens farge."
+      ],
+      [
+        "Film",
+        "Et bilde med kant som en papirkopi, skrivemaskinskrift og datostempel."
+      ],
+      [
+        "Marg",
+        "Et stort datotall og et lite bilde. Her er det ordene som har hovedrollen."
+      ]
+    ],
+    "note": "En ny hendelse starter med samme design som det nyeste kortet i tidslinjen."
+  },
+  "pricing": {
+    "title": "Alle funksjoner er gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Så mange tidslinjer du vil, med navn og farge",
+        "Bilder, historier og merker på hver hendelse",
+        "Finn bilder fra dagen hendelsen skjedde",
+        "Lagrede merketidslinjer",
+        "Fire kortdesign",
+        "iCloud-synkronisering mellom iPhone og iPad",
+        "Registrer med Snarveier og Siri"
+      ]
+    },
+    "pro": {
+      "name": "Støtt utvikleren",
+      "items": [
+        "Velg en liten, middels eller stor tips",
+        "Den låser ikke opp noe. Det er bare en måte å si takk på"
+      ],
+      "note": "Du finner det i innstillingene i appen, når du har lyst."
+    },
+    "note": "Ingen reklame, ikke noe abonnement."
+  },
+  "faq": {
+    "title": "Vanlige spørsmål",
+    "items": [
+      {
+        "q": "Hvorfor er avstandene mellom hendelsene så ulike?",
+        "a": "Yeoul setter hendelser like langt fra hverandre som tiden som faktisk gikk. Alle avstander har samme skala, så tre dager og fem dager står i forholdet 3:5. Hendelser som ligger svært tett får en minsteavstand så de ikke overlapper, og svært lange pauser brettes sammen til en stiplet linje med den ekte varigheten, for eksempel 2 år 4 md."
+      },
+      {
+        "q": "Jeg ser ikke bildene fra den dagen.",
+        "a": "Søk etter dato krever tilgang til bildene dine. Gi tilgang under Innstillinger > Yeoul > Bilder. Yeoul ser etter bilder tatt fra midnatt til midnatt den dagen, i enhetens tidssone. Vil du ikke gi tilgang, trykker du på `Finn selv` rett under."
+      },
+      {
+        "q": "Hva er en merketidslinje?",
+        "a": "Trykk på merket til en hendelse, så samler Yeoul alle hendelser med det merket fra alle tidslinjene dine i én. De du ofte ser på, kan du lagre i listen. Ingenting kopieres: Endrer du den opprinnelige hendelsen, vises endringen her også, og sletter du merketidslinjen, blir hendelsene liggende."
+      },
+      {
+        "q": "Hvorfor kan jeg ikke legge til hendelser i en merketidslinje?",
+        "a": "En merketidslinje er en visning samlet etter merke, ikke et sted å lagre hendelser, så det går ikke å avgjøre hvilken tidslinje en ny hendelse hører til. Legg den til i sin egen tidslinje med merket, så dukker den opp her av seg selv."
+      },
+      {
+        "q": "Kan jeg registrere noe uten å åpne appen?",
+        "a": "Ja. Bruk `Registrer en hendelse` i Snarveier-appen eller med Siri, og velg bare tidslinje og tittel. Uten dato brukes klokkeslettet nå."
+      },
+      {
+        "q": "Ser jeg tidslinjene mine på andre enheter?",
+        "a": "Ja, på alle iPhoner og iPader som er logget på iCloud med samme Apple-konto. Sjekk under Innstillinger > navnet ditt > iCloud at iCloud er slått på. Avhengig av forbindelsen kan det ta et øyeblikk."
+      },
+      {
+        "q": "Hvordan sletter jeg dataene mine?",
+        "a": "Sveip en tidslinje mot venstre i listen, eller trykk på Rediger. Når en tidslinje slettes, slettes hendelsene i den også. Det som ligger igjen i iCloud, fjerner du under administrering av lagringsplass i iCloud-innstillingene."
+      },
+      {
+        "q": "Ser utvikleren dataene mine?",
+        "a": "Nei. Hendelsene og bildene dine ligger bare på enhetene dine og i din egen iCloud, og utvikleren kan ikke se dem. Detaljene står i personvernerklæringen nedenfor."
+      },
+      {
+        "q": "Hvordan melder jeg fra om en feil eller foreslår noe?",
+        "a": "Rett fra innstillingene i appen, på e-post eller på Instagram via @lee25_ios. Skriv gjerne enhetsmodell, iOS-versjon og hva som skjedde, så kan vi hjelpe raskere."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Ta vare på tiden du har levd\ni sin ekte lengde",
+    "cta": "Last ned gratis i App Store"
+  },
+  "ui": {
+    "skip": "Gå til innhold",
+    "languages": "Språk",
+    "privacy": "Personvern",
+    "contact": "Spørsmål eller idéer? Skriv til {email}."
+  }
+}

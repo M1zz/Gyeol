@@ -1,0 +1,169 @@
+{
+  "title": "Yeoul: aralıkların gerçekten geçen zamana göre açıldığı zaman çizelgesi",
+  "description": "Üç gün ile beş gün 3'e 5, iki yıl kesik çizgi. Anlar ve fotoğraflar için gerçek zamana göre açılan bir zaman çizelgesi. Ücretsiz.",
+  "hero": {
+    "headline": "Zamanla birlikte\nuzayan bir çizelge",
+    "lead": "Üç gün ile beş gün 3'e 5 oranında açılır. İki yıl dört ay gibi uzun bir boşluk kesik çizgiye katlanır. Sadece aralıklara bakarak o dönemde zamanın nasıl geçtiğini görürsün.",
+    "cta": "App Store'dan ücretsiz indir",
+    "note": "Tüm özellikler ücretsiz. iPhone ve iPad için."
+  },
+  "demo": {
+    "title": "Aralıkları kendin aç",
+    "lead": "Her düğme son olaydan sonra yeni bir olay ekler. Aralıklar uygulamadakiyle aynı kurala göre çizilir.",
+    "steps": {
+      "3d": "3 gün sonra",
+      "5d": "5 gün sonra",
+      "1m": "Bir ay sonra",
+      "2y4m": "2 yıl 4 ay sonra"
+    },
+    "gaps": {
+      "3d": "3 g",
+      "5d": "5 g",
+      "1m": "1 ay",
+      "2y4m": "2 y 4 ay"
+    },
+    "reset": "Baştan başla",
+    "full": "Bu kadar sığıyor. Baştan başlayıp yeniden dene.",
+    "note": "Uygulamadakinden küçük çizildi. Uygulamada her noktanın yerinde fotoğrafının ve yazının olduğu bir kart durur."
+  },
+  "problem": {
+    "title": "Fotoğraf arşivinde zaman görünmez",
+    "text": "Fotoğraf arşivi her şeyi tarihe göre sıralar ama üç gün de iki yıl da orada aynı tek adımı kaplar. Yeoul olayları aralarında geçen zaman kadar açar; hangi dönemin yoğun, hangisinin sakin geçtiğini bir bakışta görürsün."
+  },
+  "features": [
+    {
+      "title": "Aralık, geçen zamandır",
+      "text": "Bütün çizelge tek bir ölçek kullanır: aynı süre ekranın her yerinde aynı uzunluktadır. Her aralıkta gerçek süre yazar, örneğin `3 g` ya da `5 ay 21 g`.\nÇok yakın olaylar yine biraz nefes alır, çok uzun boşluklar kesik çizgiye katlanır.",
+      "shot": "02-iceland"
+    },
+    {
+      "title": "O gün çektiğin fotoğrafları bulur",
+      "text": "Olayın tarihini seç ve `İlgili fotoğrafları bul`a dokun; o gün çektiğin fotoğraflar gelsin. Uygun olan yok mu? `Kendim bulayım` ile kendin seç.\nÇizelgede bir olaya dokun, fotoğrafı ve yazısı olduğu yerde açılsın.",
+      "shot": "03-expand"
+    },
+    {
+      "title": "Tek etiket dağınık anları toplar",
+      "text": "Olaylara `#İzlanda` gibi bir etiket ekle, etikete dokun; tüm çizelgelerdeki o etiketli olaylar yeni bir çizelgede buluşsun.\nKaydedersen listende kalır ve sonradan aynı etiketi alan olaylar kendiliğinden eklenir.",
+      "shot": "04-tag"
+    },
+    {
+      "title": "Her ana yakışan bir kart",
+      "text": "Klasik yazıyı öne çıkarır, Poster kartı fotoğrafla doldurur, Film onu baskı fotoğraf gibi çerçeveler, Boşluk ise sahneyi büyük bir tarihe bırakır. Seçtiğin anda önizleme değişir.",
+      "shot": "05-editor"
+    }
+  ],
+  "steps": {
+    "title": "Üç adımda başla",
+    "items": [
+      {
+        "title": "Bir çizelge oluştur",
+        "text": "Bebeğin ilk yılı, bir ilişki, bir seyahat: her birine bir ad ve renk ver."
+      },
+      {
+        "title": "Olay ekle",
+        "text": "Tarihi ve başlığı yaz, o günden bir fotoğraf ekle."
+      },
+      {
+        "title": "Etiketle",
+        "text": "Aynı etiketi taşıyan olaylar farklı çizelgelerden de olsa bir araya gelir."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Dört kart tasarımı",
+    "rows": [
+      [
+        "Klasik",
+        "Önce yazı, fotoğraf altta."
+      ],
+      [
+        "Poster",
+        "Fotoğraf kartı kaplar, üstünde büyük bir başlık durur. Fotoğraf yoksa çizelgenin rengiyle dolar."
+      ],
+      [
+        "Film",
+        "Baskı fotoğraf gibi kenarlıklı bir fotoğraf, daktilo yazısı ve tarih damgası."
+      ],
+      [
+        "Boşluk",
+        "Büyük bir tarih rakamı ve küçük bir fotoğraf. Burada başrol kelimelerde."
+      ]
+    ],
+    "note": "Yeni bir olay, o çizelgedeki en yeni kartın tasarımıyla başlar."
+  },
+  "pricing": {
+    "title": "Tüm özellikler ücretsiz",
+    "free": {
+      "name": "Ücretsiz",
+      "items": [
+        "İstediğin kadar çizelge, ad ve renk seçimiyle",
+        "Her olaya fotoğraf, hikâye ve etiket",
+        "Olayın gününde çekilen fotoğrafları bulma",
+        "Kaydedilen etiket zaman çizelgeleri",
+        "Dört kart tasarımı",
+        "iCloud ile iPhone ve iPad eşzamanlama",
+        "Kestirmeler ve Siri ile kaydetme"
+      ]
+    },
+    "pro": {
+      "name": "Geliştiriciye destek ol",
+      "items": [
+        "Küçük, orta ya da büyük bahşiş seç",
+        "Hiçbir şeyin kilidini açmaz. Sadece teşekkür etmenin bir yolu"
+      ],
+      "note": "Uygulamanın ayarlarında, canın istediğinde."
+    },
+    "note": "Reklam yok, abonelik yok."
+  },
+  "faq": {
+    "title": "Sık sorulan sorular",
+    "items": [
+      {
+        "q": "Olaylar arasındaki aralıklar neden bu kadar farklı?",
+        "a": "Yeoul olayları gerçekten geçen zaman kadar açar. Tüm aralıklar aynı ölçeği kullanır, bu yüzden üç gün ile beş gün 3'e 5 oranında görünür. Çok yakın olaylar üst üste binmesin diye en az bir aralık alır, çok uzun boşluklar ise 2 y 4 ay gibi gerçek süresi yazılı bir kesik çizgiye katlanır."
+      },
+      {
+        "q": "O günün fotoğrafları görünmüyor.",
+        "a": "Tarihe göre fotoğraf bulmak için fotoğraflara erişim izni gerekir. Ayarlar > Yeoul > Fotoğraflar bölümünden izin ver. Yeoul, cihazın saat dilimine göre o günün gece yarısından gece yarısına kadar çekilen fotoğrafları arar. İzin vermek istemezsen hemen alttaki `Kendim bulayım` ile arşivden seçebilirsin."
+      },
+      {
+        "q": "Etiket zaman çizelgesi nedir?",
+        "a": "Bir olayın etiketine dokunduğunda Yeoul, tüm çizelgelerindeki o etiketli olayları tek bir çizelgede toplar. Sık baktıklarını listene kaydedebilirsin. Hiçbir şey kopyalanmaz: asıl olayı düzenlersen değişiklik burada da görünür, etiket çizelgesini silersen olaylar yerinde kalır."
+      },
+      {
+        "q": "Etiket çizelgesine neden olay ekleyemiyorum?",
+        "a": "Etiket çizelgesi olayları saklayan bir yer değil, etikete göre toplanmış bir görünümdür; yeni olayın hangi çizelgeye ait olacağı belirlenemez. Olayı kendi çizelgesine ekleyip etiketle, burada kendiliğinden görünür."
+      },
+      {
+        "q": "Uygulamayı açmadan kayıt yapabilir miyim?",
+        "a": "Evet. Kestirmeler uygulamasında ya da Siri ile `Olay Kaydet`i kullan, sadece çizelgeyi ve başlığı seç. Tarih seçmezsen şu anki saatle kaydedilir."
+      },
+      {
+        "q": "Çizelgelerimi diğer cihazlarda görebilir miyim?",
+        "a": "Evet, aynı Apple Hesabı ile iCloud'a giriş yapmış her iPhone ve iPad'de. Ayarlar > adın > iCloud bölümünde iCloud'un açık olduğunu kontrol et. Bağlantıya göre değişikliklerin gelmesi biraz sürebilir."
+      },
+      {
+        "q": "Kayıtlarımı nasıl silerim?",
+        "a": "Listede bir çizelgeyi sola kaydır ya da Düzenle'ye dokun. Çizelgeyi silince içindeki olaylar da silinir. iCloud'da kalanları iCloud ayarlarındaki depolama yönetiminden silebilirsin."
+      },
+      {
+        "q": "Geliştirici kayıtlarımı görür mü?",
+        "a": "Hayır. Kayıtların ve fotoğrafların yalnızca cihazlarında ve kendi iCloud'unda durur, geliştirici bunları göremez. Ayrıntılar aşağıdaki gizlilik politikasında."
+      },
+      {
+        "q": "Hata bildirmek ya da özellik önermek istiyorum.",
+        "a": "Doğrudan uygulamanın ayarlarından, e-postayla ya da Instagram'da @lee25_ios üzerinden gönderebilirsin. Cihaz modelini, iOS sürümünü ve ne olduğunu yazarsan daha hızlı yardımcı oluruz."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Yaşadığın zamanı\ngerçek uzunluğuyla sakla",
+    "cta": "App Store'dan ücretsiz indir"
+  },
+  "ui": {
+    "skip": "İçeriğe geç",
+    "languages": "Dil",
+    "privacy": "Gizlilik politikası",
+    "contact": "Soru ya da önerin mi var? {email} adresine yaz."
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "title": "Yeoul: časová osa, kde rozestupy odpovídají skutečnému času",
+  "description": "Tři dny a pět dní v poměru 3 : 5, dva roky složené do přerušované čáry. Časová osa pro chvíle a fotky podle skutečného času. Zdarma.",
+  "hero": {
+    "headline": "Časová osa,\nkterá se natahuje s časem",
+    "lead": "Tři dny a pět dní stojí v poměru 3 : 5. Dlouhá pauza, třeba dva roky a čtyři měsíce, se složí do přerušované čáry. Už z rozestupů poznáte, jak tehdy plynul čas.",
+    "cta": "Stáhnout zdarma z App Storu",
+    "note": "Všechny funkce jsou zdarma. Pro iPhone a iPad."
+  },
+  "demo": {
+    "title": "Roztáhněte rozestupy sami",
+    "lead": "Každé tlačítko přidá novou událost za tu poslední. Rozestupy se počítají podle stejného pravidla jako v aplikaci.",
+    "steps": {
+      "3d": "O 3 dny později",
+      "5d": "O 5 dní později",
+      "1m": "O měsíc později",
+      "2y4m": "O 2 roky a 4 měsíce později"
+    },
+    "gaps": {
+      "3d": "3 d.",
+      "5d": "5 d.",
+      "1m": "1 měs.",
+      "2y4m": "2 r. 4 měs."
+    },
+    "reset": "Začít znovu",
+    "full": "Víc se sem nevejde. Začněte znovu.",
+    "note": "Nakresleno menší než v aplikaci. Tam je na místě každé tečky karta s vaší fotkou a textem."
+  },
+  "problem": {
+    "title": "Ve fotkách čas neuvidíte",
+    "text": "Knihovna fotek řadí všechno podle data, ale tři dny i dva roky v ní zabírají stejný jeden krok. Yeoul rozestaví události podle času, který mezi nimi uplynul, takže hned vidíte, kdy se toho dělo hodně a kdy bylo ticho."
+  },
+  "features": [
+    {
+      "title": "Rozestup je čas",
+      "text": "Celá osa má jediné měřítko: stejně dlouhé období je všude na obrazovce stejně dlouhé. U každého rozestupu je skutečná délka, třeba `3 d.` nebo `5 měs. 21 d.`\nVelmi blízké události dostanou aspoň trochu místa a velmi dlouhé pauzy se složí do přerušované čáry.",
+      "shot": "02-iceland"
+    },
+    {
+      "title": "Najde fotky z toho dne",
+      "text": "Nastavte datum události a klepněte na `Najít související fotky`: uvidíte snímky pořízené ten den. Nic se nehodí? Přes `Vybrat ručně` si zvolíte sami.\nKlepněte na událost na ose a fotka s textem se rozbalí přímo na místě.",
+      "shot": "03-expand"
+    },
+    {
+      "title": "Jeden štítek posbírá rozházené chvíle",
+      "text": "Dejte událostem štítek jako `#Island`, klepněte na něj a všechny události s ním ze všech os se sejdou v nové.\nKdyž ji uložíte, zůstane v seznamu a nové události se stejným štítkem do ní přibudou samy.",
+      "shot": "04-tag"
+    },
+    {
+      "title": "Ke každé chvíli vhodná karta",
+      "text": "Klasika dává přednost textu, Plakát vyplní kartu fotkou, Film ji orámuje jako fotografii z laborky a Okraj nechá hlavní roli velkému datu. Náhled se změní hned.",
+      "shot": "05-editor"
+    }
+  ],
+  "steps": {
+    "title": "Začnete ve třech krocích",
+    "items": [
+      {
+        "title": "Vytvořte časovou osu",
+        "text": "První rok dítěte, vztah, cesta: každá dostane název a barvu."
+      },
+      {
+        "title": "Přidejte události",
+        "text": "Napište datum a název a přidejte fotku z toho dne."
+      },
+      {
+        "title": "Přidejte štítky",
+        "text": "Události se stejným štítkem se sejdou napříč osami."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Čtyři vzhledy karet",
+    "rows": [
+      [
+        "Klasika",
+        "Hlavní je text, fotka je pod ním."
+      ],
+      [
+        "Plakát",
+        "Fotka vyplní celou kartu a nahoře je velký nadpis. Bez fotky se karta vybarví barvou osy."
+      ],
+      [
+        "Film",
+        "Fotka s okrajem jako zvětšenina, písmo psacího stroje a razítko s datem."
+      ],
+      [
+        "Okraj",
+        "Velké číslo data a malá fotka. Tady hrají hlavní roli slova."
+      ]
+    ],
+    "note": "Nová událost začne se stejným vzhledem jako nejnovější karta na dané ose."
+  },
+  "pricing": {
+    "title": "Všechny funkce jsou zdarma",
+    "free": {
+      "name": "Zdarma",
+      "items": [
+        "Libovolný počet časových os s názvem a barvou",
+        "Fotky, příběhy a štítky u každé události",
+        "Hledání fotek ze dne události",
+        "Uložené časové osy štítků",
+        "Čtyři vzhledy karet",
+        "Synchronizace iPhonu a iPadu přes iCloud",
+        "Zapisování přes Zkratky a Siri"
+      ]
+    },
+    "pro": {
+      "name": "Podpořte vývojáře",
+      "items": [
+        "Vyberte malé, střední nebo velké spropitné",
+        "Nic se tím neodemyká. Je to jen poděkování"
+      ],
+      "note": "Najdete ho v nastavení aplikace, kdykoli budete chtít."
+    },
+    "note": "Žádné reklamy, žádné předplatné."
+  },
+  "faq": {
+    "title": "Časté otázky",
+    "items": [
+      {
+        "q": "Proč jsou rozestupy mezi událostmi tak různé?",
+        "a": "Yeoul rozestaví události podle času, který opravdu uplynul. Všechny rozestupy mají stejné měřítko, takže tři dny a pět dní stojí v poměru 3 : 5. Velmi blízké události mají minimální rozestup, aby se nepřekrývaly, a velmi dlouhé pauzy se složí do přerušované čáry se skutečnou délkou, třeba 2 r. 4 měs."
+      },
+      {
+        "q": "Nevidím fotky z toho dne.",
+        "a": "Hledání fotek podle data potřebuje přístup k fotkám. Povolte ho v Nastavení > Yeoul > Fotky. Yeoul hledá snímky pořízené od půlnoci do půlnoci daného dne v časovém pásmu zařízení. Pokud přístup dát nechcete, klepněte hned pod tím na `Vybrat ručně`."
+      },
+      {
+        "q": "Co je časová osa štítku?",
+        "a": "Klepněte na štítek u události a Yeoul shromáždí všechny události s tímto štítkem ze všech vašich os do jedné. Ty, na které se díváte často, si můžete uložit do seznamu. Nic se nekopíruje: když upravíte původní událost, změna se projeví i tady, a smazáním osy štítku události nezmizí."
+      },
+      {
+        "q": "Proč nejde do osy štítku přidat událost?",
+        "a": "Osa štítku je pohled sestavený podle štítku, ne místo, kde se události ukládají, takže nejde určit, kam by nová událost patřila. Přidejte ji do její vlastní osy se štítkem a objeví se tu sama."
+      },
+      {
+        "q": "Můžu něco zapsat bez otevření aplikace?",
+        "a": "Ano. Použijte `Zaznamenat událost` v aplikaci Zkratky nebo se Siri a vyberte jen osu a název. Bez data se uloží aktuální čas."
+      },
+      {
+        "q": "Uvidím své osy i na dalších zařízeních?",
+        "a": "Ano, na každém iPhonu a iPadu přihlášeném do iCloudu stejným Apple účtem. V Nastavení > vaše jméno > iCloud zkontrolujte, že je iCloud zapnutý. Podle připojení může chvíli trvat, než se změny objeví."
+      },
+      {
+        "q": "Jak smažu své záznamy?",
+        "a": "V seznamu přejeďte po ose doleva nebo klepněte na Upravit. Se smazáním osy se smažou i její události. Co zůstalo v iCloudu, odstraníte ve správě úložiště v nastavení iCloudu."
+      },
+      {
+        "q": "Vidí vývojář mé záznamy?",
+        "a": "Ne. Záznamy a fotky jsou uložené jen ve vašich zařízeních a ve vašem vlastním iCloudu, vývojář je nevidí. Podrobnosti najdete v zásadách ochrany soukromí níže."
+      },
+      {
+        "q": "Jak nahlásit chybu nebo navrhnout funkci?",
+        "a": "Přímo z nastavení aplikace, e-mailem nebo na Instagramu @lee25_ios. Model zařízení, verze iOS a popis situace nám pomůžou rychleji."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Uchovejte prožitý čas\nv jeho skutečné délce",
+    "cta": "Stáhnout zdarma z App Storu"
+  },
+  "ui": {
+    "skip": "Přejít na obsah",
+    "languages": "Jazyk",
+    "privacy": "Ochrana soukromí",
+    "contact": "Dotazy nebo nápady? Napište na {email}."
+  }
+}

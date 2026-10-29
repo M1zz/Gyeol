@@ -1,0 +1,36 @@
+/* 여울 웹 데모. 척추선 · 점 · 점선은 앱의 타임라인 모양을 따른다. */
+.demo-card { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s5); align-items: start; }
+.demo-stage { background: var(--bg); border-radius: var(--r-inner); padding: var(--s5); min-height: 260px; }
+.yw-track { position: relative; transition: height .5s var(--ease); }
+.yw-line { position: absolute; left: calc(40% - 1px); width: 0; border-left: 2px solid var(--line); }
+.yw-line.folded { border-left-style: dashed; border-left-color: var(--muted); opacity: .6; }
+.yw-gap { position: absolute; right: calc(60% + var(--s3)); transform: translateY(-50%);
+          font-size: .8125rem; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.yw-node { position: absolute; left: calc(40% - 7px); height: 30px; display: flex; align-items: center; gap: var(--s3);
+           font-size: .9375rem; font-weight: 600; white-space: nowrap; }
+.yw-node b { width: 14px; height: 14px; border-radius: 50%; background: var(--surface);
+             box-shadow: inset 0 0 0 2px var(--accent); flex: none; }
+.yw-node.fresh b { background: var(--accent); animation: yw-pop .5s var(--ease); }
+@keyframes yw-pop { 0% { transform: scale(.3); } 100% { transform: none; } }
+.yw-list { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+
+.demo-chips { display: flex; flex-wrap: wrap; gap: var(--s2); margin-bottom: var(--s4); }
+.chip { font: inherit; font-weight: 600; color: var(--accent); background: var(--bg); border: 0;
+        border-radius: 999px; padding: var(--s2) var(--s4); min-height: 44px; cursor: pointer;
+        transition: transform .15s var(--ease), background .15s var(--ease); }
+.chip:hover:not(:disabled) { background: color-mix(in srgb, var(--accent) 14%, var(--bg)); }
+.chip:active:not(:disabled) { transform: scale(.95); }
+.chip:disabled { cursor: default; opacity: .45; }
+.chip.hint { background: var(--accent); color: var(--on-accent); animation: yw-hint 1.6s var(--ease) infinite; }
+@keyframes yw-hint { 50% { box-shadow: 0 0 0 8px color-mix(in srgb, var(--accent) 22%, transparent); } }
+.yw-reset { font: inherit; font-weight: 600; min-height: 44px; padding: 0 var(--s5); border-radius: 999px; cursor: pointer;
+            color: var(--text); background: transparent; border: 2px solid var(--line); }
+.yw-reset:hover { border-color: var(--accent); color: var(--accent); }
+.yw-full { margin: var(--s3) 0 0; min-height: 1em; }
+.demo-note { margin-top: var(--s3); }
+
+@media (prefers-reduced-motion: reduce) {
+  .yw-track { transition: none; }
+  .yw-node.fresh b, .chip.hint { animation: none; }
+}
+@media (max-width: 760px) { .demo-card { grid-template-columns: 1fr; } }

@@ -1,0 +1,169 @@
+{
+  "title": "Yeoul: die Zeitleiste, deren Abstände der echten Zeit folgen",
+  "description": "Drei und fünf Tage im Verhältnis 3:5, zwei Jahre als gestrichelte Linie. Eine Zeitleiste für Momente und Fotos in echter Zeit. Kostenlos.",
+  "hero": {
+    "headline": "Eine Zeitleiste,\ndie mit der Zeit wächst",
+    "lead": "Drei Tage und fünf Tage stehen im Verhältnis 3:5. Eine lange Pause wie zwei Jahre und vier Monate faltet sich zu einer gestrichelten Linie. Schon an den Abständen siehst du, wie die Zeit damals verging.",
+    "cta": "Kostenlos im App Store laden",
+    "note": "Alle Funktionen sind kostenlos. Für iPhone und iPad."
+  },
+  "demo": {
+    "title": "Zieh die Abstände selbst auseinander",
+    "lead": "Jeder Button setzt ein neues Ereignis hinter das letzte. Die Abstände folgen derselben Regel wie in der App.",
+    "steps": {
+      "3d": "3 Tage später",
+      "5d": "5 Tage später",
+      "1m": "Einen Monat später",
+      "2y4m": "2 Jahre 4 Monate später"
+    },
+    "gaps": {
+      "3d": "3 T.",
+      "5d": "5 T.",
+      "1m": "1 Mon.",
+      "2y4m": "2 J. 4 Mon."
+    },
+    "reset": "Neu anfangen",
+    "full": "Mehr passt nicht hinein. Fang einfach neu an.",
+    "note": "Hier kleiner gezeichnet als in der App. Dort steht an jedem Punkt eine Karte mit Foto und Text."
+  },
+  "problem": {
+    "title": "In der Fotomediathek siehst du keine Zeit",
+    "text": "Die Mediathek reiht alles nach Datum auf, aber drei Tage und zwei Jahre sind dort jeweils nur ein Schritt. Yeoul setzt Ereignisse so weit auseinander, wie Zeit dazwischen lag. So siehst du auf einen Blick, wann viel los war und wann es still wurde."
+  },
+  "features": [
+    {
+      "title": "Der Abstand ist die Zeit",
+      "text": "Die ganze Zeitleiste hat einen einzigen Maßstab: Gleich lange Zeiträume sind überall gleich lang. An jedem Abstand steht die echte Dauer, etwa `3 T.` oder `5 Mon. 21 T.`\nSehr nahe Ereignisse bekommen trotzdem etwas Luft, sehr lange Pausen falten sich zu einer gestrichelten Linie.",
+      "shot": "02-iceland"
+    },
+    {
+      "title": "Sie findet die Fotos von diesem Tag",
+      "text": "Leg das Datum fest und tippe auf `Passende Fotos suchen`: Du siehst die Fotos, die du an dem Tag gemacht hast. Nichts dabei? Mit `Selbst suchen` wählst du eines aus.\nTippst du auf ein Ereignis, öffnen sich Foto und Text direkt an seinem Platz.",
+      "shot": "03-expand"
+    },
+    {
+      "title": "Ein Hashtag sammelt verstreute Momente",
+      "text": "Versieh Ereignisse mit einem Hashtag wie `#Island` und tippe darauf: Alle Ereignisse mit diesem Hashtag, aus allen Zeitleisten, landen in einer neuen.\nSicherst du sie, bleibt sie in deiner Liste und nimmt neue Ereignisse mit dem Hashtag von selbst auf.",
+      "shot": "04-tag"
+    },
+    {
+      "title": "Für jeden Moment die passende Karte",
+      "text": "Klassisch stellt den Text in den Mittelpunkt, Poster füllt die Karte mit dem Foto, Film rahmt es wie einen Abzug, und bei Rand steht ein großes Datum im Vordergrund. Die Vorschau ändert sich sofort.",
+      "shot": "05-editor"
+    }
+  ],
+  "steps": {
+    "title": "In drei Schritten startklar",
+    "items": [
+      {
+        "title": "Zeitleiste anlegen",
+        "text": "Das erste Jahr deines Kindes, eine Beziehung, eine Reise: Gib jeder einen Namen und eine Farbe."
+      },
+      {
+        "title": "Ereignisse hinzufügen",
+        "text": "Datum und Titel eintragen, ein Foto von dem Tag dazu."
+      },
+      {
+        "title": "Hashtags vergeben",
+        "text": "Ereignisse mit demselben Hashtag finden über alle Zeitleisten zusammen."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Vier Kartendesigns",
+    "rows": [
+      [
+        "Klassisch",
+        "Der Text steht im Mittelpunkt, das Foto darunter."
+      ],
+      [
+        "Poster",
+        "Das Foto füllt die ganze Karte, darüber ein großer Titel. Ohne Foto erscheint die Farbe der Zeitleiste."
+      ],
+      [
+        "Film",
+        "Ein Foto mit Rand wie ein Abzug, dazu Schreibmaschinenschrift und Datumsstempel."
+      ],
+      [
+        "Rand",
+        "Eine große Datumszahl, ein kleines Foto. Hier spielt die Schrift die Hauptrolle."
+      ]
+    ],
+    "note": "Ein neues Ereignis übernimmt das Design der neuesten Karte in dieser Zeitleiste."
+  },
+  "pricing": {
+    "title": "Alle Funktionen sind kostenlos",
+    "free": {
+      "name": "Kostenlos",
+      "items": [
+        "Beliebig viele Zeitleisten mit Name und Farbe",
+        "Fotos, Texte und Hashtags für jedes Ereignis",
+        "Fotos vom Tag des Ereignisses finden",
+        "Hashtag-Zeitleisten sichern",
+        "Vier Kartendesigns",
+        "iCloud-Sync zwischen iPhone und iPad",
+        "Ereignisse per Kurzbefehl und Siri festhalten"
+      ]
+    },
+    "pro": {
+      "name": "Den Entwickler unterstützen",
+      "items": [
+        "Wähl ein kleines, mittleres oder großes Trinkgeld",
+        "Damit wird nichts freigeschaltet. Es ist einfach ein Dankeschön"
+      ],
+      "note": "Zu finden in den Einstellungen, ganz wie du magst."
+    },
+    "note": "Keine Werbung, kein Abo."
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Warum sind die Abstände zwischen Ereignissen so unterschiedlich?",
+        "a": "Yeoul setzt Ereignisse so weit auseinander, wie wirklich Zeit vergangen ist. Alle Abstände haben denselben Maßstab, deshalb stehen drei und fünf Tage im Verhältnis 3:5. Sehr nahe Ereignisse bekommen einen Mindestabstand, damit sie sich nicht überlappen, und sehr lange Pausen falten sich zu einer gestrichelten Linie mit der echten Dauer, etwa 2 J. 4 Mon."
+      },
+      {
+        "q": "Ich sehe die Fotos von dem Tag nicht.",
+        "a": "Für die Suche nach Datum braucht Yeoul Zugriff auf deine Fotos. Erlaube ihn unter Einstellungen > Yeoul > Fotos. Gesucht wird von Mitternacht bis Mitternacht in der Zeitzone deines Geräts. Möchtest du keinen Zugriff geben, tippe direkt darunter auf `Selbst suchen` und wähl ein Foto aus der Mediathek."
+      },
+      {
+        "q": "Was ist eine Hashtag-Zeitleiste?",
+        "a": "Tippst du auf den Hashtag eines Ereignisses, sammelt Yeoul alle Ereignisse mit diesem Hashtag aus allen Zeitleisten in einer. Häufig genutzte kannst du in deiner Liste sichern. Dabei wird nichts kopiert: Änderst du das ursprüngliche Ereignis, siehst du das auch hier, und wenn du die Hashtag-Zeitleiste löschst, bleiben die Ereignisse erhalten."
+      },
+      {
+        "q": "Warum kann ich in einer Hashtag-Zeitleiste nichts hinzufügen?",
+        "a": "Eine Hashtag-Zeitleiste ist eine gesammelte Ansicht, kein Behälter. Es ließe sich nicht festlegen, zu welcher Zeitleiste ein neues Ereignis gehört. Füg es in seiner eigenen Zeitleiste hinzu, vergib den Hashtag, und es erscheint hier von selbst."
+      },
+      {
+        "q": "Kann ich etwas festhalten, ohne die App zu öffnen?",
+        "a": "Ja. Nutze `Ereignis festhalten` in der Kurzbefehle-App oder mit Siri und wähl nur Zeitleiste und Titel. Ohne Datum wird die aktuelle Uhrzeit verwendet."
+      },
+      {
+        "q": "Sehe ich meine Zeitleisten auch auf anderen Geräten?",
+        "a": "Ja, auf jedem iPhone und iPad, das mit demselben Apple Account bei iCloud angemeldet ist. Prüf unter Einstellungen > dein Name > iCloud, ob iCloud aktiviert ist. Je nach Verbindung kann es einen Moment dauern."
+      },
+      {
+        "q": "Wie lösche ich meine Einträge?",
+        "a": "Wisch eine Zeitleiste in der Liste nach links oder tippe auf Bearbeiten. Mit der Zeitleiste werden auch ihre Ereignisse gelöscht. Was noch in iCloud liegt, entfernst du in den iCloud-Einstellungen unter Speicher verwalten."
+      },
+      {
+        "q": "Sieht der Entwickler meine Einträge?",
+        "a": "Nein. Einträge und Fotos liegen nur auf deinen Geräten und in deiner eigenen iCloud, der Entwickler kann sie nicht sehen. Mehr dazu in der Datenschutzerklärung unten."
+      },
+      {
+        "q": "Wie melde ich einen Fehler oder schlage etwas vor?",
+        "a": "Direkt in der App über die Einstellungen, per E-Mail oder auf Instagram unter @lee25_ios. Gerätemodell, iOS-Version und eine kurze Beschreibung der Situation helfen, schneller zu helfen."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Bewahr deine Zeit\nin ihrer echten Länge",
+    "cta": "Kostenlos im App Store laden"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "languages": "Sprache",
+    "privacy": "Datenschutz",
+    "contact": "Fragen oder Feedback? Schreib an {email}."
+  }
+}

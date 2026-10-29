@@ -1,0 +1,169 @@
+{
+  "title": "Yeoul: tidslinjen hvor afstanden er den tid, der gik",
+  "description": "Tre dage og fem dage i forholdet 3:5, to år foldet til en stiplet linje. En tidslinje til øjeblikke og billeder i ægte tid. Gratis.",
+  "hero": {
+    "headline": "En tidslinje,\nder strækker sig med tiden",
+    "lead": "Tre dage og fem dage står i forholdet 3:5. En lang pause som to år og fire måneder foldes sammen til en stiplet linje. Bare ved at se på afstandene kan du mærke, hvordan tiden gik.",
+    "cta": "Hent gratis i App Store",
+    "note": "Alle funktioner er gratis. Til iPhone og iPad."
+  },
+  "demo": {
+    "title": "Træk afstandene ud selv",
+    "lead": "Hver knap tilføjer en ny begivenhed efter den sidste. Afstandene følger samme regel som i appen.",
+    "steps": {
+      "3d": "3 dage senere",
+      "5d": "5 dage senere",
+      "1m": "En måned senere",
+      "2y4m": "2 år og 4 måneder senere"
+    },
+    "gaps": {
+      "3d": "3 d.",
+      "5d": "5 d.",
+      "1m": "1 mdr.",
+      "2y4m": "2 år 4 mdr."
+    },
+    "reset": "Forfra",
+    "full": "Der er ikke plads til mere. Start forfra.",
+    "note": "Tegnet mindre end i appen. Dér står der et kort med dit billede og din tekst, hvor prikkerne er."
+  },
+  "problem": {
+    "title": "Dit fotobibliotek viser ikke tiden",
+    "text": "Fotobiblioteket stiller alt op efter dato, men tre dage og to år fylder det samme ene trin. Yeoul sætter begivenheder lige så langt fra hinanden, som tiden imellem dem, så du med det samme ser, hvornår der skete meget, og hvornår der var stille."
+  },
+  "features": [
+    {
+      "title": "Afstanden er tiden",
+      "text": "Hele tidslinjen har én skala: Samme periode er lige lang overalt på skærmen. Ved hver afstand står den ægte varighed, fx `3 d.` eller `5 mdr. 21 d.`\nBegivenheder, der ligger meget tæt, får stadig lidt luft, og meget lange pauser foldes sammen til en stiplet linje.",
+      "shot": "02-iceland"
+    },
+    {
+      "title": "Den finder billederne fra den dag",
+      "text": "Vælg datoen og tryk på `Find relaterede billeder` for at se, hvad du tog den dag. Intet der passer? Med `Find selv` vælger du selv.\nTryk på en begivenhed på tidslinjen, så folder billede og tekst sig ud lige dér.",
+      "shot": "03-expand"
+    },
+    {
+      "title": "Ét tag samler spredte øjeblikke",
+      "text": "Giv begivenheder et tag som `#Island`, tryk på det, og alle begivenheder med det tag fra alle dine tidslinjer samles i en ny.\nGem den, så bliver den på din liste og tager selv nye begivenheder med samme tag med.",
+      "shot": "04-tag"
+    },
+    {
+      "title": "Det rette kort til hvert øjeblik",
+      "text": "Klassisk sætter teksten først, Plakat fylder kortet med billedet, Film rammer det ind som et aftryk, og Margen lader en stor dato stå i centrum. Forhåndsvisningen skifter med det samme.",
+      "shot": "05-editor"
+    }
+  ],
+  "steps": {
+    "title": "Kom i gang på tre trin",
+    "items": [
+      {
+        "title": "Opret en tidslinje",
+        "text": "Barnets første år, et forhold, en rejse: hver med sit navn og sin farve."
+      },
+      {
+        "title": "Tilføj begivenheder",
+        "text": "Skriv dato og titel, og sæt et billede fra dagen på."
+      },
+      {
+        "title": "Giv dem tags",
+        "text": "Begivenheder med samme tag samles på tværs af tidslinjer."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Fire kortdesign",
+    "rows": [
+      [
+        "Klassisk",
+        "Teksten først, billedet nedenunder."
+      ],
+      [
+        "Plakat",
+        "Billedet fylder hele kortet med en stor titel ovenpå. Uden billede bruges tidslinjens farve."
+      ],
+      [
+        "Film",
+        "Et billede med kant som et aftryk, skrivemaskineskrift og datostempel."
+      ],
+      [
+        "Margen",
+        "Et stort datotal og et lille billede. Her er det ordene, der har hovedrollen."
+      ]
+    ],
+    "note": "En ny begivenhed starter med samme design som det nyeste kort i tidslinjen."
+  },
+  "pricing": {
+    "title": "Alle funktioner er gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Så mange tidslinjer du vil, med navn og farve",
+        "Billeder, historier og tags på hver begivenhed",
+        "Find billeder fra begivenhedens dag",
+        "Gemte tag-tidslinjer",
+        "Fire kortdesign",
+        "iCloud-synkronisering mellem iPhone og iPad",
+        "Registrér med Genveje og Siri"
+      ]
+    },
+    "pro": {
+      "name": "Støt udvikleren",
+      "items": [
+        "Vælg en lille, mellem eller stor drikkepenge",
+        "Det låser ikke noget op. Det er bare en måde at sige tak på"
+      ],
+      "note": "Du finder det i appens indstillinger, når du har lyst."
+    },
+    "note": "Ingen reklamer, intet abonnement."
+  },
+  "faq": {
+    "title": "Ofte stillede spørgsmål",
+    "items": [
+      {
+        "q": "Hvorfor er afstandene mellem begivenhederne så forskellige?",
+        "a": "Yeoul sætter begivenheder lige så langt fra hinanden, som tiden der faktisk gik. Alle afstande har samme skala, så tre dage og fem dage står i forholdet 3:5. Meget tætte begivenheder får en mindsteafstand, så de ikke overlapper, og meget lange pauser foldes sammen til en stiplet linje med den ægte varighed, fx 2 år 4 mdr."
+      },
+      {
+        "q": "Jeg kan ikke se billederne fra den dag.",
+        "a": "Søgning efter dato kræver adgang til dine billeder. Tillad det under Indstillinger > Yeoul > Fotos. Yeoul leder efter billeder taget fra midnat til midnat den dag i enhedens tidszone. Vil du ikke give adgang, så tryk på `Find selv` lige nedenunder."
+      },
+      {
+        "q": "Hvad er en tag-tidslinje?",
+        "a": "Tryk på en begivenheds tag, så samler Yeoul alle begivenheder med det tag fra alle dine tidslinjer i én. Dem, du ofte kigger på, kan du gemme på listen. Intet bliver kopieret: Retter du den oprindelige begivenhed, ses ændringen også her, og sletter du tag-tidslinjen, bliver begivenhederne liggende."
+      },
+      {
+        "q": "Hvorfor kan jeg ikke tilføje en begivenhed i en tag-tidslinje?",
+        "a": "En tag-tidslinje er en visning samlet efter tag, ikke et sted at gemme begivenheder, så det kan ikke afgøres, hvilken tidslinje en ny begivenhed hører til. Tilføj den i sin egen tidslinje med tagget, så dukker den op her af sig selv."
+      },
+      {
+        "q": "Kan jeg registrere noget uden at åbne appen?",
+        "a": "Ja. Brug `Registrer en begivenhed` i appen Genveje eller med Siri, og vælg bare tidslinje og titel. Uden dato bruges det aktuelle tidspunkt."
+      },
+      {
+        "q": "Kan jeg se mine tidslinjer på andre enheder?",
+        "a": "Ja, på alle iPhones og iPads, der er logget ind på iCloud med samme Apple-konto. Tjek under Indstillinger > dit navn > iCloud, at iCloud er slået til. Afhængigt af forbindelsen kan det tage et øjeblik."
+      },
+      {
+        "q": "Hvordan sletter jeg mine data?",
+        "a": "Stryg en tidslinje til venstre på listen, eller tryk på Rediger. Når en tidslinje slettes, slettes dens begivenheder også. Det, der er tilbage i iCloud, fjerner du under administration af lagerplads i iCloud-indstillingerne."
+      },
+      {
+        "q": "Kan udvikleren se mine data?",
+        "a": "Nej. Dine begivenheder og billeder ligger kun på dine enheder og i din egen iCloud, og udvikleren kan ikke se dem. Detaljerne står i privatlivspolitikken nedenfor."
+      },
+      {
+        "q": "Hvordan melder jeg en fejl eller foreslår noget?",
+        "a": "Direkte fra indstillingerne i appen, på mail eller på Instagram via @lee25_ios. Skriv gerne enhedsmodel, iOS-version og hvad der skete, så kan vi hjælpe hurtigere."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Gem den tid, du har levet,\ni dens rigtige længde",
+    "cta": "Hent gratis i App Store"
+  },
+  "ui": {
+    "skip": "Gå til indhold",
+    "languages": "Sprog",
+    "privacy": "Privatlivspolitik",
+    "contact": "Spørgsmål eller idéer? Skriv til {email}."
+  }
+}

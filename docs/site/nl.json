@@ -1,0 +1,169 @@
+{
+  "title": "Yeoul: de tijdlijn waarin afstand gelijk is aan verstreken tijd",
+  "description": "Drie dagen en vijf dagen in verhouding 3:5, twee jaar als stippellijn. Een tijdlijn voor momenten en foto's op echte tijd. Gratis.",
+  "hero": {
+    "headline": "Een tijdlijn die\nmeerekt met de tijd",
+    "lead": "Drie dagen en vijf dagen staan in een verhouding van 3:5. Een lange pauze, zoals twee jaar en vier maanden, vouwt in tot een stippellijn. Aan de afstanden zie je al hoe de tijd toen verliep.",
+    "cta": "Gratis downloaden in de App Store",
+    "note": "Alle functies zijn gratis. Voor iPhone en iPad."
+  },
+  "demo": {
+    "title": "Rek de afstanden zelf op",
+    "lead": "Elke knop zet een nieuwe gebeurtenis na de laatste. De afstand volgt dezelfde regel als in de app.",
+    "steps": {
+      "3d": "3 dagen later",
+      "5d": "5 dagen later",
+      "1m": "Een maand later",
+      "2y4m": "2 jaar en 4 maanden later"
+    },
+    "gaps": {
+      "3d": "3 d",
+      "5d": "5 d",
+      "1m": "1 mnd",
+      "2y4m": "2 jr 4 mnd"
+    },
+    "reset": "Opnieuw",
+    "full": "Meer past er niet in. Begin opnieuw om het nog eens te proberen.",
+    "note": "Kleiner getekend dan in de app. Daar staat op elke stip een kaart met je foto en tekst."
+  },
+  "problem": {
+    "title": "In je fotobibliotheek zie je geen tijd",
+    "text": "Je fotobibliotheek zet alles op datum, maar drie dagen en twee jaar nemen er precies één stap in. Yeoul zet gebeurtenissen zo ver uit elkaar als de tijd ertussen, zodat je meteen ziet welke periodes vol waren en welke stil."
+  },
+  "features": [
+    {
+      "title": "Afstand is tijd",
+      "text": "De hele tijdlijn heeft één schaal: dezelfde periode is overal op het scherm even lang. Bij elke afstand staat de echte duur, zoals `3 d` of `5 mnd 21 d`.\nGebeurtenissen die heel dicht bij elkaar liggen krijgen toch wat ruimte, en hele lange pauzes vouwen in tot een stippellijn.",
+      "shot": "02-iceland"
+    },
+    {
+      "title": "Hij vindt de foto's van die dag",
+      "text": "Kies de datum en tik op `Zoek bijbehorende foto’s` om te zien wat je die dag fotografeerde. Niets passends? Met `Zelf zoeken` kies je er zelf een.\nTik op een gebeurtenis in de tijdlijn en foto en tekst klappen open op hun plek.",
+      "shot": "03-expand"
+    },
+    {
+      "title": "Eén tag verzamelt losse momenten",
+      "text": "Geef gebeurtenissen een tag als `#IJsland`, tik erop, en alle gebeurtenissen met die tag, uit al je tijdlijnen, komen samen in een nieuwe.\nBewaar hem en hij blijft in je lijst staan, terwijl nieuwe gebeurtenissen met die tag vanzelf aansluiten.",
+      "shot": "04-tag"
+    },
+    {
+      "title": "Bij elk moment de juiste kaart",
+      "text": "Klassiek zet de tekst voorop, Poster vult de kaart met je foto, Film omlijst hem als een afdruk en bij Marge staat een grote datum centraal. Het voorbeeld verandert meteen.",
+      "shot": "05-editor"
+    }
+  ],
+  "steps": {
+    "title": "In drie stappen aan de slag",
+    "items": [
+      {
+        "title": "Maak een tijdlijn",
+        "text": "Het eerste jaar van je kind, een relatie, een reis: elk met een naam en een kleur."
+      },
+      {
+        "title": "Voeg gebeurtenissen toe",
+        "text": "Vul een datum en titel in en voeg een foto van die dag toe."
+      },
+      {
+        "title": "Geef tags",
+        "text": "Gebeurtenissen met dezelfde tag komen samen, ook uit verschillende tijdlijnen."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Vier kaartontwerpen",
+    "rows": [
+      [
+        "Klassiek",
+        "De tekst staat voorop, de foto eronder."
+      ],
+      [
+        "Poster",
+        "De foto vult de hele kaart met een grote titel erover. Zonder foto krijgt de kaart de kleur van de tijdlijn."
+      ],
+      [
+        "Film",
+        "Een foto met een rand als een afdruk, typemachineletters en een datumstempel."
+      ],
+      [
+        "Marge",
+        "Een groot datumcijfer en een kleine foto. Hier spelen de woorden de hoofdrol."
+      ]
+    ],
+    "note": "Een nieuwe gebeurtenis begint met hetzelfde ontwerp als de nieuwste kaart in die tijdlijn."
+  },
+  "pricing": {
+    "title": "Alle functies zijn gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Zoveel tijdlijnen als je wilt, met naam en kleur",
+        "Foto's, verhalen en tags bij elke gebeurtenis",
+        "Foto's van de dag van de gebeurtenis zoeken",
+        "Bewaarde taglijnen",
+        "Vier kaartontwerpen",
+        "iCloud-synchronisatie tussen iPhone en iPad",
+        "Vastleggen met Opdrachten en Siri"
+      ]
+    },
+    "pro": {
+      "name": "Steun de maker",
+      "items": [
+        "Kies een kleine, middelgrote of grote fooi",
+        "Er wordt niets mee ontgrendeld. Het is gewoon een bedankje"
+      ],
+      "note": "Je vindt het in de instellingen van de app, wanneer je maar wilt."
+    },
+    "note": "Geen advertenties, geen abonnement."
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "q": "Waarom zijn de afstanden tussen gebeurtenissen zo verschillend?",
+        "a": "Yeoul zet gebeurtenissen zo ver uit elkaar als de tijd die echt verstreek. Alle afstanden hebben dezelfde schaal, dus drie dagen en vijf dagen staan in een verhouding van 3:5. Heel dicht bij elkaar liggende gebeurtenissen houden een minimale afstand zodat ze niet overlappen, en heel lange pauzes vouwen in tot een stippellijn met de echte duur, zoals 2 jr 4 mnd."
+      },
+      {
+        "q": "Ik zie de foto's van die dag niet.",
+        "a": "Zoeken op datum heeft toegang tot je foto's nodig. Sta die toe via Instellingen > Yeoul > Foto's. Yeoul zoekt foto's van middernacht tot middernacht op die dag, in de tijdzone van je apparaat. Wil je geen toegang geven? Tik dan direct eronder op `Zelf zoeken`."
+      },
+      {
+        "q": "Wat is een taglijn?",
+        "a": "Tik op de tag van een gebeurtenis en Yeoul verzamelt alle gebeurtenissen met die tag, uit al je tijdlijnen, in één tijdlijn. Taglijnen die je vaak bekijkt kun je in je lijst bewaren. Er wordt niets gekopieerd: pas je de oorspronkelijke gebeurtenis aan, dan zie je dat hier ook, en als je een taglijn verwijdert, blijven de gebeurtenissen bestaan."
+      },
+      {
+        "q": "Waarom kan ik geen gebeurtenis toevoegen aan een taglijn?",
+        "a": "Een taglijn is een weergave die per tag wordt samengesteld, geen bewaarplek. Er valt dus niet te bepalen bij welke tijdlijn een nieuwe gebeurtenis hoort. Voeg hem toe in zijn eigen tijdlijn met de tag, en hij verschijnt hier vanzelf."
+      },
+      {
+        "q": "Kan ik iets vastleggen zonder de app te openen?",
+        "a": "Ja. Gebruik `Gebeurtenis vastleggen` in de Opdrachten-app of met Siri en kies alleen een tijdlijn en titel. Zonder datum wordt de huidige tijd gebruikt."
+      },
+      {
+        "q": "Zie ik mijn tijdlijnen ook op andere apparaten?",
+        "a": "Ja, op elke iPhone en iPad die met hetzelfde Apple Account bij iCloud is ingelogd. Controleer via Instellingen > je naam > iCloud of iCloud aanstaat. Afhankelijk van je verbinding kan het even duren."
+      },
+      {
+        "q": "Hoe verwijder ik mijn gegevens?",
+        "a": "Veeg een tijdlijn in de lijst naar links of tik op Wijzig. Met een tijdlijn verdwijnen ook de gebeurtenissen erin. Wat nog in iCloud staat, verwijder je via opslagbeheer in de iCloud-instellingen."
+      },
+      {
+        "q": "Ziet de maker mijn gegevens?",
+        "a": "Nee. Je gebeurtenissen en foto's staan alleen op je apparaten en in je eigen iCloud, en de maker kan ze niet zien. De details staan in het privacybeleid hieronder."
+      },
+      {
+        "q": "Hoe meld ik een fout of stel ik iets voor?",
+        "a": "Rechtstreeks via de instellingen in de app, per e-mail of op Instagram via @lee25_ios. Vermeld je apparaatmodel, iOS-versie en wat er gebeurde, dan kunnen we sneller helpen."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Bewaar je tijd\nop zijn echte lengte",
+    "cta": "Gratis downloaden in de App Store"
+  },
+  "ui": {
+    "skip": "Naar de inhoud",
+    "languages": "Taal",
+    "privacy": "Privacybeleid",
+    "contact": "Vragen of ideeën? Mail naar {email}."
+  }
+}
