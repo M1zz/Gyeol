@@ -18,6 +18,19 @@ extension Image {
     }
 }
 
+extension View {
+    /// 툴바의 글자 버튼에 아이콘을 달고 건다. 아이폰 듀오가 세로로 세우는 막대는 아이콘 없는 버튼을 빼므로
+    /// 아이폰에는 아이콘이 있어야 하고, 맥은 지금처럼 글자로 둔다.
+    @ViewBuilder
+    func titleOnlyOnMac() -> some View {
+        #if os(macOS)
+        labelStyle(.titleOnly)
+        #else
+        self
+        #endif
+    }
+}
+
 extension PlatformImage {
     convenience init?(platformData data: Data) {
         self.init(data: data)

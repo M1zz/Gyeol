@@ -59,9 +59,13 @@ struct TimelineEditorView: View {
             .navigationTitle(navigationTitle)
             .inlineNavigationTitle()
             .toolbar {
-                ToolbarItem(placement: .cancellationAction) { Button("취소") { dismiss() } }
+                ToolbarItem(placement: .cancellationAction) {
+                    Button { dismiss() } label: { Label("취소", systemImage: "xmark") }
+                        .titleOnlyOnMac()
+                }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button(confirmTitle, action: save)
+                    Button(action: save) { Label(confirmTitle, systemImage: "checkmark") }
+                        .titleOnlyOnMac()
                         .disabled(name.trimmingCharacters(in: .whitespaces).isEmpty)
                 }
                 #if os(iOS)

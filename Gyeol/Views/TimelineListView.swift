@@ -24,8 +24,23 @@ struct TimelineListView: View {
     @State private var showingOnboarding = false
     @State private var path = NavigationPath()
     @AppStorage(YeoulOnboardingView.seenKey) private var hasSeenOnboarding = false
+    // 아이폰 듀오: 펴면 왼쪽(세로면 아래) 목록 | 오른쪽(위) 고른 타임라인 (LeeoKit Fold)
+    @Environment(\.foldLayout) private var fold
+    /// 펼친 화면에서 오른쪽에 세운 타임라인. 목록에서 열면 여기 남아, 펴고 접어도 그 타임라인이 이어진다.
+    @State private var opened: Timeline?
 
     var body: some View {
+        // 접혀 있거나 보통 아이폰이면 목록만 그린다. 지금 화면 그대로다.
+        FoldSplitView {
+            list
+        } result: {
+            openedPane
+                .environment(\.foldLayout, .single)
+        }
+        .onChange(of: fold.isUnfolded) { _, unfolded in carryOpened(unfolded: unfolded) }
+    }
+
+    private var list: some View {
         NavigationStack(path: $path) {
             Group {
                 if timelines.isEmpty {
@@ -45,8 +60,18 @@ struct TimelineListView: View {
                             .listRowInsets(EdgeInsets())
                             .listRowBackground(Color.clear)
                         ForEach(timelines) { timeline in
-                            NavigationLink(value: timeline) {
-                                TimelineRow(timeline: timeline, events: events(of: timeline))
+                            if fold.isUnfolded {
+                                // 펼친 화면: 밀어 넣지 않고 오른쪽 판에 연다.
+                                Button { opened = timeline } label: {
+                                    TimelineRow(timeline: timeline, events: events(of: timeline))
+                                }
+                                .tint(.primary)
+                                .listRowBackground(timeline == shownTimeline ? Color.accentColor.opacity(0.15) : nil)
+                                .accessibilityAddTraits(timeline == shownTimeline ? .isSelected : [])
+                            } else {
+                                NavigationLink(value: timeline) {
+                                    TimelineRow(timeline: timeline, events: events(of: timeline))
+                                }
                             }
                         }
                         .onDelete(perform: delete)
@@ -54,7 +79,10 @@ struct TimelineListView: View {
                 }
             }
             .navigationTitle("여울")
-            .navigationDestination(for: Timeline.self) { TimelineDetailView(timeline: $0) }
+            .navigationDestination(for: Timeline.self) { timeline in
+                TimelineDetailView(timeline: timeline)
+                    .onAppear { opened = timeline }
+            }
             .navigationDestination(for: TagRoute.self) { TagTimelineView(tag: $0.tag) }
             .toolbar {
                 ToolbarItemGroup(placement: .topBarLeading) {
@@ -80,6 +108,44 @@ struct TimelineListView: View {
             #if DEBUG
             .onAppear(perform: openDemoScreen)
             #endif
+        }
+    }
+
+    // MARK: - 아이폰 듀오
+
+    /// 오른쪽 판에 서는 타임라인. 아직 연 것이 없으면 맥처럼 첫 타임라인을 보여 준다. 빈 판으로 두지 않는다.
+    private var shownTimeline: Timeline? {
+        if let opened, timelines.contains(opened) { return opened }
+        return timelines.first
+    }
+
+    @ViewBuilder
+    private var openedPane: some View {
+        NavigationStack {
+            Group {
+                if let shownTimeline {
+                    TimelineDetailView(timeline: shownTimeline)
+                        .id(shownTimeline.persistentModelID)
+                } else {
+                    ContentUnavailableView {
+                        Label("타임라인이 없어요", systemImage: "calendar.day.timeline.left")
+                    } description: {
+                        Text("첫 타임라인을 만들어보세요.\n아이의 첫 해, 앱 출시 기록, 여행 — 무엇이든 좋아요.")
+                    }
+                }
+            }
+            .navigationDestination(for: TagRoute.self) { TagTimelineView(tag: $0.tag) }
+        }
+    }
+
+    /// 펴고 접어도 보던 타임라인이 이어지게 한다.
+    /// 펴면: 목록에서 타임라인 하나를 열어 둔 상태였으면 그걸 오른쪽 판으로 옮기고 왼쪽은 목록으로 돌아온다.
+    /// 접으면: 오른쪽 판에서 보던 타임라인을 목록 위에 열어 둔다.
+    private func carryOpened(unfolded: Bool) {
+        if unfolded {
+            if path.count == 1, opened != nil { path = NavigationPath() }
+        } else if path.isEmpty, let opened, timelines.contains(opened) {
+            path.append(opened)
         }
     }
 

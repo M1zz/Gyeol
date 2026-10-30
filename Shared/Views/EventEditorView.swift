@@ -201,10 +201,12 @@ struct EventEditorView: View {
             .inlineNavigationTitle()
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("취소") { dismiss() }
+                    Button { dismiss() } label: { Label("취소", systemImage: "xmark") }
+                        .titleOnlyOnMac()
                 }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("저장", action: save)
+                    Button(action: save) { Label("저장", systemImage: "checkmark") }
+                        .titleOnlyOnMac()
                         .disabled(isLoadingPhoto)
                 }
                 #if os(iOS)

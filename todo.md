@@ -1,5 +1,14 @@
 # 여울 — 작업 목록
 
+## 아이폰 듀오 대응 (2026-10-30, 듀오 시뮬레이터 빌드 성공 · `-FoldPretend` 세로 화면 · 접힌 바깥 화면 확인 · 실기기 확인 안 함)
+- [x] 앱 루트에 `.foldAware()` (LeeoKit Fold) — 시트 · 알림창이 접힌 선을 비킨다
+- [x] 펴면 왼쪽(세로면 아래) 타임라인 목록 | 오른쪽(위) 고른 타임라인. 목록을 누르면 밀어 넣지 않고 오른쪽 판에 연다. 아직 연 것이 없으면 맥처럼 첫 타임라인 (`TimelineListView`)
+- [x] 펴고 접어도 보던 타임라인이 이어진다: 열어 둔 채 펴면 그 타임라인이 오른쪽으로 가고 왼쪽은 목록, 접으면 오른쪽에서 보던 것을 목록 위에 열어 둔다 (`carryOpened`)
+- [x] 툴바 글자 버튼에 아이콘: 취소 · 저장 · 만들기 · 완료. 맥은 `titleOnlyOnMac()` 으로 글자 그대로 (새 문자열 없음)
+- [ ] 태그 타임라인을 목록 바로 위에 열어 둔 채 펴면 왼쪽에 그대로 남는다(오른쪽으로 옮기지 않음)
+- [ ] 가로로 편 화면 · 실기기 확인
+- 확인: 듀오 시뮬레이터에 `-localOnly -demoSeed scripts/screenshot_demo/ko.json -demoScreen list -FoldPretend`, 바깥 화면은 `simctl io … screenshot --display=<바깥 화면 UUID>`
+
 ## 완료
 - [x] 빌드 에러 해결 — `DEVELOPMENT_TEAM = QGAQ3AY3R3`을 Debug/Release 타겟에 추가
       (원인: 팀 미설정 → 실기기 빌드 시 "Signing for 'Gyeol' requires a development team")
