@@ -34,7 +34,7 @@ enum Store {
                 configurations: ModelConfiguration(schema: schema, cloudKitDatabase: .none)
             )
         } catch {
-            fatalError("기록 저장소를 열지 못했습니다: \(error)")
+            return StoreFallback.memoryContainer(schema: schema, after: error)
         }
     }
 }

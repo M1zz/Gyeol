@@ -12,6 +12,7 @@ struct YeoulMacApp: App {
     var body: some Scene {
         WindowGroup {
             MacRootView()
+                .storeFallbackNotice()
         }
         .modelContainer(Store.makeContainer())
         .defaultSize(width: 1180, height: 820)
