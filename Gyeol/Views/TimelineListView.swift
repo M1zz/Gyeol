@@ -23,6 +23,7 @@ struct TimelineListView: View {
     @State private var showingSettings = false
     @State private var showingOnboarding = false
     @State private var path = NavigationPath()
+    @Bindable private var router = YeoulRouter.shared
     @AppStorage(YeoulOnboardingView.seenKey) private var hasSeenOnboarding = false
     // 아이폰 듀오: 펴면 왼쪽(세로면 아래) 목록 | 오른쪽(위) 고른 타임라인 (LeeoKit Fold)
     @Environment(\.foldLayout) private var fold
@@ -38,6 +39,13 @@ struct TimelineListView: View {
                 .environment(\.foldLayout, .single)
         }
         .onChange(of: fold.isUnfolded) { _, unfolded in carryOpened(unfolded: unfolded) }
+        // Siri · Spotlight 에서 고른 기록의 타임라인을 연다 (→ Shortcuts/EventSearchIntents.swift)
+        .onChange(of: router.timelineID) { _, id in
+            guard let id, let timeline = timelines.first(where: { $0.persistentModelID == id }) else { return }
+            path = NavigationPath()
+            path.append(timeline)
+            router.timelineID = nil
+        }
     }
 
     private var list: some View {

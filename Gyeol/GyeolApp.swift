@@ -5,6 +5,7 @@ import LeeoKit
 
 @main
 struct GyeolApp: App {
+    @Environment(\.scenePhase) private var scenePhase
     init() {
         // LeeoKit 계약을 켜는 한 줄 (→ YeoulSpec.swift). 실행 횟수 기록 · 익명 사용 통계 ·
         // 크래시 진단 · 원격 킬스위치(YeoulFlags.swift) 갱신 · DEBUG 프리플라이트.
@@ -39,6 +40,11 @@ struct GyeolApp: App {
                 .storeFallbackNotice()
                 // 팁 상품을 불러오고 끝나지 않은 팁을 마저 센다.
                 .task { await YeoulSpec.tipJar.startStandalone() }
+                // Spotlight 에 싣는 기록을 지금 것에 맞춘다. 열 때 한 번, 뒤로 보낼 때마다.
+                .task { await EventEntityQuery.reindex() }
+                .onChange(of: scenePhase) { _, phase in
+                    if phase == .background { Task { await EventEntityQuery.reindex() } }
+                }
         }
         .modelContainer(AppContainer.shared)
     }

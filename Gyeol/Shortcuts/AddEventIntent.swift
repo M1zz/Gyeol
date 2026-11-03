@@ -109,5 +109,14 @@ struct YeoulShortcuts: AppShortcutsProvider {
             shortTitle: "사건 기록하기",
             systemImageName: "calendar.badge.plus"
         )
+        AppShortcut(
+            intent: OnThisDayIntent(),
+            phrases: [
+                "\(.applicationName) 이맘때",
+                "\(.applicationName)에서 작년 이맘때 보여줘",
+            ],
+            shortTitle: "이맘때 기록",
+            systemImageName: "clock.arrow.circlepath"
+        )
     }
 }
