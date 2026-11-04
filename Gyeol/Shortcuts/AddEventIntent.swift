@@ -51,13 +51,13 @@ struct AddEventIntent: AppIntent {
     static let title: LocalizedStringResource = "사건 기록하기"
     static let description = IntentDescription("고른 타임라인에 사건을 남겨요. 날짜를 정하지 않으면 지금 시각으로 기록해요.")
 
-    @Parameter(title: "타임라인")
+    @Parameter(title: "타임라인", description: "사건을 남길 타임라인")
     var timeline: TimelineEntity
 
-    @Parameter(title: "제목", requestValueDialog: "어떤 일이 있었나요?")
+    @Parameter(title: "제목", description: "남길 사건의 제목", requestValueDialog: "어떤 일이 있었나요?")
     var eventTitle: String
 
-    @Parameter(title: "날짜")
+    @Parameter(title: "날짜", description: "사건이 있었던 날짜. 비워 두면 지금 시각으로 기록해요.")
     var date: Date?
 
     static var parameterSummary: some ParameterSummary {

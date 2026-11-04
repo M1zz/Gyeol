@@ -123,8 +123,9 @@ struct OnThisDayIntent: AppIntent {
 /// 기록이 든 타임라인을 연다. Spotlight · Siri 결과를 누르면 여기로 온다.
 struct OpenEventIntent: OpenIntent {
     static let title: LocalizedStringResource = "기록 열기"
+    static let description = IntentDescription("고른 기록이 든 타임라인을 열어요.")
 
-    @Parameter(title: "기록")
+    @Parameter(title: "기록", description: "열어 볼 기록")
     var target: EventEntity
 
     init() {}
