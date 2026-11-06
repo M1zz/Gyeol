@@ -3,6 +3,176 @@
 App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이다.
 평문만 쓴다. 한 줄에 한 문장, 3~5줄, 한 줄 40자 이내.
 
+## 1.0.3
+
+### 앱스토어 (한국어)
+
+Siri에게 물으면 지난해 이맘때 기록을 알려 줘요.
+iPhone 검색에서 기록을 찾아 바로 열어요.
+기록을 매일 자동으로 백업하고 iCloud나 파일로 되살려요.
+기록을 열지 못할 때 앱이 꺼지던 문제를 고쳤어요.
+
+### App Store (English)
+
+Ask Siri what happened a year ago.
+Find your moments in iPhone Search.
+Daily backups, restore from iCloud.
+Fixed a crash when data failed to load.
+
+### App Store (en-GB)
+
+Ask Siri what happened a year ago.
+Find your moments in iPhone Search.
+Daily backups, restore from iCloud.
+Fixed a crash when data failed to load.
+
+### 앱스토어 (중국어 간체)
+
+问问 Siri，去年此时你记录了什么。
+在 iPhone 搜索中直接打开你的记录。
+每天自动备份，可从 iCloud 或文件恢复。
+修复了无法读取数据时闪退的问题。
+
+### 앱스토어 (중국어 번체)
+
+問問 Siri，去年此時你記錄了什麼。
+在 iPhone 搜尋中直接打開你的紀錄。
+每天自動備份，可從 iCloud 或檔案回復。
+修正了無法讀取資料時閃退的問題。
+
+### 앱스토어 (일본어)
+
+Siriに去年の今ごろの記録を聞けます。
+記録をiPhoneの検索からすぐ開けます。
+毎日自動でバックアップし復元もできます。
+データを開けないとき終了する問題を直しました。
+
+### 앱스토어 (러시아어)
+
+Спросите Siri, что было год назад.
+Ищите записи в Поиске iPhone.
+Ежедневная копия с восстановлением.
+Исправлен вылет при загрузке данных.
+
+### 앱스토어 (스페인어)
+
+Pregunta a Siri qué pasó hace un año.
+Busca tus momentos desde el iPhone.
+Copia diaria, restaurable desde iCloud.
+Corregido un cierre al cargar los datos.
+
+### 앱스토어 (독일어)
+
+Frag Siri, was vor einem Jahr war.
+Finde Einträge direkt in der Suche.
+Tägliches Backup, wiederherstellbar.
+Absturz beim Laden der Daten behoben.
+
+### 앱스토어 (프랑스어)
+
+Siri vous rappelle l’an dernier.
+Retrouvez vos moments dans Recherche.
+Sauvegarde quotidienne et restauration.
+Plantage au chargement corrigé.
+
+### 앱스토어 (이탈리아어)
+
+Chiedi a Siri cosa accadde un anno fa.
+Trova i tuoi momenti nella Ricerca.
+Backup giornaliero, da iCloud o da file.
+Risolto un arresto nel caricare i dati.
+
+### 앱스토어 (포르투갈어 브라질)
+
+Pergunte à Siri o que houve há um ano.
+Ache seus momentos na Busca do iPhone.
+Backup diário, restaure pelo iCloud.
+Corrigimos um travamento ao carregar.
+
+### 앱스토어 (태국어)
+
+ถาม Siri ถึงบันทึกช่วงนี้ของปีที่แล้ว
+ค้นหาบันทึกจากการค้นหาใน iPhone ได้
+สำรองทุกวัน กู้คืนจาก iCloud หรือไฟล์ได้
+แก้ปัญหาแอปปิดเองเมื่อโหลดข้อมูลไม่ได้
+
+### 앱스토어 (베트남어)
+
+Hỏi Siri về ngày này năm ngoái.
+Tìm khoảnh khắc ngay trong Tìm kiếm.
+Sao lưu mỗi ngày, khôi phục từ iCloud.
+Sửa lỗi thoát ứng dụng khi tải dữ liệu.
+
+### 앱스토어 (체코어)
+
+Zeptejte se Siri, co bylo před rokem.
+Záznamy najdete ve Vyhledávání.
+Denní záloha s obnovou z iCloudu.
+Opraven pád při načítání dat.
+
+### 앱스토어 (덴마크어)
+
+Spørg Siri, hvad der skete sidste år.
+Find dine øjeblikke i Søgning.
+Daglig backup, gendan fra iCloud.
+Rettet nedbrud ved indlæsning af data.
+
+### 앱스토어 (그리스어)
+
+Ρωτήστε τη Siri τι έγινε πέρσι.
+Βρείτε τις στιγμές σας στην Αναζήτηση.
+Καθημερινό αντίγραφο με επαναφορά.
+Διορθώθηκε κλείσιμο κατά τη φόρτωση.
+
+### 앱스토어 (핀란드어)
+
+Kysy Siriltä, mitä oli vuosi sitten.
+Löydä merkintäsi iPhonen haulla.
+Päivittäinen varmuuskopio ja palautus.
+Korjattu kaatuminen tietoja ladattaessa.
+
+### 앱스토어 (인도네시아어)
+
+Tanya Siri soal momen setahun lalu.
+Cari momen Anda di Pencarian.
+Cadangan harian, pulihkan dari iCloud.
+Perbaikan app tertutup saat memuat data.
+
+### 앱스토어 (노르웨이어 보크말, nb)
+
+Spør Siri hva som skjedde i fjor.
+Finn øyeblikkene dine i Søk.
+Daglig kopi som kan gjenopprettes.
+Rettet krasj ved lasting av data.
+
+### 앱스토어 (네덜란드어)
+
+Vraag Siri wat er een jaar geleden was.
+Vind je momenten via Zoeken.
+Dagelijkse back-up, herstel via iCloud.
+Crash bij laden van gegevens opgelost.
+
+### 앱스토어 (폴란드어)
+
+Zapytaj Siri, co było rok temu.
+Znajdź swoje chwile w Wyszukiwaniu.
+Codzienna kopia z przywracaniem.
+Naprawiono awarię przy wczytywaniu.
+
+### 앱스토어 (스웨덴어)
+
+Fråga Siri vad som hände i fjol.
+Hitta dina ögonblick i Sök.
+Daglig säkerhetskopia, återställ enkelt.
+Fixat krasch när data inte laddas.
+
+### 앱스토어 (튀르키예어)
+
+Siri'ye geçen yıl bu zamanı sorun.
+Anılarınızı iPhone aramasında bulun.
+Günlük yedek, iCloud'dan geri yükleme.
+Veri yüklenirken çökme giderildi.
+
 ## 1.0.2
 
 ### 앱스토어 (한국어)
