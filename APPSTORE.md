@@ -57,6 +57,11 @@ Plus는 타임라인 무제한, 해시태그 타임라인 저장, 카드 디자�
 Pro는 Plus의 모든 것에 iCloud 동기화와 Siri · 단축어로 사건 추가를 더합니다.
 Plus와 Pro는 주 · 월 · 연 구독이나 평생 구매 중에서 고를 수 있어요.
 
+구독 안내
+여울 Plus와 Pro 구독은 자동 갱신 구독입니다. 갱신일 24시간 전까지 해지하지 않으면 Apple 계정으로 자동 결제되며, 설정의 구독 관리에서 언제든 해지할 수 있습니다.
+이용약관(EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+개인정보처리방침: https://m1zz.github.io/Gyeol/privacy.html
+
 ## en
 
 ### 지원 URL
@@ -113,6 +118,11 @@ Free lets you draw two timelines with unlimited events, photos and stories. Find
 Plus unlocks unlimited timelines, saved hashtag timelines and all four card designs.
 Pro adds iCloud sync and adding events with Siri and Shortcuts on top of everything in Plus.
 Plus and Pro are available as weekly, monthly or yearly subscriptions, or as a one-time lifetime purchase.
+
+Subscriptions
+Yeoul Plus and Pro subscriptions renew automatically. Payment is charged to your Apple Account, and a subscription renews unless canceled at least 24 hours before the end of the current period. Manage or cancel anytime in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/Gyeol/privacy-en.html
 
 ## en-GB
 
@@ -171,6 +181,11 @@ Plus unlocks unlimited timelines, saved hashtag timelines and all four card desi
 Pro adds iCloud sync and adding events with Siri and Shortcuts on top of everything in Plus.
 Plus and Pro are available as weekly, monthly or yearly subscriptions, or as a one-off lifetime purchase.
 
+Subscriptions
+Yeoul Plus and Pro subscriptions renew automatically. Payment is charged to your Apple Account, and a subscription renews unless cancelled at least 24 hours before the end of the current period. Manage or cancel at any time in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/Gyeol/privacy-en.html
+
 ## zh-Hans
 
 ### 지원 URL
@@ -227,6 +242,11 @@ Yeoul 是一条纵向时间线，事件之间的间隔会按实际流逝的时�
 Plus 解锁无限时间线、保存话题标签时间线以及全部四种卡片样式。
 Pro 在 Plus 的全部功能之上，增加 iCloud 同步以及用 Siri 与快捷指令添加事件。
 Plus 和 Pro 可选按周、按月或按年订阅，也可一次性买断永久使用。
+
+订阅说明
+Yeoul Plus 和 Pro 订阅均为自动续期订阅。费用从你的 Apple 账户扣除，除非在当期结束前至少 24 小时取消，否则将自动续期。可随时在“设置”中管理或取消。
+使用条款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隐私政策: https://m1zz.github.io/Gyeol/privacy-zh-Hans.html
 
 ## zh-Hant
 
@@ -285,6 +305,11 @@ Plus 解鎖無限時間軸、儲存主題標籤時間軸以及全部四種卡片
 Pro 在 Plus 的全部功能之上，加入 iCloud 同步以及用 Siri 與捷徑新增事件。
 Plus 和 Pro 可選按週、按月或按年訂閱，也可一次買斷永久使用。
 
+訂閱說明
+Yeoul Plus 與 Pro 訂閱皆為自動續訂訂閱。費用會從你的 Apple 帳號扣款，除非在當期結束前至少 24 小時取消，否則將自動續訂。可隨時在「設定」中管理或取消。
+使用條款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隱私權政策: https://m1zz.github.io/Gyeol/privacy-zh-Hant.html
+
 ## ja
 
 ### 지원 URL
@@ -341,6 +366,11 @@ iCloudで、お持ちのデバイス同士で同じ記録を見られます。
 Plusではタイムライン無制限、ハッシュタグのタイムライン保存、4つのカードデザインすべてが使えます。
 ProはPlusのすべてに加えて、iCloud同期とSiri・ショートカットでのイベント追加が使えます。
 PlusとProは週額・月額・年額のサブスクリプションか、買い切りから選べます。
+
+サブスクリプションについて
+Yeoul PlusとProのサブスクリプションは自動更新です。期間終了の24時間前までに解約しない限り、Apple Accountに自動で請求され更新されます。設定のサブスクリプション管理からいつでも解約できます。
+利用規約（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+プライバシーポリシー: https://m1zz.github.io/Gyeol/privacy-ja.html
 
 ## ru
 
@@ -399,6 +429,11 @@ Plus открывает неограниченное число таймлайн
 Pro добавляет ко всему из Plus синхронизацию iCloud и добавление событий через Siri и Быстрые команды.
 Plus и Pro можно оформить как недельную, месячную или годовую подписку либо купить навсегда.
 
+Подписки
+Yeoul Plus и Pro — подписки с автопродлением. Оплата списывается с вашего аккаунта Apple, и подписка продлевается, если не отменить её минимум за 24 часа до конца периода. Управлять подпиской и отменить её можно в Настройках.
+Условия использования (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Политика конфиденциальности: https://m1zz.github.io/Gyeol/privacy-ru.html
+
 ## es
 
 ### 지원 URL
@@ -455,6 +490,11 @@ Gratis puedes crear dos líneas de tiempo con eventos, fotos e historias ilimita
 Plus desbloquea líneas de tiempo ilimitadas, guardar líneas de tiempo de hashtag y los cuatro diseños de tarjeta.
 Pro añade a todo lo de Plus la sincronización con iCloud y añadir eventos con Siri y Atajos.
 Plus y Pro están disponibles como suscripción semanal, mensual o anual, o como compra única de por vida.
+
+Suscripciones
+Las suscripciones a Yeoul Plus y Pro se renuevan automáticamente. El cargo se realiza en tu cuenta de Apple y la suscripción se renueva salvo que la canceles al menos 24 horas antes de que termine el periodo. Puedes gestionarla o cancelarla cuando quieras en Ajustes.
+Términos de uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de privacidad: https://m1zz.github.io/Gyeol/privacy-es.html
 
 ## de
 
@@ -513,6 +553,11 @@ Plus schaltet unbegrenzte Zeitleisten, gesicherte Hashtag-Zeitleisten und alle v
 Pro ergänzt alles aus Plus um iCloud-Synchronisierung und Ereignisse per Siri und Kurzbefehlen.
 Plus und Pro gibt es als Wochen-, Monats- oder Jahresabo oder als einmaligen Kauf auf Dauer.
 
+Abos
+Die Abos von Yeoul Plus und Pro verlängern sich automatisch. Die Zahlung erfolgt über deinen Apple Account. Das Abo verlängert sich, sofern du nicht mindestens 24 Stunden vor Ablauf des Zeitraums kündigst. Verwalten oder kündigen kannst du jederzeit in den Einstellungen.
+Nutzungsbedingungen (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Datenschutzerklärung: https://m1zz.github.io/Gyeol/privacy-de.html
+
 ## fr
 
 ### 지원 URL
@@ -569,6 +614,11 @@ En version gratuite, créez deux frises avec événements, photos et récits ill
 Plus débloque les frises illimitées, l’enregistrement des frises par hashtag et les quatre styles de carte.
 Pro ajoute à tout Plus la synchronisation iCloud et l’ajout d’événements avec Siri et Raccourcis.
 Plus et Pro existent en abonnement hebdomadaire, mensuel ou annuel, ou en achat unique à vie.
+
+Abonnements
+Les abonnements Yeoul Plus et Pro se renouvellent automatiquement. Le paiement est débité sur votre compte Apple, et l'abonnement est reconduit sauf résiliation au moins 24 heures avant la fin de la période en cours. Gérez-le ou résiliez-le à tout moment dans Réglages.
+Conditions d'utilisation (EULA) : https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Politique de confidentialité : https://m1zz.github.io/Gyeol/privacy-fr.html
 
 ## it
 
@@ -627,6 +677,11 @@ Plus sblocca timeline illimitate, il salvataggio delle timeline per hashtag e tu
 Pro aggiunge a tutto Plus la sincronizzazione iCloud e l’aggiunta di eventi con Siri e Comandi Rapidi.
 Plus e Pro sono disponibili come abbonamento settimanale, mensile o annuale, oppure con un acquisto unico a vita.
 
+Abbonamenti
+Gli abbonamenti Yeoul Plus e Pro si rinnovano automaticamente. Il pagamento viene addebitato sul tuo Account Apple e l'abbonamento si rinnova se non lo disdici almeno 24 ore prima della fine del periodo. Puoi gestirlo o disdirlo in qualsiasi momento in Impostazioni.
+Condizioni d'uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Informativa sulla privacy: https://m1zz.github.io/Gyeol/privacy-it.html
+
 ## pt-BR
 
 ### 지원 URL
@@ -683,6 +738,11 @@ De graça, você cria duas linhas do tempo com eventos, fotos e histórias ilimi
 O Plus libera linhas do tempo ilimitadas, salvar linhas do tempo de hashtag e os quatro designs de cartão.
 O Pro soma a tudo do Plus a sincronização com o iCloud e adicionar eventos com a Siri e Atalhos.
 Plus e Pro estão disponíveis em assinatura semanal, mensal ou anual, ou em compra única vitalícia.
+
+Assinaturas
+As assinaturas Yeoul Plus e Pro são renovadas automaticamente. A cobrança é feita na sua Conta Apple e a assinatura é renovada, a menos que você cancele pelo menos 24 horas antes do fim do período. Gerencie ou cancele quando quiser em Ajustes.
+Termos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de Privacidade: https://m1zz.github.io/Gyeol/privacy-pt-BR.html
 
 ## th
 
@@ -741,6 +801,11 @@ Plus ปลดล็อกไทม์ไลน์ไม่จำกัด ก�
 Pro เพิ่มการซิงค์ iCloud และการเพิ่มเหตุการณ์ด้วย Siri และคำสั่งลัด นอกเหนือจากทุกอย่างใน Plus
 เลือก Plus และ Pro ได้ทั้งแบบสมัครรายสัปดาห์ รายเดือน รายปี หรือซื้อครั้งเดียวใช้ได้ตลอดชีพ
 
+การสมัครสมาชิก
+Yeoul Plus และ Pro เป็นการสมัครสมาชิกที่ต่ออายุอัตโนมัติ ระบบจะเรียกเก็บเงินจากบัญชี Apple ของคุณและต่ออายุ เว้นแต่จะยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบ จัดการหรือยกเลิกได้ทุกเมื่อในการตั้งค่า
+ข้อกำหนดการใช้งาน (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+นโยบายความเป็นส่วนตัว: https://m1zz.github.io/Gyeol/privacy-th.html
+
 ## vi
 
 ### 지원 URL
@@ -797,6 +862,11 @@ Bản miễn phí cho bạn vẽ hai dòng thời gian với sự kiện, ảnh 
 Plus mở khóa dòng thời gian không giới hạn, lưu dòng thời gian hashtag và đủ bốn kiểu thẻ.
 Pro thêm đồng bộ iCloud và thêm sự kiện bằng Siri và Phím tắt, bên cạnh mọi thứ của Plus.
 Plus và Pro có gói đăng ký theo tuần, tháng hoặc năm, hoặc mua một lần dùng trọn đời.
+
+Gói đăng ký
+Yeoul Plus và Pro là các gói đăng ký tự động gia hạn. Phí được tính vào Tài khoản Apple của bạn và tự gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kỳ hạn kết thúc. Bạn có thể quản lý hoặc hủy bất cứ lúc nào trong Cài đặt.
+Điều khoản sử dụng (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Chính sách quyền riêng tư: https://m1zz.github.io/Gyeol/privacy-vi.html
 
 ## cs
 
@@ -855,6 +925,11 @@ Plus odemyká neomezené časové osy, ukládání časových os podle hashtagu 
 Pro přidává ke všemu z Plus synchronizaci přes iCloud a přidávání událostí přes Siri a Zkratky.
 Plus i Pro lze mít jako týdenní, měsíční nebo roční předplatné, nebo jednorázově navždy.
 
+Předplatné
+Yeoul Plus a Pro jsou automaticky obnovovaná předplatná. Platba se strhává z vašeho účtu Apple a předplatné se obnoví, pokud ho nezrušíte alespoň 24 hodin před koncem období. Spravovat nebo zrušit ho můžete kdykoli v Nastavení.
+Podmínky použití (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Zásady ochrany osobních údajů: https://m1zz.github.io/Gyeol/privacy-cs.html
+
 ## da
 
 ### 지원 URL
@@ -911,6 +986,11 @@ Gratis kan du tegne to tidslinjer med ubegrænsede begivenheder, billeder og his
 Plus låser op for ubegrænsede tidslinjer, gemte hashtag-tidslinjer og alle fire kortdesigns.
 Pro lægger iCloud-synkronisering og begivenheder via Siri og Genveje oven i alt fra Plus.
 Plus og Pro fås som ugentligt, månedligt eller årligt abonnement eller som et engangskøb for altid.
+
+Abonnementer
+Yeoul Plus og Pro er abonnementer, der fornyes automatisk. Betalingen trækkes på din Apple-konto, og abonnementet fornyes, medmindre du opsiger det mindst 24 timer før perioden slutter. Administrer eller opsig når som helst i Indstillinger.
+Brugsvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privatlivspolitik: https://m1zz.github.io/Gyeol/privacy-da.html
 
 ## el
 
@@ -969,6 +1049,11 @@ Yeoul: Το χρονολόγιό σου
 Το Pro προσθέτει σε όλα όσα έχει το Plus τον συγχρονισμό iCloud και την προσθήκη γεγονότων με Siri και Συντομεύσεις.
 Τα Plus και Pro διατίθενται με εβδομαδιαία, μηνιαία ή ετήσια συνδρομή ή με μία αγορά εφ’ όρου ζωής.
 
+Συνδρομές
+Τα Yeoul Plus και Pro είναι συνδρομές με αυτόματη ανανέωση. Η χρέωση γίνεται στον λογαριασμό Apple σου και η συνδρομή ανανεώνεται, εκτός αν την ακυρώσεις τουλάχιστον 24 ώρες πριν λήξει η περίοδος. Μπορείς να τη διαχειριστείς ή να την ακυρώσεις οποτεδήποτε από τις Ρυθμίσεις.
+Όροι χρήσης (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Πολιτική απορρήτου: https://m1zz.github.io/Gyeol/privacy-el.html
+
 ## fi
 
 ### 지원 URL
@@ -1025,6 +1110,11 @@ Ilmaiseksi voit piirtää kaksi aikajanaa, joissa on rajattomasti tapahtumia, ku
 Plus avaa rajattomat aikajanat, aihetunnisteaikajanojen tallennuksen ja kaikki neljä kortin ulkoasua.
 Pro lisää kaikkeen Plussaan iCloud-synkronoinnin ja tapahtumien lisäämisen Sirillä ja Pikakomennoilla.
 Plus ja Pro ovat saatavilla viikko-, kuukausi- tai vuositilauksena tai pysyvänä kertaostona.
+
+Tilaukset
+Yeoul Plus ja Pro ovat automaattisesti uusiutuvia tilauksia. Maksu veloitetaan Apple-tililtäsi, ja tilaus uusiutuu, ellei sitä peruta vähintään 24 tuntia ennen jakson päättymistä. Hallitse tai peru milloin tahansa Asetuksissa.
+Käyttöehdot (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Tietosuojakäytäntö: https://m1zz.github.io/Gyeol/privacy-fi.html
 
 ## id
 
@@ -1083,6 +1173,11 @@ Plus membuka linimasa tanpa batas, penyimpanan linimasa tagar, dan keempat desai
 Pro menambahkan sinkronisasi iCloud dan tambah peristiwa lewat Siri dan Pintasan di atas semua fitur Plus.
 Plus dan Pro tersedia sebagai langganan mingguan, bulanan, atau tahunan, atau pembelian sekali untuk seumur hidup.
 
+Langganan
+Yeoul Plus dan Pro adalah langganan yang diperpanjang otomatis. Pembayaran ditagihkan ke Akun Apple kamu dan langganan diperpanjang kecuali dibatalkan paling lambat 24 jam sebelum periode berakhir. Kelola atau batalkan kapan saja di Pengaturan.
+Ketentuan Penggunaan (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Kebijakan Privasi: https://m1zz.github.io/Gyeol/privacy-id.html
+
 ## nb
 
 ### 지원 URL
@@ -1139,6 +1234,11 @@ Gratis kan du tegne to tidslinjer med ubegrenset antall hendelser, bilder og his
 Plus låser opp ubegrensede tidslinjer, lagrede emneknagg-tidslinjer og alle fire kortdesignene.
 Pro legger iCloud-synkronisering og hendelser via Siri og Snarveier oppå alt i Plus.
 Plus og Pro fås som ukentlig, månedlig eller årlig abonnement, eller som et engangskjøp for alltid.
+
+Abonnementer
+Yeoul Plus og Pro er abonnementer som fornyes automatisk. Betalingen belastes Apple-kontoen din, og abonnementet fornyes med mindre du sier det opp minst 24 timer før perioden er over. Administrer eller si opp når som helst i Innstillinger.
+Bruksvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Personvernerklæring: https://m1zz.github.io/Gyeol/privacy-nb.html
 
 ## nl
 
@@ -1197,6 +1297,11 @@ Plus geeft onbeperkt tijdlijnen, bewaarde hashtag-tijdlijnen en alle vier kaarto
 Pro voegt aan alles van Plus iCloud-synchronisatie en gebeurtenissen toevoegen met Siri en Opdrachten toe.
 Plus en Pro zijn er als wekelijks, maandelijks of jaarlijks abonnement, of als eenmalige aankoop voor altijd.
 
+Abonnementen
+Yeoul Plus en Pro zijn automatisch verlengende abonnementen. De betaling loopt via je Apple Account en het abonnement wordt verlengd tenzij je minstens 24 uur voor het einde van de periode opzegt. Beheer of zeg op wanneer je wilt in Instellingen.
+Gebruiksvoorwaarden (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacybeleid: https://m1zz.github.io/Gyeol/privacy-nl.html
+
 ## pl
 
 ### 지원 URL
@@ -1253,6 +1358,11 @@ Za darmo narysujesz dwie osie czasu z nieograniczoną liczbą wydarzeń, zdjęć
 Plus odblokowuje nieograniczone osie czasu, zapisywanie osi czasu hashtagów i wszystkie cztery wyglądy kart.
 Pro dodaje do wszystkiego z Plus synchronizację iCloud i dodawanie wydarzeń przez Siri i Skróty.
 Plus i Pro są dostępne jako subskrypcja tygodniowa, miesięczna lub roczna albo jednorazowy zakup na zawsze.
+
+Subskrypcje
+Yeoul Plus i Pro to subskrypcje odnawiane automatycznie. Opłata jest pobierana z Twojego konta Apple, a subskrypcja odnawia się, jeśli nie anulujesz jej co najmniej 24 godziny przed końcem okresu. Zarządzaj nią lub anuluj ją w dowolnej chwili w Ustawieniach.
+Warunki korzystania (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Polityka prywatności: https://m1zz.github.io/Gyeol/privacy-pl.html
 
 ## sv
 
@@ -1311,6 +1421,11 @@ Plus låser upp obegränsat med tidslinjer, sparade hashtagg-tidslinjer och alla
 Pro lägger till iCloud-synkning och händelser via Siri och Genvägar ovanpå allt i Plus.
 Plus och Pro finns som vecko-, månads- eller årsabonnemang, eller som ett engångsköp för alltid.
 
+Prenumerationer
+Yeoul Plus och Pro är prenumerationer som förnyas automatiskt. Betalningen dras från ditt Apple-konto och prenumerationen förnyas om du inte avslutar den minst 24 timmar innan perioden slutar. Hantera eller avsluta när som helst i Inställningar.
+Användarvillkor (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Integritetspolicy: https://m1zz.github.io/Gyeol/privacy-sv.html
+
 ## tr
 
 ### 지원 URL
@@ -1367,6 +1482,11 @@ iCloud sayesinde tüm cihazlarında aynı veriler seninle olur.
 Plus sınırsız zaman çizelgesi, hashtag zaman çizelgelerini kaydetme ve dört kart tasarımının hepsini açar.
 Pro, Plus’taki her şeye iCloud eşzamanlama ile Siri ve Kestirmeler üzerinden olay eklemeyi katar.
 Plus ve Pro haftalık, aylık ya da yıllık abonelik olarak veya ömür boyu tek seferlik satın alımla sunulur.
+
+Abonelikler
+Yeoul Plus ve Pro otomatik yenilenen aboneliklerdir. Ödeme Apple Hesabınızdan alınır ve abonelik, dönem bitmeden en az 24 saat önce iptal edilmezse yenilenir. Ayarlar'dan istediğiniz zaman yönetebilir veya iptal edebilirsiniz.
+Kullanım Koşulları (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Gizlilik Politikası: https://m1zz.github.io/Gyeol/privacy-tr.html
 
 ## 손쉬운 사용
 
