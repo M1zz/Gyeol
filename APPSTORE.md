@@ -51,6 +51,12 @@ https://m1zz.github.io/Gyeol/
 iPhone과 iPad에서
 iCloud로 내 기기들끼리 같은 기록을 봅니다.
 
+무료 · Plus · Pro
+무료로 타임라인 두 개를 그리고, 사건 · 사진 · 이야기는 제한 없이 남깁니다. 그날 사진 찾기, 해시태그로 모아 보기, 기본 · 포스터 카드, 텍스트로 내보내기도 무료예요.
+Plus는 타임라인 무제한, 해시태그 타임라인 저장, 카드 디자인 네 가지 전부를 엽니다.
+Pro는 Plus의 모든 것에 iCloud 동기화와 Siri · 단축어로 사건 추가를 더합니다.
+Plus와 Pro는 주 · 월 · 연 구독이나 평생 구매 중에서 고를 수 있어요.
+
 ## en
 
 ### 지원 URL
@@ -101,6 +107,12 @@ Choose the card that suits each event: Classic with text first, Poster with a fu
 
 On iPhone and iPad
 iCloud keeps the same records on all of your devices.
+
+Free, Plus and Pro
+Free lets you draw two timelines with unlimited events, photos and stories. Finding photos from that day, browsing by hashtag, the Classic and Poster cards and text export are free too.
+Plus unlocks unlimited timelines, saved hashtag timelines and all four card designs.
+Pro adds iCloud sync and adding events with Siri and Shortcuts on top of everything in Plus.
+Plus and Pro are available as weekly, monthly or yearly subscriptions, or as a one-time lifetime purchase.
 
 ## en-GB
 
@@ -153,6 +165,12 @@ Choose the card that suits each event: Classic with the text first, Poster with 
 On iPhone and iPad
 iCloud keeps the same records on all of your devices.
 
+Free, Plus and Pro
+Free lets you draw two timelines with unlimited events, photos and stories. Finding photos from that day, browsing by hashtag, the Classic and Poster cards and text export are free too.
+Plus unlocks unlimited timelines, saved hashtag timelines and all four card designs.
+Pro adds iCloud sync and adding events with Siri and Shortcuts on top of everything in Plus.
+Plus and Pro are available as weekly, monthly or yearly subscriptions, or as a one-off lifetime purchase.
+
 ## zh-Hans
 
 ### 지원 URL
@@ -203,6 +221,12 @@ Yeoul 是一条纵向时间线，事件之间的间隔会按实际流逝的时�
 
 支持 iPhone 和 iPad
 通过 iCloud，在你的各台设备上看到同样的记录。
+
+免费、Plus 与 Pro
+免费版可画两条时间线，事件、照片和故事不限数量。找出当天的照片、按话题标签汇总查看、经典与海报卡片、导出为文本也都免费。
+Plus 解锁无限时间线、保存话题标签时间线以及全部四种卡片样式。
+Pro 在 Plus 的全部功能之上，增加 iCloud 同步以及用 Siri 与快捷指令添加事件。
+Plus 和 Pro 可选按周、按月或按年订阅，也可一次性买断永久使用。
 
 ## zh-Hant
 
@@ -255,6 +279,12 @@ Yeoul 是一條直式時間軸，事件之間的間隔會依實際流逝的時�
 支援 iPhone 和 iPad
 透過 iCloud，在你的各部裝置上看到同樣的紀錄。
 
+免費、Plus 與 Pro
+免費版可畫兩條時間軸，事件、照片和故事不限數量。找出當天的照片、依主題標籤匯總查看、經典與海報卡片、匯出為文字也都免費。
+Plus 解鎖無限時間軸、儲存主題標籤時間軸以及全部四種卡片樣式。
+Pro 在 Plus 的全部功能之上，加入 iCloud 同步以及用 Siri 與捷徑新增事件。
+Plus 和 Pro 可選按週、按月或按年訂閱，也可一次買斷永久使用。
+
 ## ja
 
 ### 지원 URL
@@ -305,6 +335,12 @@ Yeoul：流れた時間で描く年表
 
 iPhoneとiPadで
 iCloudで、お持ちのデバイス同士で同じ記録を見られます。
+
+無料・Plus・Pro
+無料でタイムラインを2本作れて、イベント・写真・ストーリーは無制限です。その日の写真探し、ハッシュタグでまとめて見る、基本とポスターのカード、テキストでの書き出しも無料です。
+Plusではタイムライン無制限、ハッシュタグのタイムライン保存、4つのカードデザインすべてが使えます。
+ProはPlusのすべてに加えて、iCloud同期とSiri・ショートカットでのイベント追加が使えます。
+PlusとProは週額・月額・年額のサブスクリプションか、買い切りから選べます。
 
 ## ru
 
@@ -357,6 +393,12 @@ Yeoul — вертикальный таймлайн, где расстояние
 На iPhone и iPad
 С iCloud одни и те же записи доступны на всех ваших устройствах.
 
+Бесплатно, Plus и Pro
+Бесплатно доступны два таймлайна с неограниченным числом событий, фото и историй. Поиск фото того дня, просмотр по хештегу, карточки «Классика» и «Постер» и экспорт в текст тоже бесплатны.
+Plus открывает неограниченное число таймлайнов, сохранение таймлайнов по хештегу и все четыре стиля карточек.
+Pro добавляет ко всему из Plus синхронизацию iCloud и добавление событий через Siri и Быстрые команды.
+Plus и Pro можно оформить как недельную, месячную или годовую подписку либо купить навсегда.
+
 ## es
 
 ### 지원 URL
@@ -407,6 +449,12 @@ Elige la tarjeta que mejor le va a cada evento: Clásico, con el texto primero; 
 
 En iPhone y iPad
 iCloud mantiene los mismos registros en todos tus dispositivos.
+
+Gratis, Plus y Pro
+Gratis puedes crear dos líneas de tiempo con eventos, fotos e historias ilimitados. Buscar fotos de ese día, ver por hashtag, las tarjetas Clásico y Póster y exportar como texto también son gratis.
+Plus desbloquea líneas de tiempo ilimitadas, guardar líneas de tiempo de hashtag y los cuatro diseños de tarjeta.
+Pro añade a todo lo de Plus la sincronización con iCloud y añadir eventos con Siri y Atajos.
+Plus y Pro están disponibles como suscripción semanal, mensual o anual, o como compra única de por vida.
 
 ## de
 
@@ -459,6 +507,12 @@ Wähle für jedes Ereignis die passende Karte: Klassisch mit dem Text im Mittelp
 Auf iPhone und iPad
 Mit iCloud sind dieselben Einträge auf allen deinen Geräten verfügbar.
 
+Kostenlos, Plus und Pro
+Kostenlos zeichnest du zwei Zeitleisten mit unbegrenzt vielen Ereignissen, Fotos und Geschichten. Fotos vom selben Tag finden, nach Hashtag ansehen, die Karten Klassisch und Poster sowie der Textexport sind ebenfalls kostenlos.
+Plus schaltet unbegrenzte Zeitleisten, gesicherte Hashtag-Zeitleisten und alle vier Kartendesigns frei.
+Pro ergänzt alles aus Plus um iCloud-Synchronisierung und Ereignisse per Siri und Kurzbefehlen.
+Plus und Pro gibt es als Wochen-, Monats- oder Jahresabo oder als einmaligen Kauf auf Dauer.
+
 ## fr
 
 ### 지원 URL
@@ -509,6 +563,12 @@ Choisissez la carte qui convient à chaque événement : Classique avec le texte
 
 Sur iPhone et iPad
 Grâce à iCloud, vous retrouvez les mêmes données sur tous vos appareils.
+
+Gratuit, Plus et Pro
+En version gratuite, créez deux frises avec événements, photos et récits illimités. Retrouver les photos du jour même, parcourir par hashtag, les cartes Classique et Affiche et l’export en texte sont aussi gratuits.
+Plus débloque les frises illimitées, l’enregistrement des frises par hashtag et les quatre styles de carte.
+Pro ajoute à tout Plus la synchronisation iCloud et l’ajout d’événements avec Siri et Raccourcis.
+Plus et Pro existent en abonnement hebdomadaire, mensuel ou annuel, ou en achat unique à vie.
 
 ## it
 
@@ -561,6 +621,12 @@ Scegli la scheda adatta a ogni evento: Classico con il testo in primo piano, Pos
 Su iPhone e iPad
 Con iCloud ritrovi gli stessi dati su tutti i tuoi dispositivi.
 
+Gratis, Plus e Pro
+Gratis crei due timeline con eventi, foto e storie illimitati. Trovare le foto di quel giorno, sfogliare per hashtag, le schede Classico e Poster e l’esportazione come testo sono gratis.
+Plus sblocca timeline illimitate, il salvataggio delle timeline per hashtag e tutti e quattro gli stili della scheda.
+Pro aggiunge a tutto Plus la sincronizzazione iCloud e l’aggiunta di eventi con Siri e Comandi Rapidi.
+Plus e Pro sono disponibili come abbonamento settimanale, mensile o annuale, oppure con un acquisto unico a vita.
+
 ## pt-BR
 
 ### 지원 URL
@@ -611,6 +677,12 @@ Escolha o cartão que combina com cada evento: Clássico, com o texto em destaqu
 
 No iPhone e no iPad
 Com o iCloud, os mesmos registros ficam em todos os seus dispositivos.
+
+Grátis, Plus e Pro
+De graça, você cria duas linhas do tempo com eventos, fotos e histórias ilimitados. Encontrar fotos daquele dia, ver por hashtag, os cartões Clássico e Pôster e exportar como texto também são grátis.
+O Plus libera linhas do tempo ilimitadas, salvar linhas do tempo de hashtag e os quatro designs de cartão.
+O Pro soma a tudo do Plus a sincronização com o iCloud e adicionar eventos com a Siri e Atalhos.
+Plus e Pro estão disponíveis em assinatura semanal, mensal ou anual, ou em compra única vitalícia.
 
 ## th
 
@@ -663,6 +735,12 @@ Yeoul คือไทม์ไลน์แนวตั้งที่ระย�
 บน iPhone และ iPad
 ด้วย iCloud คุณจะเห็นข้อมูลเดียวกันบนทุกอุปกรณ์
 
+ฟรี Plus และ Pro
+ใช้ฟรีได้สองไทม์ไลน์ โดยเพิ่มเหตุการณ์ รูปภาพ และเรื่องราวได้ไม่จำกัด การหารูปของวันนั้น การดูรวมตามแฮชแท็ก การ์ดแบบคลาสสิกและโปสเตอร์ และการส่งออกเป็นข้อความก็ใช้ได้ฟรี
+Plus ปลดล็อกไทม์ไลน์ไม่จำกัด การบันทึกไทม์ไลน์แฮชแท็ก และดีไซน์การ์ดครบทั้งสี่แบบ
+Pro เพิ่มการซิงค์ iCloud และการเพิ่มเหตุการณ์ด้วย Siri และคำสั่งลัด นอกเหนือจากทุกอย่างใน Plus
+เลือก Plus และ Pro ได้ทั้งแบบสมัครรายสัปดาห์ รายเดือน รายปี หรือซื้อครั้งเดียวใช้ได้ตลอดชีพ
+
 ## vi
 
 ### 지원 URL
@@ -713,6 +791,12 @@ Chọn kiểu thẻ hợp với từng sự kiện: Cổ điển lấy chữ là
 
 Trên iPhone và iPad
 Nhờ iCloud, bạn thấy cùng một dữ liệu trên mọi thiết bị.
+
+Miễn phí, Plus và Pro
+Bản miễn phí cho bạn vẽ hai dòng thời gian với sự kiện, ảnh và câu chuyện không giới hạn. Tìm ảnh của ngày đó, xem theo hashtag, thẻ Cổ điển và Áp phích cùng xuất dạng văn bản cũng miễn phí.
+Plus mở khóa dòng thời gian không giới hạn, lưu dòng thời gian hashtag và đủ bốn kiểu thẻ.
+Pro thêm đồng bộ iCloud và thêm sự kiện bằng Siri và Phím tắt, bên cạnh mọi thứ của Plus.
+Plus và Pro có gói đăng ký theo tuần, tháng hoặc năm, hoặc mua một lần dùng trọn đời.
 
 ## cs
 
@@ -765,6 +849,12 @@ Vyberte kartu, která se ke každé události hodí: Klasika s textem na prvním
 Na iPhonu i iPadu
 Díky iCloudu máte stejné záznamy na všech svých zařízeních.
 
+Zdarma, Plus a Pro
+Zdarma si nakreslíte dvě časové osy s neomezeným počtem událostí, fotek a příběhů. Hledání fotek z toho dne, procházení podle hashtagu, karty Klasika a Plakát i export jako text jsou také zdarma.
+Plus odemyká neomezené časové osy, ukládání časových os podle hashtagu a všechny čtyři vzhledy karet.
+Pro přidává ke všemu z Plus synchronizaci přes iCloud a přidávání událostí přes Siri a Zkratky.
+Plus i Pro lze mít jako týdenní, měsíční nebo roční předplatné, nebo jednorázově navždy.
+
 ## da
 
 ### 지원 URL
@@ -815,6 +905,12 @@ Vælg det kort, der passer til hver begivenhed: Klassisk med tekst først, Plaka
 
 På iPhone og iPad
 Med iCloud har du de samme data på alle dine enheder.
+
+Gratis, Plus og Pro
+Gratis kan du tegne to tidslinjer med ubegrænsede begivenheder, billeder og historier. At finde billeder fra dagen, se efter hashtag, kortene Klassisk og Plakat og eksport som tekst er også gratis.
+Plus låser op for ubegrænsede tidslinjer, gemte hashtag-tidslinjer og alle fire kortdesigns.
+Pro lægger iCloud-synkronisering og begivenheder via Siri og Genveje oven i alt fra Plus.
+Plus og Pro fås som ugentligt, månedligt eller årligt abonnement eller som et engangskøb for altid.
 
 ## el
 
@@ -867,6 +963,12 @@ Yeoul: Το χρονολόγιό σου
 Σε iPhone και iPad
 Με το iCloud βλέπεις τα ίδια δεδομένα σε όλες τις συσκευές σου.
 
+Δωρεάν, Plus και Pro
+Δωρεάν φτιάχνεις δύο χρονολόγια με απεριόριστα γεγονότα, φωτογραφίες και ιστορίες. Η εύρεση φωτογραφιών εκείνης της μέρας, η προβολή ανά hashtag, οι κάρτες Κλασική και Αφίσα και η εξαγωγή ως κείμενο είναι επίσης δωρεάν.
+Το Plus ξεκλειδώνει απεριόριστα χρονολόγια, αποθήκευση χρονολογίων hashtag και και τις τέσσερις σχεδιάσεις κάρτας.
+Το Pro προσθέτει σε όλα όσα έχει το Plus τον συγχρονισμό iCloud και την προσθήκη γεγονότων με Siri και Συντομεύσεις.
+Τα Plus και Pro διατίθενται με εβδομαδιαία, μηνιαία ή ετήσια συνδρομή ή με μία αγορά εφ’ όρου ζωής.
+
 ## fi
 
 ### 지원 URL
@@ -917,6 +1019,12 @@ Valitse jokaiselle tapahtumalle sopiva kortti: Perinteinen tekstin ollessa pää
 
 iPhonella ja iPadilla
 iCloudin avulla sama aineisto on kaikilla laitteillasi.
+
+Ilmainen, Plus ja Pro
+Ilmaiseksi voit piirtää kaksi aikajanaa, joissa on rajattomasti tapahtumia, kuvia ja tarinoita. Saman päivän kuvien haku, selaus aihetunnisteittain, kortit Perinteinen ja Juliste sekä tekstivienti ovat myös ilmaisia.
+Plus avaa rajattomat aikajanat, aihetunnisteaikajanojen tallennuksen ja kaikki neljä kortin ulkoasua.
+Pro lisää kaikkeen Plussaan iCloud-synkronoinnin ja tapahtumien lisäämisen Sirillä ja Pikakomennoilla.
+Plus ja Pro ovat saatavilla viikko-, kuukausi- tai vuositilauksena tai pysyvänä kertaostona.
 
 ## id
 
@@ -969,6 +1077,12 @@ Pilih kartu yang cocok untuk tiap peristiwa: Klasik dengan teks sebagai utama, P
 Di iPhone dan iPad
 Dengan iCloud, datamu sama di semua perangkat.
 
+Gratis, Plus, dan Pro
+Versi gratis memberimu dua linimasa dengan peristiwa, foto, dan cerita tanpa batas. Mencari foto hari itu, melihat per tagar, kartu Klasik dan Poster, serta ekspor sebagai teks juga gratis.
+Plus membuka linimasa tanpa batas, penyimpanan linimasa tagar, dan keempat desain kartu.
+Pro menambahkan sinkronisasi iCloud dan tambah peristiwa lewat Siri dan Pintasan di atas semua fitur Plus.
+Plus dan Pro tersedia sebagai langganan mingguan, bulanan, atau tahunan, atau pembelian sekali untuk seumur hidup.
+
 ## nb
 
 ### 지원 URL
@@ -1019,6 +1133,12 @@ Velg kortet som passer til hver hendelse: Klassisk med teksten først, Plakat me
 
 På iPhone og iPad
 Med iCloud har du de samme dataene på alle enhetene dine.
+
+Gratis, Plus og Pro
+Gratis kan du tegne to tidslinjer med ubegrenset antall hendelser, bilder og historier. Å finne bilder fra dagen, bla etter emneknagg, kortene Klassisk og Plakat og eksport som tekst er også gratis.
+Plus låser opp ubegrensede tidslinjer, lagrede emneknagg-tidslinjer og alle fire kortdesignene.
+Pro legger iCloud-synkronisering og hendelser via Siri og Snarveier oppå alt i Plus.
+Plus og Pro fås som ukentlig, månedlig eller årlig abonnement, eller som et engangskjøp for alltid.
 
 ## nl
 
@@ -1071,6 +1191,12 @@ Kies de kaart die bij elke gebeurtenis past: Klassiek met de tekst voorop, Poste
 Op iPhone en iPad
 Dankzij iCloud heb je dezelfde gegevens op al je apparaten.
 
+Gratis, Plus en Pro
+Gratis teken je twee tijdlijnen met onbeperkt gebeurtenissen, foto’s en verhalen. Foto’s van die dag vinden, bladeren per hashtag, de kaarten Klassiek en Poster en exporteren als tekst zijn ook gratis.
+Plus geeft onbeperkt tijdlijnen, bewaarde hashtag-tijdlijnen en alle vier kaartontwerpen.
+Pro voegt aan alles van Plus iCloud-synchronisatie en gebeurtenissen toevoegen met Siri en Opdrachten toe.
+Plus en Pro zijn er als wekelijks, maandelijks of jaarlijks abonnement, of als eenmalige aankoop voor altijd.
+
 ## pl
 
 ### 지원 URL
@@ -1121,6 +1247,12 @@ Wybierz kartę pasującą do każdego wydarzenia: Klasyczny z tekstem na pierwsz
 
 Na iPhonie i iPadzie
 Dzięki iCloud masz te same dane na wszystkich swoich urządzeniach.
+
+Za darmo, Plus i Pro
+Za darmo narysujesz dwie osie czasu z nieograniczoną liczbą wydarzeń, zdjęć i historii. Szukanie zdjęć z tego dnia, przeglądanie według hashtagów, karty Klasyczny i Plakat oraz eksport jako tekst też są bezpłatne.
+Plus odblokowuje nieograniczone osie czasu, zapisywanie osi czasu hashtagów i wszystkie cztery wyglądy kart.
+Pro dodaje do wszystkiego z Plus synchronizację iCloud i dodawanie wydarzeń przez Siri i Skróty.
+Plus i Pro są dostępne jako subskrypcja tygodniowa, miesięczna lub roczna albo jednorazowy zakup na zawsze.
 
 ## sv
 
@@ -1173,6 +1305,12 @@ Välj det kort som passar varje händelse: Klassisk med texten först, Affisch m
 På iPhone och iPad
 Med iCloud har du samma data på alla dina enheter.
 
+Gratis, Plus och Pro
+Gratis ritar du två tidslinjer med obegränsat antal händelser, bilder och berättelser. Att hitta bilder från dagen, bläddra efter hashtagg, korten Klassisk och Affisch och export som text är också gratis.
+Plus låser upp obegränsat med tidslinjer, sparade hashtagg-tidslinjer och alla fyra kortdesigner.
+Pro lägger till iCloud-synkning och händelser via Siri och Genvägar ovanpå allt i Plus.
+Plus och Pro finns som vecko-, månads- eller årsabonnemang, eller som ett engångsköp för alltid.
+
 ## tr
 
 ### 지원 URL
@@ -1223,6 +1361,12 @@ Her olaya uyan kartı seç: yazının öne çıktığı Klasik, fotoğrafın kar
 
 iPhone ve iPad’de
 iCloud sayesinde tüm cihazlarında aynı veriler seninle olur.
+
+Ücretsiz, Plus ve Pro
+Ücretsiz sürümde sınırsız olay, fotoğraf ve hikâyeyle iki zaman çizelgesi çizersin. O günün fotoğraflarını bulmak, hashtag’e göre göz atmak, Klasik ve Poster kartlar ve metin olarak dışa aktarma da ücretsiz.
+Plus sınırsız zaman çizelgesi, hashtag zaman çizelgelerini kaydetme ve dört kart tasarımının hepsini açar.
+Pro, Plus’taki her şeye iCloud eşzamanlama ile Siri ve Kestirmeler üzerinden olay eklemeyi katar.
+Plus ve Pro haftalık, aylık ya da yıllık abonelik olarak veya ömür boyu tek seferlik satın alımla sunulur.
 
 ## 손쉬운 사용
 

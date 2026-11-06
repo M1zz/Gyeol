@@ -38,8 +38,9 @@ struct GyeolApp: App {
                 .foldAware()
                 .leeoSatisfactionCheck(YeoulSpec.self)
                 .storeFallbackNotice()
-                // 팁 상품을 불러오고 끝나지 않은 팁을 마저 센다.
-                .task { await YeoulSpec.tipJar.startStandalone() }
+                // 지금 칸 · 페이월 · 영수증 다시 읽기 · 구독 졸업 (→ Store/PlanRoot.swift).
+                // 팁 상품도 같은 스토어가 불러오고, 끝나지 않은 팁을 마저 센다.
+                .planRoot()
                 // Spotlight 에 싣는 기록을 지금 것에 맞춘다. 열 때 한 번, 뒤로 보낼 때마다.
                 .task { await EventEntityQuery.reindex() }
                 .onChange(of: scenePhase) { _, phase in

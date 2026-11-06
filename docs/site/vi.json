@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: dòng thời gian giãn đúng bằng thời gian đã trôi",
-  "description": "3 ngày và 5 ngày theo tỉ lệ 3:5, 2 năm gập thành nét đứt. Dòng thời gian cho khoảnh khắc và ảnh, giãn theo thời gian thật. Miễn phí.",
+  "description": "3 ngày và 5 ngày theo tỉ lệ 3:5, 2 năm gập thành nét đứt. Dòng thời gian cho khoảnh khắc và ảnh, giãn theo thời gian thật. Bắt đầu miễn phí.",
   "hero": {
     "headline": "Thời gian trôi bao lâu,\nkhoảng cách dài bấy nhiêu",
     "lead": "3 ngày và 5 ngày cách nhau theo tỉ lệ 3:5. Một quãng trống dài như 2 năm 4 tháng được gập lại thành nét đứt. Chỉ nhìn khoảng cách là thấy thời gian khi ấy đã trôi thế nào.",
     "cta": "Tải miễn phí trên App Store",
-    "note": "Mọi tính năng đều miễn phí. Dùng trên iPhone và iPad."
+    "note": "Miễn phí hai dòng thời gian, thêm nữa với Plus và Pro. Dùng trên iPhone và iPad."
   },
   "demo": {
     "title": "Tự tay kéo giãn khoảng cách",
@@ -92,28 +92,28 @@
     "note": "Sự kiện mới bắt đầu bằng thiết kế giống tấm thẻ gần nhất trong dòng thời gian đó."
   },
   "pricing": {
-    "title": "Mọi tính năng đều miễn phí",
+    "title": "Bắt đầu miễn phí",
     "free": {
       "name": "Miễn phí",
       "items": [
-        "Bao nhiêu dòng thời gian cũng được, chọn tên và màu",
-        "Ảnh, lời kể và thẻ cho mỗi sự kiện",
-        "Tìm ảnh chụp trong ngày của sự kiện",
-        "Lưu dòng thời gian thẻ",
-        "4 kiểu thiết kế thẻ",
-        "Đồng bộ iPhone và iPad qua iCloud",
-        "Ghi lại bằng Phím tắt và Siri"
+        "Hai dòng thời gian, tự đặt tên và màu",
+        "Sự kiện, ảnh và câu chuyện không giới hạn",
+        "Tìm ảnh đã chụp trong ngày đó",
+        "Xem theo hashtag",
+        "Kiểu thẻ Cổ điển và Áp phích",
+        "Xuất dạng văn bản"
       ]
     },
     "pro": {
-      "name": "Ủng hộ nhà phát triển",
+      "name": "Plus và Pro",
       "items": [
-        "Chọn mức tip nhỏ, vừa hoặc lớn",
-        "Không mở khóa tính năng nào. Chỉ là một lời cảm ơn"
+        "Plus: dòng thời gian không giới hạn, lưu dòng thời gian hashtag và đủ bốn kiểu thẻ",
+        "Pro: mọi thứ của Plus, thêm đồng bộ iCloud và ghi lại bằng Siri và Phím tắt",
+        "Chọn gói tuần, tháng, năm hoặc mua một lần dùng trọn đời"
       ],
-      "note": "Có trong phần cài đặt của ứng dụng, lúc nào muốn thì gửi."
+      "note": "Tiền tip cho nhà phát triển không mở khóa tính năng nào. Bạn chỉ gửi từ Cài đặt khi muốn."
     },
-    "note": "Không quảng cáo, không gói thuê bao."
+    "note": "Không có quảng cáo."
   },
   "faq": {
     "title": "Câu hỏi thường gặp",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Ghi lại mà không cần mở ứng dụng được không?",
-        "a": "Được. Dùng `Ghi lại sự kiện` trong ứng dụng Phím tắt hoặc với Siri, chỉ cần chọn dòng thời gian và tiêu đề. Không chọn ngày thì sẽ lưu theo thời điểm hiện tại."
+        "a": "Được. Dùng `Ghi lại sự kiện` trong ứng dụng Phím tắt hoặc với Siri, chỉ cần chọn dòng thời gian và tiêu đề. Không chọn ngày thì sẽ lưu theo thời điểm hiện tại. Ghi lại bằng Siri và Phím tắt là tính năng của Pro."
       },
       {
         "q": "Xem được trên thiết bị khác không?",
-        "a": "Được, trên mọi iPhone và iPad đăng nhập iCloud bằng cùng Tài khoản Apple. Hãy kiểm tra trong Cài đặt > tên của bạn > iCloud rằng iCloud đang bật. Tùy mạng, thay đổi có thể đến chậm một chút."
+        "a": "Được, trên mọi iPhone và iPad đăng nhập iCloud bằng cùng Tài khoản Apple. Hãy kiểm tra trong Cài đặt > tên của bạn > iCloud rằng iCloud đang bật. Tùy mạng, thay đổi có thể đến chậm một chút. Đồng bộ iCloud là tính năng của Pro. Ở bản Miễn phí và Plus, ghi chép chỉ nằm trên thiết bị đó."
       },
       {
         "q": "Tôi muốn xóa dữ liệu.",

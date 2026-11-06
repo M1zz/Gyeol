@@ -375,6 +375,8 @@ struct CardStyleSwatch: View {
     let style: CardStyle
     let color: Color
     let isSelected: Bool
+    /// 지금 칸에서 고를 수 없는 디자인 — 자물쇠를 얹고, 누르면 페이월이 뜬다.
+    var isLocked = false
 
     var body: some View {
         VStack(spacing: 6) {
@@ -387,12 +389,20 @@ struct CardStyleSwatch: View {
                         .strokeBorder(isSelected ? color : Palette.separator,
                                       lineWidth: isSelected ? 2 : 1)
                 }
+                .overlay(alignment: .topTrailing) {
+                    if isLocked {
+                        PlanLockBadge()
+                            .padding(5)
+                            .background(.thinMaterial, in: Circle())
+                            .padding(4)
+                    }
+                }
             Text(style.label)
                 .font(.caption2.weight(isSelected ? .semibold : .regular))
                 .foregroundStyle(isSelected ? color : .secondary)
         }
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("\(style.label) 디자인")
+        .accessibilityLabel(isLocked ? Text("\(style.label) 디자인, 잠김") : Text("\(style.label) 디자인"))
         .accessibilityAddTraits(isSelected ? .isSelected : [])
     }
 

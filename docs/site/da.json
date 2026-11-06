@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: tidslinjen hvor afstanden er den tid, der gik",
-  "description": "Tre dage og fem dage i forholdet 3:5, to år foldet til en stiplet linje. En tidslinje til øjeblikke og billeder i ægte tid. Gratis.",
+  "description": "Tre dage og fem dage i forholdet 3:5, to år foldet til en stiplet linje. En tidslinje til øjeblikke og billeder i ægte tid. Gratis at starte.",
   "hero": {
     "headline": "En tidslinje,\nder strækker sig med tiden",
     "lead": "Tre dage og fem dage står i forholdet 3:5. En lang pause som to år og fire måneder foldes sammen til en stiplet linje. Bare ved at se på afstandene kan du mærke, hvordan tiden gik.",
     "cta": "Hent gratis i App Store",
-    "note": "Alle funktioner er gratis. Til iPhone og iPad."
+    "note": "To tidslinjer gratis, flere med Plus og Pro. Til iPhone og iPad."
   },
   "demo": {
     "title": "Træk afstandene ud selv",
@@ -92,28 +92,28 @@
     "note": "En ny begivenhed starter med samme design som det nyeste kort i tidslinjen."
   },
   "pricing": {
-    "title": "Alle funktioner er gratis",
+    "title": "Kom gratis i gang",
     "free": {
       "name": "Gratis",
       "items": [
-        "Så mange tidslinjer du vil, med navn og farve",
-        "Billeder, historier og tags på hver begivenhed",
-        "Find billeder fra begivenhedens dag",
-        "Gemte tag-tidslinjer",
-        "Fire kortdesign",
-        "iCloud-synkronisering mellem iPhone og iPad",
-        "Registrér med Genveje og Siri"
+        "To tidslinjer med eget navn og egen farve",
+        "Ubegrænsede begivenheder, billeder og historier",
+        "Find billeder taget den dag",
+        "Se efter hashtag",
+        "Kortdesignene Klassisk og Plakat",
+        "Eksportér som tekst"
       ]
     },
     "pro": {
-      "name": "Støt udvikleren",
+      "name": "Plus og Pro",
       "items": [
-        "Vælg en lille, mellem eller stor drikkepenge",
-        "Det låser ikke noget op. Det er bare en måde at sige tak på"
+        "Plus: ubegrænsede tidslinjer, gemte hashtag-tidslinjer og alle fire kortdesigns",
+        "Pro: alt i Plus samt iCloud-synkronisering og registrering med Siri og Genveje",
+        "Vælg ugentligt, månedligt eller årligt abonnement, eller køb én gang for altid"
       ],
-      "note": "Du finder det i appens indstillinger, når du har lyst."
+      "note": "Drikkepenge til udvikleren låser ikke noget op. Send dem fra Indstillinger, kun hvis du har lyst."
     },
-    "note": "Ingen reklamer, intet abonnement."
+    "note": "Ingen reklamer."
   },
   "faq": {
     "title": "Ofte stillede spørgsmål",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Kan jeg registrere noget uden at åbne appen?",
-        "a": "Ja. Brug `Registrer en begivenhed` i appen Genveje eller med Siri, og vælg bare tidslinje og titel. Uden dato bruges det aktuelle tidspunkt."
+        "a": "Ja. Brug `Registrer en begivenhed` i appen Genveje eller med Siri, og vælg bare tidslinje og titel. Uden dato bruges det aktuelle tidspunkt. Registrering med Siri og Genveje er en Pro-funktion."
       },
       {
         "q": "Kan jeg se mine tidslinjer på andre enheder?",
-        "a": "Ja, på alle iPhones og iPads, der er logget ind på iCloud med samme Apple-konto. Tjek under Indstillinger > dit navn > iCloud, at iCloud er slået til. Afhængigt af forbindelsen kan det tage et øjeblik."
+        "a": "Ja, på alle iPhones og iPads, der er logget ind på iCloud med samme Apple-konto. Tjek under Indstillinger > dit navn > iCloud, at iCloud er slået til. Afhængigt af forbindelsen kan det tage et øjeblik. iCloud-synkronisering er en Pro-funktion. Med Gratis og Plus bliver dine optegnelser på den enhed."
       },
       {
         "q": "Hvordan sletter jeg mine data?",

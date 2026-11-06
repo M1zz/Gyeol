@@ -69,6 +69,12 @@ struct TimelineDetailView: View {
                         Button { showingNewEvent = true } label: { Label("사건 추가", systemImage: "plus") }
                     }
                     Button { showingSettings = true } label: { Label("이름·색 바꾸기", systemImage: "paintpalette") }
+                    // 기본 내보내기 — 어느 칸에서나 무료다. 메모 · 메일에 그대로 붙여 넣을 수 있는 글로.
+                    if !events.isEmpty {
+                        ShareLink(item: TimelineExport.text(name: timeline.name, events: events)) {
+                            Label("텍스트로 내보내기", systemImage: "square.and.arrow.up")
+                        }
+                    }
                 } label: {
                     Image(systemName: "ellipsis.circle")
                 }

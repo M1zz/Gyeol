@@ -14,6 +14,8 @@ struct TagTimelineView: View {
     @State private var expanded: PersistentIdentifier?
     @State private var editingEvent: TimelineEvent?
     @State private var showingSave = false
+    @State private var showingPlans = false
+    @Environment(\.planAccess) private var access
 
     private var events: [TimelineEvent] {
         allEvents.filter { $0.hasTag(tag) }.chronological
@@ -67,10 +69,12 @@ struct TagTimelineView: View {
                         .font(.footnote.weight(.medium))
                         .foregroundStyle(saved.color)
                 } else {
+                    // 모아 보기는 무료, 목록에 두고 계속 채우는 저장은 Plus.
                     Button {
-                        showingSave = true
+                        if access.allows(.tagTimelines) { showingSave = true } else { showingPlans = true }
                     } label: {
-                        Label("타임라인으로 저장", systemImage: "square.and.arrow.down")
+                        Label("타임라인으로 저장",
+                              systemImage: access.allows(.tagTimelines) ? "square.and.arrow.down" : "lock.fill")
                     }
                     .disabled(events.isEmpty)
                 }
@@ -91,6 +95,12 @@ struct TagTimelineView: View {
         }
         .sheet(isPresented: $showingSave) {
             TimelineEditorView(timeline: nil, tagFilter: tag, suggestedName: "#\(tag)")
+        }
+        .sheet(isPresented: $showingPlans, onDismiss: {
+            // 방금 Plus 를 열었으면 하려던 저장을 이어서 한다.
+            if access.allows(.tagTimelines) { showingSave = true }
+        }) {
+            access.paywall(.tagTimelines)
         }
     }
 }

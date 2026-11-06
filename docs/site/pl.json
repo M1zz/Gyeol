@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: oś czasu, w której odstępy to prawdziwy czas",
-  "description": "Trzy dni i pięć dni w proporcji 3:5, dwa lata jako linia przerywana. Oś czasu na chwile i zdjęcia według prawdziwego czasu. Za darmo.",
+  "description": "Trzy dni i pięć dni w proporcji 3:5, dwa lata jako linia przerywana. Oś czasu na chwile i zdjęcia według prawdziwego czasu. Na start za darmo.",
   "hero": {
     "headline": "Oś czasu, która\nrozciąga się z czasem",
     "lead": "Trzy dni i pięć dni stoją w proporcji 3:5. Długa przerwa, na przykład dwa lata i cztery miesiące, składa się w linię przerywaną. Już po odstępach widać, jak wtedy płynął czas.",
     "cta": "Pobierz za darmo z App Store",
-    "note": "Wszystkie funkcje są darmowe. Na iPhone'a i iPada."
+    "note": "Dwie osie czasu za darmo, więcej w Plus i Pro. Na iPhone'a i iPada."
   },
   "demo": {
     "title": "Rozciągnij odstępy sam",
@@ -92,28 +92,28 @@
     "note": "Nowe wydarzenie zaczyna z tym samym wyglądem co najnowsza karta na danej osi."
   },
   "pricing": {
-    "title": "Wszystkie funkcje są darmowe",
+    "title": "Zacznij za darmo",
     "free": {
       "name": "Za darmo",
       "items": [
-        "Dowolnie wiele osi czasu z nazwą i kolorem",
-        "Zdjęcia, opisy i tagi przy każdym wydarzeniu",
-        "Szukanie zdjęć z dnia wydarzenia",
-        "Zapisane osie czasu tagów",
-        "Cztery wyglądy kart",
-        "Synchronizacja iPhone'a i iPada przez iCloud",
-        "Zapisywanie przez Skróty i Siri"
+        "Dwie osie czasu z własną nazwą i kolorem",
+        "Bez limitu wydarzeń, zdjęć i historii",
+        "Zdjęcia zrobione tego dnia",
+        "Przeglądanie według hashtagów",
+        "Wygląd kart Klasyczny i Plakat",
+        "Eksport jako tekst"
       ]
     },
     "pro": {
-      "name": "Wesprzyj twórcę",
+      "name": "Plus i Pro",
       "items": [
-        "Wybierz mały, średni lub duży napiwek",
-        "Niczego nie odblokowuje. To po prostu podziękowanie"
+        "Plus: nieograniczone osie czasu, zapisane osie hashtagów i wszystkie cztery wyglądy kart",
+        "Pro: wszystko z Plus oraz synchronizacja iCloud i zapisywanie przez Siri i Skróty",
+        "Wybierz subskrypcję tygodniową, miesięczną lub roczną albo jednorazowy zakup na zawsze"
       ],
-      "note": "Znajdziesz go w ustawieniach aplikacji, kiedy zechcesz."
+      "note": "Napiwki dla twórcy niczego nie odblokowują. Wyślij je z Ustawień tylko wtedy, gdy chcesz."
     },
-    "note": "Bez reklam i bez subskrypcji."
+    "note": "Bez reklam."
   },
   "faq": {
     "title": "Częste pytania",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Czy mogę coś zapisać bez otwierania aplikacji?",
-        "a": "Tak. Użyj `Zapisz wydarzenie` w aplikacji Skróty albo z Siri i wybierz tylko oś i tytuł. Bez daty zapisze się bieżący czas."
+        "a": "Tak. Użyj `Zapisz wydarzenie` w aplikacji Skróty albo z Siri i wybierz tylko oś i tytuł. Bez daty zapisze się bieżący czas. Zapisywanie przez Siri i Skróty to funkcja Pro."
       },
       {
         "q": "Czy zobaczę osie na innych urządzeniach?",
-        "a": "Tak, na każdym iPhonie i iPadzie zalogowanym do iCloud tym samym kontem Apple. Sprawdź w Ustawienia > Twoje imię > iCloud, czy iCloud jest włączony. Zależnie od połączenia zmiany mogą pojawić się z lekkim opóźnieniem."
+        "a": "Tak, na każdym iPhonie i iPadzie zalogowanym do iCloud tym samym kontem Apple. Sprawdź w Ustawienia > Twoje imię > iCloud, czy iCloud jest włączony. Zależnie od połączenia zmiany mogą pojawić się z lekkim opóźnieniem. Synchronizacja iCloud to funkcja Pro. W wersji darmowej i Plus wpisy zostają na tym urządzeniu."
       },
       {
         "q": "Jak usunąć swoje zapisy?",

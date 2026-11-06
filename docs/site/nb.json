@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: tidslinjen der avstanden er tiden som gikk",
-  "description": "Tre dager og fem dager i forholdet 3:5, to år som en stiplet linje. En tidslinje for øyeblikk og bilder i ekte tid. Gratis.",
+  "description": "Tre dager og fem dager i forholdet 3:5, to år som en stiplet linje. En tidslinje for øyeblikk og bilder i ekte tid. Gratis å komme i gang.",
   "hero": {
     "headline": "En tidslinje\nsom strekker seg med tiden",
     "lead": "Tre dager og fem dager står i forholdet 3:5. En lang pause som to år og fire måneder brettes sammen til en stiplet linje. Bare ved å se på avstandene skjønner du hvordan tiden gikk.",
     "cta": "Last ned gratis i App Store",
-    "note": "Alle funksjoner er gratis. For iPhone og iPad."
+    "note": "To tidslinjer gratis, flere med Plus og Pro. For iPhone og iPad."
   },
   "demo": {
     "title": "Strekk ut avstandene selv",
@@ -92,28 +92,28 @@
     "note": "En ny hendelse starter med samme design som det nyeste kortet i tidslinjen."
   },
   "pricing": {
-    "title": "Alle funksjoner er gratis",
+    "title": "Kom i gang gratis",
     "free": {
       "name": "Gratis",
       "items": [
-        "Så mange tidslinjer du vil, med navn og farge",
-        "Bilder, historier og merker på hver hendelse",
-        "Finn bilder fra dagen hendelsen skjedde",
-        "Lagrede merketidslinjer",
-        "Fire kortdesign",
-        "iCloud-synkronisering mellom iPhone og iPad",
-        "Registrer med Snarveier og Siri"
+        "To tidslinjer med eget navn og egen farge",
+        "Ubegrenset med hendelser, bilder og historier",
+        "Finn bilder tatt den dagen",
+        "Bla etter emneknagg",
+        "Kortdesignene Klassisk og Plakat",
+        "Eksporter som tekst"
       ]
     },
     "pro": {
-      "name": "Støtt utvikleren",
+      "name": "Plus og Pro",
       "items": [
-        "Velg en liten, middels eller stor tips",
-        "Den låser ikke opp noe. Det er bare en måte å si takk på"
+        "Plus: ubegrensede tidslinjer, lagrede emneknagg-tidslinjer og alle fire kortdesignene",
+        "Pro: alt i Plus, i tillegg til iCloud-synkronisering og registrering med Siri og Snarveier",
+        "Velg ukentlig, månedlig eller årlig abonnement, eller kjøp én gang for alltid"
       ],
-      "note": "Du finner det i innstillingene i appen, når du har lyst."
+      "note": "Tips til utvikleren låser ikke opp noe. Send fra Innstillinger bare hvis du har lyst."
     },
-    "note": "Ingen reklame, ikke noe abonnement."
+    "note": "Ingen reklame."
   },
   "faq": {
     "title": "Vanlige spørsmål",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Kan jeg registrere noe uten å åpne appen?",
-        "a": "Ja. Bruk `Registrer en hendelse` i Snarveier-appen eller med Siri, og velg bare tidslinje og tittel. Uten dato brukes klokkeslettet nå."
+        "a": "Ja. Bruk `Registrer en hendelse` i Snarveier-appen eller med Siri, og velg bare tidslinje og tittel. Uten dato brukes klokkeslettet nå. Registrering med Siri og Snarveier er en Pro-funksjon."
       },
       {
         "q": "Ser jeg tidslinjene mine på andre enheter?",
-        "a": "Ja, på alle iPhoner og iPader som er logget på iCloud med samme Apple-konto. Sjekk under Innstillinger > navnet ditt > iCloud at iCloud er slått på. Avhengig av forbindelsen kan det ta et øyeblikk."
+        "a": "Ja, på alle iPhoner og iPader som er logget på iCloud med samme Apple-konto. Sjekk under Innstillinger > navnet ditt > iCloud at iCloud er slått på. Avhengig av forbindelsen kan det ta et øyeblikk. iCloud-synkronisering er en Pro-funksjon. Med Gratis og Plus blir oppføringene på den enheten."
       },
       {
         "q": "Hvordan sletter jeg dataene mine?",

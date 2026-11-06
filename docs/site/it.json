@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: la timeline dove le distanze seguono il tempo reale",
-  "description": "Tre giorni e cinque giorni a 3:5, due anni in una linea tratteggiata. Una timeline per momenti e foto, al ritmo del tempo reale. Gratis.",
+  "description": "Tre giorni e cinque giorni a 3:5, due anni in una linea tratteggiata. Una timeline per momenti e foto, al ritmo del tempo reale. Gratis per iniziare.",
   "hero": {
     "headline": "Una timeline\nche si allunga col tempo",
     "lead": "Tre giorni e cinque giorni stanno a 3:5. Una lunga pausa, come due anni e quattro mesi, si ripiega in una linea tratteggiata. Basta guardare le distanze per capire com'è passato il tempo.",
     "cta": "Scaricala gratis dall'App Store",
-    "note": "Tutte le funzioni sono gratuite. Per iPhone e iPad."
+    "note": "Due timeline gratis, di più con Plus e Pro. Per iPhone e iPad."
   },
   "demo": {
     "title": "Allarga le distanze tu stesso",
@@ -92,28 +92,28 @@
     "note": "Un nuovo evento parte con il design della scheda più recente della sua timeline."
   },
   "pricing": {
-    "title": "Tutte le funzioni sono gratuite",
+    "title": "Inizia gratis",
     "free": {
       "name": "Gratis",
       "items": [
-        "Tutte le timeline che vuoi, con nome e colore",
-        "Foto, testi e tag per ogni evento",
-        "Trovare le foto del giorno dell'evento",
-        "Timeline per tag salvate",
-        "Quattro design di scheda",
-        "Sincronizzazione iCloud tra iPhone e iPad",
-        "Registrare con Comandi rapidi e Siri"
+        "Due timeline, ognuna con nome e colore",
+        "Eventi, foto e storie illimitati",
+        "Trova le foto scattate quel giorno",
+        "Sfoglia per hashtag",
+        "Stili della scheda Classico e Poster",
+        "Esporta come testo"
       ]
     },
     "pro": {
-      "name": "Sostieni lo sviluppatore",
+      "name": "Plus e Pro",
       "items": [
-        "Scegli una mancia piccola, media o grande",
-        "Non sblocca nulla. È solo un modo per dire grazie"
+        "Plus: timeline illimitate, timeline per hashtag salvate e tutti e quattro gli stili della scheda",
+        "Pro: tutto di Plus, più sincronizzazione iCloud e registrazione con Siri e Comandi Rapidi",
+        "Scegli un abbonamento settimanale, mensile o annuale, oppure acquista una volta a vita"
       ],
-      "note": "La trovi nelle impostazioni dell'app, quando ti va."
+      "note": "Le mance allo sviluppatore non sbloccano nulla. Inviane una dalle Impostazioni solo se ti va."
     },
-    "note": "Niente pubblicità, niente abbonamenti."
+    "note": "Niente pubblicità."
   },
   "faq": {
     "title": "Domande frequenti",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Posso registrare qualcosa senza aprire l'app?",
-        "a": "Sì. Usa `Registra un evento` nell'app Comandi rapidi o con Siri e scegli solo timeline e titolo. Senza data, viene usata l'ora attuale."
+        "a": "Sì. Usa `Registra un evento` nell'app Comandi rapidi o con Siri e scegli solo timeline e titolo. Senza data, viene usata l'ora attuale. Registrare con Siri e Comandi Rapidi è una funzione Pro."
       },
       {
         "q": "Vedo le mie timeline anche su altri dispositivi?",
-        "a": "Sì, su ogni iPhone o iPad collegato a iCloud con lo stesso account Apple. Controlla in Impostazioni > il tuo nome > iCloud che iCloud sia attivo. A seconda della connessione, può volerci qualche istante."
+        "a": "Sì, su ogni iPhone o iPad collegato a iCloud con lo stesso account Apple. Controlla in Impostazioni > il tuo nome > iCloud che iCloud sia attivo. A seconda della connessione, può volerci qualche istante. La sincronizzazione iCloud è una funzione Pro. Con Gratis e Plus i ricordi restano su quel dispositivo."
       },
       {
         "q": "Come elimino i miei dati?",

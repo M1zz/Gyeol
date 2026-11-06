@@ -13,6 +13,8 @@ import Foundation
 final class YeoulRouter {
     static let shared = YeoulRouter()
     var timelineID: PersistentIdentifier?
+    /// Siri · 단축어가 잠긴 기능을 찾아 앱을 열었을 때 띄울 페이월 (→ Store/PlanRoot.swift).
+    var paywall: PlanFeature?
 }
 
 struct EventEntity: AppEntity {

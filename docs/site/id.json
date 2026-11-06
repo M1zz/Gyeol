@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: linimasa yang jaraknya mengikuti waktu sungguhan",
-  "description": "Tiga hari dan lima hari berjarak 3:5, dua tahun jadi garis putus-putus. Linimasa untuk momen dan foto sesuai waktu nyata. Gratis.",
+  "description": "Tiga hari dan lima hari berjarak 3:5, dua tahun jadi garis putus-putus. Linimasa untuk momen dan foto sesuai waktu nyata. Gratis untuk memulai.",
   "hero": {
     "headline": "Linimasa yang merenggang\nseiring waktu",
     "lead": "Tiga hari dan lima hari berjarak 3 banding 5. Jeda panjang seperti 2 tahun 4 bulan terlipat jadi garis putus-putus. Cukup lihat jaraknya, kamu tahu bagaimana waktu berlalu saat itu.",
     "cta": "Unduh gratis di App Store",
-    "note": "Semua fitur gratis. Untuk iPhone dan iPad."
+    "note": "Dua linimasa gratis, lebih banyak dengan Plus dan Pro. Untuk iPhone dan iPad."
   },
   "demo": {
     "title": "Coba renggangkan jaraknya sendiri",
@@ -92,28 +92,28 @@
     "note": "Peristiwa baru memakai desain yang sama dengan kartu terbaru di linimasa itu."
   },
   "pricing": {
-    "title": "Semua fitur gratis",
+    "title": "Mulai gratis",
     "free": {
       "name": "Gratis",
       "items": [
-        "Linimasa sebanyak yang kamu mau, dengan nama dan warna",
-        "Foto, cerita, dan tag untuk setiap peristiwa",
-        "Cari foto dari hari peristiwa",
-        "Simpan linimasa tag",
-        "Empat desain kartu",
-        "Sinkron iPhone dan iPad lewat iCloud",
-        "Catat lewat Pintasan dan Siri"
+        "Dua linimasa dengan nama dan warna sendiri",
+        "Peristiwa, foto, dan cerita tanpa batas",
+        "Cari foto yang diambil hari itu",
+        "Lihat per tagar",
+        "Desain kartu Klasik dan Poster",
+        "Ekspor sebagai teks"
       ]
     },
     "pro": {
-      "name": "Dukung pengembang",
+      "name": "Plus dan Pro",
       "items": [
-        "Pilih tip kecil, sedang, atau besar",
-        "Tidak membuka fitur apa pun. Hanya cara untuk berterima kasih"
+        "Plus: linimasa tanpa batas, simpan linimasa tagar, dan keempat desain kartu",
+        "Pro: semua fitur Plus, ditambah sinkronisasi iCloud dan mencatat lewat Siri dan Pintasan",
+        "Pilih langganan mingguan, bulanan, atau tahunan, atau beli sekali untuk seumur hidup"
       ],
-      "note": "Ada di pengaturan aplikasi, kapan pun kamu mau."
+      "note": "Tip untuk pengembang tidak membuka fitur apa pun. Kirim dari Pengaturan hanya jika kamu mau."
     },
-    "note": "Tanpa iklan, tanpa langganan."
+    "note": "Tanpa iklan."
   },
   "faq": {
     "title": "Pertanyaan umum",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Bisakah mencatat tanpa membuka aplikasi?",
-        "a": "Bisa. Gunakan `Catat Peristiwa` di app Pintasan atau lewat Siri, cukup pilih linimasa dan judul. Kalau tanggal tidak diisi, waktu saat ini yang dipakai."
+        "a": "Bisa. Gunakan `Catat Peristiwa` di app Pintasan atau lewat Siri, cukup pilih linimasa dan judul. Kalau tanggal tidak diisi, waktu saat ini yang dipakai. Mencatat lewat Siri dan Pintasan adalah fitur Pro."
       },
       {
         "q": "Bisakah dilihat di perangkat lain?",
-        "a": "Bisa, di iPhone dan iPad mana pun yang masuk ke iCloud dengan Akun Apple yang sama. Periksa di Pengaturan > namamu > iCloud bahwa iCloud aktif. Tergantung koneksi, perubahan bisa butuh sebentar untuk muncul."
+        "a": "Bisa, di iPhone dan iPad mana pun yang masuk ke iCloud dengan Akun Apple yang sama. Periksa di Pengaturan > namamu > iCloud bahwa iCloud aktif. Tergantung koneksi, perubahan bisa butuh sebentar untuk muncul. Sinkronisasi iCloud adalah fitur Pro. Di versi Gratis dan Plus, catatan tetap di perangkat itu."
       },
       {
         "q": "Bagaimana menghapus catatan?",

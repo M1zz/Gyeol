@@ -37,11 +37,20 @@ enum YeoulSpec: LeeoAppSpec {
     /// App Store ID — 설정의 "리뷰 남기기"가 작성 페이지로 바로 간다.
     static let appStoreID: String? = "6808471728"
 
-    /// 수익모델 (LeeoKit 3.x 부터 필수) — 기능을 여는 결제가 없는 무료 앱.
-    static let monetization = LeeoMonetization.free
+    /// 수익모델 (LeeoKit 3.x 부터 필수) — 무료 다운로드 + 무료 · Plus · Pro.
+    /// 칸마다 무엇이 열리는지는 Shared/Support/Plan.swift, 상품 ID 는 Gyeol/Store/ProEntitlement.swift.
+    static let monetization = LeeoMonetization.freemiumSubscription(
+        LeeoSubscriptionConfig(
+            productIDs: ProEntitlement.productIDs,
+            // 자체 약관이 없으므로 애플 표준 사용권 계약(EULA)을 건다. 구독을 파는 앱의 심사 필수 항목이다.
+            termsURL: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!,
+            entitlementIDs: ProEntitlement.entitlementIDs,
+            gate: LeeoGatePolicy(
+                freeLimits: [PlanFeature.moreTimelines.rawValue: PlanFeature.freeTimelineLimit],
+                proOnly: Set([PlanFeature.tagTimelines, .cardStyles, .iCloudSync, .siri].map(\.rawValue))),
+            // 개발자 응원(팁). 소모성 세 가지, 작은 것부터. 기능을 열지 않는다 — 권한 상품에 넣지 않는다.
+            tipJar: LeeoTipJarConfig(productIDs: ProEntitlement.tipProductIDs)))
 
-    /// 개발자 응원(팁). 소모성 세 가지, 작은 것부터. 기능을 열지 않는다 — 무료 앱이라 혼자 돈다(`startStandalone`).
-    @MainActor static let tipJar = LeeoTipJar(config: LeeoTipJarConfig(productIDs: [
-        "com.leeo.yeoul.tip.small", "com.leeo.yeoul.tip.medium", "com.leeo.yeoul.tip.large",
-    ]))
+    /// 개발자 응원(팁). 결제 리스너를 스토어와 함께 쓴다 (→ PurchaseManager).
+    @MainActor static var tipJar: LeeoTipJar { PurchaseManager.shared.tipJar }
 }

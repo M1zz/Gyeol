@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: tidslinjen där avståndet är tiden som gick",
-  "description": "Tre dagar och fem dagar i förhållandet 3:5, två år som en streckad linje. En tidslinje för stunder och bilder i verklig tid. Gratis.",
+  "description": "Tre dagar och fem dagar i förhållandet 3:5, två år som en streckad linje. En tidslinje för stunder och bilder i verklig tid. Gratis att börja.",
   "hero": {
     "headline": "En tidslinje\nsom sträcker ut sig med tiden",
     "lead": "Tre dagar och fem dagar står i förhållandet 3:5. Ett långt uppehåll som två år och fyra månader viks ihop till en streckad linje. Bara genom att titta på avstånden ser du hur tiden gick.",
     "cta": "Hämta gratis på App Store",
-    "note": "Alla funktioner är gratis. För iPhone och iPad."
+    "note": "Två tidslinjer gratis, fler med Plus och Pro. För iPhone och iPad."
   },
   "demo": {
     "title": "Dra ut avstånden själv",
@@ -92,28 +92,28 @@
     "note": "En ny händelse börjar med samma design som det senaste kortet i tidslinjen."
   },
   "pricing": {
-    "title": "Alla funktioner är gratis",
+    "title": "Kom igång gratis",
     "free": {
       "name": "Gratis",
       "items": [
-        "Så många tidslinjer du vill, med namn och färg",
-        "Bilder, berättelser och taggar på varje händelse",
-        "Hitta bilder från händelsens dag",
-        "Sparade taggtidslinjer",
-        "Fyra kortdesigner",
-        "iCloud-synk mellan iPhone och iPad",
-        "Logga med Genvägar och Siri"
+        "Två tidslinjer med eget namn och egen färg",
+        "Obegränsat med händelser, bilder och berättelser",
+        "Hitta bilder tagna den dagen",
+        "Bläddra efter hashtagg",
+        "Kortdesignerna Klassisk och Affisch",
+        "Exportera som text"
       ]
     },
     "pro": {
-      "name": "Stöd utvecklaren",
+      "name": "Plus och Pro",
       "items": [
-        "Välj en liten, mellan eller stor dricks",
-        "Den låser inte upp något. Det är bara ett sätt att säga tack"
+        "Plus: obegränsat med tidslinjer, sparade hashtagg-tidslinjer och alla fyra kortdesigner",
+        "Pro: allt i Plus, plus iCloud-synkning och loggning med Siri och Genvägar",
+        "Välj vecko-, månads- eller årsabonnemang, eller köp en gång för alltid"
       ],
-      "note": "Du hittar det i appens inställningar, när du vill."
+      "note": "Dricks till utvecklaren låser inte upp något. Skicka från Inställningar bara om du vill."
     },
-    "note": "Ingen reklam, ingen prenumeration."
+    "note": "Ingen reklam."
   },
   "faq": {
     "title": "Vanliga frågor",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Kan jag logga något utan att öppna appen?",
-        "a": "Ja. Använd `Logga en händelse` i appen Genvägar eller med Siri och välj bara tidslinje och titel. Utan datum används den aktuella tiden."
+        "a": "Ja. Använd `Logga en händelse` i appen Genvägar eller med Siri och välj bara tidslinje och titel. Utan datum används den aktuella tiden. Loggning med Siri och Genvägar är en Pro-funktion."
       },
       {
         "q": "Ser jag mina tidslinjer på andra enheter?",
-        "a": "Ja, på alla iPhone och iPad som är inloggade på iCloud med samma Apple-konto. Kontrollera under Inställningar > ditt namn > iCloud att iCloud är på. Beroende på anslutningen kan det ta en stund."
+        "a": "Ja, på alla iPhone och iPad som är inloggade på iCloud med samma Apple-konto. Kontrollera under Inställningar > ditt namn > iCloud att iCloud är på. Beroende på anslutningen kan det ta en stund. iCloud-synkning är en Pro-funktion. Med Gratis och Plus stannar dina anteckningar på den enheten."
       },
       {
         "q": "Hur raderar jag mina uppgifter?",

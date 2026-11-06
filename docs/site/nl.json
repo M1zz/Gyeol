@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: de tijdlijn waarin afstand gelijk is aan verstreken tijd",
-  "description": "Drie dagen en vijf dagen in verhouding 3:5, twee jaar als stippellijn. Een tijdlijn voor momenten en foto's op echte tijd. Gratis.",
+  "description": "Drie dagen en vijf dagen in verhouding 3:5, twee jaar als stippellijn. Een tijdlijn voor momenten en foto's op echte tijd. Gratis om te beginnen.",
   "hero": {
     "headline": "Een tijdlijn die\nmeerekt met de tijd",
     "lead": "Drie dagen en vijf dagen staan in een verhouding van 3:5. Een lange pauze, zoals twee jaar en vier maanden, vouwt in tot een stippellijn. Aan de afstanden zie je al hoe de tijd toen verliep.",
     "cta": "Gratis downloaden in de App Store",
-    "note": "Alle functies zijn gratis. Voor iPhone en iPad."
+    "note": "Twee tijdlijnen gratis, meer met Plus en Pro. Voor iPhone en iPad."
   },
   "demo": {
     "title": "Rek de afstanden zelf op",
@@ -92,28 +92,28 @@
     "note": "Een nieuwe gebeurtenis begint met hetzelfde ontwerp als de nieuwste kaart in die tijdlijn."
   },
   "pricing": {
-    "title": "Alle functies zijn gratis",
+    "title": "Begin gratis",
     "free": {
       "name": "Gratis",
       "items": [
-        "Zoveel tijdlijnen als je wilt, met naam en kleur",
-        "Foto's, verhalen en tags bij elke gebeurtenis",
-        "Foto's van de dag van de gebeurtenis zoeken",
-        "Bewaarde taglijnen",
-        "Vier kaartontwerpen",
-        "iCloud-synchronisatie tussen iPhone en iPad",
-        "Vastleggen met Opdrachten en Siri"
+        "Twee tijdlijnen met eigen naam en kleur",
+        "Onbeperkt gebeurtenissen, foto’s en verhalen",
+        "Vind de foto’s van die dag",
+        "Bladeren per hashtag",
+        "Kaartontwerpen Klassiek en Poster",
+        "Exporteren als tekst"
       ]
     },
     "pro": {
-      "name": "Steun de maker",
+      "name": "Plus en Pro",
       "items": [
-        "Kies een kleine, middelgrote of grote fooi",
-        "Er wordt niets mee ontgrendeld. Het is gewoon een bedankje"
+        "Plus: onbeperkt tijdlijnen, bewaarde hashtag-tijdlijnen en alle vier kaartontwerpen",
+        "Pro: alles van Plus, plus iCloud-synchronisatie en vastleggen met Siri en Opdrachten",
+        "Kies een wekelijks, maandelijks of jaarlijks abonnement, of koop één keer voor altijd"
       ],
-      "note": "Je vindt het in de instellingen van de app, wanneer je maar wilt."
+      "note": "Fooien voor de ontwikkelaar ontgrendelen niets. Stuur er een via Instellingen als je dat wilt."
     },
-    "note": "Geen advertenties, geen abonnement."
+    "note": "Geen advertenties."
   },
   "faq": {
     "title": "Veelgestelde vragen",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Kan ik iets vastleggen zonder de app te openen?",
-        "a": "Ja. Gebruik `Gebeurtenis vastleggen` in de Opdrachten-app of met Siri en kies alleen een tijdlijn en titel. Zonder datum wordt de huidige tijd gebruikt."
+        "a": "Ja. Gebruik `Gebeurtenis vastleggen` in de Opdrachten-app of met Siri en kies alleen een tijdlijn en titel. Zonder datum wordt de huidige tijd gebruikt. Vastleggen met Siri en Opdrachten is een Pro-functie."
       },
       {
         "q": "Zie ik mijn tijdlijnen ook op andere apparaten?",
-        "a": "Ja, op elke iPhone en iPad die met hetzelfde Apple Account bij iCloud is ingelogd. Controleer via Instellingen > je naam > iCloud of iCloud aanstaat. Afhankelijk van je verbinding kan het even duren."
+        "a": "Ja, op elke iPhone en iPad die met hetzelfde Apple Account bij iCloud is ingelogd. Controleer via Instellingen > je naam > iCloud of iCloud aanstaat. Afhankelijk van je verbinding kan het even duren. iCloud-synchronisatie is een Pro-functie. Bij Gratis en Plus blijven je gegevens op dat apparaat."
       },
       {
         "q": "Hoe verwijder ik mijn gegevens?",

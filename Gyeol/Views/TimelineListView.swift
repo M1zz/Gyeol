@@ -20,6 +20,9 @@ struct TimelineListView: View {
     @Query(sort: \Timeline.createdAt) private var timelines: [Timeline]
     @Query private var allEvents: [TimelineEvent]
     @State private var showingNew = false
+    /// 무료로 둘 수 있는 타임라인을 다 채웠거나, 동기화를 찾을 때 띄우는 페이월.
+    @State private var lockedFeature: PlanFeature?
+    @Environment(\.planAccess) private var access
     @State private var showingSettings = false
     @State private var showingOnboarding = false
     @State private var path = NavigationPath()
@@ -57,16 +60,23 @@ struct TimelineListView: View {
                     } description: {
                         Text("첫 타임라인을 만들어보세요.\n아이의 첫 해, 앱 출시 기록, 여행 — 무엇이든 좋아요.")
                     } actions: {
-                        Button("새 타임라인") { showingNew = true }
+                        Button("새 타임라인", action: newTimeline)
                             .buttonStyle(.borderedProminent)
+                        // 다른 기기에 쓰던 기록을 찾는 분: 이 기기는 iCloud 로 맞추지 않고 있다.
+                        if !access.allows(.iCloudSync) {
+                            Button("iCloud로 이어 보기") { lockedFeature = .iCloudSync }
+                        }
                     }
                 } else {
                     List {
                         // 사건을 남기고 돌아온 자리. 쌓인 기록이 숫자로 보일 때만, 드물게 응원을 부탁한다.
-                        LeeoTipAskSlot<YeoulSpec>(tipJar: YeoulSpec.tipJar,
-                                                  reached: YeoulTipMoments.reached(events: allEvents.count))
-                            .listRowInsets(EdgeInsets())
-                            .listRowBackground(Color.clear)
+                        // 응원 부탁은 이미 Pro 를 가진 분에게만.
+                        if access.tier == .pro {
+                            LeeoTipAskSlot<YeoulSpec>(tipJar: YeoulSpec.tipJar,
+                                                      reached: YeoulTipMoments.reached(events: allEvents.count))
+                                .listRowInsets(EdgeInsets())
+                                .listRowBackground(Color.clear)
+                        }
                         ForEach(timelines) { timeline in
                             if fold.isUnfolded {
                                 // 펼친 화면: 밀어 넣지 않고 오른쪽 판에 연다.
@@ -99,7 +109,7 @@ struct TimelineListView: View {
                     EditButton()
                 }
                 ToolbarItem(placement: .primaryAction) {
-                    Button { showingNew = true } label: { Image(systemName: "plus") }
+                    Button(action: newTimeline) { Image(systemName: "plus") }
                         .accessibilityLabel("새 타임라인")
                 }
             }
@@ -109,6 +119,11 @@ struct TimelineListView: View {
             .sheet(isPresented: $showingSettings) {
                 SettingsView()
             }
+            .sheet(item: $lockedFeature, onDismiss: {
+                // 방금 Plus 를 열었으면 하려던 새 타임라인을 이어서 만든다.
+                if pendingNew, access.canCreateTimeline(having: ownTimelineCount) { showingNew = true }
+                pendingNew = false
+            }) { access.paywall($0) }
             .sheet(isPresented: $showingOnboarding) {
                 YeoulOnboardingView()
             }
@@ -182,6 +197,21 @@ struct TimelineListView: View {
         }
     }
     #endif
+
+    @State private var pendingNew = false
+
+    /// 태그 타임라인은 세지 않는다 — 사건을 담지 않는 저장된 보기라서.
+    private var ownTimelineCount: Int { timelines.filter { !$0.isTagTimeline }.count }
+
+    /// 무료는 타임라인 둘까지. 셋째를 만들려는 바로 그때 Plus 를 보인다.
+    private func newTimeline() {
+        if access.canCreateTimeline(having: ownTimelineCount) {
+            showingNew = true
+        } else {
+            pendingNew = true
+            lockedFeature = .moreTimelines
+        }
+    }
 
     private func events(of timeline: Timeline) -> [TimelineEvent] {
         guard let tag = timeline.tagFilter else { return timeline.sortedEvents }

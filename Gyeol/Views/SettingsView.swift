@@ -1,7 +1,7 @@
 import SwiftUI
 import LeeoKit
 
-/// 설정 — 사용법 다시 보기와 개발자에게 닿는 길(앱 안 피드백 · 메일 · 인스타그램 · 리뷰).
+/// 설정 — 요금제, 사용법 다시 보기와 개발자에게 닿는 길(앱 안 피드백 · 메일 · 인스타그램 · 리뷰).
 struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
     @State private var showingOnboarding = false
@@ -9,6 +9,9 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack {
             List {
+                // 지금 쓰는 칸 · 요금제 · 평생으로 바꾸기 · 구매 복원 · iCloud 동기화 (→ Store/PlanSettingsSection.swift)
+                PlanSettingsSection()
+
                 Section {
                     Button {
                         showingOnboarding = true

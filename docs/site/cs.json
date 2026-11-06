@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: časová osa, kde rozestupy odpovídají skutečnému času",
-  "description": "Tři dny a pět dní v poměru 3 : 5, dva roky složené do přerušované čáry. Časová osa pro chvíle a fotky podle skutečného času. Zdarma.",
+  "description": "Tři dny a pět dní v poměru 3 : 5, dva roky složené do přerušované čáry. Časová osa pro chvíle a fotky podle skutečného času. Začít můžete zdarma.",
   "hero": {
     "headline": "Časová osa,\nkterá se natahuje s časem",
     "lead": "Tři dny a pět dní stojí v poměru 3 : 5. Dlouhá pauza, třeba dva roky a čtyři měsíce, se složí do přerušované čáry. Už z rozestupů poznáte, jak tehdy plynul čas.",
     "cta": "Stáhnout zdarma z App Storu",
-    "note": "Všechny funkce jsou zdarma. Pro iPhone a iPad."
+    "note": "Dvě časové osy zdarma, víc s Plus a Pro. Pro iPhone a iPad."
   },
   "demo": {
     "title": "Roztáhněte rozestupy sami",
@@ -92,28 +92,28 @@
     "note": "Nová událost začne se stejným vzhledem jako nejnovější karta na dané ose."
   },
   "pricing": {
-    "title": "Všechny funkce jsou zdarma",
+    "title": "Začněte zdarma",
     "free": {
       "name": "Zdarma",
       "items": [
-        "Libovolný počet časových os s názvem a barvou",
-        "Fotky, příběhy a štítky u každé události",
-        "Hledání fotek ze dne události",
-        "Uložené časové osy štítků",
-        "Čtyři vzhledy karet",
-        "Synchronizace iPhonu a iPadu přes iCloud",
-        "Zapisování přes Zkratky a Siri"
+        "Dvě časové osy s vlastním názvem a barvou",
+        "Neomezeně událostí, fotek a příběhů",
+        "Fotky pořízené ten den",
+        "Procházení podle hashtagu",
+        "Vzhledy karet Klasika a Plakát",
+        "Export jako text"
       ]
     },
     "pro": {
-      "name": "Podpořte vývojáře",
+      "name": "Plus a Pro",
       "items": [
-        "Vyberte malé, střední nebo velké spropitné",
-        "Nic se tím neodemyká. Je to jen poděkování"
+        "Plus: neomezeně časových os, ukládání os podle hashtagu a všechny čtyři vzhledy karet",
+        "Pro: vše z Plus a k tomu synchronizace přes iCloud a zapisování přes Siri a Zkratky",
+        "Vyberte týdenní, měsíční nebo roční předplatné, nebo jednorázový nákup navždy"
       ],
-      "note": "Najdete ho v nastavení aplikace, kdykoli budete chtít."
+      "note": "Spropitné vývojáři nic neodemyká. Pošlete ho z Nastavení, jen pokud chcete."
     },
-    "note": "Žádné reklamy, žádné předplatné."
+    "note": "Žádné reklamy."
   },
   "faq": {
     "title": "Časté otázky",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Můžu něco zapsat bez otevření aplikace?",
-        "a": "Ano. Použijte `Zaznamenat událost` v aplikaci Zkratky nebo se Siri a vyberte jen osu a název. Bez data se uloží aktuální čas."
+        "a": "Ano. Použijte `Zaznamenat událost` v aplikaci Zkratky nebo se Siri a vyberte jen osu a název. Bez data se uloží aktuální čas. Zapisování přes Siri a Zkratky je funkce Pro."
       },
       {
         "q": "Uvidím své osy i na dalších zařízeních?",
-        "a": "Ano, na každém iPhonu a iPadu přihlášeném do iCloudu stejným Apple účtem. V Nastavení > vaše jméno > iCloud zkontrolujte, že je iCloud zapnutý. Podle připojení může chvíli trvat, než se změny objeví."
+        "a": "Ano, na každém iPhonu a iPadu přihlášeném do iCloudu stejným Apple účtem. V Nastavení > vaše jméno > iCloud zkontrolujte, že je iCloud zapnutý. Podle připojení může chvíli trvat, než se změny objeví. Synchronizace přes iCloud je funkce Pro. Ve verzi Zdarma a Plus zůstávají záznamy v daném zařízení."
       },
       {
         "q": "Jak smažu své záznamy?",

@@ -47,7 +47,7 @@ struct TimelineEntityQuery: EntityQuery {
     }
 }
 
-struct AddEventIntent: AppIntent {
+struct AddEventIntent: AppIntent, ForegroundContinuableIntent {
     static let title: LocalizedStringResource = "사건 기록하기"
     static let description = IntentDescription("고른 타임라인에 사건을 남겨요. 날짜를 정하지 않으면 지금 시각으로 기록해요.")
 
@@ -68,6 +68,12 @@ struct AddEventIntent: AppIntent {
 
     @MainActor
     func perform() async throws -> some IntentResult & ProvidesDialog {
+        // Siri · 단축어로 남기기는 Pro 다. 막힌 분은 앱을 열어 그 자리에서 Pro 를 보여 준다.
+        guard ProEntitlement.tier >= PlanFeature.siri.tier else {
+            throw needsToContinueInForegroundError("Siri와 단축어로 기록하기는 여울 Pro에서 열려요. 앱에서 확인해 주세요.") {
+                YeoulRouter.shared.paywall = .siri
+            }
+        }
         let title = eventTitle.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !title.isEmpty else {
             throw $eventTitle.needsValueError("어떤 일이 있었나요?")

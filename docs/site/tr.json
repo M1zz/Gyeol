@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: aralıkların gerçekten geçen zamana göre açıldığı zaman çizelgesi",
-  "description": "Üç gün ile beş gün 3'e 5, iki yıl kesik çizgi. Anlar ve fotoğraflar için gerçek zamana göre açılan bir zaman çizelgesi. Ücretsiz.",
+  "description": "Üç gün ile beş gün 3'e 5, iki yıl kesik çizgi. Anlar ve fotoğraflar için gerçek zamana göre açılan bir zaman çizelgesi. Ücretsiz başla.",
   "hero": {
     "headline": "Zamanla birlikte\nuzayan bir çizelge",
     "lead": "Üç gün ile beş gün 3'e 5 oranında açılır. İki yıl dört ay gibi uzun bir boşluk kesik çizgiye katlanır. Sadece aralıklara bakarak o dönemde zamanın nasıl geçtiğini görürsün.",
     "cta": "App Store'dan ücretsiz indir",
-    "note": "Tüm özellikler ücretsiz. iPhone ve iPad için."
+    "note": "İki zaman çizelgesi ücretsiz, fazlası Plus ve Pro’da. iPhone ve iPad için."
   },
   "demo": {
     "title": "Aralıkları kendin aç",
@@ -92,28 +92,28 @@
     "note": "Yeni bir olay, o çizelgedeki en yeni kartın tasarımıyla başlar."
   },
   "pricing": {
-    "title": "Tüm özellikler ücretsiz",
+    "title": "Ücretsiz başla",
     "free": {
       "name": "Ücretsiz",
       "items": [
-        "İstediğin kadar çizelge, ad ve renk seçimiyle",
-        "Her olaya fotoğraf, hikâye ve etiket",
-        "Olayın gününde çekilen fotoğrafları bulma",
-        "Kaydedilen etiket zaman çizelgeleri",
-        "Dört kart tasarımı",
-        "iCloud ile iPhone ve iPad eşzamanlama",
-        "Kestirmeler ve Siri ile kaydetme"
+        "Kendi adı ve rengiyle iki zaman çizelgesi",
+        "Sınırsız olay, fotoğraf ve hikâye",
+        "O gün çekilen fotoğrafları bul",
+        "Hashtag’e göre göz at",
+        "Klasik ve Poster kart tasarımları",
+        "Metin olarak dışa aktar"
       ]
     },
     "pro": {
-      "name": "Geliştiriciye destek ol",
+      "name": "Plus ve Pro",
       "items": [
-        "Küçük, orta ya da büyük bahşiş seç",
-        "Hiçbir şeyin kilidini açmaz. Sadece teşekkür etmenin bir yolu"
+        "Plus: sınırsız zaman çizelgesi, kaydedilen hashtag zaman çizelgeleri ve dört kart tasarımının hepsi",
+        "Pro: Plus’taki her şeye ek olarak iCloud eşzamanlama ile Siri ve Kestirmelerle kayıt",
+        "Haftalık, aylık ya da yıllık abonelik seç veya bir kez al, ömür boyu kullan"
       ],
-      "note": "Uygulamanın ayarlarında, canın istediğinde."
+      "note": "Geliştiriciye bahşiş hiçbir özelliği açmaz. İstersen yalnızca Ayarlar’dan gönderebilirsin."
     },
-    "note": "Reklam yok, abonelik yok."
+    "note": "Reklam yok."
   },
   "faq": {
     "title": "Sık sorulan sorular",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Uygulamayı açmadan kayıt yapabilir miyim?",
-        "a": "Evet. Kestirmeler uygulamasında ya da Siri ile `Olay Kaydet`i kullan, sadece çizelgeyi ve başlığı seç. Tarih seçmezsen şu anki saatle kaydedilir."
+        "a": "Evet. Kestirmeler uygulamasında ya da Siri ile `Olay Kaydet`i kullan, sadece çizelgeyi ve başlığı seç. Tarih seçmezsen şu anki saatle kaydedilir. Siri ve Kestirmelerle kayıt bir Pro özelliğidir."
       },
       {
         "q": "Çizelgelerimi diğer cihazlarda görebilir miyim?",
-        "a": "Evet, aynı Apple Hesabı ile iCloud'a giriş yapmış her iPhone ve iPad'de. Ayarlar > adın > iCloud bölümünde iCloud'un açık olduğunu kontrol et. Bağlantıya göre değişikliklerin gelmesi biraz sürebilir."
+        "a": "Evet, aynı Apple Hesabı ile iCloud'a giriş yapmış her iPhone ve iPad'de. Ayarlar > adın > iCloud bölümünde iCloud'un açık olduğunu kontrol et. Bağlantıya göre değişikliklerin gelmesi biraz sürebilir. iCloud eşzamanlama bir Pro özelliğidir. Ücretsiz ve Plus’ta kayıtlar o cihazda kalır."
       },
       {
         "q": "Kayıtlarımı nasıl silerim?",

@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: la línea de tiempo con espacios del tiempo real",
-  "description": "Tres días y cinco días a 3:5; dos años, una línea punteada. Una línea de tiempo para tus momentos y fotos, con el tiempo real. Gratis.",
+  "description": "Tres días y cinco días a 3:5; dos años, una línea punteada. Una línea de tiempo para tus momentos y fotos, con el tiempo real. Gratis para empezar.",
   "hero": {
     "headline": "Una línea de tiempo\nque se estira con el tiempo",
     "lead": "Tres días y cinco días quedan separados 3 a 5. Una pausa larga, como dos años y cuatro meses, se pliega en una línea punteada. Solo con ver el espacio ya sabes cómo pasó el tiempo.",
     "cta": "Descárgala gratis en el App Store",
-    "note": "Todas las funciones son gratis. Para iPhone y iPad."
+    "note": "Dos líneas de tiempo gratis; más con Plus y Pro. Para iPhone y iPad."
   },
   "demo": {
     "title": "Estira los espacios tú mismo",
@@ -92,28 +92,28 @@
     "note": "Un evento nuevo empieza con el diseño de la tarjeta más reciente de su línea."
   },
   "pricing": {
-    "title": "Todas las funciones son gratis",
+    "title": "Empieza gratis",
     "free": {
       "name": "Gratis",
       "items": [
-        "Todas las líneas de tiempo que quieras, con nombre y color",
-        "Fotos, historias y etiquetas en cada evento",
-        "Buscar las fotos del día del evento",
-        "Líneas de tiempo de etiquetas guardadas",
-        "Cuatro diseños de tarjeta",
-        "Sincronización con iCloud entre iPhone y iPad",
-        "Registrar con Atajos y Siri"
+        "Dos líneas de tiempo, con nombre y color propios",
+        "Eventos, fotos e historias ilimitados",
+        "Encuentra las fotos que hiciste ese día",
+        "Ver por hashtag",
+        "Diseños de tarjeta Clásico y Póster",
+        "Exportar como texto"
       ]
     },
     "pro": {
-      "name": "Apoya al desarrollador",
+      "name": "Plus y Pro",
       "items": [
-        "Elige una propina pequeña, mediana o grande",
-        "No desbloquea nada. Es solo una forma de dar las gracias"
+        "Plus: líneas de tiempo ilimitadas, guardar líneas de tiempo de hashtag y los cuatro diseños de tarjeta",
+        "Pro: todo lo de Plus, además de sincronización con iCloud y registro con Siri y Atajos",
+        "Elige suscripción semanal, mensual o anual, o compra una sola vez de por vida"
       ],
-      "note": "Está en los ajustes de la app, para cuando te apetezca."
+      "note": "Las propinas para el desarrollador no desbloquean nada. Envía una desde Ajustes solo si quieres."
     },
-    "note": "Sin anuncios ni suscripciones."
+    "note": "Sin anuncios."
   },
   "faq": {
     "title": "Preguntas frecuentes",
@@ -136,11 +136,11 @@
       },
       {
         "q": "¿Puedo registrar algo sin abrir la app?",
-        "a": "Sí. Usa `Registrar un evento` en la app Atajos o con Siri y elige solo la línea y el título. Si no pones fecha, se guarda con la hora actual."
+        "a": "Sí. Usa `Registrar un evento` en la app Atajos o con Siri y elige solo la línea y el título. Si no pones fecha, se guarda con la hora actual. Registrar con Siri y Atajos es una función de Pro."
       },
       {
         "q": "¿Puedo ver mis líneas en otros dispositivos?",
-        "a": "Sí, en cualquier iPhone o iPad con sesión en iCloud con la misma cuenta de Apple. Comprueba en Ajustes > tu nombre > iCloud que iCloud esté activado. Según la conexión, los cambios pueden tardar un poco."
+        "a": "Sí, en cualquier iPhone o iPad con sesión en iCloud con la misma cuenta de Apple. Comprueba en Ajustes > tu nombre > iCloud que iCloud esté activado. Según la conexión, los cambios pueden tardar un poco. La sincronización con iCloud es una función de Pro. En Gratis y Plus, tus registros se quedan en ese dispositivo."
       },
       {
         "q": "¿Cómo borro mis registros?",

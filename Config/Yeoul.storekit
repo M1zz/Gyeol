@@ -1,0 +1,334 @@
+{
+  "identifier": "634D4EA8-C514-4719-B80B-B513D6FF1E9D",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "23.99",
+      "familyShareable": true,
+      "internalID": "FBD669A4-418E-4114-A760-E90EB8B5D0C1",
+      "localizations": [
+        {
+          "description": "주제마다 연표를, 네 가지 카드 디자인으로",
+          "displayName": "여울 Plus 평생",
+          "locale": "ko"
+        },
+        {
+          "description": "A timeline for every chapter, all card designs",
+          "displayName": "Yeoul Plus Lifetime",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.yeoul.plus",
+      "referenceName": "Plus 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "35.99",
+      "familyShareable": true,
+      "internalID": "C4EDFC0B-E941-440A-8A9F-AA3C59E324DC",
+      "localizations": [
+        {
+          "description": "Plus 전부에 iCloud 동기화, Siri · 단축어",
+          "displayName": "여울 Pro 평생",
+          "locale": "ko"
+        },
+        {
+          "description": "All of Plus, iCloud sync, Siri and Shortcuts",
+          "displayName": "Yeoul Pro Lifetime",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.yeoul.pro",
+      "referenceName": "Pro 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "11.99",
+      "familyShareable": true,
+      "internalID": "9F6A7020-18B8-4327-BFE6-F0B1AAA8B6C4",
+      "localizations": [
+        {
+          "description": "Plus 평생을 산 분이 Pro 평생으로 올려요",
+          "displayName": "Plus 평생에서 Pro 평생으로",
+          "locale": "ko"
+        },
+        {
+          "description": "For Plus Lifetime owners: move up to Pro",
+          "displayName": "Plus to Pro Lifetime",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.yeoul.pro.upgrade",
+      "referenceName": "Plus 평생 → Pro 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "23.99",
+      "familyShareable": true,
+      "internalID": "4771F18D-AF7A-475B-B0BE-EDC76BD6988E",
+      "localizations": [
+        {
+          "description": "구독하던 분께 드리는 Pro 평생",
+          "displayName": "여울 Pro 평생 (구독 졸업)",
+          "locale": "ko"
+        },
+        {
+          "description": "Pro Lifetime at a lower price for subscribers",
+          "displayName": "Yeoul Pro Lifetime for Subscribers",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.yeoul.pro.graduate",
+      "referenceName": "구독 졸업 Pro 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "0.99",
+      "familyShareable": false,
+      "internalID": "7E1189D1-7335-42BC-980C-F3454FDCAF06",
+      "localizations": [
+        {
+          "description": "개발자에게 보내는 작은 응원",
+          "displayName": "작은 응원",
+          "locale": "ko"
+        },
+        {
+          "description": "A small thank-you to the developer",
+          "displayName": "Small Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.yeoul.tip.small",
+      "referenceName": "팁 small",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "2.99",
+      "familyShareable": false,
+      "internalID": "9E254324-D21C-4888-9441-8D231B0911ED",
+      "localizations": [
+        {
+          "description": "개발자에게 보내는 응원",
+          "displayName": "보통 응원",
+          "locale": "ko"
+        },
+        {
+          "description": "A thank-you to the developer",
+          "displayName": "Medium Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.yeoul.tip.medium",
+      "referenceName": "팁 medium",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "4.99",
+      "familyShareable": false,
+      "internalID": "EAAE6BA8-44A7-487C-8DD5-63D7C8FC25DB",
+      "localizations": [
+        {
+          "description": "개발자에게 보내는 큰 응원",
+          "displayName": "큰 응원",
+          "locale": "ko"
+        },
+        {
+          "description": "A big thank-you to the developer",
+          "displayName": "Large Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.yeoul.tip.large",
+      "referenceName": "팁 large",
+      "type": "Consumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "6808471728",
+    "_developerTeamID": "QGAQ3AY3R3",
+    "_lastSynchronizedDate": 0
+  },
+  "subscriptionGroups": [
+    {
+      "id": "5061ED0F-8720-4E88-86C0-C1EF55DBCCB0",
+      "localizations": [],
+      "name": "여울 Plus · Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "11.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "C892DA8A-3122-4A1D-92E6-B1C5D935E128",
+          "introductoryOffer": {
+            "displayPrice": "5.99",
+            "internalID": "10C938C8-1D8A-4569-A841-A0201AF42EA6",
+            "numberOfPeriods": 1,
+            "paymentMode": "payUpFront",
+            "subscriptionPeriod": "P1Y"
+          },
+          "localizations": [
+            {
+              "description": "Plus 전부에 iCloud 동기화, Siri · 단축어",
+              "displayName": "여울 Pro (연)",
+              "locale": "ko"
+            },
+            {
+              "description": "All of Plus, iCloud sync, Siri and Shortcuts",
+              "displayName": "Yeoul Pro (Yearly)",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.leeo.yeoul.pro.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Pro 연",
+          "subscriptionGroupID": "5061ED0F-8720-4E88-86C0-C1EF55DBCCB0",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "3.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "2435A36B-D041-4A71-8AD7-EB67AA36777A",
+          "localizations": [
+            {
+              "description": "Plus 전부에 iCloud 동기화, Siri · 단축어",
+              "displayName": "여울 Pro (월)",
+              "locale": "ko"
+            },
+            {
+              "description": "All of Plus, iCloud sync, Siri and Shortcuts",
+              "displayName": "Yeoul Pro (Monthly)",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.leeo.yeoul.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Pro 월",
+          "subscriptionGroupID": "5061ED0F-8720-4E88-86C0-C1EF55DBCCB0",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.49",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "664B0B96-52DD-4A8D-B231-51D9AA7E9F0D",
+          "localizations": [
+            {
+              "description": "Plus 전부에 iCloud 동기화, Siri · 단축어",
+              "displayName": "여울 Pro (주)",
+              "locale": "ko"
+            },
+            {
+              "description": "All of Plus, iCloud sync, Siri and Shortcuts",
+              "displayName": "Yeoul Pro (Weekly)",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.leeo.yeoul.pro.weekly",
+          "recurringSubscriptionPeriod": "P1W",
+          "referenceName": "Pro 주",
+          "subscriptionGroupID": "5061ED0F-8720-4E88-86C0-C1EF55DBCCB0",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "7.99",
+          "familyShareable": true,
+          "groupNumber": 2,
+          "internalID": "E6C339E7-822B-4C35-A13A-67F30BFF3DE8",
+          "introductoryOffer": {
+            "displayPrice": "3.99",
+            "internalID": "43F3C2D7-32EA-4510-9659-FE9FFB416883",
+            "numberOfPeriods": 1,
+            "paymentMode": "payUpFront",
+            "subscriptionPeriod": "P1Y"
+          },
+          "localizations": [
+            {
+              "description": "주제마다 연표를, 네 가지 카드 디자인으로",
+              "displayName": "여울 Plus (연)",
+              "locale": "ko"
+            },
+            {
+              "description": "A timeline for every chapter, all card designs",
+              "displayName": "Yeoul Plus (Yearly)",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.leeo.yeoul.plus.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Plus 연",
+          "subscriptionGroupID": "5061ED0F-8720-4E88-86C0-C1EF55DBCCB0",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "2.49",
+          "familyShareable": true,
+          "groupNumber": 2,
+          "internalID": "C410E7B6-676B-4B00-92FF-0D49368F9D83",
+          "localizations": [
+            {
+              "description": "주제마다 연표를, 네 가지 카드 디자인으로",
+              "displayName": "여울 Plus (월)",
+              "locale": "ko"
+            },
+            {
+              "description": "A timeline for every chapter, all card designs",
+              "displayName": "Yeoul Plus (Monthly)",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.leeo.yeoul.plus.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Plus 월",
+          "subscriptionGroupID": "5061ED0F-8720-4E88-86C0-C1EF55DBCCB0",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "0.99",
+          "familyShareable": true,
+          "groupNumber": 2,
+          "internalID": "169CF3F3-DAFD-41CA-B742-0E1DB0F2DAC6",
+          "localizations": [
+            {
+              "description": "주제마다 연표를, 네 가지 카드 디자인으로",
+              "displayName": "여울 Plus (주)",
+              "locale": "ko"
+            },
+            {
+              "description": "A timeline for every chapter, all card designs",
+              "displayName": "Yeoul Plus (Weekly)",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.leeo.yeoul.plus.weekly",
+          "recurringSubscriptionPeriod": "P1W",
+          "referenceName": "Plus 주",
+          "subscriptionGroupID": "5061ED0F-8720-4E88-86C0-C1EF55DBCCB0",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

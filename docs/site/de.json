@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: die Zeitleiste, deren Abstände der echten Zeit folgen",
-  "description": "Drei und fünf Tage im Verhältnis 3:5, zwei Jahre als gestrichelte Linie. Eine Zeitleiste für Momente und Fotos in echter Zeit. Kostenlos.",
+  "description": "Drei und fünf Tage im Verhältnis 3:5, zwei Jahre als gestrichelte Linie. Eine Zeitleiste für Momente und Fotos in echter Zeit. Kostenlos starten.",
   "hero": {
     "headline": "Eine Zeitleiste,\ndie mit der Zeit wächst",
     "lead": "Drei Tage und fünf Tage stehen im Verhältnis 3:5. Eine lange Pause wie zwei Jahre und vier Monate faltet sich zu einer gestrichelten Linie. Schon an den Abständen siehst du, wie die Zeit damals verging.",
     "cta": "Kostenlos im App Store laden",
-    "note": "Alle Funktionen sind kostenlos. Für iPhone und iPad."
+    "note": "Zwei Zeitleisten kostenlos, mehr mit Plus und Pro. Für iPhone und iPad."
   },
   "demo": {
     "title": "Zieh die Abstände selbst auseinander",
@@ -92,28 +92,28 @@
     "note": "Ein neues Ereignis übernimmt das Design der neuesten Karte in dieser Zeitleiste."
   },
   "pricing": {
-    "title": "Alle Funktionen sind kostenlos",
+    "title": "Kostenlos starten",
     "free": {
       "name": "Kostenlos",
       "items": [
-        "Beliebig viele Zeitleisten mit Name und Farbe",
-        "Fotos, Texte und Hashtags für jedes Ereignis",
-        "Fotos vom Tag des Ereignisses finden",
-        "Hashtag-Zeitleisten sichern",
-        "Vier Kartendesigns",
-        "iCloud-Sync zwischen iPhone und iPad",
-        "Ereignisse per Kurzbefehl und Siri festhalten"
+        "Zwei Zeitleisten mit eigenem Namen und eigener Farbe",
+        "Unbegrenzt Ereignisse, Fotos und Geschichten",
+        "Fotos vom selben Tag finden",
+        "Nach Hashtag ansehen",
+        "Kartendesigns Klassisch und Poster",
+        "Als Text exportieren"
       ]
     },
     "pro": {
-      "name": "Den Entwickler unterstützen",
+      "name": "Plus und Pro",
       "items": [
-        "Wähl ein kleines, mittleres oder großes Trinkgeld",
-        "Damit wird nichts freigeschaltet. Es ist einfach ein Dankeschön"
+        "Plus: unbegrenzte Zeitleisten, gesicherte Hashtag-Zeitleisten und alle vier Kartendesigns",
+        "Pro: alles aus Plus, dazu iCloud-Synchronisierung und Festhalten mit Siri und Kurzbefehlen",
+        "Wähle ein Wochen-, Monats- oder Jahresabo oder kaufe einmal auf Dauer"
       ],
-      "note": "Zu finden in den Einstellungen, ganz wie du magst."
+      "note": "Trinkgeld für den Entwickler schaltet nichts frei. Du kannst es in den Einstellungen geben, wenn du möchtest."
     },
-    "note": "Keine Werbung, kein Abo."
+    "note": "Keine Werbung."
   },
   "faq": {
     "title": "Häufige Fragen",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Kann ich etwas festhalten, ohne die App zu öffnen?",
-        "a": "Ja. Nutze `Ereignis festhalten` in der Kurzbefehle-App oder mit Siri und wähl nur Zeitleiste und Titel. Ohne Datum wird die aktuelle Uhrzeit verwendet."
+        "a": "Ja. Nutze `Ereignis festhalten` in der Kurzbefehle-App oder mit Siri und wähl nur Zeitleiste und Titel. Ohne Datum wird die aktuelle Uhrzeit verwendet. Festhalten mit Siri und Kurzbefehlen ist eine Pro-Funktion."
       },
       {
         "q": "Sehe ich meine Zeitleisten auch auf anderen Geräten?",
-        "a": "Ja, auf jedem iPhone und iPad, das mit demselben Apple Account bei iCloud angemeldet ist. Prüf unter Einstellungen > dein Name > iCloud, ob iCloud aktiviert ist. Je nach Verbindung kann es einen Moment dauern."
+        "a": "Ja, auf jedem iPhone und iPad, das mit demselben Apple Account bei iCloud angemeldet ist. Prüf unter Einstellungen > dein Name > iCloud, ob iCloud aktiviert ist. Je nach Verbindung kann es einen Moment dauern. Die iCloud-Synchronisierung ist eine Pro-Funktion. In Kostenlos und Plus bleiben deine Einträge auf diesem Gerät."
       },
       {
         "q": "Wie lösche ich meine Einträge?",

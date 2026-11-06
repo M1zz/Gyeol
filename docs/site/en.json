@@ -1,11 +1,11 @@
 {
   "title": "Yeoul: a timeline where the gaps match the time that passed",
-  "description": "Three days and five days sit 3:5 apart; two years fold into a dotted line. A timeline for your moments and photos, spaced by real time. Free.",
+  "description": "Three days and five days sit 3:5 apart; two years fold into a dotted line. A timeline for your moments and photos, spaced by real time. Free to start.",
   "hero": {
     "headline": "A timeline that\nstretches with time",
     "lead": "Three days and five days sit 3:5 apart. A long stretch like two years and four months folds into a dotted line. The spacing alone tells you how time really went.",
     "cta": "Get it free on the App Store",
-    "note": "Every feature is free. For iPhone and iPad."
+    "note": "Two timelines free, more with Plus and Pro. For iPhone and iPad."
   },
   "demo": {
     "title": "Stretch the gaps yourself",
@@ -92,28 +92,28 @@
     "note": "A new event starts with the same design as the latest card in that timeline."
   },
   "pricing": {
-    "title": "Every feature is free",
+    "title": "Start for free",
     "free": {
       "name": "Free",
       "items": [
-        "As many timelines as you like, each with a name and color",
-        "Photos, stories and tags on every event",
-        "Find photos from the event's day",
-        "Saved tag timelines",
-        "Four card designs",
-        "iCloud sync between iPhone and iPad",
-        "Log events with Shortcuts and Siri"
+        "Two timelines, each with its own name and color",
+        "Unlimited events, photos and stories",
+        "Find the photos you took that day",
+        "Browse by hashtag",
+        "Classic and Poster card designs",
+        "Export as text"
       ]
     },
     "pro": {
-      "name": "Support the developer",
+      "name": "Plus and Pro",
       "items": [
-        "Pick a small, medium or large tip",
-        "It doesn't unlock anything. It's simply a way to say thanks"
+        "Plus: unlimited timelines, saved hashtag timelines and all four card designs",
+        "Pro: everything in Plus, plus iCloud sync and logging with Siri and Shortcuts",
+        "Choose a weekly, monthly or yearly subscription, or buy once for life"
       ],
-      "note": "Find it in Settings, whenever you feel like it."
+      "note": "Tips for the developer don’t unlock anything. Send one from Settings only if you’d like to."
     },
-    "note": "No ads, no subscription."
+    "note": "No ads."
   },
   "faq": {
     "title": "Questions",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Can I log something without opening the app?",
-        "a": "Yes. Use `Log an Event` in the Shortcuts app or with Siri and just pick a timeline and a title. If you don't set a date, it's saved with the current time."
+        "a": "Yes. Use `Log an Event` in the Shortcuts app or with Siri and just pick a timeline and a title. If you don't set a date, it's saved with the current time. Logging with Siri and Shortcuts is a Pro feature."
       },
       {
         "q": "Can I see my timelines on my other devices?",
-        "a": "Yes, on any iPhone or iPad signed in to iCloud with the same Apple Account. Check that iCloud is on in Settings > Apple Account > iCloud. Depending on your connection, changes can take a moment to arrive."
+        "a": "Yes, on any iPhone or iPad signed in to iCloud with the same Apple Account. Check that iCloud is on in Settings > Apple Account > iCloud. Depending on your connection, changes can take a moment to arrive. iCloud sync is a Pro feature. On Free and Plus, your records stay on that device."
       },
       {
         "q": "How do I delete my records?",

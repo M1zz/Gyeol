@@ -1,11 +1,11 @@
 {
   "title": "Yeoul : la frise où l'écart suit le temps réellement écoulé",
-  "description": "Trois jours et cinq jours à 3 pour 5, deux ans en pointillés. Une frise pour vos moments et vos photos, au rythme du vrai temps. Gratuit.",
+  "description": "Trois jours et cinq jours à 3 pour 5, deux ans en pointillés. Une frise pour vos moments et vos photos, au rythme du vrai temps. Gratuit pour commencer.",
   "hero": {
     "headline": "Une frise qui s'étire\navec le temps",
     "lead": "Trois jours et cinq jours s'écartent de 3 à 5. Une longue pause, comme deux ans et quatre mois, se replie en pointillés. Rien qu'à l'espacement, vous voyez comment le temps a passé.",
     "cta": "Télécharger gratuitement sur l'App Store",
-    "note": "Toutes les fonctions sont gratuites. Pour iPhone et iPad."
+    "note": "Deux frises gratuites, davantage avec Plus et Pro. Pour iPhone et iPad."
   },
   "demo": {
     "title": "Écartez le temps vous-même",
@@ -92,28 +92,28 @@
     "note": "Un nouvel événement reprend le design de la carte la plus récente de sa frise."
   },
   "pricing": {
-    "title": "Toutes les fonctions sont gratuites",
+    "title": "Commencez gratuitement",
     "free": {
       "name": "Gratuit",
       "items": [
-        "Autant de frises que vous voulez, avec nom et couleur",
-        "Photos, textes et tags pour chaque événement",
-        "Retrouver les photos du jour de l'événement",
-        "Frises par tag enregistrées",
-        "Quatre designs de carte",
-        "Synchronisation iCloud entre iPhone et iPad",
-        "Enregistrer avec Raccourcis et Siri"
+        "Deux frises, chacune avec son nom et sa couleur",
+        "Événements, photos et récits illimités",
+        "Retrouver les photos prises ce jour-là",
+        "Parcourir par hashtag",
+        "Styles de carte Classique et Affiche",
+        "Exporter en texte"
       ]
     },
     "pro": {
-      "name": "Soutenir le développeur",
+      "name": "Plus et Pro",
       "items": [
-        "Un petit, moyen ou grand pourboire, au choix",
-        "Cela ne débloque rien. C'est simplement une façon de dire merci"
+        "Plus : frises illimitées, frises par hashtag enregistrées et les quatre styles de carte",
+        "Pro : tout Plus, avec en plus la synchronisation iCloud et la saisie avec Siri et Raccourcis",
+        "Abonnement hebdomadaire, mensuel ou annuel, ou achat unique à vie"
       ],
-      "note": "Dans les réglages de l'app, quand l'envie vous en prend."
+      "note": "Les pourboires au développeur ne débloquent rien. Envoyez-en un depuis les Réglages seulement si vous le souhaitez."
     },
-    "note": "Pas de pub, pas d'abonnement."
+    "note": "Pas de pub."
   },
   "faq": {
     "title": "Questions fréquentes",
@@ -136,11 +136,11 @@
       },
       {
         "q": "Puis-je noter un événement sans ouvrir l'app ?",
-        "a": "Oui. Utilisez `Enregistrer un événement` dans l'app Raccourcis ou avec Siri, puis choisissez simplement une frise et un titre. Sans date, l'heure actuelle est utilisée."
+        "a": "Oui. Utilisez `Enregistrer un événement` dans l'app Raccourcis ou avec Siri, puis choisissez simplement une frise et un titre. Sans date, l'heure actuelle est utilisée. Noter avec Siri et Raccourcis est une fonction Pro."
       },
       {
         "q": "Mes frises sont-elles visibles sur mes autres appareils ?",
-        "a": "Oui, sur tout iPhone ou iPad connecté à iCloud avec le même compte Apple. Vérifiez dans Réglages > votre nom > iCloud qu'iCloud est activé. Selon la connexion, la synchronisation peut prendre un instant."
+        "a": "Oui, sur tout iPhone ou iPad connecté à iCloud avec le même compte Apple. Vérifiez dans Réglages > votre nom > iCloud qu'iCloud est activé. Selon la connexion, la synchronisation peut prendre un instant. La synchronisation iCloud est une fonction Pro. En Gratuit et Plus, vos données restent sur cet appareil."
       },
       {
         "q": "Comment supprimer mes données ?",

@@ -26,6 +26,10 @@ struct EventEditorView: View {
     @State private var tags: [String]
     @State private var tagDraft = ""
     @State private var style: CardStyle
+    /// 잠긴 카드 디자인을 눌렀을 때 — 페이월을 띄우고, 열리면 그 디자인으로 바꾼다.
+    @State private var wantedStyle: CardStyle?
+    @State private var pendingStyle: CardStyle?
+    @Environment(\.planAccess) private var access
     @FocusState private var focused: Field?
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
@@ -121,13 +125,20 @@ struct EventEditorView: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(alignment: .top, spacing: 12) {
                             ForEach(CardStyle.allCases) { candidate in
+                                let locked = !access.canPick(candidate, current: event?.style)
                                 Button {
-                                    withAnimation(reduceMotion ? nil : .snappy(duration: 0.25)) { style = candidate }
+                                    if locked {
+                                        pendingStyle = candidate
+                                        wantedStyle = candidate
+                                    } else {
+                                        withAnimation(reduceMotion ? nil : .snappy(duration: 0.25)) { style = candidate }
+                                    }
                                 } label: {
                                     CardStyleSwatch(
                                         style: candidate,
                                         color: cardColor,
-                                        isSelected: style == candidate
+                                        isSelected: style == candidate,
+                                        isLocked: locked
                                     )
                                 }
                                 .buttonStyle(.plain)
@@ -217,6 +228,17 @@ struct EventEditorView: View {
                 #endif
             }
             .groupedForm()
+            .onAppear {
+                // 새 카드는 이 타임라인의 마지막 카드 디자인으로 시작한다. 그 디자인이 지금 칸에서 잠겼으면 기본으로.
+                if !access.canPick(style, current: event?.style) { style = .classic }
+            }
+            .sheet(item: $wantedStyle, onDismiss: {
+                // 방금 Plus 를 열었으면 고르려던 디자인을 바로 입힌다.
+                if let pendingStyle, access.canPick(pendingStyle) { style = pendingStyle }
+                pendingStyle = nil
+            }) { _ in
+                access.paywall(.cardStyles)
+            }
             .onChange(of: date) { _, _ in finder.reset() }
             .onChange(of: pickerItem) { _, item in
                 guard let item else { return }
