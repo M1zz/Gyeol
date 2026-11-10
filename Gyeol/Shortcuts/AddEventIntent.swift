@@ -5,7 +5,7 @@ import Foundation
 // 단축어 · Siri 로 "지금 이 순간"을 타임라인에 남긴다. 앱을 열지 않고 기록하는 것이 이 앱의 핵심 동작이다.
 // 저장소는 앱 화면과 같은 AppContainer.shared — 열려 있는 화면에도 곧바로 나타나고 iCloud 로 이어진다.
 
-/// 단축어에서 고를 수 있는 타임라인. 태그 타임라인은 사건을 직접 담지 않으므로 고를 수 없다.
+/// 단축어에서 고를 수 있는 타임라인. 태그 타임라인은 순간을 직접 담지 않으므로 고를 수 없다.
 struct TimelineEntity: AppEntity {
     static let typeDisplayRepresentation: TypeDisplayRepresentation = "타임라인"
     static let defaultQuery = TimelineEntityQuery()
@@ -48,16 +48,16 @@ struct TimelineEntityQuery: EntityQuery {
 }
 
 struct AddEventIntent: AppIntent, ForegroundContinuableIntent {
-    static let title: LocalizedStringResource = "사건 기록하기"
-    static let description = IntentDescription("고른 타임라인에 사건을 남겨요. 날짜를 정하지 않으면 지금 시각으로 기록해요.")
+    static let title: LocalizedStringResource = "순간 기록하기"
+    static let description = IntentDescription("고른 타임라인에 순간을 남겨요. 날짜를 정하지 않으면 지금 시각으로 기록해요.")
 
-    @Parameter(title: "타임라인", description: "사건을 남길 타임라인")
+    @Parameter(title: "타임라인", description: "순간을 남길 타임라인")
     var timeline: TimelineEntity
 
-    @Parameter(title: "제목", description: "남길 사건의 제목", requestValueDialog: "어떤 일이 있었나요?")
+    @Parameter(title: "제목", description: "남길 순간의 제목", requestValueDialog: "어떤 일이 있었나요?")
     var eventTitle: String
 
-    @Parameter(title: "날짜", description: "사건이 있었던 날짜. 비워 두면 지금 시각으로 기록해요.")
+    @Parameter(title: "날짜", description: "순간이 있었던 날짜. 비워 두면 지금 시각으로 기록해요.")
     var date: Date?
 
     static var parameterSummary: some ParameterSummary {
@@ -109,10 +109,10 @@ struct YeoulShortcuts: AppShortcutsProvider {
             intent: AddEventIntent(),
             phrases: [
                 "\(.applicationName)에 기록하기",
-                "\(.applicationName)에 사건 남기기",
+                "\(.applicationName)에 순간 남기기",
                 "\(.applicationName)에 \(\.$timeline) 기록하기",
             ],
-            shortTitle: "사건 기록하기",
+            shortTitle: "순간 기록하기",
             systemImageName: "calendar.badge.plus"
         )
         AppShortcut(

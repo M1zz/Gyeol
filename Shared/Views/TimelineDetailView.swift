@@ -59,7 +59,7 @@ struct TimelineDetailView: View {
             ToolbarItem {
                 if !timeline.isTagTimeline {
                     Button { showingNewEvent = true } label: {
-                        Label("사건 추가", systemImage: "plus")
+                        Label("순간 추가", systemImage: "plus")
                     }
                 }
             }
@@ -67,7 +67,7 @@ struct TimelineDetailView: View {
             ToolbarItem(placement: .primaryAction) {
                 Menu {
                     if !timeline.isTagTimeline {
-                        Button { showingNewEvent = true } label: { Label("사건 추가", systemImage: "plus") }
+                        Button { showingNewEvent = true } label: { Label("순간 추가", systemImage: "plus") }
                     }
                     Button { showingSettings = true } label: { Label("이름·색 바꾸기", systemImage: "paintpalette") }
                     if events.count > 1 {
@@ -90,14 +90,14 @@ struct TimelineDetailView: View {
         }
         .safeAreaInset(edge: .bottom) {
             if let tag = timeline.tagFilter {
-                Text("#\(tag) 태그가 붙은 사건이 모입니다")
+                Text("#\(tag) 태그가 붙은 순간이 모입니다")
                     .font(.caption)
                     .foregroundStyle(.secondary)
                     .padding(.bottom, 8)
             } else {
                 #if os(iOS)
                 Button { showingNewEvent = true } label: {
-                    Label("사건 추가", systemImage: "plus")
+                    Label("순간 추가", systemImage: "plus")
                         .font(.body.weight(.semibold))
                         .padding(.horizontal, 22).padding(.vertical, 13)
                         .background(Color.primary, in: Capsule())
@@ -126,15 +126,15 @@ struct TimelineDetailView: View {
     private var emptyState: some View {
         if let tag = timeline.tagFilter {
             ContentUnavailableView {
-                Label("#\(tag) 사건이 없어요", systemImage: "number")
+                Label("#\(tag) 순간이 없어요", systemImage: "number")
             } description: {
-                Text("이 태그를 사건에 달면 여기에 자동으로 모여요.")
+                Text("이 태그를 순간에 달면 여기에 자동으로 모여요.")
             }
         } else {
             ContentUnavailableView {
-                Label("아직 사건이 없어요", systemImage: "sparkles")
+                Label("아직 순간이 없어요", systemImage: "sparkles")
             } description: {
-                Text("‘사건 추가’를 눌러 첫 순간을 남겨보세요.\n위에서 아래로 시간 순으로 쌓이고, 사이 간격은 실제로 흐른 시간만큼 벌어져요.")
+                Text("‘순간 추가’를 눌러 첫 순간을 남겨보세요.\n위에서 아래로 시간 순으로 쌓이고, 사이 간격은 실제로 흐른 시간만큼 벌어져요.")
             }
         }
     }

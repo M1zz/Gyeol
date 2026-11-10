@@ -4,7 +4,7 @@ import SwiftData
 import Foundation
 
 // 지난 기록을 Siri · Spotlight 가 찾게 한다.
-//  - Spotlight: 사건마다 제목 · 메모 · 태그 · 날짜를 싣는다(iOS 18+). 누르면 그 타임라인이 열린다.
+//  - Spotlight: 순간마다 제목 · 메모 · 태그 · 날짜를 싣는다(iOS 18+). 누르면 그 타임라인이 열린다.
 //  - "여울 이맘때": 지난해들의 오늘 앞뒤 사흘에 남긴 일을 알려 준다.
 // 저장소는 AddEventIntent 와 같은 AppContainer.shared.
 
@@ -75,7 +75,7 @@ struct EventEntityQuery: EntityStringQuery {
         try Self.allEvents().prefix(20).map(EventEntity.init)
     }
 
-    /// 최근 것부터. 태그 타임라인은 사건을 담지 않으므로 사건만 읽으면 겹치지 않는다.
+    /// 최근 것부터. 태그 타임라인은 순간을 담지 않으므로 순간만 읽으면 겹치지 않는다.
     @MainActor
     static func allEvents() throws -> [TimelineEvent] {
         try AppContainer.shared.mainContext.fetch(

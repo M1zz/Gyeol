@@ -77,7 +77,7 @@ struct MacRootView: View {
             }
             VStack(alignment: .leading, spacing: 1) {
                 Text(timeline.name)
-                Text("사건 \(events(of: timeline).count)개")
+                Text("순간 \(events(of: timeline).count)개")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }

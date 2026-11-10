@@ -47,7 +47,7 @@ extension PlanFeature {
         case .tagTimelines:  String(localized: "해시태그 타임라인 저장")
         case .cardStyles:    String(localized: "카드 디자인 네 가지 전부")
         case .iCloudSync:    String(localized: "iCloud 동기화")
-        case .siri:          String(localized: "Siri · 단축어로 사건 추가")
+        case .siri:          String(localized: "Siri · 단축어로 순간 추가")
         }
     }
 
@@ -57,7 +57,7 @@ extension PlanFeature {
         case .tagTimelines:  String(localized: "#여행처럼 태그로 모인 순간을 목록에 두고, 태그가 붙는 대로 계속 채워요.")
         case .cardStyles:    String(localized: "인화지 같은 필름, 날짜가 주인공인 여백까지 골라요.")
         case .iCloudSync:    String(localized: "iPhone과 iPad에서 같은 연표를 보고, 폰을 바꿔도 기록이 그대로예요.")
-        case .siri:          String(localized: "앱을 열지 않고 말로 바로 사건을 남겨요.")
+        case .siri:          String(localized: "앱을 열지 않고 말로 바로 순간을 남겨요.")
         }
     }
 
@@ -393,7 +393,7 @@ struct PlanComparisonTable: View {
         return [
             Row(label: String(localized: "타임라인"),
                 cells: [.text(String(localized: "\(PlanFeature.freeTimelineLimit)개")), .text(unlimited), .text(unlimited)]),
-            Row(label: String(localized: "사건 · 사진 · 이야기"), cells: [.text(unlimited), .text(unlimited), .text(unlimited)]),
+            Row(label: String(localized: "순간 · 사진 · 이야기"), cells: [.text(unlimited), .text(unlimited), .text(unlimited)]),
             Row(label: String(localized: "그날 사진 찾기"), cells: [.yes, .yes, .yes]),
             Row(label: String(localized: "해시태그 모아 보기"), cells: [.yes, .yes, .yes]),
             Row(label: String(localized: "텍스트로 내보내기"), cells: [.yes, .yes, .yes]),

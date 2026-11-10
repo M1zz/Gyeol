@@ -8,7 +8,7 @@
   docs/screenshots/creative/<스토어 로케일>/search.png   3840x2560  검색 결과 (없으면 스크린샷이 대신 보인다)
 
 기기 화면 재료: docs/screenshots/raw/creative/<언어>/
-  01-timeline.png  타임라인 상세 (사건 사이가 실제 흐른 시간만큼 벌어진 화면)
+  01-timeline.png  타임라인 상세 (순간 사이가 실제 흐른 시간만큼 벌어진 화면)
   02-list.png      타임라인 목록
   시뮬레이터(iPhone 17 Pro Max)에서 -localOnly 로 띄워 예시 기록을 넣고 찍은 것이다.
 
@@ -39,7 +39,7 @@ WIDE_SEARCH = {"de", "fr", "it", "vi", "cs", "da", "el", "fi", "id", "nb", "nl",
 
 # 검색 결과: 눈썹글(그 나라 검색어) · 헤드라인 · 보조 한 줄. 기기 화면(타임라인)과 같은 이야기다.
 SEARCH = {
-    "ko": ("타임라인 기록", "3일은 3일만큼,<br>2년은 2년만큼", "사건 사이가 실제로 흐른 시간만큼 벌어져요"),
+    "ko": ("타임라인 기록", "3일은 3일만큼,<br>2년은 2년만큼", "순간 사이가 실제로 흐른 시간만큼 벌어져요"),
     "en": ("timeline journal", "3 days stay 3 days,<br>2 years stay 2 years", "Gaps between events match the time that really passed"),
     "en-GB": ("timeline diary", "3 days stay 3 days,<br>2 years stay 2 years", "Gaps between events match the time that really passed"),
     "zh-Hans": ("时间线日记", "3 天就是 3 天，<br>2 年就是 2 年", "事件之间的间隔与实际流逝的时间一致"),

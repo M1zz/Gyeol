@@ -53,7 +53,7 @@ struct TimelineTrackView: View {
             .scrollIndicators(.hidden)
             #if DEBUG
             .onAppear {
-                // 스토어 스크린샷: 정한 사건이 화면 위쪽에 오게 둔다.
+                // 스토어 스크린샷: 정한 순간이 화면 위쪽에 오게 둔다.
                 let target = ScreenshotDemo.index("-demoScroll") ?? ScreenshotDemo.index("-demoExpand")
                 guard ScreenshotDemo.isActive, let i = target, events.indices.contains(i) else { return }
                 let anchorY = ScreenshotDemo.value("-demoAnchor").flatMap(Double.init) ?? 0

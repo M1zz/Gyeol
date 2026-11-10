@@ -149,7 +149,7 @@
         }
       }
     },
-    "${applicationName}에 사건 남기기" : {
+    "${applicationName}에 순간 남기기" : {
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -226,7 +226,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "${applicationName}에 사건 남기기"
+            "value" : "${applicationName}에 순간 남기기"
           }
         },
         "nb" : {

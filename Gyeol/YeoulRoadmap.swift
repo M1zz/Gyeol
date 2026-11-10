@@ -22,13 +22,13 @@ extension YeoulSpec {
         // MARK: 다음에 만들어요
         .init(id: "a11y.voiceover", status: .building,
               title: NSLocalizedString("VoiceOver로 더 편하게", comment: "Roadmap item: VoiceOver"),
-              detail: NSLocalizedString("화면 읽기 기능이 단추와 사건을 빠짐없이, 알맞은 순서로 읽어 줘요.", comment: "Roadmap item detail: VoiceOver")),
+              detail: NSLocalizedString("화면 읽기 기능이 단추와 순간을 빠짐없이, 알맞은 순서로 읽어 줘요.", comment: "Roadmap item detail: VoiceOver")),
         .init(id: "a11y.largetext", status: .building,
               title: NSLocalizedString("큰 글씨에 맞춘 화면", comment: "Roadmap item: larger text layouts"),
               detail: NSLocalizedString("글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요.", comment: "Roadmap item detail: larger text layouts")),
         .init(id: "a11y.contrast", status: .building,
               title: NSLocalizedString("보기 편한 색과 대비", comment: "Roadmap item: colors and contrast"),
-              detail: NSLocalizedString("대비를 높이거나 색을 구별하기 어려워도 태그와 사건을 알아볼 수 있어요.", comment: "Roadmap item detail: colors and contrast")),
+              detail: NSLocalizedString("대비를 높이거나 색을 구별하기 어려워도 태그와 순간을 알아볼 수 있어요.", comment: "Roadmap item detail: colors and contrast")),
         .init(id: "a11y.motion", status: .building,
               title: NSLocalizedString("움직임 줄이기", comment: "Roadmap item: reduce motion"),
               detail: NSLocalizedString("움직임 줄이기를 켜면 화면 효과가 차분해져요.", comment: "Roadmap item detail: reduce motion")),
@@ -46,7 +46,7 @@ extension YeoulSpec {
               detail: NSLocalizedString("업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요.", comment: "Roadmap item detail: what's new after an update")),
         .init(id: "haptics", status: .planned,
               title: NSLocalizedString("손끝으로 느끼는 반응", comment: "Roadmap item: haptics"),
-              detail: NSLocalizedString("사건을 넣거나 지울 때 가볍게 떨려서 알려 줘요.", comment: "Roadmap item detail: haptics")),
+              detail: NSLocalizedString("순간을 넣거나 지울 때 가볍게 떨려서 알려 줘요.", comment: "Roadmap item detail: haptics")),
         .init(id: "widgets", status: .planned,
               title: NSLocalizedString("홈 화면 위젯", comment: "Roadmap item: home screen widgets"),
               detail: NSLocalizedString("앱을 열지 않고 홈 화면에서 타임라인을 바로 확인해요.", comment: "Roadmap item detail: home screen widgets")),
@@ -72,8 +72,8 @@ extension YeoulSpec {
               title: NSLocalizedString("내 데이터 한 번에 지우기", comment: "Roadmap item: delete all my data"),
               detail: NSLocalizedString("원하면 앱 안에서 내 타임라인을 모두 지울 수 있어요.", comment: "Roadmap item detail: delete all my data")),
         .init(id: "autosave", status: .planned,
-              title: NSLocalizedString("쓰던 사건 이어서 쓰기", comment: "Roadmap item: keep a half-written event"),
-              detail: NSLocalizedString("사건을 적다가 앱이 꺼져도 쓰던 내용이 남아 있어요.", comment: "Roadmap item detail: keep a half-written event")),
+              title: NSLocalizedString("쓰던 순간 이어서 쓰기", comment: "Roadmap item: keep a half-written event"),
+              detail: NSLocalizedString("순간을 적다가 앱이 꺼져도 쓰던 내용이 남아 있어요.", comment: "Roadmap item detail: keep a half-written event")),
     ]}
 }
 

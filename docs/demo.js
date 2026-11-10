@@ -1,4 +1,4 @@
-// 여울 웹 데모: 사건을 더하면 간격이 실제로 흐른 시간만큼 벌어진다.
+// 여울 웹 데모: 순간을 더하면 간격이 실제로 흐른 시간만큼 벌어진다.
 // 규칙은 앱과 같다 (Shared/Views/TimelineTrackView.swift 의 TrackMetrics · TrackScale).
 // 페이지에 맞게 모든 길이를 SCALE 배로 줄여 그린다. 비율과 접히는 시점은 앱과 똑같다.
 (() => {
@@ -16,7 +16,7 @@
   const add = (d, [y, m, dd]) => new Date(d.getFullYear() + y, d.getMonth() + m, d.getDate() + dd);
   const fmt = new Intl.DateTimeFormat(lang, { year: "numeric", month: "short", day: "numeric" });
 
-  let events;   // [{date, gap}] gap 은 바로 앞 사건과의 간격 키
+  let events;   // [{date, gap}] gap 은 바로 앞 순간과의 간격 키
   // 처음 모습: 사흘 뒤, 다시 닷새 뒤. 두 간격이 3대 5로 보인다.
   const reset = () => {
     const a = add(START, STEPS["3d"]);

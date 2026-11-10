@@ -7,7 +7,7 @@ import SwiftData
 /// scripts/capture_screenshots.sh 가 시뮬레이터에서 이렇게 띄운다:
 ///   -localOnly -demoSeed <언어별 예시 기록 JSON> -demoPhotos <사진 폴더>
 ///   -demoScreen trip|tag|list  -demoTimeline <번호>  -demoTag <태그>
-///   -demoScroll <사건 번호> [-demoAnchor <0~1, 그 사건이 놓일 화면 높이>]  -demoExpand <사건 번호>  -demoEdit <사건 번호>
+///   -demoScroll <순간 번호> [-demoAnchor <0~1, 그 순간이 놓일 화면 높이>]  -demoExpand <순간 번호>  -demoEdit <순간 번호>
 /// 예시 기록은 scripts/screenshot_demo/<언어>.json 이다 — 화면 속 기록도 그 언어로 보이게.
 enum ScreenshotDemo {
     private static var arguments: [String] { ProcessInfo.processInfo.arguments }

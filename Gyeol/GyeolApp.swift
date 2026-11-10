@@ -13,7 +13,7 @@ struct GyeolApp: App {
         // 그 iCloud 컨테이너 권한은 Config/iOS.entitlements 에 있다 (없으면 CKContainer 에서 죽는다).
         LeeoKit.bootstrap(YeoulSpec.self, flags: YeoulFlag.self)
 
-        // 사건을 새로 남긴 순간이 이 앱에서 "잘 쓰고 있다"는 신호다.
+        // 순간을 새로 남긴 순간이 이 앱에서 "잘 쓰고 있다"는 신호다.
         // 만족도 질문(.leeoSatisfactionCheck)은 이 횟수를 보고 뜬다.
         AppActivity.eventSaved = { isNew in
             if isNew { _ = LeeoEngagement.shared.registerSignificantEvent() }

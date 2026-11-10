@@ -36,9 +36,9 @@ struct TagTimelineView: View {
         Group {
             if events.isEmpty {
                 ContentUnavailableView {
-                    Label("#\(tag) 사건이 없어요", systemImage: "number")
+                    Label("#\(tag) 순간이 없어요", systemImage: "number")
                 } description: {
-                    Text("이 태그를 단 사건이 아직 없습니다.")
+                    Text("이 태그를 단 순간이 아직 없습니다.")
                 }
             } else {
                 TimelineTrackView(events: events, color: tint, expanded: $expanded) { event in
@@ -82,7 +82,7 @@ struct TagTimelineView: View {
         }
         .safeAreaInset(edge: .bottom) {
             if saved == nil, !events.isEmpty {
-                Text("사건 \(events.count)개 · 저장하면 목록에 남고, 태그가 붙는 대로 계속 채워져요")
+                Text("순간 \(events.count)개 · 저장하면 목록에 남고, 태그가 붙는 대로 계속 채워져요")
                     .font(.caption)
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)

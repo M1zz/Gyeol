@@ -2,14 +2,14 @@ import SwiftUI
 import SwiftData
 import LeeoKit
 
-/// 남긴 사건이 이만큼 쌓였을 때 응원을 부탁한다. 큰 것부터.
+/// 남긴 순간이 이만큼 쌓였을 때 응원을 부탁한다. 큰 것부터.
 enum YeoulTipMoments {
     static let events = [300, 100, 30]
 
     static func reached(events total: Int) -> [LeeoTipMoment] {
         events.filter { total >= $0 }.map { threshold in
             LeeoTipMoment(id: "events.\(threshold)",
-                          message: String(localized: "지금까지 사건 \(total)개를 기록했어요",
+                          message: String(localized: "지금까지 순간 \(total)개를 기록했어요",
                                           comment: "Tip ask card: total number of events recorded across all timelines"))
         }
     }
@@ -69,7 +69,7 @@ struct TimelineListView: View {
                     }
                 } else {
                     List {
-                        // 사건을 남기고 돌아온 자리. 쌓인 기록이 숫자로 보일 때만, 드물게 응원을 부탁한다.
+                        // 순간을 남기고 돌아온 자리. 쌓인 기록이 숫자로 보일 때만, 드물게 응원을 부탁한다.
                         // 응원 부탁은 이미 Pro 를 가진 분에게만.
                         if access.tier == .pro {
                             LeeoTipAskSlot<YeoulSpec>(tipJar: YeoulSpec.tipJar,
@@ -200,7 +200,7 @@ struct TimelineListView: View {
 
     @State private var pendingNew = false
 
-    /// 태그 타임라인은 세지 않는다 — 사건을 담지 않는 저장된 보기라서.
+    /// 태그 타임라인은 세지 않는다 — 순간을 담지 않는 저장된 보기라서.
     private var ownTimelineCount: Int { timelines.filter { !$0.isTagTimeline }.count }
 
     /// 무료는 타임라인 둘까지. 셋째를 만들려는 바로 그때 Plus 를 보인다.
@@ -255,8 +255,8 @@ private struct TimelineRow: View {
 
     private var subtitle: String {
         let kind = timeline.isTagTimeline ? String(localized: "태그 타임라인 · ") : ""
-        guard let last = events.last else { return kind + String(localized: "사건 없음") }
-        return kind + String(localized: "사건 \(events.count)개 · 마지막 \(last.date.formatted(date: .numeric, time: .omitted))")
+        guard let last = events.last else { return kind + String(localized: "순간 없음") }
+        return kind + String(localized: "순간 \(events.count)개 · 마지막 \(last.date.formatted(date: .numeric, time: .omitted))")
     }
 }
 

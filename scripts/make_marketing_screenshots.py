@@ -28,7 +28,7 @@ SHOTS = {
         ("02-iceland.png", "left-text",   "사진과 함께<br>그날을 남겨요", "카드 디자인 네 가지 중에서 골라요"),
         ("03-expand.png",  "text-bottom", "누르면 그 자리에서 펼쳐져요", "사진과 이야기를 한눈에"),
         ("04-tag.png",     "flat-rotate", "해시태그로<br>다시 엮기", "흩어진 기록이 새 타임라인이 돼요"),
-        ("05-editor.png",  "dark",        "카드 디자인도<br>사건마다 골라요", "날짜, 내용, 태그까지 한 화면에서"),
+        ("05-editor.png",  "dark",        "카드 디자인도<br>순간마다 골라요", "날짜, 내용, 태그까지 한 화면에서"),
     ],
     "en": [
         ("01-trip.png", "hero-bleed", "Time stretches<br>the way it flowed", "Three days and five days sit 3:5 apart; long gaps fold into dots"),

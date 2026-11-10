@@ -25,7 +25,7 @@ struct TagTimelineTip: Tip {
     @Parameter static var hasOpenedTagTimeline: Bool = false
 
     var title: Text { Text("태그를 누르면 한데 모여요") }
-    var message: Text? { Text("같은 태그가 붙은 사건을 모든 타임라인에서 모아 하나의 타임라인으로 보여 줘요.") }
+    var message: Text? { Text("같은 태그가 붙은 순간을 모든 타임라인에서 모아 하나의 타임라인으로 보여 줘요.") }
     var image: Image? { Image(systemName: "number") }
 
     var rules: [Rule] {

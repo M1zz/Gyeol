@@ -202,13 +202,13 @@ struct EventEditorView: View {
                 }
                 if event != nil {
                     Section {
-                        Button("사건 삭제", role: .destructive) { confirmDelete = true }
+                        Button("순간 삭제", role: .destructive) { confirmDelete = true }
                     }
                 }
             }
             .dismissKeyboardOnScroll()
             .dismissesKeyboardOnOutsideTap(space: Self.space, isEditing: focused != nil) { focused = nil }
-            .navigationTitle(event == nil ? String(localized: "사건 추가") : String(localized: "사건 수정"))
+            .navigationTitle(event == nil ? String(localized: "순간 추가") : String(localized: "순간 수정"))
             .inlineNavigationTitle()
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
@@ -244,7 +244,7 @@ struct EventEditorView: View {
                 guard let item else { return }
                 Task { await load(item) }
             }
-            .confirmationDialog("이 사건을 삭제할까요?", isPresented: $confirmDelete, titleVisibility: .visible) {
+            .confirmationDialog("이 순간을 삭제할까요?", isPresented: $confirmDelete, titleVisibility: .visible) {
                 Button("삭제", role: .destructive, action: delete)
             }
         }
