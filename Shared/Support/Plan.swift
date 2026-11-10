@@ -11,9 +11,9 @@
 //  ⚠️ 이미 만든 타임라인 · 카드 · 저장한 태그 타임라인은 칸과 상관없이 보고 고치고 지운다.
 //     한도는 **새로 만드는 것**만 본다.
 //
-//  StoreKit · LeeoKit 은 여기 없다. 이 파일은 맥 타깃(YeoulMac)과 시험 번들도 함께 컴파일한다 —
-//  둘 다 LeeoKit 이 없다. 영수증을 읽는 쪽은 iOS 타깃의 `Gyeol/Store/` 이고, 화면은
-//  환경값 `planAccess` 로 지금 칸과 페이월을 받는다. 맥은 기본값(모두 열림)을 쓴다.
+//  StoreKit · LeeoKit 은 여기 없다. 이 파일은 시험 번들도 함께 컴파일하는데, 거기엔 LeeoKit 이 없다.
+//  영수증을 읽는 쪽은 `Gyeol/Store/` 이고(iOS · 맥 앱이 함께 쓴다), 화면은
+//  환경값 `planAccess` 로 지금 칸과 페이월을 받는다. 미리보기 · 시험은 기본값(모두 열림)을 쓴다.
 //
 
 import SwiftUI
@@ -75,7 +75,7 @@ struct PlanAccess {
         allows(.cardStyles) || PlanFeature.freeCardStyles.contains(style) || style == current
     }
 
-    /// 맥 · 미리보기 · 시험: 파는 곳이 없으니 모두 열려 있다.
+    /// 미리보기 · 시험: 파는 곳이 없으니 모두 열려 있다.
     static let unlocked = PlanAccess(tier: .pro, paywall: { _ in AnyView(EmptyView()) })
 }
 

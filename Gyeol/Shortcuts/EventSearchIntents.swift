@@ -8,15 +8,6 @@ import Foundation
 //  - "여울 이맘때": 지난해들의 오늘 앞뒤 사흘에 남긴 일을 알려 준다.
 // 저장소는 AddEventIntent 와 같은 AppContainer.shared.
 
-/// 앱 화면으로 넘기는 요청. 목록 화면이 그 타임라인을 열고 비운다.
-@MainActor @Observable
-final class YeoulRouter {
-    static let shared = YeoulRouter()
-    var timelineID: PersistentIdentifier?
-    /// Siri · 단축어가 잠긴 기능을 찾아 앱을 열었을 때 띄울 페이월 (→ Store/PlanRoot.swift).
-    var paywall: PlanFeature?
-}
-
 struct EventEntity: AppEntity {
     static let typeDisplayRepresentation: TypeDisplayRepresentation = "기록"
     static let defaultQuery = EventEntityQuery()

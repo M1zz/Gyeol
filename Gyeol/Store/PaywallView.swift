@@ -110,9 +110,9 @@ struct PaywallView: View {
                 .frame(maxWidth: 640)
                 .frame(maxWidth: .infinity)
             }
-            .background(Color(.systemGroupedBackground))
+            .background(Palette.groupedBackground)
             .navigationTitle("요금제")
-            .navigationBarTitleDisplayMode(.inline)
+            .inlineNavigationTitle()
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button { dismiss() } label: { Label("닫기", systemImage: "xmark") }
@@ -122,12 +122,14 @@ struct PaywallView: View {
                         .disabled(purchases.isWorking)
                 }
             }
+            #if os(iOS)
             .offerCodeRedemption(isPresented: $redeemingCode) { _ in
                 Task {
                     await purchases.refresh()
                     if let highlight, purchases.allows(highlight) { dismiss() }
                 }
             }
+            #endif
             .task {
                 let chosen = term ?? highlight?.suggestedTerm ?? .yearly
                 switch highlight?.tier {
@@ -139,6 +141,10 @@ struct PaywallView: View {
                 await loadPlans()
             }
         }
+        // 맥의 시트는 내용의 이상적 크기로 줄어든다. 요금제는 세로로 길어 크기를 정해 둔다.
+        #if os(macOS)
+        .frame(minWidth: 560, idealWidth: 640, minHeight: 680, idealHeight: 760)
+        #endif
     }
 
     /// 들어온 기능의 칸을 앞에.
@@ -365,8 +371,11 @@ struct PaywallView: View {
         Button("개인정보 처리방침") { openURL(YeoulSpec.legal.privacyURL) }
         Button("구매 복원") { Task { await restore() } }
             .disabled(purchases.isWorking)
+        // 맥의 코드 사용은 App Store 앱에서 한다.
+        #if os(iOS)
         Button("코드 사용") { redeemingCode = true }
             .disabled(purchases.isWorking)
+        #endif
     }
 }
 
@@ -504,6 +513,6 @@ private extension View {
     func planCard() -> some View {
         padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .background(Palette.cardSurface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
     }
 }

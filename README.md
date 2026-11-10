@@ -9,17 +9,17 @@ SwiftUI + SwiftData. iOS 17+, Xcode 16+ (file-system-synchronized groups 사용)
 | | |
 |---|---|
 | `Gyeol.xcodeproj` | iOS 앱 (타깃 `Gyeol` — 내부 코드명) |
-| `YeoulMac.xcodeproj` | macOS 앱 (타깃 `YeoulMac`) |
+| `YeoulMac/YeoulMac.xcodeproj` | macOS 앱 (타깃 `YeoulMac`). 배포 설정은 `YeoulMac/deploy.env` |
 | `Shared/` | 두 앱이 함께 쓰는 모델·카드·타임라인 |
 | `Gyeol/` | iOS 전용 화면 |
-| `macOS/` | macOS 전용 화면 |
+| `YeoulMac/Sources/` | macOS 전용 화면 |
 | `Config/` | Info.plist 조각과 entitlements (동기화 그룹 밖에 두어야 리소스로 중복 복사되지 않음) |
 
 두 프로젝트 모두 `Shared/`를 file-system-synchronized group으로 참조합니다. 파일을 추가하면
 프로젝트 파일을 건드리지 않아도 양쪽에 들어갑니다.
 
 ## 열기
-1. iOS는 `Gyeol.xcodeproj`, 맥은 `YeoulMac.xcodeproj`
+1. iOS는 `Gyeol.xcodeproj`, 맥은 `YeoulMac/YeoulMac.xcodeproj`
 2. Signing & Capabilities에서 **본인 Team 선택**
 3. Run
 

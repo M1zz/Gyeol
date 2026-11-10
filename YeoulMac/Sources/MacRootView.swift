@@ -12,6 +12,10 @@ struct MacRootView: View {
     @State private var tagRoute: TagRoute?
     @State private var showingNewTimeline = false
     @State private var showingSettings = false
+    /// 잠긴 것을 눌렀다 — 그 기능을 앞세운 요금제를 띄운다.
+    @State private var lockedFeature: PlanFeature?
+    @State private var pendingNew = false
+    @Environment(\.planAccess) private var access
 
     var body: some View {
         NavigationSplitView {
@@ -27,6 +31,11 @@ struct MacRootView: View {
                 TimelineEditorView(timeline: selection)
             }
         }
+        .sheet(item: $lockedFeature, onDismiss: {
+            // 방금 Plus 를 열었으면 하려던 새 타임라인을 이어서 만든다.
+            if pendingNew, access.canCreateTimeline(having: ownTimelineCount) { showingNewTimeline = true }
+            pendingNew = false
+        }) { access.paywall($0) }
         .onAppear { selectFirstIfNeeded() }
         // Records can arrive after the first render — from iCloud, or from another
         // window — so pick one up whenever the list changes too.
@@ -56,9 +65,7 @@ struct MacRootView: View {
         .navigationSplitViewColumnWidth(min: 220, ideal: 260, max: 340)
         .toolbar {
             ToolbarItem {
-                Button {
-                    showingNewTimeline = true
-                } label: {
+                Button(action: newTimeline) {
                     Label("새 타임라인", systemImage: "plus")
                 }
             }
@@ -111,6 +118,19 @@ struct MacRootView: View {
     }
 
     // MARK: Data
+
+    /// 태그 타임라인은 세지 않는다 — 순간을 담지 않는 저장된 보기라서.
+    private var ownTimelineCount: Int { timelines.filter { !$0.isTagTimeline }.count }
+
+    /// 무료는 타임라인 둘까지. 셋째를 만들려는 바로 그때 Plus 를 보인다.
+    private func newTimeline() {
+        if access.canCreateTimeline(having: ownTimelineCount) {
+            showingNewTimeline = true
+        } else {
+            pendingNew = true
+            lockedFeature = .moreTimelines
+        }
+    }
 
     private func events(of timeline: Timeline) -> [TimelineEvent] {
         guard let tag = timeline.tagFilter else { return timeline.sortedEvents }

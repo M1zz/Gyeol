@@ -88,7 +88,10 @@ enum ProEntitlement {
         #if DEBUG
         if ScreenshotDemo.isActive { return .pro }
         #endif
+        #if os(iOS)
         guard everSold else { return .pro }
+        #endif
+        // 맥 앱은 요금제와 함께 처음 나왔다. 상품을 못 본 기기라고 열어 둘 까닭이 없다.
         return cachedTier ?? .free
     }
 
@@ -129,7 +132,8 @@ enum ProEntitlement {
     /// ⚠️ 끄더라도 기기 안 기록은 그대로다. iCloud 쪽 사본도 지우지 않는다.
     static var syncsWithICloud: Bool {
         guard syncWanted else { return false }
-        if everSold && cachedTier == nil { return true }
+        // (iOS 에서 상품을 못 본 기기는 아래 `tier` 가 Pro 라 어차피 켠다.)
+        if cachedTier == nil { return true }
         return tier >= PlanFeature.iCloudSync.tier
     }
 

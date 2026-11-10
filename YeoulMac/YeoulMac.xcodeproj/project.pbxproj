@@ -6,19 +6,49 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B1000000000000000000BB30 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = B1000000000000000000BB32 /* LeeoKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B1000000000000000000BB01 /* 여울.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "여울.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B1000000000000000000BB22 /* Exceptions for "Gyeol" folder in "YeoulMac" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppShortcuts.xcstrings,
+				GyeolApp.swift,
+				Shortcuts/AddEventIntent.swift,
+				Shortcuts/EventSearchIntents.swift,
+				Views/SettingsView.swift,
+				Views/TimelineListView.swift,
+				Views/YeoulOnboardingView.swift,
+			);
+			target = B1000000000000000000BB06 /* YeoulMac */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B1000000000000000000BB20 /* Shared */ = {
+		B1000000000000000000BB21 /* Gyeol */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Shared;
+			exceptions = (
+				B1000000000000000000BB22 /* Exceptions for "Gyeol" folder in "YeoulMac" target */,
+			);
+			name = Gyeol;
+			path = ../Gyeol;
 			sourceTree = "<group>";
 		};
-		B1000000000000000000BB02 /* macOS */ = {
+		B1000000000000000000BB20 /* Shared */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = macOS;
+			name = Shared;
+			path = ../Shared;
+			sourceTree = "<group>";
+		};
+		B1000000000000000000BB02 /* Sources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -28,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1000000000000000000BB30 /* LeeoKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,8 +68,9 @@
 		B1000000000000000000BB04 = {
 			isa = PBXGroup;
 			children = (
+				B1000000000000000000BB21 /* Gyeol */,
 				B1000000000000000000BB20 /* Shared */,
-				B1000000000000000000BB02 /* macOS */,
+				B1000000000000000000BB02 /* Sources */,
 				B1000000000000000000BB05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,11 +99,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				B1000000000000000000BB21 /* Gyeol */,
 				B1000000000000000000BB20 /* Shared */,
-				B1000000000000000000BB02 /* macOS */,
+				B1000000000000000000BB02 /* Sources */,
 			);
 			name = YeoulMac;
 			packageProductDependencies = (
+				B1000000000000000000BB32 /* LeeoKit */,
 			);
 			productName = YeoulMac;
 			productReference = B1000000000000000000BB01 /* 여울.app */;
@@ -97,11 +131,36 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				ko,
+				cs,
+				da,
+				de,
+				el,
 				en,
+				"en-GB",
+				es,
+				fi,
+				fr,
+				id,
+				it,
+				ja,
+				nb,
+				nl,
+				pl,
+				"pt-BR",
+				ru,
+				sv,
+				th,
+				tr,
+				vi,
+				"zh-Hans",
+				"zh-Hant",
 				Base,
 			);
 			mainGroup = B1000000000000000000BB04;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B1000000000000000000BB31 /* XCRemoteSwiftPackageReference "LeeoKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B1000000000000000000BB05 /* Products */;
 			projectDirPath = "";
@@ -190,12 +249,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Config/macOS.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ../Config/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_NAME = Yeoul;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "여울";
@@ -206,7 +266,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.yeoul;
 				PRODUCT_NAME = "여울";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -219,12 +279,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Config/macOS.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ../Config/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_HARDENED_RUNTIME = YES;
+				EXECUTABLE_NAME = Yeoul;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "여울";
@@ -235,7 +296,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.yeoul;
 				PRODUCT_NAME = "여울";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -265,6 +326,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1000000000000000000BB31 /* XCRemoteSwiftPackageReference "LeeoKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.38.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1000000000000000000BB32 /* LeeoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1000000000000000000BB31 /* XCRemoteSwiftPackageReference "LeeoKit" */;
+			productName = LeeoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B1000000000000000000BB10 /* Project object */;
 }

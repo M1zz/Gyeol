@@ -5,7 +5,8 @@
 //  LeeoKit 계약(LeeoAppSpec) 준수 — 이 앱의 공통 기능 설정값 단일 소스.
 //  피드백·리뷰·진단 구현은 전부 LeeoKit 에 있고, 앱은 이 설정만 제공한다.
 //
-//  ⚠️ iOS 타깃(Gyeol)에만 들어간다. Shared/ 에 두면 맥 타깃(YeoulMac)도 LeeoKit 이 필요해진다.
+//  iOS 타깃(Gyeol)과 맥 타깃(YeoulMac)이 함께 쓴다. Shared/ 에 두지 않는 까닭은 시험 번들이
+//  Shared/ 를 LeeoKit 없이 컴파일하기 때문이다.
 //
 
 import Foundation
@@ -17,7 +18,7 @@ enum YeoulSpec: LeeoAppSpec {
 
     /// 공용 피드백 허브(FeedbackHub)로 수집 — appIdentifier(번들 ID)로 앱을 구분한다.
     /// 컨테이너 권한은 Config/iOS.entitlements 에 있다 (기록 동기화용 iCloud.com.leeo.yeoul 과 나란히).
-    /// 맥 타깃(YeoulMac)은 LeeoKit 을 안 쓰므로 아무것도 보내지 않는다.
+    /// 맥 앱의 권한은 Config/macOS.entitlements 에 있다.
     static let feedback = LeeoFeedbackConfig(
         containerIdentifier: "iCloud.com.Ysoup.FeedbackHub",
         appIdentifier: "com.leeo.yeoul"

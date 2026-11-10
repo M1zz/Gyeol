@@ -9,6 +9,7 @@ struct PlanSettingsSection: View {
     @State private var showingGraduation = false
     @State private var showingManage = false
     @State private var syncWanted = ProEntitlement.syncWanted
+    @Environment(\.openURL) private var openURL
 
     private struct PaywallRoute: Identifiable {
         var feature: PlanFeature?
@@ -51,7 +52,16 @@ struct PlanSettingsSection: View {
             }
             .presentationDetents([.medium, .large])
         }
+        #if os(iOS)
         .manageSubscriptionsSheet(isPresented: $showingManage)
+        #else
+        // 맥에는 구독 관리 시트가 없다. App Store 의 구독 화면을 연다.
+        .onChange(of: showingManage) { _, wanted in
+            guard wanted else { return }
+            showingManage = false
+            openURL(URL(string: "https://apps.apple.com/account/subscriptions")!)
+        }
+        #endif
     }
 
     /// 연 구독 중이면 졸업가를, 아니면 평생을 고른 페이월을 낸다.
