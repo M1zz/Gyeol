@@ -1,0 +1,102 @@
+{
+  "fill-specializations": [
+    {
+      "value": {
+        "linear-gradient": [
+          "display-p3:0.18431,0.65882,0.59216,1.00000",
+          "display-p3:0.07451,0.41569,0.38039,1.00000"
+        ],
+        "orientation": {
+          "start": {
+            "x": 0.5,
+            "y": 0
+          },
+          "stop": {
+            "x": 0.5,
+            "y": 1
+          }
+        }
+      }
+    },
+    {
+      "appearance": "dark",
+      "value": {
+        "linear-gradient": [
+          "display-p3:0.05882,0.23137,0.21176,1.00000",
+          "display-p3:0.02353,0.12157,0.10980,1.00000"
+        ],
+        "orientation": {
+          "start": {
+            "x": 0.5,
+            "y": 0
+          },
+          "stop": {
+            "x": 0.5,
+            "y": 1
+          }
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "layers": [
+        {
+          "glass": true,
+          "name": "l1",
+          "image-name-specializations": [
+            {
+              "value": "l1.png"
+            },
+            {
+              "appearance": "dark",
+              "value": "l1-dark.png"
+            }
+          ]
+        }
+      ],
+      "lighting": "individual",
+      "name": "돌",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "specular": true,
+      "translucency": {
+        "enabled": false,
+        "value": 0
+      }
+    },
+    {
+      "layers": [
+        {
+          "glass": true,
+          "name": "l0",
+          "image-name-specializations": [
+            {
+              "value": "l0.png"
+            },
+            {
+              "appearance": "dark",
+              "value": "l0-dark.png"
+            }
+          ]
+        }
+      ],
+      "lighting": "individual",
+      "name": "물살",
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "specular": true,
+      "translucency": {
+        "enabled": true,
+        "value": 0.5
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  }
+}
