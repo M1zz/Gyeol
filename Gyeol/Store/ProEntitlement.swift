@@ -132,8 +132,15 @@ enum ProEntitlement {
     /// ⚠️ 끄더라도 기기 안 기록은 그대로다. iCloud 쪽 사본도 지우지 않는다.
     static var syncsWithICloud: Bool {
         guard syncWanted else { return false }
-        // (iOS 에서 상품을 못 본 기기는 아래 `tier` 가 Pro 라 어차피 켠다.)
-        if cachedTier == nil { return true }
+        if cachedTier == nil {
+            // 맥 앱은 요금제와 함께 처음 나왔다. 확인 전에는 켜지 않고, Pro 로 확인되면 다음 실행부터 켠다.
+            #if os(macOS)
+            return false
+            #else
+            // (상품을 못 본 기기는 아래 `tier` 가 Pro 라 어차피 켠다.)
+            return true
+            #endif
+        }
         return tier >= PlanFeature.iCloudSync.tier
     }
 

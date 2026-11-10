@@ -47,7 +47,7 @@ extension PlanFeature {
         case .tagTimelines:  String(localized: "해시태그 타임라인 저장")
         case .cardStyles:    String(localized: "카드 디자인 네 가지 전부")
         case .iCloudSync:    String(localized: "iCloud 동기화")
-        case .siri:          String(localized: "Siri · 단축어로 순간 추가")
+        case .siri:          String(localized: "Siri · 단축어로 순간 추가") + PlanFeature.otherDevicesOnly
         }
     }
 
@@ -73,6 +73,17 @@ extension PlanFeature {
 
     /// 처음 고를 길. 평생 기록을 지키는 동기화는 평생이 맞다. 나머지는 연 구독.
     var suggestedTerm: LeeoPlanTerm { self == .iCloudSync ? .lifetime : .yearly }
+}
+
+extension PlanFeature {
+    /// 맥 앱에는 Siri · 단축어로 남기기가 없다. 같은 구매로 iPhone · iPad 에서 열리므로, 맥에서는 이름 뒤에 그렇게 적는다.
+    static var otherDevicesOnly: String {
+        #if os(macOS)
+        " (iPhone · iPad)"
+        #else
+        ""
+        #endif
+    }
 }
 
 struct PaywallView: View {
@@ -411,7 +422,7 @@ struct PlanComparisonTable: View {
                 cells: [.text(String(localized: "\(freeStyles)개")), .text(String(localized: "\(allStyles)개")),
                         .text(String(localized: "\(allStyles)개"))]),
             Row(label: String(localized: "iCloud 동기화 · 여러 기기"), cells: [.no, .no, .yes]),
-            Row(label: String(localized: "Siri · 단축어"), cells: [.no, .no, .yes]),
+            Row(label: String(localized: "Siri · 단축어") + PlanFeature.otherDevicesOnly, cells: [.no, .no, .yes]),
         ]
     }
 

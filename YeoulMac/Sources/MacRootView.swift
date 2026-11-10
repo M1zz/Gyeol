@@ -114,6 +114,14 @@ struct MacRootView: View {
     }
 
     private func selectFirstIfNeeded() {
+        #if DEBUG
+        // 스토어 스크린샷: 찍을 타임라인을 곧장 고른다.
+        if ScreenshotDemo.isActive, selection == nil,
+           let i = ScreenshotDemo.index("-demoTimeline"), timelines.indices.contains(i) {
+            selection = timelines[i]
+            return
+        }
+        #endif
         if selection == nil { selection = timelines.first }
     }
 
