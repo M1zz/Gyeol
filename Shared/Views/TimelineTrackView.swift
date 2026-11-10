@@ -13,16 +13,21 @@ struct TimelineTrackView: View {
     @Binding var expanded: PersistentIdentifier?
     var onEdit: (TimelineEvent) -> Void
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    /// 최근 것부터 볼 것인가. 받은 `events` 는 늘 시간 순이고, 그리는 차례만 뒤집는다.
+    @AppStorage(TimelineOrder.newestFirstKey) private var newestFirst = false
 
     var body: some View {
         let scale = TrackScale(dates: events.map(\.date))
+        let events = newestFirst ? Array(self.events.reversed()) : self.events
 
         return ScrollViewReader { proxy in
             ScrollView {
                 VStack(spacing: 0) {
                     ForEach(Array(events.enumerated()), id: \.element.id) { index, event in
                         if index > 0 {
-                            TimeGapView(from: events[index - 1].date, to: event.date, scale: scale)
+                            // 어느 차례로 그리든 간격은 이른 날에서 늦은 날까지다.
+                            TimeGapView(from: min(events[index - 1].date, event.date),
+                                        to: max(events[index - 1].date, event.date), scale: scale)
                         }
                         TimelineNodeView(
                             event: event,

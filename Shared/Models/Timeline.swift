@@ -44,6 +44,11 @@ extension Array where Element == TimelineEvent {
     }
 }
 
+enum TimelineOrder {
+    /// 타임라인을 최근 것부터 그릴 것인가. 앱 전체에 하나이고, 처음엔 오래된 것부터다.
+    static let newestFirstKey = "timeline.newestFirst"
+}
+
 enum TimelinePalette {
     static let hexes = ["2E6B5E", "B3472B", "3A5BA0", "8A5A9E", "C08A1E", "4A4A4A"]
 
