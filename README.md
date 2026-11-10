@@ -8,10 +8,10 @@ SwiftUI + SwiftData. iOS 17+, Xcode 16+ (file-system-synchronized groups 사용)
 ## 구성
 | | |
 |---|---|
-| `Gyeol.xcodeproj` | iOS 앱 (타깃 `Gyeol` — 내부 코드명) |
+| `Yeoul.xcodeproj` | iOS 앱 (타깃 `Yeoul` — 내부 코드명) |
 | `YeoulMac/YeoulMac.xcodeproj` | macOS 앱 (타깃 `YeoulMac`). 배포 설정은 `YeoulMac/deploy.env` |
 | `Shared/` | 두 앱이 함께 쓰는 모델·카드·타임라인 |
-| `Gyeol/` | iOS 전용 화면 |
+| `Yeoul/` | iOS 전용 화면 |
 | `YeoulMac/Sources/` | macOS 전용 화면 |
 | `Config/` | Info.plist 조각과 entitlements (동기화 그룹 밖에 두어야 리소스로 중복 복사되지 않음) |
 
@@ -19,7 +19,7 @@ SwiftUI + SwiftData. iOS 17+, Xcode 16+ (file-system-synchronized groups 사용)
 프로젝트 파일을 건드리지 않아도 양쪽에 들어갑니다.
 
 ## 열기
-1. iOS는 `Gyeol.xcodeproj`, 맥은 `YeoulMac/YeoulMac.xcodeproj`
+1. iOS는 `Yeoul.xcodeproj`, 맥은 `YeoulMac/YeoulMac.xcodeproj`
 2. Signing & Capabilities에서 **본인 Team 선택**
 3. Run
 
@@ -93,14 +93,14 @@ CloudKit을 쓰므로 **제대로 서명된 빌드만 실행됩니다.** 권한 
 `Tools/MakeAppIcon.swift`가 아이콘을 그립니다. 다시 만들려면:
 
 ```
-xcrun swift Tools/MakeAppIcon.swift Gyeol/Assets.xcassets/AppIcon.appiconset
+xcrun swift Tools/MakeAppIcon.swift Yeoul/Assets.xcassets/AppIcon.appiconset
 ```
 
 글자는 AppleMyungjo로 세운 '여울' — 타임라인의 날짜·제목이 쓰는 serif와 같은 결입니다.
 바탕의 옅은 가로줄은 물결의 결이고요. 라이트·다크·틴트 3종을 뽑으며, App Store가 투명도가
 있는 아이콘을 거부하므로 알파 채널 없이(`noneSkipLast`) 렌더합니다.
 
-번들 ID는 `com.leeo.yeoul`. 프로젝트·타깃 이름은 아직 `Gyeol`인 내부 코드명입니다.
+번들 ID는 `com.leeo.yeoul`. 프로젝트·타깃 이름은 아직 `Yeoul`인 내부 코드명입니다.
 
 ## iCloud 공유
 두 앱이 같은 private CloudKit 컨테이너 `iCloud.com.leeo.yeoul`을 엽니다(`Shared/Support/Store`).

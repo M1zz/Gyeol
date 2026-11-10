@@ -1,7 +1,7 @@
 import XCTest
 import SwiftData
 
-// 칸마다 여는 것(Shared/Support/Plan.swift)과 기본 내보내기. 영수증 쪽(Gyeol/Store)은 LeeoKit 이 있어 여기서 돌지 않는다.
+// 칸마다 여는 것(Shared/Support/Plan.swift)과 기본 내보내기. 영수증 쪽(Yeoul/Store)은 LeeoKit 이 있어 여기서 돌지 않는다.
 
 final class PlanAccessTests: XCTestCase {
     private func access(_ tier: PlanTier) -> PlanAccess {

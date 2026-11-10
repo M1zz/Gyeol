@@ -1,11 +1,11 @@
 //
 //  YeoulSpec.swift
-//  Gyeol
+//  Yeoul
 //
 //  LeeoKit 계약(LeeoAppSpec) 준수 — 이 앱의 공통 기능 설정값 단일 소스.
 //  피드백·리뷰·진단 구현은 전부 LeeoKit 에 있고, 앱은 이 설정만 제공한다.
 //
-//  iOS 타깃(Gyeol)과 맥 타깃(YeoulMac)이 함께 쓴다. Shared/ 에 두지 않는 까닭은 시험 번들이
+//  iOS 타깃(Yeoul)과 맥 타깃(YeoulMac)이 함께 쓴다. Shared/ 에 두지 않는 까닭은 시험 번들이
 //  Shared/ 를 LeeoKit 없이 컴파일하기 때문이다.
 //
 
@@ -39,7 +39,7 @@ enum YeoulSpec: LeeoAppSpec {
     static let appStoreID: String? = "6808471728"
 
     /// 수익모델 (LeeoKit 3.x 부터 필수) — 무료 다운로드 + 무료 · Plus · Pro.
-    /// 칸마다 무엇이 열리는지는 Shared/Support/Plan.swift, 상품 ID 는 Gyeol/Store/ProEntitlement.swift.
+    /// 칸마다 무엇이 열리는지는 Shared/Support/Plan.swift, 상품 ID 는 Yeoul/Store/ProEntitlement.swift.
     static let monetization = LeeoMonetization.freemiumSubscription(
         LeeoSubscriptionConfig(
             productIDs: ProEntitlement.productIDs,

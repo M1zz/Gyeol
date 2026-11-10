@@ -11,7 +11,7 @@
 
 ## 완료
 - [x] 빌드 에러 해결 — `DEVELOPMENT_TEAM = QGAQ3AY3R3`을 Debug/Release 타겟에 추가
-      (원인: 팀 미설정 → 실기기 빌드 시 "Signing for 'Gyeol' requires a development team")
+      (원인: 팀 미설정 → 실기기 빌드 시 "Signing for 'Yeoul' requires a development team")
 - [x] 키보드가 안 내려가는 문제 — `@FocusState` + 키보드 툴바 "완료" +
       드래그로 내리기(`scrollDismissesKeyboard`) + 입력 필드 바깥 탭 시 내림(`Support/KeyboardDismiss`)
 - [x] 타임라인을 세로로 전환 (`TimelineTrackView`) — 아이폰 세로 비율에 맞춤
@@ -68,7 +68,7 @@
 - [ ] 카드 이미지로 내보내 공유하기
 - [ ] **실제 iCloud 동기화 확인** — 프로비저닝 프로파일이 있어야 검증 가능 (아래 참고)
 - [ ] 맥 전용: 여러 타임라인 나란히 보기, 창 여러 개
-- [ ] 원하면 프로젝트·타깃·디렉터리·GitHub 레포 이름까지 Yeoul로 개명 (지금은 내부 코드명이 Gyeol)
+- [ ] 원하면 프로젝트·타깃·디렉터리·GitHub 레포 이름까지 Yeoul로 개명 (지금은 내부 코드명이 Yeoul)
 
 ## 확인 필요
 CloudKit 동기화는 **아직 실제로 확인하지 못했습니다.** App ID에 iCloud 기능을 켜고

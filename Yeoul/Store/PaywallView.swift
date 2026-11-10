@@ -1,6 +1,6 @@
 //
 //  PaywallView.swift
-//  Gyeol
+//  Yeoul
 //
 //  Plus · Pro 를 파는 한 장. 칸 카드 둘(칸마다 연 구독 / 평생, 주 · 월은 펼쳐서) → 세 칸 비교표 → 약관.
 //

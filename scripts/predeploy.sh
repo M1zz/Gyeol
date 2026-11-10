@@ -13,9 +13,9 @@ set -e
 ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
 cd "$ROOT"
 
-SCHEME="Gyeol"
+SCHEME="Yeoul"
 PROJECT_FLAG="-project"
-PROJECT="Gyeol.xcodeproj"
+PROJECT="Yeoul.xcodeproj"
 
 # 시뮬레이터는 **가장 최신 iOS 런타임의 iPhone** 으로 고른다. SIM_UDID 를 주면 그 기기를 쓴다(여러 작업이 한 맥을 나눠 쓸 때).
 # `grep iPhone | head -1` 로 고르면 구버전 런타임 기기가 먼저 잡혀
@@ -42,11 +42,11 @@ if [ -z "$DEST_ID" ]; then
 fi
 DEST="platform=iOS Simulator,id=$DEST_ID"
 
-# 핵심 로직(시간 간격 배율 · 기간 라벨 · 태그 · 정렬) 단위 테스트 — Shared/ 를 직접 컴파일하는 GyeolTests.
-echo "🧪 단위 테스트 (GyeolTests)"
+# 핵심 로직(시간 간격 배율 · 기간 라벨 · 태그 · 정렬) 단위 테스트 — Shared/ 를 직접 컴파일하는 YeoulTests.
+echo "🧪 단위 테스트 (YeoulTests)"
 xcodebuild test \
   "$PROJECT_FLAG" "$PROJECT" \
-  -scheme GyeolTests \
+  -scheme YeoulTests \
   -destination "$DEST" \
   -quiet
 

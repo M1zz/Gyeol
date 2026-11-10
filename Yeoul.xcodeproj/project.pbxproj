@@ -11,14 +11,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1000000000000000000AA01 /* Gyeol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gyeol.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1000000000000000000AA40 /* GyeolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyeolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1000000000000000000AA01 /* Yeoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yeoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1000000000000000000AA40 /* YeoulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeoulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A1000000000000000000AA02 /* Gyeol */ = {
+		A1000000000000000000AA02 /* Yeoul */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Gyeol;
+			path = Yeoul;
 			sourceTree = "<group>";
 		};
 		A1000000000000000000AA20 /* Shared */ = {
@@ -26,9 +26,9 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		A1000000000000000000AA41 /* GyeolTests */ = {
+		A1000000000000000000AA41 /* YeoulTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GyeolTests;
+			path = YeoulTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -56,8 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				A1000000000000000000AA20 /* Shared */,
-				A1000000000000000000AA02 /* Gyeol */,
-				A1000000000000000000AA41 /* GyeolTests */,
+				A1000000000000000000AA02 /* Yeoul */,
+				A1000000000000000000AA41 /* YeoulTests */,
 				A1000000000000000000AA05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,8 +65,8 @@
 		A1000000000000000000AA05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1000000000000000000AA01 /* Gyeol.app */,
-				A1000000000000000000AA40 /* GyeolTests.xctest */,
+				A1000000000000000000AA01 /* Yeoul.app */,
+				A1000000000000000000AA40 /* YeoulTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1000000000000000000AA06 /* Gyeol */ = {
+		A1000000000000000000AA06 /* Yeoul */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1000000000000000000AA07 /* Build configuration list for PBXNativeTarget "Gyeol" */;
+			buildConfigurationList = A1000000000000000000AA07 /* Build configuration list for PBXNativeTarget "Yeoul" */;
 			buildPhases = (
 				A1000000000000000000AA08 /* Sources */,
 				A1000000000000000000AA03 /* Frameworks */,
@@ -88,19 +88,19 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A1000000000000000000AA20 /* Shared */,
-				A1000000000000000000AA02 /* Gyeol */,
+				A1000000000000000000AA02 /* Yeoul */,
 			);
-			name = Gyeol;
+			name = Yeoul;
 			packageProductDependencies = (
 				A1000000000000000000AA32 /* LeeoKit */,
 			);
-			productName = Gyeol;
-			productReference = A1000000000000000000AA01 /* Gyeol.app */;
+			productName = Yeoul;
+			productReference = A1000000000000000000AA01 /* Yeoul.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A1000000000000000000AA43 /* GyeolTests */ = {
+		A1000000000000000000AA43 /* YeoulTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1000000000000000000AA44 /* Build configuration list for PBXNativeTarget "GyeolTests" */;
+			buildConfigurationList = A1000000000000000000AA44 /* Build configuration list for PBXNativeTarget "YeoulTests" */;
 			buildPhases = (
 				A1000000000000000000AA45 /* Sources */,
 				A1000000000000000000AA42 /* Frameworks */,
@@ -112,11 +112,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A1000000000000000000AA20 /* Shared */,
-				A1000000000000000000AA41 /* GyeolTests */,
+				A1000000000000000000AA41 /* YeoulTests */,
 			);
-			name = GyeolTests;
-			productName = GyeolTests;
-			productReference = A1000000000000000000AA40 /* GyeolTests.xctest */;
+			name = YeoulTests;
+			productName = YeoulTests;
+			productReference = A1000000000000000000AA40 /* YeoulTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A1000000000000000000AA11 /* Build configuration list for PBXProject "Gyeol" */;
+			buildConfigurationList = A1000000000000000000AA11 /* Build configuration list for PBXProject "Yeoul" */;
 			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -177,8 +177,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1000000000000000000AA06 /* Gyeol */,
-				A1000000000000000000AA43 /* GyeolTests */,
+				A1000000000000000000AA06 /* Yeoul */,
+				A1000000000000000000AA43 /* YeoulTests */,
 			);
 		};
 /* End PBXProject section */
@@ -376,7 +376,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1000000000000000000AA07 /* Build configuration list for PBXNativeTarget "Gyeol" */ = {
+		A1000000000000000000AA07 /* Build configuration list for PBXNativeTarget "Yeoul" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1000000000000000000AA14 /* Debug */,
@@ -385,7 +385,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1000000000000000000AA11 /* Build configuration list for PBXProject "Gyeol" */ = {
+		A1000000000000000000AA11 /* Build configuration list for PBXProject "Yeoul" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1000000000000000000AA12 /* Debug */,
@@ -394,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1000000000000000000AA44 /* Build configuration list for PBXNativeTarget "GyeolTests" */ = {
+		A1000000000000000000AA44 /* Build configuration list for PBXNativeTarget "YeoulTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1000000000000000000AA47 /* Debug */,

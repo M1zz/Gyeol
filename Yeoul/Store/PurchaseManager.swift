@@ -1,6 +1,6 @@
 //
 //  PurchaseManager.swift
-//  Gyeol
+//  Yeoul
 //
 //  Plus · Pro 를 파는 자리. **속은 전부 `LeeoStore` 다.**
 //  상품 로드 · 구매 · 복원 · 거래 리스너(다른 기기, 가족 공유, 구입 요청 승인, 환불, 만료)는 LeeoStore 안에 있다.

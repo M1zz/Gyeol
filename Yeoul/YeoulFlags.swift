@@ -1,6 +1,6 @@
 //
 //  YeoulFlags.swift
-//  Gyeol
+//  Yeoul
 //
 //  원격 킬스위치 — LeeoKit(LeeoRemoteFlags)이 FeedbackHub 의 RemoteFlags 레코드에서 읽는다.
 //

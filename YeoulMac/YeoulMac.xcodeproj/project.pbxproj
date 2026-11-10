@@ -15,11 +15,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B1000000000000000000BB22 /* Exceptions for "Gyeol" folder in "YeoulMac" target */ = {
+		B1000000000000000000BB22 /* Exceptions for "Yeoul" folder in "YeoulMac" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				AppShortcuts.xcstrings,
-				GyeolApp.swift,
+				YeoulApp.swift,
 				Shortcuts/AddEventIntent.swift,
 				Shortcuts/EventSearchIntents.swift,
 				Views/SettingsView.swift,
@@ -31,13 +31,13 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B1000000000000000000BB21 /* Gyeol */ = {
+		B1000000000000000000BB21 /* Yeoul */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				B1000000000000000000BB22 /* Exceptions for "Gyeol" folder in "YeoulMac" target */,
+				B1000000000000000000BB22 /* Exceptions for "Yeoul" folder in "YeoulMac" target */,
 			);
-			name = Gyeol;
-			path = ../Gyeol;
+			name = Yeoul;
+			path = ../Yeoul;
 			sourceTree = "<group>";
 		};
 		B1000000000000000000BB20 /* Shared */ = {
@@ -68,7 +68,7 @@
 		B1000000000000000000BB04 = {
 			isa = PBXGroup;
 			children = (
-				B1000000000000000000BB21 /* Gyeol */,
+				B1000000000000000000BB21 /* Yeoul */,
 				B1000000000000000000BB20 /* Shared */,
 				B1000000000000000000BB02 /* Sources */,
 				B1000000000000000000BB05 /* Products */,
@@ -99,7 +99,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B1000000000000000000BB21 /* Gyeol */,
+				B1000000000000000000BB21 /* Yeoul */,
 				B1000000000000000000BB20 /* Shared */,
 				B1000000000000000000BB02 /* Sources */,
 			);
@@ -266,7 +266,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.yeoul;
 				PRODUCT_NAME = "여울";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -296,7 +296,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.yeoul;
 				PRODUCT_NAME = "여울";
 				SWIFT_EMIT_LOC_STRINGS = YES;

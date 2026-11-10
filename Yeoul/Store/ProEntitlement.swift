@@ -1,6 +1,6 @@
 //
 //  ProEntitlement.swift
-//  Gyeol
+//  Yeoul
 //
 //  상품 ID 와 "지금 어느 칸인가"의 한 줄. 무엇이 어느 칸인지는 `Shared/Support/Plan.swift` 에 있다.
 //

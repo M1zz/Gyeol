@@ -4,7 +4,7 @@ import TipKit
 import LeeoKit
 
 @main
-struct GyeolApp: App {
+struct YeoulApp: App {
     @Environment(\.scenePhase) private var scenePhase
     init() {
         // LeeoKit 계약을 켜는 한 줄 (→ YeoulSpec.swift). 실행 횟수 기록 · 익명 사용 통계 ·

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1000000000000000000AA06"
-               BuildableName = "Gyeol.app"
-               BlueprintName = "Gyeol"
-               ReferencedContainer = "container:Gyeol.xcodeproj">
+               BuildableName = "Yeoul.app"
+               BlueprintName = "Yeoul"
+               ReferencedContainer = "container:Yeoul.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1000000000000000000AA06"
-            BuildableName = "Gyeol.app"
-            BlueprintName = "Gyeol"
-            ReferencedContainer = "container:Gyeol.xcodeproj">
+            BuildableName = "Yeoul.app"
+            BlueprintName = "Yeoul"
+            ReferencedContainer = "container:Yeoul.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <StoreKitConfigurationFileReference
@@ -63,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1000000000000000000AA06"
-            BuildableName = "Gyeol.app"
-            BlueprintName = "Gyeol"
-            ReferencedContainer = "container:Gyeol.xcodeproj">
+            BuildableName = "Yeoul.app"
+            BlueprintName = "Yeoul"
+            ReferencedContainer = "container:Yeoul.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
