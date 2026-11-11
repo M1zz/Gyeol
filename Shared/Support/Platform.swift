@@ -115,7 +115,7 @@ extension View {
 
 /// Opens the system settings page where photo access is granted.
 func openPhotoPrivacySettings() {
-    #if os(iOS)
+    #if canImport(UIKit)
     if let url = URL(string: UIApplication.openSettingsURLString) {
         UIApplication.shared.open(url)
     }
