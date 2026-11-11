@@ -15,9 +15,11 @@ struct TimelineTrackView: View {
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     /// 최근 것부터 볼 것인가. 받은 `events` 는 늘 시간 순이고, 그리는 차례만 뒤집는다.
     @AppStorage(TimelineOrder.newestFirstKey) private var newestFirst = false
+    /// 흐른 시간만큼 벌릴 것인가, 같은 간격으로 둘 것인가.
+    @AppStorage(TimelineSpacing.evenKey) private var evenSpacing = false
 
     var body: some View {
-        let scale = TrackScale(dates: events.map(\.date))
+        let scale = TrackScale(dates: events.map(\.date), even: evenSpacing)
         let events = newestFirst ? Array(self.events.reversed()) : self.events
 
         return ScrollViewReader { proxy in
@@ -94,15 +96,20 @@ enum TrackMetrics {
     static let dotCentreY: CGFloat = 23
     static let minGap: CGFloat = 26
     static let maxGap: CGFloat = 560
+    /// 간격을 일정하게 둘 때의 높이 — 흐른 시간을 적은 글 한 줄이 편히 들어간다.
+    static let evenGap: CGFloat = 44
     /// Roughly how tall the whole track should be before clamping kicks in.
     static let idealTotal: CGFloat = 2400
 }
 
 /// Maps elapsed time to vertical distance with a single scale for the whole track.
+/// With `even` on, every gap is the same height instead — the label still says how long it was.
 struct TrackScale {
     let pointsPerDay: CGFloat
+    let even: Bool
 
-    init(dates: [Date]) {
+    init(dates: [Date], even: Bool = false) {
+        self.even = even
         guard let first = dates.first, let last = dates.last, dates.count > 1 else {
             pointsPerDay = 1
             return
@@ -113,6 +120,7 @@ struct TrackScale {
 
     /// The drawn height for a gap, plus whether it had to be cut short to stay scrollable.
     func gap(days: Double) -> (height: CGFloat, isCompressed: Bool) {
+        if even { return (TrackMetrics.evenGap, false) }
         let raw = CGFloat(max(0, days)) * pointsPerDay
         return (min(max(raw, TrackMetrics.minGap), TrackMetrics.maxGap), raw > TrackMetrics.maxGap)
     }

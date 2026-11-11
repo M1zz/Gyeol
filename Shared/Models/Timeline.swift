@@ -49,6 +49,11 @@ enum TimelineOrder {
     static let newestFirstKey = "timeline.newestFirst"
 }
 
+enum TimelineSpacing {
+    /// 순간 사이를 흐른 시간과 상관없이 같은 간격으로 그릴 것인가. 앱 전체에 하나이고, 처음엔 흐른 시간만큼이다.
+    static let evenKey = "timeline.evenSpacing"
+}
+
 enum TimelinePalette {
     static let hexes = ["2E6B5E", "B3472B", "3A5BA0", "8A5A9E", "C08A1E", "4A4A4A"]
 

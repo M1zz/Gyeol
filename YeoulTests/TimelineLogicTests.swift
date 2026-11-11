@@ -66,6 +66,17 @@ final class TrackScaleTests: XCTestCase {
         XCTAssertEqual(three.height / five.height, 3.0 / 5.0, accuracy: 0.0001)
     }
 
+    /// 간격을 일정하게 두면 사흘이든 삼십 년이든 같은 높이이고, 줄여 그렸다는 표시도 없다.
+    func testEvenSpacingDrawsEveryGapAlike() {
+        let start = Date(timeIntervalSince1970: 0)
+        let scale = TrackScale(dates: [start, start.addingTimeInterval(8 * day)], even: true)
+        for days in [0.01, 3, 10_000] {
+            let gap = scale.gap(days: days)
+            XCTAssertEqual(gap.height, TrackMetrics.evenGap)
+            XCTAssertFalse(gap.isCompressed)
+        }
+    }
+
     func testShortGapIsHeldAtMinimum() {
         let start = Date(timeIntervalSince1970: 0)
         let scale = TrackScale(dates: [start, start.addingTimeInterval(3650 * day)])

@@ -11,6 +11,7 @@ struct TimelineDetailView: View {
     @State private var showingNewEvent = false
     @State private var showingSettings = false
     @AppStorage(TimelineOrder.newestFirstKey) private var newestFirst = false
+    @AppStorage(TimelineSpacing.evenKey) private var evenSpacing = false
 
     /// A saved tag timeline owns no events — it gathers them from the whole store instead.
     private var events: [TimelineEvent] {
@@ -74,6 +75,10 @@ struct TimelineDetailView: View {
                         Picker("정렬", selection: $newestFirst) {
                             Text("오래된 것부터").tag(false)
                             Text("최근 것부터").tag(true)
+                        }
+                        Picker("간격", selection: $evenSpacing) {
+                            Text("흐른 시간만큼").tag(false)
+                            Text("일정하게").tag(true)
                         }
                     }
                     // 기본 내보내기 — 어느 칸에서나 무료다. 메모 · 메일에 그대로 붙여 넣을 수 있는 글로.
