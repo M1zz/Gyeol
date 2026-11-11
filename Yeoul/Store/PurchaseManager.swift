@@ -87,6 +87,11 @@ final class PurchaseManager {
 
     /// 영수증을 다시 읽어 칸을 정한다. 앱이 켜질 때와 돌아올 때마다 부른다.
     func refresh() async {
+        #if DEBUG
+        // 스토어 스크린샷: 시뮬레이터에 Apple 계정이 없어 StoreKit 이 로그인 창을 띄운다(visionOS 는 매번).
+        // 예시 기록만 보여 주면 되므로 영수증 · 상품은 읽지 않는다 (칸은 ProEntitlement 가 Pro 로 답한다).
+        if ScreenshotDemo.isActive { entitlementsChecked = true; return }
+        #endif
         await store.refreshEntitlements()
         await store.loadProducts()
         entitlementsChecked = true

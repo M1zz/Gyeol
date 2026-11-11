@@ -88,7 +88,7 @@ enum ProEntitlement {
         #if DEBUG
         if ScreenshotDemo.isActive { return .pro }
         #endif
-        #if os(iOS)
+        #if !os(macOS)
         guard everSold else { return .pro }
         #endif
         // 맥 앱은 요금제와 함께 처음 나왔다. 상품을 못 본 기기라고 열어 둘 까닭이 없다.
