@@ -1,76 +1,67 @@
 import AppKit
-import CoreText
 
-// Renders the 여울 app icon. The syllables are set in AppleMyungjo to match the serif the
-// timeline uses for dates and titles; the faint ruled ground is the grain of the water.
+// Flattens the Icon Composer icon (Shared/AppIcon.icon) into the plain PNGs of
+// AppIcon.appiconset, so systems older than iOS 26 / macOS 26 show the same 여울.
+//
+//   swift Tools/MakeAppIcon.swift Shared/AppIcon.icon Shared/Assets.xcassets/AppIcon.appiconset
+//
+// ictool renders the glass icon already clipped to its rounded shape. iOS wants a full
+// square without alpha and clips it itself, so each iOS render is laid on the icon's own
+// background; the Mac keeps its shape and sits in the usual 824-of-1024 grid.
 
-let size: CGFloat = 1024
-let syllables = ["여", "울"]
+let ictool = "/Applications/Xcode.app/Contents/Applications/Icon Composer.app/Contents/Executables/ictool"
+let args = CommandLine.arguments
+let (icon, out) = (args[1], args[2])
+let tmp = FileManager.default.temporaryDirectory.appendingPathComponent("yeoul-icon")
+try? FileManager.default.createDirectory(at: tmp, withIntermediateDirectories: true)
 
-func hex(_ v: UInt32, _ a: CGFloat = 1) -> NSColor {
-    NSColor(srgbRed: CGFloat((v >> 16) & 0xFF)/255, green: CGFloat((v >> 8) & 0xFF)/255,
-            blue: CGFloat(v & 0xFF)/255, alpha: a)
+func export(_ platform: String, _ rendition: String) -> CGImage {
+    let file = tmp.appendingPathComponent("\(platform)-\(rendition).png").path
+    let p = Process()
+    p.executableURL = URL(fileURLWithPath: ictool)
+    p.arguments = [icon, "--export-image", "--output-file", file, "--platform", platform,
+                   "--rendition", rendition, "--width", "1024", "--height", "1024", "--scale", "1"]
+    p.standardOutput = FileHandle.nullDevice
+    try! p.run(); p.waitUntilExit()
+    return NSBitmapImageRep(data: try! Data(contentsOf: URL(fileURLWithPath: file)))!.cgImage!
 }
 
-struct Variant {
-    let name: String
-    let top: NSColor
-    let bottom: NSColor
-    let ink: NSColor
-    let grain: NSColor
+func p3(_ r: CGFloat, _ g: CGFloat, _ b: CGFloat) -> CGColor {
+    CGColor(colorSpace: CGColorSpace(name: CGColorSpace.displayP3)!, components: [r, g, b, 1])!
 }
 
-func render(_ v: Variant) -> Data {
-    // No alpha channel: the App Store rejects icons with transparency.
-    let ctx = CGContext(data: nil, width: Int(size), height: Int(size), bitsPerComponent: 8,
-                        bytesPerRow: 0, space: CGColorSpaceCreateDeviceRGB(),
-                        bitmapInfo: CGImageAlphaInfo.noneSkipLast.rawValue)!
-
-    let colors = [v.top.cgColor, v.bottom.cgColor] as CFArray
-    if let g = CGGradient(colorsSpace: CGColorSpaceCreateDeviceRGB(), colors: colors, locations: [0, 1]) {
-        ctx.drawLinearGradient(g, start: CGPoint(x: 0, y: size), end: CGPoint(x: size, y: 0), options: [])
-    }
-
-    ctx.setFillColor(v.grain.cgColor)
-    var y: CGFloat = 60
-    while y < size {
-        ctx.fill(CGRect(x: 0, y: size - y, width: size, height: 3))
-        y += 46
-    }
-
-    func line(_ text: String, _ pt: CGFloat) -> CTLine {
-        let font = NSFont(name: "AppleMyungjo", size: pt) ?? NSFont.systemFont(ofSize: pt, weight: .medium)
-        return CTLineCreateWithAttributedString(
-            NSAttributedString(string: text, attributes: [.font: font, .foregroundColor: v.ink])
-        )
-    }
-
-    // Set both syllables on one line and size by their *ink*, not the line box — the
-    // line box carries ascender/descender space the glyphs never reach, which would
-    // push the wordmark off centre and shrink it.
-    let probe: CGFloat = 400
-    let probeInk = CTLineGetImageBounds(line(syllables.joined(), probe), ctx)
-    let pt = probe * (700 / max(probeInk.width, probeInk.height))
-
-    let wordmark = line(syllables.joined(), pt)
-    let ink = CTLineGetImageBounds(wordmark, ctx)
-    ctx.textPosition = CGPoint(x: size/2 - ink.midX, y: size/2 - ink.midY)
-    CTLineDraw(wordmark, ctx)
-
-    return NSBitmapImageRep(cgImage: ctx.makeImage()!).representation(using: .png, properties: [:])!
+func write(_ ctx: CGContext, _ name: String) {
+    let png = NSBitmapImageRep(cgImage: ctx.makeImage()!).representation(using: .png, properties: [:])!
+    try! png.write(to: URL(fileURLWithPath: "\(out)/\(name).png"))
+    print("wrote \(name).png")
 }
 
-let variants = [
-    Variant(name: "AppIcon", top: hex(0x35786A), bottom: hex(0x1B4036),
-            ink: hex(0xF4EEE1), grain: hex(0xFFFFFF, 0.05)),
-    Variant(name: "AppIcon-Dark", top: hex(0x16302A), bottom: hex(0x070D0B),
-            ink: hex(0xBFE6DA), grain: hex(0x7CC0AE, 0.06)),
-    Variant(name: "AppIcon-Tinted", top: hex(0x2E2E2E), bottom: hex(0x000000),
-            ink: hex(0xFFFFFF), grain: hex(0xFFFFFF, 0.06)),
+// iOS — opaque squares. Background = icon.json fill (top → bottom), black for tinted.
+let ios: [(name: String, rendition: String, top: CGColor, bottom: CGColor, gray: Bool)] = [
+    ("AppIcon", "Default", p3(0.18431, 0.65882, 0.59216), p3(0.07451, 0.41569, 0.38039), false),
+    ("AppIcon-Dark", "Dark", p3(0.05882, 0.23137, 0.21176), p3(0.02353, 0.12157, 0.10980), false),
+    ("AppIcon-Tinted", "ClearDark", p3(0, 0, 0), p3(0, 0, 0), true),
 ]
+for v in ios {
+    let space = v.gray ? CGColorSpaceCreateDeviceGray() : CGColorSpace(name: CGColorSpace.sRGB)!
+    let ctx = CGContext(data: nil, width: 1024, height: 1024, bitsPerComponent: 8, bytesPerRow: 0,
+                        space: space, bitmapInfo: (v.gray ? CGImageAlphaInfo.none
+                                                                  : .noneSkipLast).rawValue)!
+    let g = CGGradient(colorsSpace: CGColorSpace(name: CGColorSpace.displayP3),
+                       colors: [v.top, v.bottom] as CFArray, locations: [0, 1])!
+    ctx.drawLinearGradient(g, start: CGPoint(x: 512, y: 1024), end: CGPoint(x: 512, y: 0), options: [])
+    ctx.draw(export("iOS", v.rendition), in: CGRect(x: 0, y: 0, width: 1024, height: 1024))
+    write(ctx, v.name)
+}
 
-let out = CommandLine.arguments[1]
-for v in variants {
-    try! render(v).write(to: URL(fileURLWithPath: "\(out)/\(v.name).png"))
-    print("wrote \(v.name).png")
+// macOS — keeps the rounded shape with transparent margin, at every size the set lists.
+let mac = export("macOS", "Default")
+for px in [16, 32, 64, 128, 256, 512, 1024] {
+    let ctx = CGContext(data: nil, width: px, height: px, bitsPerComponent: 8, bytesPerRow: 0,
+                        space: CGColorSpace(name: CGColorSpace.sRGB)!,
+                        bitmapInfo: CGImageAlphaInfo.premultipliedLast.rawValue)!
+    ctx.interpolationQuality = .high
+    let inset = CGFloat(px) * 100 / 1024
+    ctx.draw(mac, in: CGRect(x: 0, y: 0, width: px, height: px).insetBy(dx: inset, dy: inset))
+    write(ctx, "AppIcon-mac-\(px)")
 }
