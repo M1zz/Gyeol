@@ -11,6 +11,7 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 넓은 창에서 타임라인을 한눈에 펼쳐 봐요.
 기록은 iCloud로 iPhone과 그대로 이어져요.
 앱 아이콘이 새롭게 바뀌었어요.
+iPad에서는 목록과 타임라인을 나란히 펼쳐 봐요.
 
 ### App Store (English)
 
@@ -18,6 +19,7 @@ Now available on Apple Vision Pro.
 See your whole timeline in a wide window.
 Your moments sync with iPhone via iCloud.
 A fresh new app icon.
+On iPad, list and timeline side by side.
 
 ### App Store (en-GB)
 
@@ -25,6 +27,7 @@ Now available on Apple Vision Pro.
 See your whole timeline in a wide window.
 Your moments sync with iPhone via iCloud.
 A fresh new app icon.
+On iPad, list and timeline side by side.
 
 ### 앱스토어 (중국어 간체)
 
@@ -32,6 +35,7 @@ A fresh new app icon.
 在宽大的窗口中一览整条时间线。
 记录通过 iCloud 与 iPhone 保持同步。
 全新的应用图标。
+在 iPad 上，列表和时间线并排展开。
 
 ### 앱스토어 (중국어 번체)
 
@@ -39,6 +43,7 @@ A fresh new app icon.
 在寬敞的視窗中一覽整條時間軸。
 紀錄透過 iCloud 與 iPhone 保持同步。
 全新的 App 圖像。
+在 iPad 上，列表與時間軸並排展開。
 
 ### 앱스토어 (일본어)
 
@@ -46,41 +51,47 @@ Apple Vision Proでも使えるようになりました。
 広いウインドウでタイムラインを一望できます。
 記録はiCloudでiPhoneとそのまま同期します。
 アプリのアイコンが新しくなりました。
+iPadでは一覧とタイムラインを並べて表示します。
 
 ### 앱스토어 (러시아어)
 
 Теперь доступно на Apple Vision Pro.
-Вся хроника в одном широком окне.
+Весь таймлайн в одном широком окне.
 Записи синхронизируются с iPhone через iCloud.
 Новый значок приложения.
+На iPad список и таймлайн рядом.
 
 ### 앱스토어 (스페인어)
 
 Ya disponible en Apple Vision Pro.
-Toda tu cronología en una ventana amplia.
+Tu línea de tiempo en una gran ventana.
 Tus momentos se sincronizan con iPhone vía iCloud.
 Nuevo icono de la app.
+En iPad, lista y línea de tiempo juntas.
 
 ### 앱스토어 (독일어)
 
 Jetzt auch auf Apple Vision Pro.
-Die ganze Timeline in einem breiten Fenster.
+Die ganze Zeitleiste im breiten Fenster.
 Momente per iCloud mit dem iPhone synchron.
 Ein neues App-Symbol.
+Auf dem iPad Liste neben Zeitleiste.
 
 ### 앱스토어 (프랑스어)
 
 Désormais disponible sur Apple Vision Pro.
-Toute votre chronologie dans une large fenêtre.
+Toute la frise dans une large fenêtre.
 Vos moments se synchronisent avec l'iPhone via iCloud.
 Une nouvelle icône pour l'app.
+Sur iPad, liste et frise côte à côte.
 
 ### 앱스토어 (이탈리아어)
 
 Ora disponibile su Apple Vision Pro.
-Tutta la cronologia in una finestra ampia.
+Tutta la timeline in una finestra ampia.
 I tuoi momenti si sincronizzano con iPhone via iCloud.
 Una nuova icona per l'app.
+Su iPad, elenco e timeline affiancati.
 
 ### 앱스토어 (포르투갈어 브라질)
 
@@ -88,6 +99,7 @@ Agora disponível no Apple Vision Pro.
 Veja toda a linha do tempo em uma janela ampla.
 Seus momentos sincronizam com o iPhone pelo iCloud.
 Novo ícone do app.
+No iPad, lista e linha do tempo juntas.
 
 ### 앱스토어 (태국어)
 
@@ -95,6 +107,7 @@ Novo ícone do app.
 ดูไทม์ไลน์ทั้งหมดในหน้าต่างกว้าง
 บันทึกซิงค์กับ iPhone ผ่าน iCloud
 ไอคอนแอปใหม่
+บน iPad ดูรายการคู่กับไทม์ไลน์ได้
 
 ### 앱스토어 (베트남어)
 
@@ -102,6 +115,7 @@ Giờ đã có trên Apple Vision Pro.
 Xem trọn dòng thời gian trong cửa sổ rộng.
 Kỷ niệm đồng bộ với iPhone qua iCloud.
 Biểu tượng ứng dụng mới.
+Trên iPad, danh sách bên dòng thời gian.
 
 ### 앱스토어 (체코어)
 
@@ -109,6 +123,7 @@ Nově dostupné na Apple Vision Pro.
 Celá časová osa v širokém okně.
 Záznamy se synchronizují s iPhonem přes iCloud.
 Nová ikona aplikace.
+Na iPadu seznam a časová osa vedle sebe.
 
 ### 앱스토어 (덴마크어)
 
@@ -116,6 +131,7 @@ Nu også på Apple Vision Pro.
 Hele tidslinjen i ét bredt vindue.
 Dine øjeblikke synkroniseres med iPhone via iCloud.
 Et nyt appsymbol.
+Liste og tidslinje side om side på iPad.
 
 ### 앱스토어 (그리스어)
 
@@ -123,6 +139,7 @@ Et nyt appsymbol.
 Όλο το χρονολόγιο σε ένα φαρδύ παράθυρο.
 Οι στιγμές συγχρονίζονται με το iPhone μέσω iCloud.
 Νέο εικονίδιο εφαρμογής.
+Στο iPad λίστα και χρονολόγιο μαζί.
 
 ### 앱스토어 (핀란드어)
 
@@ -130,13 +147,15 @@ Nyt myös Apple Vision Prolla.
 Koko aikajana yhdessä leveässä ikkunassa.
 Hetket synkronoituvat iPhoneen iCloudin kautta.
 Uusi sovelluskuvake.
+iPadilla lista ja aikajana rinnakkain.
 
 ### 앱스토어 (인도네시아어)
 
 Kini tersedia di Apple Vision Pro.
-Lihat seluruh lini masa di jendela yang lebar.
+Lihat seluruh linimasa di jendela lebar.
 Momen tersinkron dengan iPhone lewat iCloud.
 Ikon aplikasi baru.
+Di iPad, daftar dan linimasa bersisian.
 
 ### 앱스토어 (노르웨이어 보크말, nb)
 
@@ -144,6 +163,7 @@ Nå også på Apple Vision Pro.
 Hele tidslinjen i ett bredt vindu.
 Øyeblikkene synkroniseres med iPhone via iCloud.
 Nytt appsymbol.
+Liste og tidslinje side om side på iPad.
 
 ### 앱스토어 (네덜란드어)
 
@@ -151,6 +171,7 @@ Nu ook op Apple Vision Pro.
 De hele tijdlijn in één breed venster.
 Je momenten synchroniseren met iPhone via iCloud.
 Een nieuw app-icoon.
+Op iPad lijst en tijdlijn naast elkaar.
 
 ### 앱스토어 (폴란드어)
 
@@ -158,6 +179,7 @@ Teraz także na Apple Vision Pro.
 Cała oś czasu w jednym szerokim oknie.
 Wspomnienia synchronizują się z iPhone'em przez iCloud.
 Nowa ikona aplikacji.
+Na iPadzie lista i oś czasu obok siebie.
 
 ### 앱스토어 (스웨덴어)
 
@@ -165,6 +187,7 @@ Nu även på Apple Vision Pro.
 Hela tidslinjen i ett brett fönster.
 Dina ögonblick synkas med iPhone via iCloud.
 En ny appsymbol.
+Lista bredvid tidslinjen på iPad.
 
 ### 앱스토어 (튀르키예어)
 
@@ -172,6 +195,7 @@ Artık Apple Vision Pro'da da kullanılabilir.
 Tüm zaman çizelgesi geniş bir pencerede.
 Anılarınız iCloud ile iPhone'a eşitlenir.
 Yeni uygulama simgesi.
+iPad'de liste ve çizelge yan yana.
 
 ## 1.0.3
 

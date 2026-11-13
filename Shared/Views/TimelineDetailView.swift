@@ -45,7 +45,8 @@ struct TimelineDetailView: View {
         .background(Palette.groupedBackground)
         #if DEBUG
         .onAppear {
-            guard ScreenshotDemo.isActive else { return }
+            // 두 칸일 때 태그 장면 뒤에 깔린 타임라인은 데모 인자를 받지 않는다.
+            guard ScreenshotDemo.isActive, ScreenshotDemo.screen != "tag" else { return }
             if let i = ScreenshotDemo.index("-demoExpand"), events.indices.contains(i) { expanded = events[i].id }
             if let i = ScreenshotDemo.index("-demoEdit"), events.indices.contains(i) {
                 let event = events[i]

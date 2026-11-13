@@ -30,18 +30,32 @@ struct TimelineListView: View {
     @AppStorage(YeoulOnboardingView.seenKey) private var hasSeenOnboarding = false
     // 아이폰 듀오: 펴면 왼쪽(세로면 아래) 목록 | 오른쪽(위) 고른 타임라인 (LeeoKit Fold)
     @Environment(\.foldLayout) private var fold
+    @Environment(\.horizontalSizeClass) private var sizeClass
     /// 펼친 화면에서 오른쪽에 세운 타임라인. 목록에서 열면 여기 남아, 펴고 접어도 그 타임라인이 이어진다.
     @State private var opened: Timeline?
+    /// 두 칸일 때 오른쪽 판 안에서 들어간 길(해시태그 타임라인).
+    @State private var panePath = NavigationPath()
 
     var body: some View {
         // 접혀 있거나 보통 아이폰이면 목록만 그린다. 지금 화면 그대로다.
-        FoldSplitView {
-            list
-        } result: {
-            openedPane
-                .environment(\.foldLayout, .single)
+        Group {
+            if isWidePad {
+                // 넓은 아이패드: 접힌 선 없이 왼쪽 목록 | 오른쪽 고른 타임라인.
+                HStack(spacing: 0) {
+                    list.frame(width: 360)
+                    Divider().ignoresSafeArea()
+                    openedPane
+                }
+            } else {
+                FoldSplitView {
+                    list
+                } result: {
+                    openedPane
+                        .environment(\.foldLayout, .single)
+                }
+            }
         }
-        .onChange(of: fold.isUnfolded) { _, unfolded in carryOpened(unfolded: unfolded) }
+        .onChange(of: split) { _, unfolded in carryOpened(unfolded: unfolded) }
         // Siri · Spotlight 에서 고른 기록의 타임라인을 연다 (→ Shortcuts/EventSearchIntents.swift)
         .onChange(of: router.timelineID) { _, id in
             guard let id, let timeline = timelines.first(where: { $0.persistentModelID == id }) else { return }
@@ -50,6 +64,17 @@ struct TimelineListView: View {
             router.timelineID = nil
         }
     }
+
+    /// 넓은 아이패드인가. Slide Over · 좁은 분할에서는 아이폰처럼 밀어 넣는다.
+    private var isWidePad: Bool {
+        #if os(iOS)
+        UIDevice.current.userInterfaceIdiom == .pad && sizeClass == .regular
+        #else
+        false
+        #endif
+    }
+    /// 두 칸으로 서는가: 펼친 듀오이거나 넓은 아이패드.
+    private var split: Bool { fold.isUnfolded || isWidePad }
 
     private var list: some View {
         NavigationStack(path: $path) {
@@ -78,7 +103,7 @@ struct TimelineListView: View {
                                 .listRowBackground(Color.clear)
                         }
                         ForEach(timelines) { timeline in
-                            if fold.isUnfolded {
+                            if split {
                                 // 펼친 화면: 밀어 넣지 않고 오른쪽 판에 연다.
                                 Button { opened = timeline } label: {
                                     TimelineRow(timeline: timeline, events: events(of: timeline))
@@ -111,6 +136,7 @@ struct TimelineListView: View {
                 ToolbarItem(placement: .primaryAction) {
                     Button(action: newTimeline) { Image(systemName: "plus") }
                         .accessibilityLabel("새 타임라인")
+                        .keyboardShortcut("n")
                 }
             }
             .sheet(isPresented: $showingNew) {
@@ -144,7 +170,7 @@ struct TimelineListView: View {
 
     @ViewBuilder
     private var openedPane: some View {
-        NavigationStack {
+        NavigationStack(path: $panePath) {
             Group {
                 if let shownTimeline {
                     TimelineDetailView(timeline: shownTimeline)
@@ -189,9 +215,13 @@ struct TimelineListView: View {
         guard ScreenshotDemo.isActive, path.isEmpty else { return }
         switch ScreenshotDemo.screen {
         case "trip":
-            if let i = ScreenshotDemo.index("-demoTimeline"), timelines.indices.contains(i) { path.append(timelines[i]) }
+            if let i = ScreenshotDemo.index("-demoTimeline"), timelines.indices.contains(i) {
+                if split { opened = timelines[i] } else { path.append(timelines[i]) }
+            }
         case "tag":
-            if let tag = ScreenshotDemo.value("-demoTag") { path.append(TagRoute(tag: tag)) }
+            if let tag = ScreenshotDemo.value("-demoTag") {
+                if split { panePath.append(TagRoute(tag: tag)) } else { path.append(TagRoute(tag: tag)) }
+            }
         default:
             break
         }

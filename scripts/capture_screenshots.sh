@@ -44,7 +44,10 @@ shot() { # 기기 언어 출력파일 [앱 인자...]
       -demoSeed "$DEMO/$lang.json" -demoPhotos "$PHOTOS" "$@" >/dev/null
   sleep "$WAIT"
   mkdir -p "$(dirname "$out")"
-  t 60 xcrun simctl io "$dev" screenshot "$out" >/dev/null 2>&1
+  # 시뮬레이터는 Documents 아래에 직접 못 쓸 때가 있다 → 임시 파일로 찍고 옮긴다.
+  tmp="${TMPDIR:-/tmp}/yeoul-shot-$$.png"
+  t 60 xcrun simctl io "$dev" screenshot "$tmp" >/dev/null 2>&1
+  mv -f "$tmp" "$out"
   echo "  $out"
 }
 
