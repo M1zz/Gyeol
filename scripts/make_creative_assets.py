@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """App Store 크리에이티브 자산(제품 페이지 헤더 · 검색 결과) 생성: HTML → 헤드리스 Chrome.
 
 사용법: python3 scripts/make_creative_assets.py [언어 ...]     (없으면 전부)
@@ -63,6 +64,7 @@ SEARCH = {
     "pl": ("oś czasu dziennik", "3 dni to 3 dni,<br>2 lata to 2 lata", "Odstępy między wydarzeniami odpowiadają czasowi, który naprawdę minął"),
     "sv": ("tidslinje dagbok", "3 dagar förblir 3 dagar,<br>2 år förblir 2 år", "Avståndet mellan händelser är tiden som faktiskt har gått"),
     "tr": ("zaman çizelgesi günlük", "3 gün 3 gün kalır,<br>2 yıl 2 yıl kalır", "Olaylar arasındaki mesafe gerçekten geçen süre kadardır"),
+    "ar": ("يوميات على خط زمني", "3 أيام تبقى 3 أيام،<br>وسنتان تبقيان سنتين", "المسافة بين اللحظات بقدر الوقت الذي مضى فعلًا"),
 }
 
 # 헤더는 처음 온 사람에게 한 가지 약속만 한다: 흐른 시간이 그대로 보이는 타임라인.
@@ -91,7 +93,11 @@ HEADER = {
     "pl": ("Twoja własna oś czasu", "Oś czasu rozciągająca<br>się wraz z czasem"),
     "sv": ("Din egen tidslinje", "En tidslinje som<br>sträcker sig med tiden"),
     "tr": ("Kendi zaman çizelgen", "Zamanla birlikte<br>uzayan zaman çizelgesi"),
+    "ar": ("خطك الزمني الخاص", "خط زمني يتمدد<br>مع الوقت الحقيقي"),
 }
+
+# 오른쪽에서 왼쪽으로 쓰는 언어: 검색 결과의 글은 오른쪽, 기기는 왼쪽으로 거울처럼 놓는다.
+RTL = {"ar"}
 
 # 바탕은 앱 아이콘의 초록(#347669 → #235146)과 크림색 글씨를 따른다. 아이콘의 가로 괘선도 옅게 깐다.
 BASE_CSS = """
@@ -107,6 +113,8 @@ body { background:linear-gradient(160deg, #347669 0%%, #2a6255 45%%, #1f4a40 100
 .headline { font-weight:800; color:#f6f0e3; letter-spacing:-0.03em; line-height:1.14; text-wrap:balance; }
 .sub { font-weight:500; color:rgba(246,240,227,.72); letter-spacing:-0.01em; line-height:1.35; text-wrap:balance; }
 :lang(ko) .headline, :lang(ko) .sub, :lang(ko) .eyebrow { word-break:keep-all; }
+/* 아랍 글자는 이어 쓰는 글씨라 자간을 줄이면 낱말 사이가 붙는다. */
+:lang(ar) .headline, :lang(ar) .sub, :lang(ar) .eyebrow { letter-spacing:0; word-spacing:0.15em; }
 .phone { position:absolute; background:#101614; border:6px solid #3d4a46; padding:40px; border-radius:190px;
   box-shadow: 0 60px 160px rgba(0,0,0,.45), 0 0 0 2px #1d2624 inset; }
 .phone img { width:100%%; display:block; border-radius:152px; }
@@ -167,12 +175,14 @@ def search_html(lang):
     ph_w = 1040
     ph_left = l + col + int(sw * 0.04)
     img = (RAW / lang / "01-timeline.png").as_uri()
+    rtl = lang in RTL
+    mx = lambda x, w: W - x - w if rtl else x   # 왼쪽 자리를 거울 자리로
     return f"""
 <div class="rules"></div>
-<div class="glow" style="left:{ph_left - 300}px;top:500px;width:1700px;height:1700px;background:rgba(191,227,213,.16)"></div>
-{spine(380, -60, [180, 260, 420, 980, 2120])}
-{phone(img, ph_left, t - 360, ph_w, 0)}
-<div class="text" style="left:{l}px;top:{t}px;width:{col}px;height:{sh}px">
+<div class="glow" style="left:{mx(ph_left - 300, 1700)}px;top:500px;width:1700px;height:1700px;background:rgba(191,227,213,.16)"></div>
+{spine(mx(380, 8), -60, [180, 260, 420, 980, 2120])}
+{phone(img, mx(ph_left, ph_w), t - 360, ph_w, 0)}
+<div class="text" style="left:{mx(l, col)}px;top:{t}px;width:{col}px;height:{sh}px">
   <div class="eyebrow" style="font-size:96px">{eyebrow}</div>
   <div class="headline" data-max="250" data-min="140" style="margin-top:36px">{headline}</div>
   <div class="sub" style="font-size:84px;margin-top:52px">{sub}</div>
@@ -201,7 +211,7 @@ def header_html(lang):
 def render(lang, kind):
     W, H, _ = SPEC[kind]
     body = search_html(lang) if kind == "search" else header_html(lang)
-    page = (f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>'
+    page = (f'<!doctype html><html lang="{lang}" dir="{"rtl" if lang in RTL else "ltr"}"><head><meta charset="utf-8"><style>'
             f'{BASE_CSS % {"W": W, "H": H}}</style></head><body>{body}{FIT_JS}</body></html>')
     html_path = pathlib.Path(tempfile.gettempdir()) / f"yeoul-creative-{lang}-{kind}.html"
     html_path.write_text(page, encoding="utf-8")

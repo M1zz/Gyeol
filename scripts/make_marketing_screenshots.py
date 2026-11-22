@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """App Store 마케팅 스크린샷: 시뮬레이터 원본 캡처 + 헤드라인 → HTML → 헤드리스 Chrome.
 
 사용법: python3 scripts/make_marketing_screenshots.py [언어 ...]   (없으면 전부)
@@ -18,7 +19,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv", "tr": "tr"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv", "tr": "tr", "ar": "ar"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4F1EA", "#2E6B5E", "#1D2A27", "#6B6A63"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -191,6 +192,13 @@ SHOTS = {
         ("04-tag.png", "flat-rotate", "Olayları hashtag’lerle<br>birbirine bağla", "Dağınık kayıtlar yeni bir zaman çizelgesine dönüşür"),
         ("05-editor.png", "dark", "Her olay için<br>ayrı kart tasarımı", "Tarih, not ve etiketler tek ekranda"),
     ],
+    "ar": [
+        ("01-trip.png", "hero-bleed", "خط زمني يتمدد<br>مع الوقت الحقيقي", "ثلاثة أيام وخمسة أيام بنسبة 3 إلى 5، والفجوات الطويلة بخط منقّط"),
+        ("02-iceland.png", "left-text", "احفظ يومك<br>مع صوره", "اختر من أربعة تصاميم للبطاقات"),
+        ("03-expand.png", "text-bottom", "اضغط لتنفتح اللحظة<br>في مكانها", "الصور والقصص بنظرة واحدة"),
+        ("04-tag.png", "flat-rotate", "اربط لحظاتك<br>بالوسوم", "تتحول السجلات المتفرقة إلى خط زمني جديد"),
+        ("05-editor.png", "dark", "تصميم بطاقة<br>لكل لحظة", "التاريخ والملاحظات والوسوم في شاشة واحدة"),
+    ],
 }
 # 아이패드 13" (2064x2752). 원본은 raw/<언어>/ipad-*.png
 IW, IH = 2064, 2752
@@ -339,6 +347,12 @@ SHOTS_IPAD = {
         ("ipad-03-tag.png", "Olayları hashtag’lerle birbirine bağla", "Dağınık kayıtlar yeni bir zaman çizelgesine dönüşür"),
         ("ipad-04-editor.png", "O günün fotoğraflarını ve hikâyesini sakla", "Tarih, not, etiket ve kart tasarımı"),
     ],
+    "ar": [
+        ("ipad-01-trip.png", "خط زمني يتمدد مع الوقت الحقيقي", "ثلاثة أيام وخمسة أيام بنسبة 3 إلى 5، والفجوات الطويلة بخط منقّط"),
+        ("ipad-02-expand.png", "اضغط لتنفتح اللحظة في مكانها", "الصور والقصص بنظرة واحدة"),
+        ("ipad-03-tag.png", "اربط لحظاتك بالوسوم", "تتحول السجلات المتفرقة إلى خط زمني جديد"),
+        ("ipad-04-editor.png", "احفظ صور ذلك اليوم وقصته", "التاريخ والملاحظات والوسوم وتصميم البطاقة"),
+    ],
 }
 IPAD_CSS = f"""
 * {{ margin:0; padding:0; box-sizing:border-box; }}
@@ -349,6 +363,7 @@ body {{ background:{BG}; position:relative;
 .dot {{ display:inline-block; width:30px; height:30px; border-radius:50%; background:{ACCENT}; margin-bottom:56px; }}
 .headline {{ font-size:124px; font-weight:800; color:{INK}; letter-spacing:-0.03em; line-height:1.15; word-break:keep-all; }}
 .sub {{ font-size:60px; font-weight:500; color:{SUB}; margin-top:48px; word-break:keep-all; }}
+:lang(ar) .headline, :lang(ar) .sub {{ letter-spacing:0; word-spacing:0.15em; }}
 .wrap {{ display:flex; justify-content:center; margin-top:130px; }}
 .pad {{ width:1680px; background:#17171a; border-radius:96px; border:4px solid #3a3a3e; padding:36px;
   box-shadow: 50px 80px 120px rgba(20,40,90,.22), 16px 26px 46px rgba(0,0,0,.14); }}
@@ -364,6 +379,8 @@ body {{ background:{BG}; position:relative;
 .headline {{ font-size:96px; font-weight:800; color:{INK}; letter-spacing:-0.03em; line-height:1.18; }}
 .sub {{ font-size:48px; font-weight:500; color:{SUB}; letter-spacing:-0.01em; line-height:1.35; }}
 :lang(ko) .headline, :lang(ko) .sub {{ word-break:keep-all; }}
+/* 아랍 글자는 이어 쓰는 글씨라 자간을 줄이면 낱말 사이가 붙는다. */
+:lang(ar) .headline, :lang(ar) .sub {{ letter-spacing:0; word-spacing:0.15em; }}
 .phone {{ background:#17171a; border-radius:112px; border:3px solid #3a3a3e; padding:24px;
   box-shadow: 50px 80px 120px rgba(20,40,90,.25), 16px 26px 46px rgba(0,0,0,.16); }}
 .phone img {{ width:100%; display:block; border-radius:90px; }}
@@ -406,9 +423,21 @@ body {{ background:#131316; }}
 """,
 }
 
+# 오른쪽에서 왼쪽으로 쓰는 언어: 글은 오른쪽 정렬, 기울인 폰은 거울처럼 반대쪽으로.
+RTL = {"ar"}
+RTL_CSS = {
+    "left-text": """
+.text { text-align:right; padding:260px 110px 0 100px; }
+.wrap { left:auto; right:290px; perspective-origin:70% 30%; }
+.phone { transform:rotateY(-16deg) rotateX(2deg); }
+""",
+    "text-bottom": ".phone { transform:rotateY(10deg) rotateX(2deg); }",
+    "flat-rotate": ".wrap { left:auto; right:120px; } .phone { transform:rotate(6deg); }",
+}
+
 TEXT = '<div class="text"><div class="dot"></div><div class="headline">{headline}</div><div class="sub">{sub}</div></div>'
 PHONE = '<div class="wrap"><div class="phone"><img src="{img}"></div></div>'
-HTML = '<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
+HTML = '<!doctype html><html lang="{lang}" dir="{dir}"><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
 
 
 def chrome_shot(html, png, tmp, size=(W, H)):
@@ -455,7 +484,8 @@ def render(lang):
             phone = PHONE.format(img=src.as_uri())
             body = phone + text if layout == "text-bottom" else text + phone
             html = pathlib.Path(tmp) / f"{lang}-{fname}.html"
-            html.write_text(HTML.format(lang=lang, css=BASE_CSS + LAYOUTS[layout], body=body), encoding="utf-8")
+            html.write_text(HTML.format(lang=lang, dir="rtl" if lang in RTL else "ltr",
+                                         css=BASE_CSS + LAYOUTS[layout] + (RTL_CSS.get(layout, "") if lang in RTL else ""), body=body), encoding="utf-8")
             png = out_dir / fname
             if not any(chrome_shot(html, png, tmp) for _ in range(3)):
                 raise SystemExit(f"그리지 못했다: {png}")
@@ -466,7 +496,7 @@ def render(lang):
             body = (TEXT.format(headline=headline, sub=sub) +
                     f'<div class="wrap"><div class="pad"><img src="{src.as_uri()}"></div></div>')
             html = pathlib.Path(tmp) / f"{lang}-{fname}.html"
-            html.write_text(HTML.format(lang=lang, css=IPAD_CSS, body=body), encoding="utf-8")
+            html.write_text(HTML.format(lang=lang, dir="rtl" if lang in RTL else "ltr", css=IPAD_CSS, body=body), encoding="utf-8")
             png = out_dir / fname
             if not any(chrome_shot(html, png, tmp, (IW, IH)) for _ in range(3)):
                 raise SystemExit(f"그리지 못했다: {png}")
