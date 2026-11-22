@@ -258,6 +258,7 @@
 				EXECUTABLE_NAME = Yeoul;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YeoulMac-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "여울";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -288,6 +289,7 @@
 				EXECUTABLE_NAME = Yeoul;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YeoulMac-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "여울";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -333,7 +335,7 @@
 			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.38.1;
+				minimumVersion = 3.47.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

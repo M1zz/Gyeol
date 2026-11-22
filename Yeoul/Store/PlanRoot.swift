@@ -20,6 +20,8 @@ private struct PlanRoot: ViewModifier {
             })
             // Siri · 단축어가 Pro 를 찾아 앱을 열었다 (→ AddEventIntent).
             .sheet(item: $router.paywall) { PaywallView(highlight: $0) }
+            // App Store 이벤트 링크(<번들 ID>://paywall)로 열리면 요금제를 띄운다 (LeeoKit).
+            .leeoPaywallLink { PaywallView() }
             .sheet(isPresented: $showingGraduation) {
                 LeeoGraduationOfferView(graduate: purchases.product(ProEntitlement.graduateID)) {
                     await purchases.refresh()
