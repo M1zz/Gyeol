@@ -14,7 +14,8 @@
   const DAY = 86400000;
 
   const add = (d, [y, m, dd]) => new Date(d.getFullYear() + y, d.getMonth() + m, d.getDate() + dd);
-  const fmt = new Intl.DateTimeFormat(lang, { year: "numeric", month: "short", day: "numeric" });
+  // 아랍어는 앱처럼 0-9 숫자와 양력으로 적는다.
+  const fmt = new Intl.DateTimeFormat(lang === "ar" ? "ar-u-nu-latn-ca-gregory" : lang, { year: "numeric", month: "short", day: "numeric" });
 
   let events;   // [{date, gap}] gap 은 바로 앞 순간과의 간격 키
   // 처음 모습: 사흘 뒤, 다시 닷새 뒤. 두 간격이 3대 5로 보인다.

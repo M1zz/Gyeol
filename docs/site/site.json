@@ -166,6 +166,12 @@
       "path": "tr/",
       "name": "Türkçe",
       "privacy": "../privacy-tr.html"
+    },
+    {
+      "code": "ar",
+      "path": "ar/",
+      "name": "العربية",
+      "privacy": "../privacy-ar.html"
     }
   ]
 }
