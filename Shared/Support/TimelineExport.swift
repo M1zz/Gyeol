@@ -11,7 +11,7 @@ import Foundation
 enum TimelineExport {
     static func text(name: String, events: [TimelineEvent]) -> String {
         let body = events.chronological.map { event -> String in
-            var lines = ["\(event.date.formatted(date: .long, time: .omitted)) — \(event.title)"]
+            var lines = ["\(event.date.formatted(AppLocale.dateStyle(.long))) — \(event.title)"]
             let note = event.note.trimmingCharacters(in: .whitespacesAndNewlines)
             if !note.isEmpty { lines.append(note) }
             if !event.tags.isEmpty { lines.append(event.tags.map { "#\($0)" }.joined(separator: " ")) }

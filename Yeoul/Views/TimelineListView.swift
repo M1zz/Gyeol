@@ -9,7 +9,7 @@ enum YeoulTipMoments {
     static func reached(events total: Int) -> [LeeoTipMoment] {
         events.filter { total >= $0 }.map { threshold in
             LeeoTipMoment(id: "events.\(threshold)",
-                          message: String(localized: "지금까지 순간 \(total)개를 기록했어요",
+                          message: String(localized: "지금까지 순간 \(total)개를 기록했어요", locale: AppLocale.locale,
                                           comment: "Tip ask card: total number of events recorded across all timelines"))
         }
     }
@@ -81,7 +81,7 @@ struct TimelineListView: View {
             Group {
                 if timelines.isEmpty {
                     ContentUnavailableView {
-                        Label("타임라인이 없어요", systemImage: "calendar.day.timeline.left")
+                        Label("타임라인이 없어요", systemImage: AppLocale.timelineSymbol)
                     } description: {
                         Text("첫 타임라인을 만들어보세요.\n아이의 첫 해, 앱 출시 기록, 여행 — 무엇이든 좋아요.")
                     } actions: {
@@ -177,7 +177,7 @@ struct TimelineListView: View {
                         .id(shownTimeline.persistentModelID)
                 } else {
                     ContentUnavailableView {
-                        Label("타임라인이 없어요", systemImage: "calendar.day.timeline.left")
+                        Label("타임라인이 없어요", systemImage: AppLocale.timelineSymbol)
                     } description: {
                         Text("첫 타임라인을 만들어보세요.\n아이의 첫 해, 앱 출시 기록, 여행 — 무엇이든 좋아요.")
                     }
@@ -286,7 +286,7 @@ private struct TimelineRow: View {
     private var subtitle: String {
         let kind = timeline.isTagTimeline ? String(localized: "태그 타임라인 · ") : ""
         guard let last = events.last else { return kind + String(localized: "순간 없음") }
-        return kind + String(localized: "순간 \(events.count)개 · 마지막 \(last.date.formatted(date: .numeric, time: .omitted))")
+        return kind + String(localized: "순간 \(events.count)개 · 마지막 \(last.date.formatted(AppLocale.dateStyle(.numeric)))", locale: AppLocale.locale)
     }
 }
 

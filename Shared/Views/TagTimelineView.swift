@@ -59,7 +59,7 @@ struct TagTimelineView: View {
         #endif
         // The tag tip has done its job once someone has arrived here.
         .onAppear { TagTimelineTip.hasOpenedTagTimeline = true }
-        .navigationTitle("#\(tag)")
+        .navigationTitle(Text(verbatim: Tag.label(tag)))
         .inlineNavigationTitle()
         .toolbar {
             ToolbarItem(placement: .primaryAction) {

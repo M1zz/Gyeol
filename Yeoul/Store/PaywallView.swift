@@ -63,7 +63,7 @@ extension PlanFeature {
 
     var systemImage: String {
         switch self {
-        case .moreTimelines: "calendar.day.timeline.left"
+        case .moreTimelines: AppLocale.timelineSymbol
         case .tagTimelines:  "number"
         case .cardStyles:    "rectangle.on.rectangle"
         case .iCloudSync:    "icloud.fill"
@@ -412,15 +412,15 @@ struct PlanComparisonTable: View {
         let allStyles = CardStyle.allCases.count
         return [
             Row(label: String(localized: "타임라인"),
-                cells: [.text(String(localized: "\(PlanFeature.freeTimelineLimit)개")), .text(unlimited), .text(unlimited)]),
+                cells: [.text(String(localized: "\(PlanFeature.freeTimelineLimit)개", locale: AppLocale.locale)), .text(unlimited), .text(unlimited)]),
             Row(label: String(localized: "순간 · 사진 · 이야기"), cells: [.text(unlimited), .text(unlimited), .text(unlimited)]),
             Row(label: String(localized: "그날 사진 찾기"), cells: [.yes, .yes, .yes]),
             Row(label: String(localized: "해시태그 모아 보기"), cells: [.yes, .yes, .yes]),
             Row(label: String(localized: "텍스트로 내보내기"), cells: [.yes, .yes, .yes]),
             Row(label: PlanFeature.tagTimelines.title, cells: [.no, .yes, .yes]),
             Row(label: String(localized: "카드 디자인"),
-                cells: [.text(String(localized: "\(freeStyles)개")), .text(String(localized: "\(allStyles)개")),
-                        .text(String(localized: "\(allStyles)개"))]),
+                cells: [.text(String(localized: "\(freeStyles)개", locale: AppLocale.locale)), .text(String(localized: "\(allStyles)개", locale: AppLocale.locale)),
+                        .text(String(localized: "\(allStyles)개", locale: AppLocale.locale))]),
             Row(label: String(localized: "iCloud 동기화 · 여러 기기"), cells: [.no, .no, .yes]),
             Row(label: String(localized: "Siri · 단축어") + PlanFeature.otherDevicesOnly, cells: [.no, .no, .yes]),
         ]

@@ -19,7 +19,7 @@ struct TagChip: View {
 
     var body: some View {
         HStack(spacing: 4) {
-            Text("#\(tag)")
+            Text(verbatim: Tag.label(tag))
                 .font(.caption.weight(.medium))
             if let trailingSystemImage {
                 Image(systemName: trailingSystemImage)

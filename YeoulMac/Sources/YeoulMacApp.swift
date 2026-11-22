@@ -41,6 +41,7 @@ struct YeoulMacApp: App {
     var body: some Scene {
         WindowGroup {
             MacRootView()
+                .appLocale()
                 .storeFallbackNotice()
                 // 지금 칸 · 페이월 · 영수증 다시 읽기 · 구독 졸업 (→ Yeoul/Store/PlanRoot.swift)
                 .planRoot()
@@ -54,6 +55,7 @@ struct YeoulMacApp: App {
         // 여울 ▸ 설정… (⌘,) — 요금제 · 구매 복원 · iCloud 동기화 · 지원
         Settings {
             MacSettingsView()
+                .appLocale()
         }
     }
 }

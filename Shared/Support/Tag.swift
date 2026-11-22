@@ -10,6 +10,12 @@ enum Tag {
         return value.isEmpty ? nil : value
     }
 
+    /// "#여행" as shown on screen. Isolated so a right-to-left screen doesn't move the "#"
+    /// to the far end ("travel#"); each tag keeps its own direction.
+    static func label(_ tag: String) -> String {
+        "\u{2068}#\(tag)\u{2069}"
+    }
+
     /// Compared case-insensitively so the same tag typed on two cards still lines up.
     static func matches(_ lhs: String, _ rhs: String) -> Bool {
         lhs.lowercased() == rhs.lowercased()

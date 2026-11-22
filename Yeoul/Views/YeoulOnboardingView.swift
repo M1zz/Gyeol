@@ -15,7 +15,7 @@ struct YeoulOnboardingView: View {
     }
 
     private let pages: [Page] = [
-        Page(id: 0, symbol: "calendar.day.timeline.left",
+        Page(id: 0, symbol: AppLocale.timelineSymbol,
              title: "흐른 시간만큼 벌어지는 타임라인",
              body: "순간 사이의 간격이 실제로 흐른 시간에 비례해요. 사흘과 닷새는 3:5로 벌어지고, 긴 공백은 점선으로 접어 “2년 4개월”처럼 적어 둬요."),
         Page(id: 1, symbol: "photo.on.rectangle.angled",

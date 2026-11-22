@@ -251,6 +251,11 @@ private struct FilmCard: View {
     let tagsAreLinks: Bool
     var onEdit: (() -> Void)?
 
+    /// 타자기 같은 고정폭 글꼴. 아랍 글자는 그 글꼴에 없어 이어지지 않으므로 기본 글꼴로 쓴다.
+    private func typewriter(_ text: String) -> Font.Design {
+        text.hasArabicScript ? .default : .monospaced
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             if let image = content.image {
@@ -273,12 +278,12 @@ private struct FilmCard: View {
                     .scaledFont(11, design: .monospaced, relativeTo: .caption2)
                     .foregroundStyle(color)
                 Text(content.displayTitle)
-                    .scaledFont(16, weight: .semibold, design: .monospaced, relativeTo: .headline)
+                    .scaledFont(16, weight: .semibold, design: typewriter(content.displayTitle), relativeTo: .headline)
                     .foregroundStyle(content.hasTitle ? .primary : .tertiary)
                     .fixedSize(horizontal: false, vertical: true)
                 if !content.note.isEmpty {
                     Text(content.note)
-                        .scaledFont(12.5, design: .monospaced, relativeTo: .footnote)
+                        .scaledFont(12.5, design: typewriter(content.note), relativeTo: .footnote)
                         .foregroundStyle(.secondary)
                         .lineSpacing(3)
                         .lineLimit(isExpanded ? nil : 1)

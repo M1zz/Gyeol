@@ -22,7 +22,7 @@ struct EventEntity: AppEntity {
     var displayRepresentation: DisplayRepresentation {
         DisplayRepresentation(
             title: "\(title)",
-            subtitle: "\(date.formatted(date: .abbreviated, time: .omitted)) · \(timelineName)"
+            subtitle: "\(date.formatted(AppLocale.dateStyle(.abbreviated))) · \(timelineName)"
         )
     }
 
@@ -92,7 +92,7 @@ struct OnThisDayIntent: AppIntent {
 
     @MainActor
     func perform() async throws -> some IntentResult & ReturnsValue<[EventEntity]> & ProvidesDialog {
-        let calendar = Calendar.current
+        let calendar = AppLocale.calendar
         let today = calendar.startOfDay(for: .now)
         let thisYear = calendar.component(.year, from: today)
         let found = try EventEntityQuery.allEvents().filter { event in
