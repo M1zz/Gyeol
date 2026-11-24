@@ -173,7 +173,7 @@ Uygulama indirimleri size haber verir
 Yeni aboneler indirimli başlayabilir
 Bildirimi 3 gün gizleyebilirsiniz
 
-### App Store (ar, ar)
+### 앱스토어 (아랍어)
 
 عروض App Store تفتح الخطط مباشرة
 نخبرك بالعروض عند فتح التطبيق
