@@ -41,6 +41,8 @@ struct YeoulApp: App {
                 .leeoSatisfactionCheck(YeoulSpec.self)
                 // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
                 .leeoFeedbackReplyNotice(YeoulSpec.self)
+                // 유료가 되면 축하, 모든 사용자가 한 번은 감사를 받는다 (LeeoKit).
+                .leeoCelebrations(appName: YeoulSpec.displayName)
                 .storeFallbackNotice()
                 // 지금 칸 · 페이월 · 영수증 다시 읽기 · 구독 졸업 (→ Store/PlanRoot.swift).
                 // 팁 상품도 같은 스토어가 불러오고, 끝나지 않은 팁을 마저 센다.
