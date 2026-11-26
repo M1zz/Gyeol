@@ -11,7 +11,7 @@
 //       (한국어 전용 앱이라 카탈로그에는 이 화면 문구만 있다 — 영어가 빠지면 영어 쓰는 사람에게 한국어가 보인다).
 //     - 사용자에게 보일 만한 것만 적는다. 리팩터링 · 시험 · 빌드 설정은 `.sprintcommander/tasks.json` 의 몫이다.
 //
-//  ⚠️ iOS 타깃(Yeoul)에만 들어간다 — 맥 타깃(YeoulMac)은 LeeoKit 을 쓰지 않는다.
+//  iOS 타깃(Yeoul)과 맥 타깃(YeoulMac)이 함께 쓴다.
 //
 
 import SwiftUI

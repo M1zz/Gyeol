@@ -36,7 +36,7 @@ struct EventEntity: AppEntity {
     }
 }
 
-@available(iOS 18.0, *)
+@available(iOS 18.0, macOS 15.0, *)
 extension EventEntity: IndexedEntity {
     var attributeSet: CSSearchableItemAttributeSet {
         let set = defaultAttributeSet
@@ -77,7 +77,7 @@ struct EventEntityQuery: EntityStringQuery {
     /// Spotlight 에 싣는 기록을 지금 것에 맞춘다. 앱을 열 때와 뒤로 보낼 때 부른다.
     @MainActor
     static func reindex() async {
-        guard #available(iOS 18.0, *) else { return }
+        guard #available(iOS 18.0, macOS 15.0, *) else { return }
         let entities = ((try? allEvents()) ?? []).filter { !$0.title.isEmpty }.map(EventEntity.init)
         let index = CSSearchableIndex.default()
         try? await index.deleteAppEntities(ofType: EventEntity.self)

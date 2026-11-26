@@ -8,98 +8,170 @@ Mac App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 �
 ### 앱스토어 (한국어, ko)
 
 App Store 세일 소식에서 바로 요금제가 열려요
+Siri와 단축어로 바로 쓸 수 있어요
+보낸 의견이 채택되면 감사 선물을 드려요
+앞으로 만들 기능을 설정에서 볼 수 있어요
 
 ### App Store (English, en)
 
 App Store sales open your plans directly
+Works with Siri and Shortcuts
+Get a thank-you gift when we use your idea
+See what's coming next in Settings
 
 ### App Store (en-GB, en-GB)
 
 App Store sales open your plans directly
+Works with Siri and Shortcuts
+Get a thank-you gift when we use your idea
+See what's coming next in Settings
 
 ### App Store (zh-Hans, zh-Hans)
 
 点按 App Store 优惠可直接打开订阅方案
+现在可以用 Siri 和快捷指令操作
+你的建议被采纳后，会收到一份感谢礼物
+在设置中查看即将推出的功能
 
 ### App Store (zh-Hant, zh-Hant)
 
 點按 App Store 優惠可直接打開訂閱方案
+現在可以用 Siri 和捷徑操作
+你的建議被採納後，會收到一份感謝禮物
+在設定中查看即將推出的功能
 
-### App Store (ja, ja)
+### App Store (Japanese)
 
 App Storeのセールから料金プランをすぐ開けます
+Siriとショートカットで使えるようになりました
+ご意見が採用されるとお礼のギフトが届きます
+今後追加される機能を設定で確認できます
 
-### App Store (ru, ru)
+### App Store (Russian)
 
 Акции в App Store сразу открывают тарифы
+Теперь работает с Siri и Командами
+Если мы примем ваш отзыв, вас ждёт подарок
+В настройках видно, что мы готовим
 
-### App Store (es, es)
+### App Store (Spanish)
 
 Las ofertas de App Store abren tu plan
+Ahora funciona con Siri y Atajos
+Si adoptamos tu idea, te enviamos un regalo
+Descubre en Ajustes lo que está por llegar
 
-### App Store (de, de)
+### App Store (German)
 
 App-Store-Angebote öffnen die Tarife
+Funktioniert jetzt mit Siri und Kurzbefehlen
+Danke-Geschenk für umgesetzte Vorschläge
+In den Einstellungen siehst du, was kommt
 
-### App Store (fr, fr)
+### App Store (French)
 
 Les offres App Store ouvrent les forfaits
+Fonctionne avec Siri et Raccourcis
+Un cadeau si nous retenons votre idée
+Découvrez dans Réglages ce qui arrive
 
-### App Store (it, it)
+### App Store (Italian)
 
 Le offerte dell’App Store aprono i piani
+Ora funziona con Siri e Comandi Rapidi
+Un regalo se scegliamo la tua idea
+Scopri in Impostazioni cosa arriverà
 
 ### App Store (pt-BR, pt-BR)
 
 Ofertas da App Store abrem os planos
+Agora funciona com a Siri e Atalhos
+Ganhe um presente se usarmos sua ideia
+Veja nos Ajustes o que vem por aí
 
-### App Store (th, th)
+### App Store (Thai)
 
 ดีลใน App Store เปิดแพ็กเกจได้ทันที
+ใช้งานกับ Siri และคำสั่งลัดได้แล้ว
+รับของขวัญเมื่อเรานำไอเดียของคุณไปใช้
+ดูฟีเจอร์ที่กำลังจะมาในหน้าการตั้งค่า
 
-### App Store (vi, vi)
+### App Store (Vietnamese)
 
 Ưu đãi trên App Store mở thẳng các gói
+Dùng được với Siri và Phím tắt
+Nhận quà khi góp ý của bạn được chọn
+Xem tính năng sắp ra mắt trong Cài đặt
 
-### App Store (cs, cs)
+### App Store (Czech)
 
 Akce v App Storu otevřou předplatné
+Nově funguje se Siri a Zkratkami
+Za přijatý návrh dostanete dárek
+V Nastavení uvidíte, co chystáme
 
-### App Store (da, da)
+### App Store (Danish)
 
 Tilbud i App Store åbner abonnementerne
+Virker nu med Siri og Genveje
+Få en gave, når vi bruger din idé
+Se, hvad der er på vej, i Indstillinger
 
-### App Store (el, el)
+### App Store (Greek)
 
 Οι προσφορές App Store ανοίγουν τα πακέτα
+Λειτουργεί με το Siri και τις Συντομεύσεις
+Ένα δώρο αν υιοθετήσουμε την ιδέα σας
+Δείτε στις Ρυθμίσεις τι έρχεται
 
-### App Store (fi, fi)
+### App Store (Finnish)
 
 App Storen tarjoukset avaavat tilaukset
+Toimii nyt Sirin ja Pikakomentojen kanssa
+Saat lahjan, kun toteutamme ideasi
+Katso asetuksista, mitä on tulossa
 
-### App Store (id, id)
+### App Store (Indonesian)
 
 Promo App Store langsung membuka paket
+Kini bisa dipakai dengan Siri dan Pintasan
+Dapatkan hadiah saat ide Anda kami pakai
+Lihat fitur mendatang di Pengaturan
 
-### App Store (nb, nb)
+### App Store (Norwegian)
 
 Tilbud i App Store åpner abonnementene
+Fungerer nå med Siri og Snarveier
+Få en gave når vi bruker ideen din
+Se hva som kommer i Innstillinger
 
-### App Store (nl, nl)
+### App Store (Dutch)
 
 App Store-acties openen de abonnementen
+Werkt nu met Siri en Opdrachten
+Een cadeau als we jouw idee gebruiken
+Bekijk in Instellingen wat er aankomt
 
-### App Store (pl, pl)
+### App Store (Polish)
 
 Promocje w App Store otwierają plany
+Działa teraz z Siri i Skrótami
+Prezent, gdy wykorzystamy Twój pomysł
+Zobacz w Ustawieniach, co nadchodzi
 
-### App Store (sv, sv)
+### App Store (Swedish)
 
 Erbjudanden i App Store öppnar planerna
+Fungerar nu med Siri och Genvägar
+Få en gåva när vi använder din idé
+Se vad som är på gång i Inställningar
 
-### App Store (tr, tr)
+### App Store (Turkish)
 
 App Store fırsatları planları açar
+Artık Siri ve Kestirmeler ile çalışıyor
+Fikriniz kullanılırsa size bir hediye
+Yakında gelecekleri Ayarlar'da görün
 
 ## 1.0.1
 

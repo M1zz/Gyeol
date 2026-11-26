@@ -9,6 +9,8 @@ struct MacSettingsView: View {
                 PlanSettingsSection()
                 Section("지원") {
                     LeeoSupportSection<YeoulSpec>()
+                    // 앞으로 만들 기능 — 원본은 Yeoul/YeoulRoadmap.swift
+                    NavigationLink(LeeoRoadmapText.entry) { LeeoRoadmapView<YeoulSpec>() }
                 }
             }
             .formStyle(.grouped)

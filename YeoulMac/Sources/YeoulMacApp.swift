@@ -45,6 +45,8 @@ struct YeoulMacApp: App {
                 .storeFallbackNotice()
                 // 지금 칸 · 페이월 · 영수증 다시 읽기 · 구독 졸업 (→ Yeoul/Store/PlanRoot.swift)
                 .planRoot()
+                // 유료가 되면 축하, 모든 사용자에게 한 번은 감사 인사 (LeeoKit)
+                .leeoCelebrations(appName: YeoulSpec.displayName)
         }
         .modelContainer(Self.container)
         .defaultSize(width: 1180, height: 820)

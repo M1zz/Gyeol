@@ -16,6 +16,7 @@ struct MacRootView: View {
     @State private var lockedFeature: PlanFeature?
     @State private var pendingNew = false
     @Environment(\.planAccess) private var access
+    @Bindable private var router = YeoulRouter.shared
 
     var body: some View {
         NavigationSplitView {
@@ -40,6 +41,12 @@ struct MacRootView: View {
         // Records can arrive after the first render — from iCloud, or from another
         // window — so pick one up whenever the list changes too.
         .onChange(of: timelines.count) { _, _ in selectFirstIfNeeded() }
+        // Siri · Spotlight 에서 고른 기록의 타임라인을 연다 (→ Yeoul/Shortcuts/EventSearchIntents.swift)
+        .onChange(of: router.timelineID) { _, id in
+            guard let id, let timeline = timelines.first(where: { $0.persistentModelID == id }) else { return }
+            selection = timeline
+            router.timelineID = nil
+        }
     }
 
     // MARK: Sidebar
