@@ -16,7 +16,10 @@ struct YeoulApp: App {
         // 순간을 새로 남긴 순간이 이 앱에서 "잘 쓰고 있다"는 신호다.
         // 만족도 질문(.leeoSatisfactionCheck)은 이 횟수를 보고 뜬다.
         AppActivity.eventSaved = { isNew in
-            if isNew { _ = LeeoEngagement.shared.registerSignificantEvent() }
+            guard isNew else { return }
+            _ = LeeoEngagement.shared.registerSignificantEvent()
+            // 허브 품질 탭의 '핵심 기능' 칸 (docs/usage-spec.json 의 coreAction)
+            LeeoAnalyticsCenter.track(.custom(name: "moment_saved", parameters: [:]))
         }
 
         #if DEBUG

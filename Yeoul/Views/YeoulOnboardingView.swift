@@ -1,4 +1,5 @@
 import SwiftUI
+import LeeoKit
 
 /// 첫 실행 안내 — 여울이 다른 기록 앱과 다른 세 가지를 보여 준다.
 /// 처음 한 번은 목록 화면이 띄우고(`hasSeenOnboarding`), 그 뒤로는 설정 > 여울 사용법에서 다시 연다.
@@ -74,14 +75,18 @@ struct YeoulOnboardingView: View {
         }
         .overlay(alignment: .topTrailing) {
             if page < pages.count - 1 {
-                Button("건너뛰기") { finish() }
+                Button("건너뛰기") { finish(skipped: true) }
                     .padding()
             }
         }
         .interactiveDismissDisabled()
     }
 
-    private func finish() {
+    private func finish(skipped: Bool = false) {
+        // 설정에서 다시 연 안내는 세지 않는다 — 처음 한 번만 허브로 보낸다.
+        if !UserDefaults.standard.bool(forKey: YeoulOnboardingView.seenKey) {
+            LeeoAnalyticsCenter.track(.custom(name: skipped ? "onboarding_skipped" : "onboarding_completed", parameters: [:]))
+        }
         UserDefaults.standard.set(true, forKey: YeoulOnboardingView.seenKey)
         dismiss()
     }
